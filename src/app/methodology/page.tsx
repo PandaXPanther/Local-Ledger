@@ -128,7 +128,7 @@ export default function MethodologyPage() {
             <div className="card p-6">
               <h3 className="font-semibold text-text-primary mb-3">Score Computation</h3>
               <p className="text-sm text-text-secondary leading-relaxed mb-4">
-                The Slowdown Risk Score (0–100) is derived from the differential between Colorado and US unemployment rates,
+                The Slowdown Risk Score (0-100) is derived from the differential between Colorado and US unemployment rates,
                 using the latest FRED observations. Additional indicators (housing permits, consumer confidence surveys)
                 will be incorporated as data sources are confirmed and validated.
               </p>
@@ -144,15 +144,15 @@ export default function MethodologyPage() {
               <div className="space-y-2 text-sm">
                 <div className="flex items-center gap-3">
                   <span className="badge badge-green">Low</span>
-                  <span className="text-text-secondary">Score 0–{RECESSION_THRESHOLDS.low.max}</span>
+                  <span className="text-text-secondary">Score 0-{RECESSION_THRESHOLDS.low.max}</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="badge badge-amber">Moderate</span>
-                  <span className="text-text-secondary">Score {RECESSION_THRESHOLDS.moderate.min}–{RECESSION_THRESHOLDS.moderate.max}</span>
+                  <span className="text-text-secondary">Score {RECESSION_THRESHOLDS.moderate.min}-{RECESSION_THRESHOLDS.moderate.max}</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="badge badge-red">Elevated</span>
-                  <span className="text-text-secondary">Score {RECESSION_THRESHOLDS.elevated.min}–100</span>
+                  <span className="text-text-secondary">Score {RECESSION_THRESHOLDS.elevated.min}-100</span>
                 </div>
               </div>
             </div>

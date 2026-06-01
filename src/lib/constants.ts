@@ -4,15 +4,22 @@ export const SITE_DESCRIPTION =
 export const SITE_URL = 'https://localledger.pages.dev';
 
 export const NAV_LINKS = [
-  { label: 'Colorado', href: '/colorado/' },
-  { label: 'Counties', href: '/colorado/counties/' },
-  { label: 'College ROI', href: '/colorado/college-roi/' },
-  { label: 'Federal Spending', href: '/colorado/federal-spending/' },
-  { label: 'Recession Radar', href: '/colorado/recession-radar/' },
-  { label: 'States', href: '/states/' },
+  { label: 'Explore', href: '/states/' },
   { label: 'Rankings', href: '/rankings/' },
   { label: 'Methodology', href: '/methodology/' },
   { label: 'Sources', href: '/sources/' },
+  { label: 'About', href: '/about/' },
+];
+
+export const EXPLORE_LINKS = [
+  { label: 'Colorado', href: '/colorado/' },
+  { label: 'States', href: '/states/' },
+  { label: 'Counties', href: '/counties/' },
+  { label: 'Metros', href: '/metros/' },
+  { label: 'College ROI', href: '/states/colorado/college-roi/' },
+  { label: 'Federal Spending', href: '/states/colorado/federal-spending/' },
+  { label: 'Recession Radar', href: '/states/colorado/recession-radar/' },
+  { label: 'API', href: '/api/' },
 ];
 
 export const COLORADO_CITIES = [

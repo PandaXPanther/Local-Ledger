@@ -25,7 +25,11 @@ interface CollegeData {
 function loadColleges(): CollegeData | null {
   const p = join(process.cwd(), 'public', 'data', 'processed', 'colleges.json');
   if (!existsSync(p)) return null;
-  return JSON.parse(readFileSync(p, 'utf-8'));
+  const data = JSON.parse(readFileSync(p, 'utf-8')) as CollegeData;
+  if (Array.isArray(data.colleges)) {
+    data.colleges = data.colleges.filter((college: Record<string, unknown>) => college.stateSlug === 'colorado');
+  }
+  return data;
 }
 
 export default function CollegeRoiPage() {

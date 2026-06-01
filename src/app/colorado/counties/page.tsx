@@ -25,7 +25,11 @@ interface CountiesData {
 function loadCounties(): CountiesData | null {
   const p = join(process.cwd(), 'public', 'data', 'processed', 'counties.json');
   if (!existsSync(p)) return null;
-  return JSON.parse(readFileSync(p, 'utf-8'));
+  const data = JSON.parse(readFileSync(p, 'utf-8')) as CountiesData;
+  if (Array.isArray(data.counties)) {
+    data.counties = data.counties.filter((county: Record<string, unknown>) => county.stateSlug === 'colorado');
+  }
+  return data;
 }
 
 export default function CountiesPage() {

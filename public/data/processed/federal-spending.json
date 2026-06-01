@@ -1,21 +1,471 @@
 {
   "_meta": {
-    "description": "Federal award spending in Colorado FY2023",
-    "generatedAt": "2026-06-01T01:51:38.898Z",
+    "generatedAt": "2026-06-01T02:31:29.107Z",
+    "description": "Federal spending by state",
     "source": {
       "name": "USAspending.gov",
       "url": "https://www.usaspending.gov/",
       "dataset": "USAspending API v2",
-      "lastFetchedAt": "2026-06-01T01:51:38.898Z"
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
     }
   },
+  "states": [
+    {
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbreviation": "AL",
+      "fiscalYear": 2024,
+      "total": 66415550937.13,
+      "perCapita": 13208.897318730444,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbreviation": "AK",
+      "fiscalYear": 2024,
+      "total": 16650600305.75,
+      "perCapita": 22659.39637782535,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Arizona",
+      "stateSlug": "arizona",
+      "stateAbbreviation": "AZ",
+      "fiscalYear": 2024,
+      "total": 98789805286.16,
+      "perCapita": 13773.831715785855,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Arkansas",
+      "stateSlug": "arkansas",
+      "stateAbbreviation": "AR",
+      "fiscalYear": 2024,
+      "total": 31748805294.81,
+      "perCapita": 10517.484790419221,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "California",
+      "stateSlug": "california",
+      "stateAbbreviation": "CA",
+      "fiscalYear": 2024,
+      "total": 444891788075.63,
+      "perCapita": 11304.263960569624,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Colorado",
+      "stateSlug": "colorado",
+      "stateAbbreviation": "CO",
+      "fiscalYear": 2024,
+      "total": 63512934291.97,
+      "perCapita": 11005.934073492537,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Connecticut",
+      "stateSlug": "connecticut",
+      "stateAbbreviation": "CT",
+      "fiscalYear": 2024,
+      "total": 120682966941.54,
+      "perCapita": 33417.99319792198,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Delaware",
+      "stateSlug": "delaware",
+      "stateAbbreviation": "DE",
+      "fiscalYear": 2024,
+      "total": 11181570130.68,
+      "perCapita": 11253.196727852783,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Florida",
+      "stateSlug": "florida",
+      "stateAbbreviation": "FL",
+      "fiscalYear": 2024,
+      "total": 287030182351.15,
+      "perCapita": 13267.225847678497,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fiscalYear": 2024,
+      "total": 93944056042.48,
+      "perCapita": 8761.537823417962,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "fiscalYear": 2024,
+      "total": 22019338429.94,
+      "perCapita": 15179.58458939093,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Idaho",
+      "stateSlug": "idaho",
+      "stateAbbreviation": "ID",
+      "fiscalYear": 2024,
+      "total": 21431117191.93,
+      "perCapita": 11558.71482848635,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Illinois",
+      "stateSlug": "illinois",
+      "stateAbbreviation": "IL",
+      "fiscalYear": 2024,
+      "total": 127770193043.39,
+      "perCapita": 10015.195062296818,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Indiana",
+      "stateSlug": "indiana",
+      "stateAbbreviation": "IN",
+      "fiscalYear": 2024,
+      "total": 191875165418.09,
+      "perCapita": 28281.805402493042,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fiscalYear": 2024,
+      "total": 32343193497.09,
+      "perCapita": 10142.633078994968,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbreviation": "KS",
+      "fiscalYear": 2024,
+      "total": 27853165737.42,
+      "perCapita": 9487.025110823788,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Kentucky",
+      "stateSlug": "kentucky",
+      "stateAbbreviation": "KY",
+      "fiscalYear": 2024,
+      "total": 163001547970.46,
+      "perCapita": 36198.95645183863,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Louisiana",
+      "stateSlug": "louisiana",
+      "stateAbbreviation": "LA",
+      "fiscalYear": 2024,
+      "total": 56313558645.86,
+      "perCapita": 12135.114843352485,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fiscalYear": 2024,
+      "total": 21045892160.78,
+      "perCapita": 15396.252647889569,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Maryland",
+      "stateSlug": "maryland",
+      "stateAbbreviation": "MD",
+      "fiscalYear": 2024,
+      "total": 114663546060.01,
+      "perCapita": 18609.055260175468,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Massachusetts",
+      "stateSlug": "massachusetts",
+      "stateAbbreviation": "MA",
+      "fiscalYear": 2024,
+      "total": 102058779888.59,
+      "perCapita": 14612.798434265604,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Michigan",
+      "stateSlug": "michigan",
+      "stateAbbreviation": "MI",
+      "fiscalYear": 2024,
+      "total": 119442133961.83,
+      "perCapita": 11875.429719703505,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Minnesota",
+      "stateSlug": "minnesota",
+      "stateAbbreviation": "MN",
+      "fiscalYear": 2024,
+      "total": 211573432363.49,
+      "perCapita": 37148.82965851268,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Mississippi",
+      "stateSlug": "mississippi",
+      "stateAbbreviation": "MS",
+      "fiscalYear": 2024,
+      "total": 37159728162.56,
+      "perCapita": 12558.858474743192,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Missouri",
+      "stateSlug": "missouri",
+      "stateAbbreviation": "MO",
+      "fiscalYear": 2024,
+      "total": 92403112059.78,
+      "perCapita": 15014.100765235144,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fiscalYear": 2024,
+      "total": 14493797967.01,
+      "perCapita": 13274.653765212852,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fiscalYear": 2024,
+      "total": 23299174465.42,
+      "perCapita": 11893.772325437392,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Nevada",
+      "stateSlug": "nevada",
+      "stateAbbreviation": "NV",
+      "fiscalYear": 2024,
+      "total": 31365257662.37,
+      "perCapita": 10102.127649510421,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "New Hampshire",
+      "stateSlug": "new-hampshire",
+      "stateAbbreviation": "NH",
+      "fiscalYear": 2024,
+      "total": 16198294834.1,
+      "perCapita": 11741.21297620342,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "New Jersey",
+      "stateSlug": "new-jersey",
+      "stateAbbreviation": "NJ",
+      "fiscalYear": 2024,
+      "total": 88365799839.06,
+      "perCapita": 9554.027239198176,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fiscalYear": 2024,
+      "total": 40206146144.08,
+      "perCapita": 19032.828572183276,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "New York",
+      "stateSlug": "new-york",
+      "stateAbbreviation": "NY",
+      "fiscalYear": 2024,
+      "total": 253183746523.91,
+      "perCapita": 12662.746191012484,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fiscalYear": 2024,
+      "total": 109181097814.87,
+      "perCapita": 10427.78092356756,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "North Dakota",
+      "stateSlug": "north-dakota",
+      "stateAbbreviation": "ND",
+      "fiscalYear": 2024,
+      "total": 90205716086.06,
+      "perCapita": 116113.70194659622,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Ohio",
+      "stateSlug": "ohio",
+      "stateAbbreviation": "OH",
+      "fiscalYear": 2024,
+      "total": 116500344607.79,
+      "perCapita": 9894.13851802125,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Oklahoma",
+      "stateSlug": "oklahoma",
+      "stateAbbreviation": "OK",
+      "fiscalYear": 2024,
+      "total": 46660168064.98,
+      "perCapita": 11751.71976328908,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "stateAbbreviation": "OR",
+      "fiscalYear": 2024,
+      "total": 54365489083.51,
+      "perCapita": 12854.263794951688,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Pennsylvania",
+      "stateSlug": "pennsylvania",
+      "stateAbbreviation": "PA",
+      "fiscalYear": 2024,
+      "total": 266758295174.65,
+      "perCapita": 20536.917660772695,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Rhode Island",
+      "stateSlug": "rhode-island",
+      "stateAbbreviation": "RI",
+      "fiscalYear": 2024,
+      "total": 14490465131.34,
+      "perCapita": 13242.371607347499,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "South Carolina",
+      "stateSlug": "south-carolina",
+      "stateAbbreviation": "SC",
+      "fiscalYear": 2024,
+      "total": 130336097862.67,
+      "perCapita": 25343.658132841378,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fiscalYear": 2024,
+      "total": 10978311349.62,
+      "perCapita": 12330.443076503187,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Tennessee",
+      "stateSlug": "tennessee",
+      "stateAbbreviation": "TN",
+      "fiscalYear": 2024,
+      "total": 106997426229.11,
+      "perCapita": 15453.632243971928,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Texas",
+      "stateSlug": "texas",
+      "stateAbbreviation": "TX",
+      "fiscalYear": 2024,
+      "total": 271597660276.76,
+      "perCapita": 9287.504153142278,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fiscalYear": 2024,
+      "total": 30489400706.38,
+      "perCapita": 9284.7667773552,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Vermont",
+      "stateSlug": "vermont",
+      "stateAbbreviation": "VT",
+      "fiscalYear": 2024,
+      "total": 8694117507.39,
+      "perCapita": 13504.040762251947,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fiscalYear": 2024,
+      "total": 189070935512,
+      "perCapita": 21922.51079649617,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Washington",
+      "stateSlug": "washington",
+      "stateAbbreviation": "WA",
+      "fiscalYear": 2024,
+      "total": 85203062348.29,
+      "perCapita": 11081.813011569542,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "West Virginia",
+      "stateSlug": "west-virginia",
+      "stateAbbreviation": "WV",
+      "fiscalYear": 2024,
+      "total": 23937261206.39,
+      "perCapita": 13350.642374561272,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Wisconsin",
+      "stateSlug": "wisconsin",
+      "stateAbbreviation": "WI",
+      "fiscalYear": 2024,
+      "total": 111517090916.69,
+      "perCapita": 18958.63043386509,
+      "source": "USAspending.gov"
+    },
+    {
+      "state": "Wyoming",
+      "stateSlug": "wyoming",
+      "stateAbbreviation": "WY",
+      "fiscalYear": 2024,
+      "total": 6535730581.97,
+      "perCapita": 11308.881509614503,
+      "source": "USAspending.gov"
+    }
+  ],
   "stateTotal": [
     {
       "shape_code": "CO",
       "display_name": "Colorado",
-      "aggregated_amount": 63512934291.97,
-      "population": 5773714,
-      "per_capita": 11000.36
+      "aggregated_amount": 63512934291.97
     }
   ]
 }

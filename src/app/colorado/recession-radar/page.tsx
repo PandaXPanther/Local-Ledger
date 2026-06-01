@@ -147,17 +147,17 @@ export default function RecessionRadarPage() {
                 {[
                   {
                     level: 'low' as RiskLevel,
-                    range: 'Score 0–33',
+                    range: 'Score 0-33',
                     desc: 'Available economic indicators are within normal ranges. No significant slowdown signals detected in current data.',
                   },
                   {
                     level: 'moderate' as RiskLevel,
-                    range: 'Score 34–66',
+                    range: 'Score 34-66',
                     desc: 'Some economic signals warrant attention. Monitor trends in unemployment, housing, and labor force participation.',
                   },
                   {
                     level: 'elevated' as RiskLevel,
-                    range: 'Score 67–100',
+                    range: 'Score 67-100',
                     desc: 'Multiple indicators suggest economic stress. This does not predict a recession - consult professional analysis.',
                   },
                 ].map(r => (

@@ -1,0 +1,1030 @@
+{
+  "_meta": {
+    "description": "Hawaii state economic dashboard data",
+    "generatedAt": "2026-06-01T02:31:29.107Z",
+    "sourceAttemptLog": [
+      {
+        "source": "BEA",
+        "id": "state-gdp",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-states",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-counties",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-places",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "UNRATE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DENV708URN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "BOUL708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COLO708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FTCO708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AK-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AK",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AZ-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AZ",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AR-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AR",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CORGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CO-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CO",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CT-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CT",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-DE-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-DE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-FL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-FL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-GA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-GA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-HI-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-HI",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      }
+    ]
+  },
+  "state": {
+    "slug": "hawaii",
+    "name": "Hawaii",
+    "abbreviation": "HI",
+    "fips": "15",
+    "population": {
+      "value": 1450589,
+      "unit": "persons",
+      "geography": "Hawaii",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "medianHouseholdIncome": {
+      "value": 94814,
+      "unit": "USD",
+      "geography": "Hawaii",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "medianHomeValue": {
+      "value": 764800,
+      "unit": "USD",
+      "geography": "Hawaii",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "unemploymentRate": {
+      "value": 2.5,
+      "unit": "percent",
+      "geography": "Hawaii",
+      "date": "2026-04-01",
+      "sourceName": "Federal Reserve Economic Data (FRED)",
+      "sourceUrl": "https://fred.stlouisfed.org/series/HIURN",
+      "sourceDataset": "FRED Series HIURN",
+      "sourceSeriesId": "HIURN",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "gdp": {
+      "value": 94144.2,
+      "unit": "millions of chained 2017 dollars",
+      "geography": "Hawaii",
+      "date": "2025-01-01",
+      "sourceName": "Federal Reserve Economic Data (FRED)",
+      "sourceUrl": "https://fred.stlouisfed.org/series/HIRGSP",
+      "sourceDataset": "FRED Series HIRGSP",
+      "sourceSeriesId": "HIRGSP",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "federalSpendingPerCapita": {
+      "value": 15179.58458939093,
+      "unit": "USD per person",
+      "geography": "Hawaii",
+      "date": "FY2024",
+      "sourceName": "USAspending.gov",
+      "sourceUrl": "https://api.usaspending.gov/",
+      "sourceDataset": "USAspending API v2 spending_by_geography",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "localEconomyScore": {
+      "value": 61.4,
+      "unit": "score",
+      "geography": "Hawaii",
+      "date": "2026-06-01",
+      "sourceName": "LocalLedger methodology",
+      "sourceUrl": "https://localledger.pages.dev/methodology/",
+      "sourceDataset": "Composite score from Census, FRED, and USAspending",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "weighted score",
+      "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
+      "availability": "available"
+    }
+  },
+  "counties": [
+    {
+      "slug": "honolulu",
+      "county": "Honolulu County",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "fips": "15003",
+      "population": 1010100,
+      "medianHouseholdIncome": 99816,
+      "medianHomeValue": 832200,
+      "localEconomyScore": 61.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "hawaii",
+      "county": "Hawaii County",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "fips": "15001",
+      "population": 202163,
+      "medianHouseholdIncome": 74238,
+      "medianHomeValue": 454900,
+      "localEconomyScore": 60,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "maui",
+      "county": "Maui County",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "fips": "15009",
+      "population": 164765,
+      "medianHouseholdIncome": 95379,
+      "medianHomeValue": 800100,
+      "localEconomyScore": 59.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "kauai",
+      "county": "Kauai County",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "fips": "15007",
+      "population": 73511,
+      "medianHouseholdIncome": 88869,
+      "medianHomeValue": 742900,
+      "localEconomyScore": 57,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "kalawao",
+      "county": "Kalawao County",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "fips": "15005",
+      "population": 50,
+      "medianHouseholdIncome": 87813,
+      "medianHomeValue": -666666666,
+      "localEconomyScore": 22852.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    }
+  ],
+  "colleges": [
+    {
+      "unitId": "141486",
+      "name": "Chaminade University of Honolulu",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Private nonprofit",
+      "netPrice": 28856,
+      "graduationRate": 0.567,
+      "medianEarnings": 52343,
+      "medianDebt": 23250,
+      "debtToEarningsRatio": 0.44418546892612193,
+      "valueScore": 47,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "141565",
+      "name": "University of Hawaii at Hilo",
+      "city": "Hilo",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Public",
+      "netPrice": 11856,
+      "graduationRate": 0.4497,
+      "medianEarnings": 47856,
+      "medianDebt": 20500,
+      "debtToEarningsRatio": 0.4283684386492812,
+      "valueScore": 84,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "141574",
+      "name": "University of Hawaii at Manoa",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Public",
+      "netPrice": 15664,
+      "graduationRate": 0.6348,
+      "medianEarnings": 57624,
+      "medianDebt": 18500,
+      "debtToEarningsRatio": 0.32104678606136333,
+      "valueScore": 82,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "141608",
+      "name": "Hawaii Institute of Hair Design",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Private for-profit",
+      "netPrice": 20970,
+      "graduationRate": 0.8219,
+      "medianEarnings": 25235,
+      "medianDebt": 5793,
+      "debtToEarningsRatio": 0.22956211610857935,
+      "valueScore": 42,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "141644",
+      "name": "Hawaii Pacific University",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Private nonprofit",
+      "netPrice": 29657,
+      "graduationRate": 0.3781,
+      "medianEarnings": 59593,
+      "medianDebt": 22000,
+      "debtToEarningsRatio": 0.3691708757740003,
+      "valueScore": 46,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "141680",
+      "name": "Honolulu Community College",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Public",
+      "netPrice": 7458,
+      "graduationRate": 0.299,
+      "medianEarnings": 45105,
+      "medianDebt": 7534,
+      "debtToEarningsRatio": 0.1670324797694269,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "141796",
+      "name": "Kapiolani Community College",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Public",
+      "netPrice": 5202,
+      "graduationRate": 0.2116,
+      "medianEarnings": 44599,
+      "medianDebt": 9229,
+      "debtToEarningsRatio": 0.20693289087199265,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "141802",
+      "name": "Kauai Community College",
+      "city": "Lihue",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Public",
+      "netPrice": 10436,
+      "graduationRate": 0.3702,
+      "medianEarnings": 36868,
+      "medianDebt": 10500,
+      "debtToEarningsRatio": 0.28479982640772483,
+      "valueScore": 73,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "141811",
+      "name": "Leeward Community College",
+      "city": "Pearl City",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Public",
+      "netPrice": 5137,
+      "graduationRate": 0.3336,
+      "medianEarnings": 39899,
+      "medianDebt": 8970,
+      "debtToEarningsRatio": 0.22481766460312289,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "141839",
+      "name": "University of Hawaii Maui College",
+      "city": "Kahului",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Public",
+      "netPrice": 8061,
+      "graduationRate": 0.2753,
+      "medianEarnings": 34453,
+      "medianDebt": 13040,
+      "debtToEarningsRatio": 0.3784866339651119,
+      "valueScore": 84,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "141981",
+      "name": "University of Hawaii-West Oahu",
+      "city": "Kapolei",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Public",
+      "netPrice": 10327,
+      "graduationRate": 0.4806,
+      "medianEarnings": 52075,
+      "medianDebt": 14500,
+      "debtToEarningsRatio": 0.2784445511281805,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "141990",
+      "name": "Windward Community College",
+      "city": "Kaneohe",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Public",
+      "netPrice": 8169,
+      "graduationRate": 0.3024,
+      "medianEarnings": 38439,
+      "medianDebt": 9500,
+      "debtToEarningsRatio": 0.24714482686854497,
+      "valueScore": 92,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230047",
+      "name": "Brigham Young University-Hawaii",
+      "city": "Laie",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Private nonprofit",
+      "netPrice": 16774,
+      "graduationRate": 0.5359,
+      "medianEarnings": 52064,
+      "medianDebt": 9413,
+      "debtToEarningsRatio": 0.18079671173939765,
+      "valueScore": 69,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "383190",
+      "name": "Hawaii Community College",
+      "city": "Hilo",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Public",
+      "netPrice": 8942,
+      "graduationRate": 0.3209,
+      "medianEarnings": 34891,
+      "medianDebt": 10500,
+      "debtToEarningsRatio": 0.3009372044366742,
+      "valueScore": 78,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "420042",
+      "name": "University of Phoenix-Hawaii",
+      "city": "Kapolei",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": 37752,
+      "medianDebt": 31553,
+      "debtToEarningsRatio": 0.8357967789785972,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "444699",
+      "name": "Institute of Clinical Acupuncture & Oriental Medicine",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "457484",
+      "name": "Pacific Rim Christian University",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Private nonprofit",
+      "netPrice": 23151,
+      "graduationRate": 0.4884,
+      "medianEarnings": 40523,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 44,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "460756",
+      "name": "Hawaii Medical College",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Private for-profit",
+      "netPrice": 30107,
+      "graduationRate": 0.748,
+      "medianEarnings": 38880,
+      "medianDebt": 13000,
+      "debtToEarningsRatio": 0.3343621399176955,
+      "valueScore": 42,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "461333",
+      "name": "Mauna Loa Helicopters",
+      "city": "Kailua Kona",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Private for-profit",
+      "netPrice": 115636,
+      "graduationRate": 0.9167,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "491738",
+      "name": "IBS School of Cosmetology and Massage",
+      "city": "Kahului",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Private for-profit",
+      "netPrice": 10361,
+      "graduationRate": 0.806,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "495040",
+      "name": "Makana Esthetics Wellness Academy",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Private for-profit",
+      "netPrice": 11824,
+      "graduationRate": 0.8907,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "497657",
+      "name": "Hawaii Tokai International College",
+      "city": "Kapolei",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "type": "Private nonprofit",
+      "netPrice": null,
+      "graduationRate": 0.898,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    }
+  ],
+  "federalSpending": [
+    {
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbreviation": "HI",
+      "fiscalYear": 2024,
+      "total": 22019338429.94,
+      "perCapita": 15179.58458939093,
+      "source": "USAspending.gov"
+    }
+  ],
+  "recessionRadar": {
+    "overall": "low",
+    "score": 25,
+    "components": {
+      "unemploymentTrend": "stable",
+      "housingActivity": "stable",
+      "laborMarket": "stable"
+    },
+    "methodologyNote": "Educational indicator based on latest state unemployment relative to simple public thresholds.",
+    "sources": [
+      "FRED state unemployment series"
+    ]
+  }
+}

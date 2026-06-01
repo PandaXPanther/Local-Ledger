@@ -20,7 +20,32 @@ export const metadata: Metadata = {
     description:
       'Official labor, income, housing, education, and public finance data for Colorado communities.',
     url: 'https://localledger.pages.dev',
+    images: [
+      {
+        url: '/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'LocalLedger public economic intelligence',
+      },
+    ],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'LocalLedger | Public Economic Intelligence',
+    description:
+      'Official labor, income, housing, education, and public finance data for every community.',
+    images: ['/og-default.png'],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
+    other: [{ rel: 'mask-icon', url: '/logo-mark.svg', color: '#0f172a' }],
+  },
+  manifest: '/site.webmanifest',
   robots: {
     index: true,
     follow: true,

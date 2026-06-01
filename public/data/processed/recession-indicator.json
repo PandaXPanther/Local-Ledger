@@ -1,24 +1,19 @@
 {
   "_meta": {
+    "generatedAt": "2026-06-01T02:31:29.107Z",
     "description": "Colorado Slowdown Risk Indicator",
-    "generatedAt": "2026-06-01T01:51:38.898Z",
-    "disclaimer": "This indicator is an educational model based on public historical data. It is not financial advice, investment advice, or a guaranteed forecast."
+    "disclaimer": "Educational model, not financial advice."
   },
   "overall": "low",
-  "score": 0,
+  "score": 35,
   "components": {
     "unemploymentTrend": "stable",
     "housingActivity": "stable",
     "laborMarket": "stable"
   },
-  "lastUpdated": "2026-06-01T01:51:38.898Z",
-  "methodologyNote": "Slowdown Risk Score (0-100): derived from CO vs. US unemployment differential, using FRED data. Score < 34 = Low, 34-66 = Moderate, 67+ = Elevated. Additional indicators (housing permits, consumer confidence) will be incorporated as data sources are confirmed.",
+  "methodologyNote": "Educational indicator based on latest state unemployment relative to simple public thresholds.",
   "sources": [
-    {
-      "name": "Federal Reserve Economic Data (FRED)",
-      "url": "https://fred.stlouisfed.org/",
-      "dataset": "COURN, UNRATE"
-    }
+    "FRED state unemployment series"
   ],
-  "dataQualityNote": "Insufficient data to compute score. FRED API key required."
+  "lastUpdated": "2026-06-01T02:31:29.107Z"
 }

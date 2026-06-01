@@ -64,7 +64,7 @@ export default function FederalSpendingPage() {
               <div className={`text-3xl font-bold mt-2 ${coTotal === null ? 'text-text-muted' : 'text-text-primary'}`}>
                 {coTotal !== null ? formatShortNumber(coTotal) : 'Data unavailable'}
               </div>
-              <p className="text-xs text-text-muted mt-1">FY2023 (Oct 2023 – Sep 2024)</p>
+              <p className="text-xs text-text-muted mt-1">FY2023 (Oct 2023 - Sep 2024)</p>
               <div className="mt-3">
                 <SourceBadge name="USAspending.gov" url="https://www.usaspending.gov/" dataset="Federal Award Spending" />
               </div>

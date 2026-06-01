@@ -4,34 +4,29 @@ import { Hero } from '@/components/Hero';
 
 export const metadata: Metadata = {
   title: 'Economic Rankings',
-  description:
-    'LocalLedger ranking foundations for cities, counties, college ROI, federal spending, and slowdown risk.',
+  description: 'Transparent rankings from official LocalLedger state, county, college, and federal spending data.',
+  alternates: { canonical: '/rankings/' },
 };
 
-const RANKING_MODULES = [
-  { name: 'Colorado counties', href: '/colorado/counties/', basis: 'Population, income, unemployment, housing, spending, and Local Economy Score' },
-  { name: 'College ROI', href: '/colorado/college-roi/', basis: 'Net price, graduation, earnings, debt, and transparent Value Score' },
-  { name: 'Federal spending', href: '/colorado/federal-spending/', basis: 'Federal grants, contracts, loans, and per-capita award flows' },
-  { name: 'Recession radar', href: '/colorado/recession-radar/', basis: 'Educational slowdown risk model using official public indicators' },
+const RANKINGS = [
+  ['Best Local Economies', '/rankings/best-local-economies/', 'State composite scores from income, labor, affordability, population, and fiscal indicators.'],
+  ['Fastest Growing Counties', '/rankings/fastest-growing-counties/', 'Largest counties by current population until growth history is expanded.'],
+  ['Highest Income Counties', '/rankings/highest-income-counties/', 'County median household income from Census ACS.'],
+  ['Most Affordable College States', '/rankings/most-affordable-college-states/', 'State college value from College Scorecard net price and earnings.'],
+  ['Federal Spending Per Capita', '/rankings/federal-spending-per-capita/', 'USAspending awards normalized by state population.'],
 ];
 
 export default function RankingsPage() {
   return (
     <>
-      <Hero
-        tag="Rankings"
-        headline="Transparent rankings from official data."
-        subheadline="Every ranking module exposes its source, timestamp, and methodology note before it asks for trust."
-      />
-      <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid gap-4 md:grid-cols-2">
-          {RANKING_MODULES.map(module => (
-            <Link key={module.name} href={module.href} className="card p-6 transition-shadow hover:shadow-md">
-              <h2 className="text-xl font-bold text-text-primary">{module.name}</h2>
-              <p className="mt-3 text-sm leading-relaxed text-text-secondary">{module.basis}</p>
-            </Link>
-          ))}
-        </div>
+      <Hero tag="Rankings" headline="Transparent rankings from official data." subheadline="Every ranking is backed by source metadata, dates, and validation." />
+      <section className="mx-auto grid max-w-6xl gap-4 px-4 py-12 sm:px-6 md:grid-cols-2 lg:px-8">
+        {RANKINGS.map(([name, href, basis]) => (
+          <Link key={href} href={href} className="card p-6 transition-shadow hover:shadow-md">
+            <h2 className="text-xl font-bold text-text-primary">{name}</h2>
+            <p className="mt-3 text-sm leading-relaxed text-text-secondary">{basis}</p>
+          </Link>
+        ))}
       </section>
     </>
   );

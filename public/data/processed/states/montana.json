@@ -1,0 +1,2388 @@
+{
+  "_meta": {
+    "description": "Montana state economic dashboard data",
+    "generatedAt": "2026-06-01T02:31:29.107Z",
+    "sourceAttemptLog": [
+      {
+        "source": "BEA",
+        "id": "state-gdp",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-states",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-counties",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-places",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "UNRATE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DENV708URN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "BOUL708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COLO708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FTCO708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AK-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AK",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AZ-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AZ",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AR-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AR",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CORGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CO-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CO",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CT-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CT",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-DE-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-DE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-FL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-FL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-GA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-GA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-HI-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-HI",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-ID-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-ID",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IN-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-KS-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-KS",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-KY-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-KY",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-LA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-LA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-ME-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-ME",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MDURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MDPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MDRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MD-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MD",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MIURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MIPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MIRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MI-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MI",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MNURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MNPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MNRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MN-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MSURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MSPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MSRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MS-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MS",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MOURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MOPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MORGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MO-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MO",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MTURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MTPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MTRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MT-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MT",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      }
+    ]
+  },
+  "state": {
+    "slug": "montana",
+    "name": "Montana",
+    "abbreviation": "MT",
+    "fips": "30",
+    "population": {
+      "value": 1091840,
+      "unit": "persons",
+      "geography": "Montana",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "medianHouseholdIncome": {
+      "value": 66341,
+      "unit": "USD",
+      "geography": "Montana",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "medianHomeValue": {
+      "value": 305700,
+      "unit": "USD",
+      "geography": "Montana",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "unemploymentRate": {
+      "value": 3,
+      "unit": "percent",
+      "geography": "Montana",
+      "date": "2026-04-01",
+      "sourceName": "Federal Reserve Economic Data (FRED)",
+      "sourceUrl": "https://fred.stlouisfed.org/series/MTURN",
+      "sourceDataset": "FRED Series MTURN",
+      "sourceSeriesId": "MTURN",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "gdp": {
+      "value": 61939.7,
+      "unit": "millions of chained 2017 dollars",
+      "geography": "Montana",
+      "date": "2025-01-01",
+      "sourceName": "Federal Reserve Economic Data (FRED)",
+      "sourceUrl": "https://fred.stlouisfed.org/series/MTRGSP",
+      "sourceDataset": "FRED Series MTRGSP",
+      "sourceSeriesId": "MTRGSP",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "federalSpendingPerCapita": {
+      "value": 13274.653765212852,
+      "unit": "USD per person",
+      "geography": "Montana",
+      "date": "FY2024",
+      "sourceName": "USAspending.gov",
+      "sourceUrl": "https://api.usaspending.gov/",
+      "sourceDataset": "USAspending API v2 spending_by_geography",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "localEconomyScore": {
+      "value": 61.5,
+      "unit": "score",
+      "geography": "Montana",
+      "date": "2026-06-01",
+      "sourceName": "LocalLedger methodology",
+      "sourceUrl": "https://localledger.pages.dev/methodology/",
+      "sourceDataset": "Composite score from Census, FRED, and USAspending",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "weighted score",
+      "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
+      "availability": "available"
+    }
+  },
+  "counties": [
+    {
+      "slug": "yellowstone",
+      "county": "Yellowstone County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30111",
+      "population": 165524,
+      "medianHouseholdIncome": 72300,
+      "medianHomeValue": 289300,
+      "localEconomyScore": 63.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "gallatin",
+      "county": "Gallatin County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30031",
+      "population": 119685,
+      "medianHouseholdIncome": 83434,
+      "medianHomeValue": 526700,
+      "localEconomyScore": 59.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "missoula",
+      "county": "Missoula County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30063",
+      "population": 118541,
+      "medianHouseholdIncome": 66840,
+      "medianHomeValue": 382400,
+      "localEconomyScore": 56.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "flathead",
+      "county": "Flathead County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30029",
+      "population": 105950,
+      "medianHouseholdIncome": 68025,
+      "medianHomeValue": 414200,
+      "localEconomyScore": 56,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "cascade",
+      "county": "Cascade County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30013",
+      "population": 84423,
+      "medianHouseholdIncome": 61351,
+      "medianHomeValue": 227600,
+      "localEconomyScore": 61.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "lewis-and-clark",
+      "county": "Lewis and Clark County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30049",
+      "population": 71487,
+      "medianHouseholdIncome": 71967,
+      "medianHomeValue": 332000,
+      "localEconomyScore": 61.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "ravalli",
+      "county": "Ravalli County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30081",
+      "population": 44876,
+      "medianHouseholdIncome": 67424,
+      "medianHomeValue": 378400,
+      "localEconomyScore": 56.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "silver-bow",
+      "county": "Silver Bow County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30093",
+      "population": 35306,
+      "medianHouseholdIncome": 56297,
+      "medianHomeValue": 195800,
+      "localEconomyScore": 59.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "lake",
+      "county": "Lake County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30047",
+      "population": 31509,
+      "medianHouseholdIncome": 58009,
+      "medianHomeValue": 337700,
+      "localEconomyScore": 53.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "lincoln",
+      "county": "Lincoln County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30053",
+      "population": 20157,
+      "medianHouseholdIncome": 44593,
+      "medianHomeValue": 233400,
+      "localEconomyScore": 50.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "park",
+      "county": "Park County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30067",
+      "population": 17320,
+      "medianHouseholdIncome": 67602,
+      "medianHomeValue": 399900,
+      "localEconomyScore": 55.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "hill",
+      "county": "Hill County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30041",
+      "population": 16238,
+      "medianHouseholdIncome": 58427,
+      "medianHomeValue": 183300,
+      "localEconomyScore": 60.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "glacier",
+      "county": "Glacier County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30035",
+      "population": 13781,
+      "medianHouseholdIncome": 41078,
+      "medianHomeValue": 139400,
+      "localEconomyScore": 54.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "big-horn",
+      "county": "Big Horn County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30003",
+      "population": 13090,
+      "medianHouseholdIncome": 52463,
+      "medianHomeValue": 159700,
+      "localEconomyScore": 59.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "sanders",
+      "county": "Sanders County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30089",
+      "population": 12615,
+      "medianHouseholdIncome": 47110,
+      "medianHomeValue": 285300,
+      "localEconomyScore": 48.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "jefferson",
+      "county": "Jefferson County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30043",
+      "population": 12273,
+      "medianHouseholdIncome": 73875,
+      "medianHomeValue": 354700,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "custer",
+      "county": "Custer County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30017",
+      "population": 11957,
+      "medianHouseholdIncome": 61114,
+      "medianHomeValue": 201000,
+      "localEconomyScore": 61,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "fergus",
+      "county": "Fergus County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30027",
+      "population": 11496,
+      "medianHouseholdIncome": 58321,
+      "medianHomeValue": 175800,
+      "localEconomyScore": 61,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "richland",
+      "county": "Richland County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30083",
+      "population": 11366,
+      "medianHouseholdIncome": 67515,
+      "medianHomeValue": 245900,
+      "localEconomyScore": 61.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "roosevelt",
+      "county": "Roosevelt County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30085",
+      "population": 10799,
+      "medianHouseholdIncome": 51038,
+      "medianHomeValue": 112800,
+      "localEconomyScore": 61.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "carbon",
+      "county": "Carbon County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30009",
+      "population": 10645,
+      "medianHouseholdIncome": 66780,
+      "medianHomeValue": 355600,
+      "localEconomyScore": 56.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "beaverhead",
+      "county": "Beaverhead County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30001",
+      "population": 9469,
+      "medianHouseholdIncome": 55867,
+      "medianHomeValue": 278300,
+      "localEconomyScore": 54.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "deer-lodge",
+      "county": "Deer Lodge County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30023",
+      "population": 9435,
+      "medianHouseholdIncome": 46436,
+      "medianHomeValue": 175700,
+      "localEconomyScore": 55.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "stillwater",
+      "county": "Stillwater County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30095",
+      "population": 8978,
+      "medianHouseholdIncome": 78380,
+      "medianHomeValue": 316200,
+      "localEconomyScore": 63.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "dawson",
+      "county": "Dawson County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30021",
+      "population": 8915,
+      "medianHouseholdIncome": 68168,
+      "medianHomeValue": 197100,
+      "localEconomyScore": 64.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "madison",
+      "county": "Madison County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30057",
+      "population": 8742,
+      "medianHouseholdIncome": 61226,
+      "medianHomeValue": 375200,
+      "localEconomyScore": 52.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "rosebud",
+      "county": "Rosebud County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30087",
+      "population": 8310,
+      "medianHouseholdIncome": 57656,
+      "medianHomeValue": 159900,
+      "localEconomyScore": 61.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "valley",
+      "county": "Valley County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30105",
+      "population": 7552,
+      "medianHouseholdIncome": 59725,
+      "medianHomeValue": 183200,
+      "localEconomyScore": 61,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "blaine",
+      "county": "Blaine County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30005",
+      "population": 7030,
+      "medianHouseholdIncome": 58507,
+      "medianHomeValue": 119400,
+      "localEconomyScore": 63.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "powell",
+      "county": "Powell County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30077",
+      "population": 6998,
+      "medianHouseholdIncome": 60994,
+      "medianHomeValue": 226600,
+      "localEconomyScore": 59.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "broadwater",
+      "county": "Broadwater County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30007",
+      "population": 6977,
+      "medianHouseholdIncome": 61679,
+      "medianHomeValue": 335700,
+      "localEconomyScore": 54.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "teton",
+      "county": "Teton County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30099",
+      "population": 6238,
+      "medianHouseholdIncome": 65224,
+      "medianHomeValue": 217200,
+      "localEconomyScore": 61.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "pondera",
+      "county": "Pondera County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30073",
+      "population": 5987,
+      "medianHouseholdIncome": 59861,
+      "medianHomeValue": 172000,
+      "localEconomyScore": 61.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "chouteau",
+      "county": "Chouteau County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30015",
+      "population": 5897,
+      "medianHouseholdIncome": 51791,
+      "medianHomeValue": 172000,
+      "localEconomyScore": 57.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "toole",
+      "county": "Toole County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30101",
+      "population": 5018,
+      "medianHouseholdIncome": 54040,
+      "medianHomeValue": 166200,
+      "localEconomyScore": 59,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "musselshell",
+      "county": "Musselshell County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30065",
+      "population": 4924,
+      "medianHouseholdIncome": 54875,
+      "medianHomeValue": 222200,
+      "localEconomyScore": 56.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "mineral",
+      "county": "Mineral County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30061",
+      "population": 4652,
+      "medianHouseholdIncome": 56098,
+      "medianHomeValue": 274700,
+      "localEconomyScore": 54.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "phillips",
+      "county": "Phillips County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30071",
+      "population": 4233,
+      "medianHouseholdIncome": 61250,
+      "medianHomeValue": 178100,
+      "localEconomyScore": 61.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "sheridan",
+      "county": "Sheridan County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30091",
+      "population": 3700,
+      "medianHouseholdIncome": 67457,
+      "medianHomeValue": 121800,
+      "localEconomyScore": 66.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "sweet-grass",
+      "county": "Sweet Grass County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30097",
+      "population": 3697,
+      "medianHouseholdIncome": 64872,
+      "medianHomeValue": 271100,
+      "localEconomyScore": 58.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "granite",
+      "county": "Granite County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30039",
+      "population": 3368,
+      "medianHouseholdIncome": 53917,
+      "medianHomeValue": 283300,
+      "localEconomyScore": 52.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "fallon",
+      "county": "Fallon County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30025",
+      "population": 2941,
+      "medianHouseholdIncome": 79750,
+      "medianHomeValue": 231300,
+      "localEconomyScore": 66.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "wheatland",
+      "county": "Wheatland County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30107",
+      "population": 2060,
+      "medianHouseholdIncome": 48272,
+      "medianHomeValue": 163200,
+      "localEconomyScore": 55.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "judith-basin",
+      "county": "Judith Basin County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30045",
+      "population": 2039,
+      "medianHouseholdIncome": 58750,
+      "medianHomeValue": 206000,
+      "localEconomyScore": 58.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "liberty",
+      "county": "Liberty County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30051",
+      "population": 1993,
+      "medianHouseholdIncome": 48047,
+      "medianHomeValue": 118300,
+      "localEconomyScore": 58.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "meagher",
+      "county": "Meagher County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30059",
+      "population": 1948,
+      "medianHouseholdIncome": 55753,
+      "medianHomeValue": 205900,
+      "localEconomyScore": 57,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "powder-river",
+      "county": "Powder River County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30075",
+      "population": 1773,
+      "medianHouseholdIncome": 60313,
+      "medianHomeValue": 167500,
+      "localEconomyScore": 61.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "mccone",
+      "county": "McCone County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30055",
+      "population": 1746,
+      "medianHouseholdIncome": 79022,
+      "medianHomeValue": 186700,
+      "localEconomyScore": 67.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "daniels",
+      "county": "Daniels County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30019",
+      "population": 1535,
+      "medianHouseholdIncome": 47378,
+      "medianHomeValue": 162300,
+      "localEconomyScore": 55.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "carter",
+      "county": "Carter County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30011",
+      "population": 1332,
+      "medianHouseholdIncome": 46486,
+      "medianHomeValue": 140900,
+      "localEconomyScore": 56.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "prairie",
+      "county": "Prairie County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30079",
+      "population": 1283,
+      "medianHouseholdIncome": 44107,
+      "medianHomeValue": 140600,
+      "localEconomyScore": 54.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "wibaux",
+      "county": "Wibaux County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30109",
+      "population": 1119,
+      "medianHouseholdIncome": 58750,
+      "medianHomeValue": 101800,
+      "localEconomyScore": 63.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "garfield",
+      "county": "Garfield County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30033",
+      "population": 976,
+      "medianHouseholdIncome": 61786,
+      "medianHomeValue": 164900,
+      "localEconomyScore": 61.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "golden-valley",
+      "county": "Golden Valley County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30037",
+      "population": 841,
+      "medianHouseholdIncome": 54792,
+      "medianHomeValue": 138900,
+      "localEconomyScore": 59.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "treasure",
+      "county": "Treasure County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30103",
+      "population": 680,
+      "medianHouseholdIncome": 70096,
+      "medianHomeValue": 210700,
+      "localEconomyScore": 62.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "petroleum",
+      "county": "Petroleum County",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fips": "30069",
+      "population": 416,
+      "medianHouseholdIncome": 57981,
+      "medianHomeValue": 152600,
+      "localEconomyScore": 59.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    }
+  ],
+  "colleges": [
+    {
+      "unitId": "179991",
+      "name": "Academy of Cosmetology Inc",
+      "city": "Bozeman",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Private for-profit",
+      "netPrice": 16663,
+      "graduationRate": 0.8302,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180054",
+      "name": "Blackfeet Community College",
+      "city": "Browning",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Private nonprofit",
+      "netPrice": 5410,
+      "graduationRate": 0.3717,
+      "medianEarnings": 22953,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 86,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180081",
+      "name": "Highlands College of Montana Tech",
+      "city": "Butte",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 14962,
+      "graduationRate": 0.359,
+      "medianEarnings": 54329,
+      "medianDebt": 18750,
+      "debtToEarningsRatio": 0.3451195494119163,
+      "valueScore": 74,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180090",
+      "name": "Crevier's Academy of Cosmetology Arts",
+      "city": "Kalispell",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Private for-profit",
+      "netPrice": 6744,
+      "graduationRate": 0.8764,
+      "medianEarnings": 14047,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 59,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180106",
+      "name": "Carroll College",
+      "city": "Helena",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Private nonprofit",
+      "netPrice": 23960,
+      "graduationRate": 0.677,
+      "medianEarnings": 61772,
+      "medianDebt": 25757,
+      "debtToEarningsRatio": 0.41696885320209803,
+      "valueScore": 63,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180151",
+      "name": "Dawson Community College",
+      "city": "Glendive",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 9931,
+      "graduationRate": 0.4146,
+      "medianEarnings": 41951,
+      "medianDebt": 9450,
+      "debtToEarningsRatio": 0.225262806607709,
+      "valueScore": 86,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180160",
+      "name": "Chief Dull Knife College",
+      "city": "Lame Deer",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 14010,
+      "graduationRate": 0.1333,
+      "medianEarnings": 20073,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 29,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180179",
+      "name": "Montana State University Billings",
+      "city": "Billings",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 16524,
+      "graduationRate": 0.2912,
+      "medianEarnings": 44296,
+      "medianDebt": 18209,
+      "debtToEarningsRatio": 0.41107549214376016,
+      "valueScore": 56,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180197",
+      "name": "Flathead Valley Community College",
+      "city": "Kalispell",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 8099,
+      "graduationRate": 0.2806,
+      "medianEarnings": 38520,
+      "medianDebt": 10500,
+      "debtToEarningsRatio": 0.27258566978193144,
+      "valueScore": 93,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180203",
+      "name": "Aaniiih Nakoda College",
+      "city": "Harlem",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 7887,
+      "graduationRate": 0.3333,
+      "medianEarnings": 30528,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 78,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180212",
+      "name": "Fort Peck Community College",
+      "city": "Poplar",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 400,
+      "graduationRate": 0.1628,
+      "medianEarnings": 14747,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180249",
+      "name": "Great Falls College Montana State University",
+      "city": "Great Falls",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 12468,
+      "graduationRate": 0.3301,
+      "medianEarnings": 38034,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 63,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180258",
+      "name": "University of Providence",
+      "city": "Great Falls",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Private nonprofit",
+      "netPrice": 17649,
+      "graduationRate": 0.3553,
+      "medianEarnings": 48296,
+      "medianDebt": 18750,
+      "debtToEarningsRatio": 0.38823090939208216,
+      "valueScore": 58,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180276",
+      "name": "Helena College University of Montana",
+      "city": "Helena",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 11593,
+      "graduationRate": 0.3673,
+      "medianEarnings": 40738,
+      "medianDebt": 14580,
+      "debtToEarningsRatio": 0.35789680396681234,
+      "valueScore": 72,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180328",
+      "name": "Little Big Horn College",
+      "city": "Crow Agency",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 8331,
+      "graduationRate": 0.1122,
+      "medianEarnings": 21152,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 49,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180373",
+      "name": "Miles Community College",
+      "city": "Miles City",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 10405,
+      "graduationRate": 0.5508,
+      "medianEarnings": 42862,
+      "medianDebt": 11500,
+      "debtToEarningsRatio": 0.26830292566842423,
+      "valueScore": 88,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180416",
+      "name": "Montana Technological University",
+      "city": "Butte",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 16481,
+      "graduationRate": 0.5815,
+      "medianEarnings": 54329,
+      "medianDebt": 18750,
+      "debtToEarningsRatio": 0.3451195494119163,
+      "valueScore": 74,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180461",
+      "name": "Montana State University",
+      "city": "Bozeman",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 22499,
+      "graduationRate": 0.5722,
+      "medianEarnings": 53263,
+      "medianDebt": 22500,
+      "debtToEarningsRatio": 0.4224320823085444,
+      "valueScore": 57,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180489",
+      "name": "The University of Montana",
+      "city": "Missoula",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 16784,
+      "graduationRate": 0.4662,
+      "medianEarnings": 44511,
+      "medianDebt": 22400,
+      "debtToEarningsRatio": 0.5032463885331716,
+      "valueScore": 59,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180522",
+      "name": "Montana State University-Northern",
+      "city": "Havre",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 12664,
+      "graduationRate": 0.4177,
+      "medianEarnings": 49505,
+      "medianDebt": 18500,
+      "debtToEarningsRatio": 0.3736996263003737,
+      "valueScore": 81,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180595",
+      "name": "Rocky Mountain College",
+      "city": "Billings",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Private nonprofit",
+      "netPrice": 19751,
+      "graduationRate": 0.4759,
+      "medianEarnings": 49036,
+      "medianDebt": 26000,
+      "debtToEarningsRatio": 0.5302226935312832,
+      "valueScore": 57,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180647",
+      "name": "Salish Kootenai College",
+      "city": "Pablo",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 7945,
+      "graduationRate": 0.3198,
+      "medianEarnings": 32725,
+      "medianDebt": 12923,
+      "debtToEarningsRatio": 0.3948968678380443,
+      "valueScore": 82,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "180692",
+      "name": "The University of Montana-Western",
+      "city": "Dillon",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 16558,
+      "graduationRate": 0.5029,
+      "medianEarnings": 43229,
+      "medianDebt": 21000,
+      "debtToEarningsRatio": 0.48578500543616554,
+      "valueScore": 60,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "262165",
+      "name": "Montana Bible College",
+      "city": "Billings",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Private nonprofit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "366340",
+      "name": "Stone Child College",
+      "city": "Box Elder",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": 4424,
+      "graduationRate": 0.3333,
+      "medianEarnings": 24555,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "457749",
+      "name": "Montana Academy of Salons",
+      "city": "Great Falls",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Private for-profit",
+      "netPrice": 15935,
+      "graduationRate": 0.7114,
+      "medianEarnings": 28841,
+      "medianDebt": 9833,
+      "debtToEarningsRatio": 0.3409382476335772,
+      "valueScore": 50,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "489812",
+      "name": "Pima Medical Institute-Dillon",
+      "city": "Dillon",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": 0.6226,
+      "medianEarnings": 30917,
+      "medianDebt": 5500,
+      "debtToEarningsRatio": 0.17789565611152441,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "498669",
+      "name": "Aveda Institute Montana",
+      "city": "Billings",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Private for-profit",
+      "netPrice": 15196,
+      "graduationRate": 0.74,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "18017901",
+      "name": "City College Montana State University Billings",
+      "city": "Billings",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "type": "Public",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": 44296,
+      "medianDebt": 18209,
+      "debtToEarningsRatio": 0.41107549214376016,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    }
+  ],
+  "federalSpending": [
+    {
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbreviation": "MT",
+      "fiscalYear": 2024,
+      "total": 14493797967.01,
+      "perCapita": 13274.653765212852,
+      "source": "USAspending.gov"
+    }
+  ],
+  "recessionRadar": {
+    "overall": "low",
+    "score": 30,
+    "components": {
+      "unemploymentTrend": "stable",
+      "housingActivity": "stable",
+      "laborMarket": "stable"
+    },
+    "methodologyNote": "Educational indicator based on latest state unemployment relative to simple public thresholds.",
+    "sources": [
+      "FRED state unemployment series"
+    ]
+  }
+}

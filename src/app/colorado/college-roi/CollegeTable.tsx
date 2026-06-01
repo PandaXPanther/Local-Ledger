@@ -22,6 +22,20 @@ interface CollegeTableProps {
 }
 
 function mapCollege(raw: Record<string, unknown>): CollegeRow {
+  if ('unitId' in raw) {
+    return {
+      name: (raw.name as string) ?? 'Unknown',
+      city: (raw.city as string) ?? '',
+      type: (raw.type as string) ?? 'Unknown',
+      netPrice: raw.netPrice as number | null,
+      graduationRate: raw.graduationRate !== null && raw.graduationRate !== undefined ? (raw.graduationRate as number) * 100 : null,
+      medianEarnings: raw.medianEarnings as number | null,
+      medianDebt: raw.medianDebt as number | null,
+      debtToEarningsRatio: raw.debtToEarningsRatio as number | null,
+      valueScore: raw.valueScore as number | null,
+    };
+  }
+
   const netPricePublic = raw['latest.cost.avg_net_price.public'] as number | null;
   const netPricePrivate = raw['latest.cost.avg_net_price.private'] as number | null;
   const netPrice = netPricePublic ?? netPricePrivate ?? null;

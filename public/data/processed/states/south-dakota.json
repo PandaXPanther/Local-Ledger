@@ -1,0 +1,2985 @@
+{
+  "_meta": {
+    "description": "South Dakota state economic dashboard data",
+    "generatedAt": "2026-06-01T02:31:29.107Z",
+    "sourceAttemptLog": [
+      {
+        "source": "BEA",
+        "id": "state-gdp",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-states",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-counties",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-places",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "UNRATE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DENV708URN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "BOUL708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COLO708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FTCO708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AK-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AK",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AZ-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AZ",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AR-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AR",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CORGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CO-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CO",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CT-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CT",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-DE-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-DE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-FL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-FL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-GA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-GA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-HI-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-HI",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-ID-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-ID",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IN-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-KS-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-KS",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-KY-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-KY",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-LA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-LA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-ME-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-ME",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MDURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MDPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MDRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MD-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MD",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MIURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MIPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MIRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MI-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MI",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MNURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MNPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MNRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MN-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MSURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MSPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MSRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MS-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MS",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MOURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MOPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MORGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MO-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MO",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MTURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MTPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MTRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MT-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MT",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NE-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NVURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NVPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NVRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NV-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NV",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NHURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NHPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NHRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NH-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NH",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NJURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NJPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NJRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NJ-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NJ",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NMURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NMPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NMRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NM-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NM",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NYURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NYPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NYRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NY-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NY",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NCURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NCPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NCRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NC-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NC",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NDURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NDPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NDRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-ND-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-ND",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "OHURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "OHPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "OHRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-OH-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-OH",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "OKURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "OKPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "OKRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-OK-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-OK",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ORURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ORPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ORRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-OR-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-OR",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "PAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "PAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "PARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-PA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-PA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "RIURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "RIPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "RIRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-RI-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-RI",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "SCURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "SCPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "SCRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-SC-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-SC",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "SDURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "SDPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "SDRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-SD-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-SD",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      }
+    ]
+  },
+  "state": {
+    "slug": "south-dakota",
+    "name": "South Dakota",
+    "abbreviation": "SD",
+    "fips": "46",
+    "population": {
+      "value": 890342,
+      "unit": "persons",
+      "geography": "South Dakota",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "medianHouseholdIncome": {
+      "value": 69457,
+      "unit": "USD",
+      "geography": "South Dakota",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "medianHomeValue": {
+      "value": 219500,
+      "unit": "USD",
+      "geography": "South Dakota",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "unemploymentRate": {
+      "value": 1.7,
+      "unit": "percent",
+      "geography": "South Dakota",
+      "date": "2026-04-01",
+      "sourceName": "Federal Reserve Economic Data (FRED)",
+      "sourceUrl": "https://fred.stlouisfed.org/series/SDURN",
+      "sourceDataset": "FRED Series SDURN",
+      "sourceSeriesId": "SDURN",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "gdp": {
+      "value": 58515.2,
+      "unit": "millions of chained 2017 dollars",
+      "geography": "South Dakota",
+      "date": "2025-01-01",
+      "sourceName": "Federal Reserve Economic Data (FRED)",
+      "sourceUrl": "https://fred.stlouisfed.org/series/SDRGSP",
+      "sourceDataset": "FRED Series SDRGSP",
+      "sourceSeriesId": "SDRGSP",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "federalSpendingPerCapita": {
+      "value": 12330.443076503187,
+      "unit": "USD per person",
+      "geography": "South Dakota",
+      "date": "FY2024",
+      "sourceName": "USAspending.gov",
+      "sourceUrl": "https://api.usaspending.gov/",
+      "sourceDataset": "USAspending API v2 spending_by_geography",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "localEconomyScore": {
+      "value": 69.6,
+      "unit": "score",
+      "geography": "South Dakota",
+      "date": "2026-06-01",
+      "sourceName": "LocalLedger methodology",
+      "sourceUrl": "https://localledger.pages.dev/methodology/",
+      "sourceDataset": "Composite score from Census, FRED, and USAspending",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "weighted score",
+      "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
+      "availability": "available"
+    }
+  },
+  "counties": [
+    {
+      "slug": "minnehaha",
+      "county": "Minnehaha County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46099",
+      "population": 197742,
+      "medianHouseholdIncome": 73110,
+      "medianHomeValue": 246200,
+      "localEconomyScore": 69,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "pennington",
+      "county": "Pennington County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46103",
+      "population": 110386,
+      "medianHouseholdIncome": 67823,
+      "medianHomeValue": 247800,
+      "localEconomyScore": 66.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "lincoln",
+      "county": "Lincoln County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46083",
+      "population": 65801,
+      "medianHouseholdIncome": 92317,
+      "medianHomeValue": 292200,
+      "localEconomyScore": 74.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "brown",
+      "county": "Brown County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46013",
+      "population": 38278,
+      "medianHouseholdIncome": 70379,
+      "medianHomeValue": 200400,
+      "localEconomyScore": 68.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "brookings",
+      "county": "Brookings County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46011",
+      "population": 34631,
+      "medianHouseholdIncome": 64438,
+      "medianHomeValue": 227800,
+      "localEconomyScore": 64.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "meade",
+      "county": "Meade County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46093",
+      "population": 29970,
+      "medianHouseholdIncome": 70256,
+      "medianHomeValue": 252300,
+      "localEconomyScore": 66.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "codington",
+      "county": "Codington County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46029",
+      "population": 28402,
+      "medianHouseholdIncome": 65747,
+      "medianHomeValue": 206600,
+      "localEconomyScore": 66.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "lawrence",
+      "county": "Lawrence County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46081",
+      "population": 26047,
+      "medianHouseholdIncome": 62977,
+      "medianHomeValue": 267900,
+      "localEconomyScore": 62.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "yankton",
+      "county": "Yankton County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46135",
+      "population": 23311,
+      "medianHouseholdIncome": 68847,
+      "medianHomeValue": 190400,
+      "localEconomyScore": 68.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "davison",
+      "county": "Davison County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46035",
+      "population": 19966,
+      "medianHouseholdIncome": 55606,
+      "medianHomeValue": 178100,
+      "localEconomyScore": 62.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "beadle",
+      "county": "Beadle County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46005",
+      "population": 19089,
+      "medianHouseholdIncome": 63813,
+      "medianHomeValue": 152100,
+      "localEconomyScore": 67.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "hughes",
+      "county": "Hughes County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46065",
+      "population": 17812,
+      "medianHouseholdIncome": 83750,
+      "medianHomeValue": 216500,
+      "localEconomyScore": 72.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "union",
+      "county": "Union County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46127",
+      "population": 16700,
+      "medianHouseholdIncome": 82036,
+      "medianHomeValue": 254900,
+      "localEconomyScore": 70.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "clay",
+      "county": "Clay County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46027",
+      "population": 14953,
+      "medianHouseholdIncome": 55963,
+      "medianHomeValue": 209300,
+      "localEconomyScore": 61.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "oglala-lakota",
+      "county": "Oglala Lakota County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46102",
+      "population": 13695,
+      "medianHouseholdIncome": 32279,
+      "medianHomeValue": 46700,
+      "localEconomyScore": 61.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "lake",
+      "county": "Lake County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46079",
+      "population": 11207,
+      "medianHouseholdIncome": 74884,
+      "medianHomeValue": 196600,
+      "localEconomyScore": 69.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "butte",
+      "county": "Butte County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46019",
+      "population": 10369,
+      "medianHouseholdIncome": 58106,
+      "medianHomeValue": 189000,
+      "localEconomyScore": 63.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "roberts",
+      "county": "Roberts County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46109",
+      "population": 10242,
+      "medianHouseholdIncome": 59022,
+      "medianHomeValue": 127800,
+      "localEconomyScore": 66.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "todd",
+      "county": "Todd County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46121",
+      "population": 9353,
+      "medianHouseholdIncome": 33792,
+      "medianHomeValue": 40500,
+      "localEconomyScore": 62.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "charles-mix",
+      "county": "Charles Mix County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46023",
+      "population": 9302,
+      "medianHouseholdIncome": 60729,
+      "medianHomeValue": 163200,
+      "localEconomyScore": 65.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "turner",
+      "county": "Turner County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46125",
+      "population": 8687,
+      "medianHouseholdIncome": 72312,
+      "medianHomeValue": 175300,
+      "localEconomyScore": 69.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "custer",
+      "county": "Custer County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46033",
+      "population": 8515,
+      "medianHouseholdIncome": 75943,
+      "medianHomeValue": 294700,
+      "localEconomyScore": 66.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "grant",
+      "county": "Grant County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46051",
+      "population": 7533,
+      "medianHouseholdIncome": 70851,
+      "medianHomeValue": 168500,
+      "localEconomyScore": 69.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "hutchinson",
+      "county": "Hutchinson County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46067",
+      "population": 7401,
+      "medianHouseholdIncome": 69139,
+      "medianHomeValue": 143800,
+      "localEconomyScore": 69.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "fall-river",
+      "county": "Fall River County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46047",
+      "population": 7079,
+      "medianHouseholdIncome": 54886,
+      "medianHomeValue": 158500,
+      "localEconomyScore": 63,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "bon-homme",
+      "county": "Bon Homme County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46009",
+      "population": 7018,
+      "medianHouseholdIncome": 57554,
+      "medianHomeValue": 112700,
+      "localEconomyScore": 66.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "spink",
+      "county": "Spink County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46115",
+      "population": 6355,
+      "medianHouseholdIncome": 65795,
+      "medianHomeValue": 108200,
+      "localEconomyScore": 69.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "moody",
+      "county": "Moody County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46101",
+      "population": 6346,
+      "medianHouseholdIncome": 71469,
+      "medianHomeValue": 194000,
+      "localEconomyScore": 68.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "hamlin",
+      "county": "Hamlin County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46057",
+      "population": 6196,
+      "medianHouseholdIncome": 76995,
+      "medianHomeValue": 181800,
+      "localEconomyScore": 70.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "mccook",
+      "county": "McCook County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46087",
+      "population": 5714,
+      "medianHouseholdIncome": 74873,
+      "medianHomeValue": 186100,
+      "localEconomyScore": 69.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "tripp",
+      "county": "Tripp County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46123",
+      "population": 5607,
+      "medianHouseholdIncome": 56758,
+      "medianHomeValue": 128100,
+      "localEconomyScore": 65.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "day",
+      "county": "Day County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46037",
+      "population": 5485,
+      "medianHouseholdIncome": 57558,
+      "medianHomeValue": 134800,
+      "localEconomyScore": 65.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "walworth",
+      "county": "Walworth County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46129",
+      "population": 5317,
+      "medianHouseholdIncome": 57697,
+      "medianHomeValue": 115900,
+      "localEconomyScore": 66.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "dewey",
+      "county": "Dewey County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46041",
+      "population": 5275,
+      "medianHouseholdIncome": 55077,
+      "medianHomeValue": 74800,
+      "localEconomyScore": 67.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "brule",
+      "county": "Brule County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46015",
+      "population": 5247,
+      "medianHouseholdIncome": 64821,
+      "medianHomeValue": 187900,
+      "localEconomyScore": 65.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "kingsbury",
+      "county": "Kingsbury County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46077",
+      "population": 5172,
+      "medianHouseholdIncome": 65964,
+      "medianHomeValue": 149300,
+      "localEconomyScore": 67.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "marshall",
+      "county": "Marshall County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46091",
+      "population": 4363,
+      "medianHouseholdIncome": 74018,
+      "medianHomeValue": 141100,
+      "localEconomyScore": 71.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "deuel",
+      "county": "Deuel County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46039",
+      "population": 4298,
+      "medianHouseholdIncome": 76997,
+      "medianHomeValue": 178100,
+      "localEconomyScore": 70.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "edmunds",
+      "county": "Edmunds County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46045",
+      "population": 4014,
+      "medianHouseholdIncome": 76806,
+      "medianHomeValue": 142300,
+      "localEconomyScore": 72.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "gregory",
+      "county": "Gregory County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46053",
+      "population": 3983,
+      "medianHouseholdIncome": 48272,
+      "medianHomeValue": 109100,
+      "localEconomyScore": 62.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "corson",
+      "county": "Corson County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46031",
+      "population": 3906,
+      "medianHouseholdIncome": 48125,
+      "medianHomeValue": 76000,
+      "localEconomyScore": 64.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "clark",
+      "county": "Clark County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46025",
+      "population": 3837,
+      "medianHouseholdIncome": 59340,
+      "medianHomeValue": 135500,
+      "localEconomyScore": 65.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "lyman",
+      "county": "Lyman County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46085",
+      "population": 3719,
+      "medianHouseholdIncome": 60284,
+      "medianHomeValue": 132100,
+      "localEconomyScore": 66.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "hanson",
+      "county": "Hanson County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46061",
+      "population": 3443,
+      "medianHouseholdIncome": 86827,
+      "medianHomeValue": 171300,
+      "localEconomyScore": 74.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "bennett",
+      "county": "Bennett County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46007",
+      "population": 3391,
+      "medianHouseholdIncome": 44821,
+      "medianHomeValue": 128100,
+      "localEconomyScore": 59.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "hand",
+      "county": "Hand County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46059",
+      "population": 3075,
+      "medianHouseholdIncome": 72857,
+      "medianHomeValue": 150000,
+      "localEconomyScore": 70.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "stanley",
+      "county": "Stanley County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46117",
+      "population": 2979,
+      "medianHouseholdIncome": 82298,
+      "medianHomeValue": 170400,
+      "localEconomyScore": 72.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "perkins",
+      "county": "Perkins County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46105",
+      "population": 2970,
+      "medianHouseholdIncome": 64410,
+      "medianHomeValue": 108900,
+      "localEconomyScore": 68.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "jackson",
+      "county": "Jackson County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46071",
+      "population": 2838,
+      "medianHouseholdIncome": 26078,
+      "medianHomeValue": 108400,
+      "localEconomyScore": 50.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "douglas",
+      "county": "Douglas County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46043",
+      "population": 2823,
+      "medianHouseholdIncome": 75048,
+      "medianHomeValue": 120900,
+      "localEconomyScore": 72.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "aurora",
+      "county": "Aurora County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46003",
+      "population": 2590,
+      "medianHouseholdIncome": 71490,
+      "medianHomeValue": 120800,
+      "localEconomyScore": 70.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "potter",
+      "county": "Potter County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46107",
+      "population": 2587,
+      "medianHouseholdIncome": 71786,
+      "medianHomeValue": 129800,
+      "localEconomyScore": 70.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "ziebach",
+      "county": "Ziebach County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46137",
+      "population": 2455,
+      "medianHouseholdIncome": 46023,
+      "medianHomeValue": 93000,
+      "localEconomyScore": 62.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "sanborn",
+      "county": "Sanborn County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46111",
+      "population": 2373,
+      "medianHouseholdIncome": 65806,
+      "medianHomeValue": 128800,
+      "localEconomyScore": 68.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "miner",
+      "county": "Miner County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46097",
+      "population": 2312,
+      "medianHouseholdIncome": 62037,
+      "medianHomeValue": 93900,
+      "localEconomyScore": 68.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "mcpherson",
+      "county": "McPherson County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46089",
+      "population": 2251,
+      "medianHouseholdIncome": 58529,
+      "medianHomeValue": 77900,
+      "localEconomyScore": 68,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "faulk",
+      "county": "Faulk County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46049",
+      "population": 2140,
+      "medianHouseholdIncome": 56734,
+      "medianHomeValue": 115300,
+      "localEconomyScore": 65.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "mellette",
+      "county": "Mellette County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46095",
+      "population": 1989,
+      "medianHouseholdIncome": 41397,
+      "medianHomeValue": 60700,
+      "localEconomyScore": 62.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "buffalo",
+      "county": "Buffalo County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46017",
+      "population": 1859,
+      "medianHouseholdIncome": 42917,
+      "medianHomeValue": 103800,
+      "localEconomyScore": 60,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "jerauld",
+      "county": "Jerauld County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46073",
+      "population": 1836,
+      "medianHouseholdIncome": 66607,
+      "medianHomeValue": 117600,
+      "localEconomyScore": 68.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "haakon",
+      "county": "Haakon County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46055",
+      "population": 1755,
+      "medianHouseholdIncome": 53109,
+      "medianHomeValue": 139200,
+      "localEconomyScore": 62.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "campbell",
+      "county": "Campbell County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46021",
+      "population": 1534,
+      "medianHouseholdIncome": 66932,
+      "medianHomeValue": 80300,
+      "localEconomyScore": 70.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "hyde",
+      "county": "Hyde County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46069",
+      "population": 1319,
+      "medianHouseholdIncome": 69712,
+      "medianHomeValue": 97300,
+      "localEconomyScore": 70.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "sully",
+      "county": "Sully County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46119",
+      "population": 1318,
+      "medianHouseholdIncome": 66875,
+      "medianHomeValue": 190800,
+      "localEconomyScore": 65.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "harding",
+      "county": "Harding County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46063",
+      "population": 1176,
+      "medianHouseholdIncome": 71484,
+      "medianHomeValue": 128300,
+      "localEconomyScore": 69.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "jones",
+      "county": "Jones County",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fips": "46075",
+      "population": 1006,
+      "medianHouseholdIncome": 61250,
+      "medianHomeValue": 99000,
+      "localEconomyScore": 67.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    }
+  ],
+  "colleges": [
+    {
+      "unitId": "219000",
+      "name": "Augustana University",
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Private nonprofit",
+      "netPrice": 23894,
+      "graduationRate": 0.7433,
+      "medianEarnings": 59217,
+      "medianDebt": 25000,
+      "debtToEarningsRatio": 0.42217606430585813,
+      "valueScore": 63,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219037",
+      "name": "The Salon Professional Academy",
+      "city": "Rapid City",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Private for-profit",
+      "netPrice": 18146,
+      "graduationRate": 0.7917,
+      "medianEarnings": 23641,
+      "medianDebt": 8500,
+      "debtToEarningsRatio": 0.3595448585085233,
+      "valueScore": 43,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219046",
+      "name": "Black Hills State University",
+      "city": "Spearfish",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Public",
+      "netPrice": 15911,
+      "graduationRate": 0.4048,
+      "medianEarnings": 46674,
+      "medianDebt": 26000,
+      "debtToEarningsRatio": 0.5570553198783048,
+      "valueScore": 63,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219082",
+      "name": "Dakota State University",
+      "city": "Madison",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Public",
+      "netPrice": 21057,
+      "graduationRate": 0.5033,
+      "medianEarnings": 50970,
+      "medianDebt": 23500,
+      "debtToEarningsRatio": 0.4610555228565823,
+      "valueScore": 56,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219091",
+      "name": "Dakota Wesleyan University",
+      "city": "Mitchell",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Private nonprofit",
+      "netPrice": 19735,
+      "graduationRate": 0.4732,
+      "medianEarnings": 53728,
+      "medianDebt": 27000,
+      "debtToEarningsRatio": 0.5025312686122692,
+      "valueScore": 61,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219125",
+      "name": "Paul Mitchell the School-Rapid City",
+      "city": "Rapid City",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Private for-profit",
+      "netPrice": 19694,
+      "graduationRate": 0.829,
+      "medianEarnings": 29547,
+      "medianDebt": 7917,
+      "debtToEarningsRatio": 0.26794598436389483,
+      "valueScore": 48,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219143",
+      "name": "Lake Area Technical College",
+      "city": "Watertown",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Public",
+      "netPrice": 15979,
+      "graduationRate": 0.6895,
+      "medianEarnings": 45473,
+      "medianDebt": 12000,
+      "debtToEarningsRatio": 0.2638928594990434,
+      "valueScore": 68,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219189",
+      "name": "Mitchell Technical College",
+      "city": "Mitchell",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Public",
+      "netPrice": 13460,
+      "graduationRate": 0.7369,
+      "medianEarnings": 50743,
+      "medianDebt": 12000,
+      "debtToEarningsRatio": 0.2364858207043336,
+      "valueScore": 86,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219198",
+      "name": "Mount Marty University",
+      "city": "Yankton",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Private nonprofit",
+      "netPrice": 22227,
+      "graduationRate": 0.5617,
+      "medianEarnings": 48179,
+      "medianDebt": 26396,
+      "debtToEarningsRatio": 0.5478735548683036,
+      "valueScore": 53,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219204",
+      "name": "National American University-Rapid City",
+      "city": "Rapid City",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Private for-profit",
+      "netPrice": 31062,
+      "graduationRate": 0.1957,
+      "medianEarnings": 37325,
+      "medianDebt": 29020,
+      "debtToEarningsRatio": 0.7774949765572673,
+      "valueScore": 27,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219240",
+      "name": "Kairos University",
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Private nonprofit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219259",
+      "name": "Northern State University",
+      "city": "Aberdeen",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Public",
+      "netPrice": 15812,
+      "graduationRate": 0.5054,
+      "medianEarnings": 47618,
+      "medianDebt": 22320,
+      "debtToEarningsRatio": 0.4687303120668655,
+      "valueScore": 67,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219277",
+      "name": "Oglala Lakota College",
+      "city": "Kyle",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Public",
+      "netPrice": 1895,
+      "graduationRate": 0.1005,
+      "medianEarnings": 22517,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219338",
+      "name": "Avera Sacred Heart Hospital",
+      "city": "Yankton",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Private nonprofit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219347",
+      "name": "South Dakota School of Mines and Technology",
+      "city": "Rapid City",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Public",
+      "netPrice": 20183,
+      "graduationRate": 0.5557,
+      "medianEarnings": 72257,
+      "medianDebt": 27000,
+      "debtToEarningsRatio": 0.3736662191898363,
+      "valueScore": 78,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219356",
+      "name": "South Dakota State University",
+      "city": "Brookings",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Public",
+      "netPrice": 19841,
+      "graduationRate": 0.6097,
+      "medianEarnings": 55070,
+      "medianDebt": 23250,
+      "debtToEarningsRatio": 0.4221899400762666,
+      "valueScore": 65,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219374",
+      "name": "Sinte Gleska University",
+      "city": "Mission",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Public",
+      "netPrice": 12768,
+      "graduationRate": 0.0625,
+      "medianEarnings": 20948,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 31,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219383",
+      "name": "University of Sioux Falls",
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Private nonprofit",
+      "netPrice": 21383,
+      "graduationRate": 0.6177,
+      "medianEarnings": 54521,
+      "medianDebt": 23249,
+      "debtToEarningsRatio": 0.42642284624273213,
+      "valueScore": 61,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219392",
+      "name": "Sanford Medical Center",
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Private nonprofit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219408",
+      "name": "Sisseton Wahpeton College",
+      "city": "Sisseton",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Public",
+      "netPrice": 2977,
+      "graduationRate": 0.1591,
+      "medianEarnings": 31546,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219426",
+      "name": "Southeast Technical College",
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Public",
+      "netPrice": 17400,
+      "graduationRate": 0.5552,
+      "medianEarnings": 46709,
+      "medianDebt": 12000,
+      "debtToEarningsRatio": 0.25690980324990903,
+      "valueScore": 62,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219453",
+      "name": "Stewart School",
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Private for-profit",
+      "netPrice": 14221,
+      "graduationRate": 0.8695,
+      "medianEarnings": 31843,
+      "medianDebt": 6864,
+      "debtToEarningsRatio": 0.2155575793738027,
+      "valueScore": 62,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219471",
+      "name": "University of South Dakota",
+      "city": "Vermillion",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Public",
+      "netPrice": 19858,
+      "graduationRate": 0.6064,
+      "medianEarnings": 51926,
+      "medianDebt": 23592,
+      "debtToEarningsRatio": 0.4543388668489774,
+      "valueScore": 62,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "219480",
+      "name": "Western Dakota Technical College",
+      "city": "Rapid City",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Public",
+      "netPrice": 12670,
+      "graduationRate": 0.5363,
+      "medianEarnings": 40240,
+      "medianDebt": 15000,
+      "debtToEarningsRatio": 0.3727634194831014,
+      "valueScore": 71,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "485546",
+      "name": "California Intercontinental University",
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    }
+  ],
+  "federalSpending": [
+    {
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbreviation": "SD",
+      "fiscalYear": 2024,
+      "total": 10978311349.62,
+      "perCapita": 12330.443076503187,
+      "source": "USAspending.gov"
+    }
+  ],
+  "recessionRadar": {
+    "overall": "low",
+    "score": 17,
+    "components": {
+      "unemploymentTrend": "stable",
+      "housingActivity": "stable",
+      "laborMarket": "stable"
+    },
+    "methodologyNote": "Educational indicator based on latest state unemployment relative to simple public thresholds.",
+    "sources": [
+      "FRED state unemployment series"
+    ]
+  }
+}

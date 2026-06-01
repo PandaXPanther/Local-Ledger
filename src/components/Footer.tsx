@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { SITE_NAME, DATA_SOURCES } from '@/lib/constants';
 
 export function Footer() {
@@ -9,9 +10,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-3">
-              <div className="w-7 h-7 rounded-md bg-gradient-to-br from-brand-blue to-brand-teal flex items-center justify-center">
-                <span className="text-white font-bold text-xs">L</span>
-              </div>
+              <Image src="/logo-mark.svg" alt="" width={32} height={32} className="h-8 w-8" />
               <span className="text-white font-bold">{SITE_NAME}</span>
             </div>
             <p className="text-sm leading-relaxed">
@@ -22,16 +21,15 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Colorado */}
+          {/* Explore */}
           <div>
-            <h3 className="text-white text-sm font-semibold mb-3">Colorado</h3>
+            <h3 className="text-white text-sm font-semibold mb-3">Explore</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href="/colorado/" className="hover:text-white transition-colors">Overview</Link></li>
-              <li><Link href="/colorado/denver/" className="hover:text-white transition-colors">Denver</Link></li>
-              <li><Link href="/colorado/boulder/" className="hover:text-white transition-colors">Boulder</Link></li>
-              <li><Link href="/colorado/colorado-springs/" className="hover:text-white transition-colors">Colorado Springs</Link></li>
-              <li><Link href="/colorado/fort-collins/" className="hover:text-white transition-colors">Fort Collins</Link></li>
-              <li><Link href="/colorado/aurora/" className="hover:text-white transition-colors">Aurora</Link></li>
+              <li><Link href="/states/" className="hover:text-white transition-colors">States</Link></li>
+              <li><Link href="/counties/" className="hover:text-white transition-colors">Counties</Link></li>
+              <li><Link href="/metros/" className="hover:text-white transition-colors">Metros</Link></li>
+              <li><Link href="/rankings/" className="hover:text-white transition-colors">Rankings</Link></li>
             </ul>
           </div>
 
@@ -39,10 +37,10 @@ export function Footer() {
           <div>
             <h3 className="text-white text-sm font-semibold mb-3">Dashboards</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/colorado/counties/" className="hover:text-white transition-colors">64 Counties</Link></li>
-              <li><Link href="/colorado/college-roi/" className="hover:text-white transition-colors">College ROI</Link></li>
-              <li><Link href="/colorado/federal-spending/" className="hover:text-white transition-colors">Federal Spending</Link></li>
-              <li><Link href="/colorado/recession-radar/" className="hover:text-white transition-colors">Recession Radar</Link></li>
+              <li><Link href="/states/colorado/counties/" className="hover:text-white transition-colors">Colorado Counties</Link></li>
+              <li><Link href="/states/colorado/college-roi/" className="hover:text-white transition-colors">College ROI</Link></li>
+              <li><Link href="/states/colorado/federal-spending/" className="hover:text-white transition-colors">Federal Spending</Link></li>
+              <li><Link href="/states/colorado/recession-radar/" className="hover:text-white transition-colors">Recession Radar</Link></li>
             </ul>
           </div>
 

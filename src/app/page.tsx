@@ -2,18 +2,12 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Hero } from '@/components/Hero';
 import { COLORADO_CITIES, SITE_DESCRIPTION } from '@/lib/constants';
+import { formatMetric, getCounties, getMetros, getStates, topBy } from '@/lib/nationalData';
 
 export const metadata: Metadata = {
   title: 'LocalLedger - Public Economic Intelligence for Every Community',
   description: SITE_DESCRIPTION,
 };
-
-const STAT_CARDS = [
-  { value: '5', label: 'Colorado cities tracked' },
-  { value: '64', label: 'Colorado counties planned' },
-  { value: '100%', label: 'Official datasets only' },
-  { value: '0', label: 'Fabricated data points' },
-];
 
 const FEATURE_CARDS = [
   {
@@ -59,6 +53,17 @@ const FEATURE_CARDS = [
 ];
 
 export default function HomePage() {
+  const states = getStates();
+  const counties = getCounties();
+  const metros = getMetros();
+  const topStates = topBy(states, state => state.localEconomyScore.value, 5);
+  const statCards = [
+    { value: formatMetric(states.length, 'count'), label: 'states tracked' },
+    { value: formatMetric(counties.length, 'count'), label: 'counties indexed' },
+    { value: formatMetric(metros.length, 'count'), label: 'metro previews' },
+    { value: '0', label: 'fabricated data points' },
+  ];
+
   return (
     <>
       <Hero
@@ -73,7 +78,7 @@ export default function HomePage() {
       <section className="bg-white border-b border-border" aria-label="Key statistics">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
-            {STAT_CARDS.map(card => (
+            {statCards.map(card => (
               <div key={card.label} className="text-center">
                 <div className="text-4xl font-extrabold text-brand-blue mb-1">{card.value}</div>
                 <div className="text-sm text-text-secondary">{card.label}</div>
@@ -141,6 +146,36 @@ export default function HomePage() {
                 </svg>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white border-t border-border py-14">
+        <div className="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 lg:grid-cols-[1fr_420px] lg:px-8">
+          <div>
+            <p className="section-label mb-3">National preview</p>
+            <h2 className="text-2xl font-bold text-text-primary">Top state economy scores</h2>
+            <div className="mt-6 space-y-3">
+              {topStates.map(state => (
+                <Link key={state.slug} href={`/states/${state.slug}/`} className="card flex items-center justify-between p-4 hover:shadow-md">
+                  <span className="font-semibold text-text-primary">{state.name}</span>
+                  <span className="text-brand-blue">{formatMetric(state.localEconomyScore.value, 'score')}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+          <div className="rounded-xl border border-border bg-slate-50 p-6">
+            <svg viewBox="0 0 420 250" className="h-auto w-full" role="img" aria-label="United States data coverage preview">
+              <rect x="0" y="0" width="420" height="250" rx="18" fill="#f8fafc" />
+              {states.slice(0, 50).map((state, index) => {
+                const x = 24 + (index % 10) * 38;
+                const y = 30 + Math.floor(index / 10) * 38;
+                const score = state.localEconomyScore.value ?? 0;
+                const fill = score > 65 ? '#0f766e' : score > 55 ? '#14b8a6' : '#bfdbfe';
+                return <rect key={state.slug} x={x} y={y} width="28" height="28" rx="6" fill={fill}><title>{state.name}</title></rect>;
+              })}
+            </svg>
+            <p className="mt-4 text-sm text-text-secondary">Lightweight coverage map: each tile is a state generated from the national static data index.</p>
           </div>
         </div>
       </section>

@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { SITE_URL } from '@/lib/constants';
+import { getCounties, getMetros, getStates, topBy } from '@/lib/nationalData';
 
 const routes = [
   '/',
@@ -19,10 +20,30 @@ const routes = [
   '/about/',
   '/states/',
   '/rankings/',
+  '/counties/',
+  '/metros/',
+  '/rankings/best-local-economies/',
+  '/rankings/fastest-growing-counties/',
+  '/rankings/highest-income-counties/',
+  '/rankings/most-affordable-college-states/',
+  '/rankings/federal-spending-per-capita/',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({
+  const dynamicRoutes = [
+    ...getStates().flatMap(state => [
+      `/states/${state.slug}/`,
+      `/states/${state.slug}/counties/`,
+      `/states/${state.slug}/cities/`,
+      `/states/${state.slug}/college-roi/`,
+      `/states/${state.slug}/federal-spending/`,
+      `/states/${state.slug}/recession-radar/`,
+    ]),
+    ...topBy(getCounties(), county => county.population, 350).map(county => `/counties/${county.stateSlug}/${county.slug}/`),
+    ...getMetros().map(metro => `/metros/${metro.slug}/`),
+  ];
+
+  return [...routes, ...dynamicRoutes].map(route => ({
     url: `${SITE_URL}${route}`,
     lastModified: new Date(),
     changeFrequency: route === '/' ? 'weekly' : 'monthly',

@@ -1,0 +1,1719 @@
+{
+  "_meta": {
+    "description": "Maine state economic dashboard data",
+    "generatedAt": "2026-06-01T02:31:29.107Z",
+    "sourceAttemptLog": [
+      {
+        "source": "BEA",
+        "id": "state-gdp",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-states",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-counties",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-places",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "UNRATE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DENV708URN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "BOUL708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COLO708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FTCO708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AK-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AK",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AZ-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AZ",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AR-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AR",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CORGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CO-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CO",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CT-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CT",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-DE-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-DE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-FL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-FL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-GA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-GA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-HI-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-HI",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-ID-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-ID",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IN-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-KS-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-KS",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-KY-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-KY",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-LA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-LA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-ME-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-ME",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      }
+    ]
+  },
+  "state": {
+    "slug": "maine",
+    "name": "Maine",
+    "abbreviation": "ME",
+    "fips": "23",
+    "population": {
+      "value": 1366949,
+      "unit": "persons",
+      "geography": "Maine",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "medianHouseholdIncome": {
+      "value": 68251,
+      "unit": "USD",
+      "geography": "Maine",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "medianHomeValue": {
+      "value": 244800,
+      "unit": "USD",
+      "geography": "Maine",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "unemploymentRate": {
+      "value": 3.3,
+      "unit": "percent",
+      "geography": "Maine",
+      "date": "2026-04-01",
+      "sourceName": "Federal Reserve Economic Data (FRED)",
+      "sourceUrl": "https://fred.stlouisfed.org/series/MEURN",
+      "sourceDataset": "FRED Series MEURN",
+      "sourceSeriesId": "MEURN",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "gdp": {
+      "value": 78200.8,
+      "unit": "millions of chained 2017 dollars",
+      "geography": "Maine",
+      "date": "2025-01-01",
+      "sourceName": "Federal Reserve Economic Data (FRED)",
+      "sourceUrl": "https://fred.stlouisfed.org/series/MERGSP",
+      "sourceDataset": "FRED Series MERGSP",
+      "sourceSeriesId": "MERGSP",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "federalSpendingPerCapita": {
+      "value": 15396.252647889569,
+      "unit": "USD per person",
+      "geography": "Maine",
+      "date": "FY2024",
+      "sourceName": "USAspending.gov",
+      "sourceUrl": "https://api.usaspending.gov/",
+      "sourceDataset": "USAspending API v2 spending_by_geography",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "localEconomyScore": {
+      "value": 65.1,
+      "unit": "score",
+      "geography": "Maine",
+      "date": "2026-06-01",
+      "sourceName": "LocalLedger methodology",
+      "sourceUrl": "https://localledger.pages.dev/methodology/",
+      "sourceDataset": "Composite score from Census, FRED, and USAspending",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "weighted score",
+      "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
+      "availability": "available"
+    }
+  },
+  "counties": [
+    {
+      "slug": "cumberland",
+      "county": "Cumberland County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23005",
+      "population": 303357,
+      "medianHouseholdIncome": 87710,
+      "medianHomeValue": 372900,
+      "localEconomyScore": 67.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "york",
+      "county": "York County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23031",
+      "population": 212691,
+      "medianHouseholdIncome": 79743,
+      "medianHomeValue": 323500,
+      "localEconomyScore": 65.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "penobscot",
+      "county": "Penobscot County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23019",
+      "population": 152640,
+      "medianHouseholdIncome": 59438,
+      "medianHomeValue": 176700,
+      "localEconomyScore": 62.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "kennebec",
+      "county": "Kennebec County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23011",
+      "population": 124003,
+      "medianHouseholdIncome": 62118,
+      "medianHomeValue": 198300,
+      "localEconomyScore": 62.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "androscoggin",
+      "county": "Androscoggin County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23001",
+      "population": 111532,
+      "medianHouseholdIncome": 64500,
+      "medianHomeValue": 211800,
+      "localEconomyScore": 63.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "aroostook",
+      "county": "Aroostook County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23003",
+      "population": 67237,
+      "medianHouseholdIncome": 50843,
+      "medianHomeValue": 125400,
+      "localEconomyScore": 61.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "oxford",
+      "county": "Oxford County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23017",
+      "population": 58276,
+      "medianHouseholdIncome": 54780,
+      "medianHomeValue": 176800,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "hancock",
+      "county": "Hancock County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23009",
+      "population": 55851,
+      "medianHouseholdIncome": 64149,
+      "medianHomeValue": 250900,
+      "localEconomyScore": 60.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "somerset",
+      "county": "Somerset County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23025",
+      "population": 50656,
+      "medianHouseholdIncome": 53527,
+      "medianHomeValue": 150500,
+      "localEconomyScore": 61,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "knox",
+      "county": "Knox County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23013",
+      "population": 40729,
+      "medianHouseholdIncome": 68904,
+      "medianHomeValue": 260800,
+      "localEconomyScore": 62.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "waldo",
+      "county": "Waldo County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23027",
+      "population": 39772,
+      "medianHouseholdIncome": 62694,
+      "medianHomeValue": 210600,
+      "localEconomyScore": 61.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "sagadahoc",
+      "county": "Sagadahoc County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23023",
+      "population": 36868,
+      "medianHouseholdIncome": 77591,
+      "medianHomeValue": 268600,
+      "localEconomyScore": 65.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "lincoln",
+      "county": "Lincoln County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23015",
+      "population": 35466,
+      "medianHouseholdIncome": 69638,
+      "medianHomeValue": 276400,
+      "localEconomyScore": 62,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "washington",
+      "county": "Washington County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23029",
+      "population": 31096,
+      "medianHouseholdIncome": 51669,
+      "medianHomeValue": 135400,
+      "localEconomyScore": 60.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "franklin",
+      "county": "Franklin County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23007",
+      "population": 29839,
+      "medianHouseholdIncome": 56890,
+      "medianHomeValue": 170600,
+      "localEconomyScore": 61.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "piscataquis",
+      "county": "Piscataquis County",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fips": "23021",
+      "population": 16936,
+      "medianHouseholdIncome": 51805,
+      "medianHomeValue": 137800,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    }
+  ],
+  "colleges": [
+    {
+      "unitId": "160959",
+      "name": "College of the Atlantic",
+      "city": "Bar Harbor",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": 25184,
+      "graduationRate": 0.6879,
+      "medianEarnings": 40264,
+      "medianDebt": 25050,
+      "debtToEarningsRatio": 0.6221438505861315,
+      "valueScore": 46,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "160977",
+      "name": "Bates College",
+      "city": "Lewiston",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": 29351,
+      "graduationRate": 0.9012,
+      "medianEarnings": 69498,
+      "medianDebt": 14275,
+      "debtToEarningsRatio": 0.20540159429048319,
+      "valueScore": 65,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "160995",
+      "name": "Beal University",
+      "city": "Bangor",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private for-profit",
+      "netPrice": 40109,
+      "graduationRate": 0.3517,
+      "medianEarnings": 35639,
+      "medianDebt": 19500,
+      "debtToEarningsRatio": 0.5471533993658633,
+      "valueScore": 25,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161004",
+      "name": "Bowdoin College",
+      "city": "Brunswick",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": 14398,
+      "graduationRate": 0.9544,
+      "medianEarnings": 82735,
+      "medianDebt": 18500,
+      "debtToEarningsRatio": 0.22360548739952862,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161022",
+      "name": "Maine College of Health Professions",
+      "city": "Lewiston",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": 26312,
+      "graduationRate": null,
+      "medianEarnings": 79840,
+      "medianDebt": 15250,
+      "debtToEarningsRatio": 0.19100701402805612,
+      "valueScore": 55,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161077",
+      "name": "Central Maine Community College",
+      "city": "Auburn",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 6975,
+      "graduationRate": 0.2902,
+      "medianEarnings": 42448,
+      "medianDebt": 12000,
+      "debtToEarningsRatio": 0.28269883151149644,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161086",
+      "name": "Colby College",
+      "city": "Waterville",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": 17180,
+      "graduationRate": 0.8949,
+      "medianEarnings": 80490,
+      "medianDebt": 19157,
+      "debtToEarningsRatio": 0.2380047210833644,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161138",
+      "name": "Eastern Maine Community College",
+      "city": "Bangor",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 8928,
+      "graduationRate": 0.3253,
+      "medianEarnings": 41704,
+      "medianDebt": 11293,
+      "debtToEarningsRatio": 0.27078937272204107,
+      "valueScore": 92,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161192",
+      "name": "Kennebec Valley Community College",
+      "city": "Fairfield",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 3910,
+      "graduationRate": 0.4371,
+      "medianEarnings": 36035,
+      "medianDebt": 13255,
+      "debtToEarningsRatio": 0.36783682530872763,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161208",
+      "name": "The Landing School",
+      "city": "Arundel",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": 35532,
+      "graduationRate": 0.9804,
+      "medianEarnings": 65849,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 58,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161217",
+      "name": "University of Maine at Augusta",
+      "city": "Augusta",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 10924,
+      "graduationRate": 0.254,
+      "medianEarnings": 40342,
+      "medianDebt": 22734,
+      "debtToEarningsRatio": 0.5635318030836349,
+      "valueScore": 73,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161226",
+      "name": "University of Maine at Farmington",
+      "city": "Farmington",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 16857,
+      "graduationRate": 0.5218,
+      "medianEarnings": 44433,
+      "medianDebt": 24499,
+      "debtToEarningsRatio": 0.5513694776404924,
+      "valueScore": 60,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161235",
+      "name": "University of Maine at Fort Kent",
+      "city": "Fort Kent",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 7482,
+      "graduationRate": 0.3963,
+      "medianEarnings": 51077,
+      "medianDebt": 20160,
+      "debtToEarningsRatio": 0.39469820075572176,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161253",
+      "name": "University of Maine",
+      "city": "Orono",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 17510,
+      "graduationRate": 0.5569,
+      "medianEarnings": 48653,
+      "medianDebt": 25000,
+      "debtToEarningsRatio": 0.5138429284936181,
+      "valueScore": 64,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161299",
+      "name": "Maine Maritime Academy",
+      "city": "Castine",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 23414,
+      "graduationRate": 0.5987,
+      "medianEarnings": 89964,
+      "medianDebt": 27000,
+      "debtToEarningsRatio": 0.30012004801920766,
+      "valueScore": 84,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161341",
+      "name": "University of Maine at Presque Isle",
+      "city": "Presque Isle",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 7035,
+      "graduationRate": 0.4476,
+      "medianEarnings": 40956,
+      "medianDebt": 16000,
+      "debtToEarningsRatio": 0.39066315069831037,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161457",
+      "name": "University of New England",
+      "city": "Biddeford",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": 38107,
+      "graduationRate": 0.6454,
+      "medianEarnings": 55921,
+      "medianDebt": 25250,
+      "debtToEarningsRatio": 0.45152983673396396,
+      "valueScore": 43,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161484",
+      "name": "Northern Maine Community College",
+      "city": "Presque Isle",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 7181,
+      "graduationRate": 0.3793,
+      "medianEarnings": 43348,
+      "medianDebt": 10825,
+      "debtToEarningsRatio": 0.24972317061917504,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161493",
+      "name": "Empire Beauty School-Maine",
+      "city": "Bangor",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private for-profit",
+      "netPrice": 16191,
+      "graduationRate": 0.6475,
+      "medianEarnings": 23925,
+      "medianDebt": 13000,
+      "debtToEarningsRatio": 0.5433646812957158,
+      "valueScore": 43,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161509",
+      "name": "Maine College of Art & Design",
+      "city": "Portland",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": 38338,
+      "graduationRate": 0.5,
+      "medianEarnings": 40778,
+      "medianDebt": 27000,
+      "debtToEarningsRatio": 0.662121732306636,
+      "valueScore": 32,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161518",
+      "name": "Saint Joseph's College of Maine",
+      "city": "Standish",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": 27555,
+      "graduationRate": 0.6704,
+      "medianEarnings": 59045,
+      "medianDebt": 27000,
+      "debtToEarningsRatio": 0.4572783470234567,
+      "valueScore": 55,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161527",
+      "name": "Spa Tech Institute-Westbrook",
+      "city": "Westbrook",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private for-profit",
+      "netPrice": 29953,
+      "graduationRate": 0.8533,
+      "medianEarnings": 27803,
+      "medianDebt": 6333,
+      "debtToEarningsRatio": 0.2277811746933784,
+      "valueScore": 38,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161545",
+      "name": "Southern Maine Community College",
+      "city": "South Portland",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 11086,
+      "graduationRate": 0.2447,
+      "medianEarnings": 41661,
+      "medianDebt": 10331,
+      "debtToEarningsRatio": 0.247977724970596,
+      "valueScore": 74,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161554",
+      "name": "University of Southern Maine",
+      "city": "Portland",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 13596,
+      "graduationRate": 0.4329,
+      "medianEarnings": 49958,
+      "medianDebt": 19060,
+      "debtToEarningsRatio": 0.3815204772008487,
+      "valueScore": 77,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161563",
+      "name": "Thomas College",
+      "city": "Waterville",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": 18885,
+      "graduationRate": 0.5258,
+      "medianEarnings": 44991,
+      "medianDebt": 24250,
+      "debtToEarningsRatio": 0.5389966882265342,
+      "valueScore": 56,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161572",
+      "name": "Unity Environmental University",
+      "city": "New Gloucester",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": 19104,
+      "graduationRate": 0.4407,
+      "medianEarnings": 37852,
+      "medianDebt": 25000,
+      "debtToEarningsRatio": 0.6604670823206171,
+      "valueScore": 47,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "161581",
+      "name": "Washington County Community College",
+      "city": "Calais",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 5149,
+      "graduationRate": 0.4851,
+      "medianEarnings": 34407,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "420440",
+      "name": "York County Community College",
+      "city": "Wells",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": 5875,
+      "graduationRate": 0.3093,
+      "medianEarnings": 44873,
+      "medianDebt": 8861,
+      "debtToEarningsRatio": 0.19746841084839437,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "461704",
+      "name": "Capilo School of Hair Design",
+      "city": "Augusta",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private for-profit",
+      "netPrice": 18711,
+      "graduationRate": 0.7636,
+      "medianEarnings": null,
+      "medianDebt": 7700,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "461962",
+      "name": "Northeast Technical Institute",
+      "city": "Scarborough",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private for-profit",
+      "netPrice": 26546,
+      "graduationRate": 0.866,
+      "medianEarnings": null,
+      "medianDebt": 8708,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "462044",
+      "name": "Institute for Doctoral Studies in the Visual Arts",
+      "city": "Portland",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "487524",
+      "name": "Husson University",
+      "city": "Bangor",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": 21005,
+      "graduationRate": 0.581,
+      "medianEarnings": 45025,
+      "medianDebt": 27000,
+      "debtToEarningsRatio": 0.5996668517490283,
+      "valueScore": 53,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "490753",
+      "name": "Maine Media College",
+      "city": "Rockport",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "16099501",
+      "name": "Beal University",
+      "city": "Wilton",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": 35639,
+      "medianDebt": 19500,
+      "debtToEarningsRatio": 0.5471533993658633,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "16125301",
+      "name": "University of Maine - Machias",
+      "city": "Machias",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Public",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": 48653,
+      "medianDebt": 25000,
+      "debtToEarningsRatio": 0.5138429284936181,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "16157202",
+      "name": "Unity Environmental University - Unity",
+      "city": "Unity",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private nonprofit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": 37852,
+      "medianDebt": 25000,
+      "debtToEarningsRatio": 0.6604670823206171,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "18303501",
+      "name": "New Hampshire Institute for Therapeutic Arts",
+      "city": "Harrison",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    }
+  ],
+  "federalSpending": [
+    {
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbreviation": "ME",
+      "fiscalYear": 2024,
+      "total": 21045892160.78,
+      "perCapita": 15396.252647889569,
+      "source": "USAspending.gov"
+    }
+  ],
+  "recessionRadar": {
+    "overall": "low",
+    "score": 33,
+    "components": {
+      "unemploymentTrend": "stable",
+      "housingActivity": "stable",
+      "laborMarket": "stable"
+    },
+    "methodologyNote": "Educational indicator based on latest state unemployment relative to simple public thresholds.",
+    "sources": [
+      "FRED state unemployment series"
+    ]
+  }
+}

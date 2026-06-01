@@ -1,4 +1,4 @@
-# LocalLedger - Colorado Economic Observatory
+# LocalLedger - Public Economic Intelligence
 
 Public economic intelligence for every community. LocalLedger transforms official labor, income, housing, education, business, and public finance data into readable dashboards, scorecards, and economic briefs.
 
@@ -8,6 +8,9 @@ Public economic intelligence for every community. LocalLedger transforms officia
 
 ## What it does
 
+- **National State Dashboards** - `/states` plus one dashboard per state
+- **County Dashboards** - top county pages plus full county static JSON by state
+- **Metro Previews** - major place-based metro pages from Census ACS
 - **Colorado Overview** - statewide KPIs, trend charts, city comparison
 - **City Dashboards** - Denver, Boulder, Colorado Springs, Fort Collins, Aurora with scorecards and trend data
 - **64 Counties** - searchable/sortable table with population, income, unemployment, housing, federal spending, and economy score
@@ -15,6 +18,7 @@ Public economic intelligence for every community. LocalLedger transforms officia
 - **Federal Spending** - USAspending.gov: grants, contracts, loans, per-capita, agency breakdown
 - **Recession Radar** - educational slowdown risk indicator with transparent methodology
 - **Methodology** - fully documented score formulas, thresholds, and data sources
+- **Rankings** - best local economies, income, college affordability, and federal spending
 - **Static JSON API** - all processed data published at `/data/processed/`
 
 ---
@@ -78,7 +82,7 @@ pnpm install
 
 ### API Keys (optional)
 
-Create a `.env.local` file:
+Create a `.env` or `.env.local` file:
 
 ```env
 FRED_API_KEY=your_fred_key         # https://fred.stlouisfed.org/docs/api/api_key.html
@@ -87,7 +91,7 @@ COLLEGE_SCORECARD_API_KEY=your_key # https://api.data.gov/signup/
 BEA_API_KEY=your_bea_key           # https://apps.bea.gov/api/signup/
 ```
 
-Without API keys, the data pipeline will write "Data unavailable" stubs - the app still builds and runs, but most KPIs will show "Data unavailable."
+Without API keys, the data pipeline writes explicit structured unavailable values with source attempt reasons. Production builds should use keys.
 
 ### Commands
 
@@ -100,6 +104,21 @@ pnpm lint          # ESLint
 pnpm test          # Jest unit tests
 pnpm build         # Full build (runs data:fetch + data:validate first)
 ```
+
+### Routes
+
+- `/states`, `/states/[stateSlug]`
+- `/states/[stateSlug]/counties`, `/states/[stateSlug]/cities`
+- `/states/[stateSlug]/college-roi`, `/states/[stateSlug]/federal-spending`, `/states/[stateSlug]/recession-radar`
+- `/counties`, `/counties/[stateSlug]/[countySlug]`
+- `/metros`, `/metros/[metroSlug]`
+- `/rankings/best-local-economies`
+- `/rankings/fastest-growing-counties`
+- `/rankings/highest-income-counties`
+- `/rankings/most-affordable-college-states`
+- `/rankings/federal-spending-per-capita`
+
+The static export prebuilds every state route, every state module route, major metros, and the largest county pages. The long county tail is available in `/data/processed/counties.json` and per-state files under `/data/processed/states/`.
 
 ---
 
@@ -115,6 +134,15 @@ pnpm build         # Full build (runs data:fetch + data:validate first)
    - `CENSUS_API_KEY` - (optional) Census API key
    - `COLLEGE_SCORECARD_API_KEY` - (optional) College Scorecard API key
    - `BEA_API_KEY` - (optional) BEA API key
+
+Secret setup commands:
+
+```bash
+printf '%s' '<fred-key>' | gh secret set FRED_API_KEY --repo PandaXPanther/localledger
+printf '%s' '<census-key>' | gh secret set CENSUS_API_KEY --repo PandaXPanther/localledger
+printf '%s' '<scorecard-key>' | gh secret set COLLEGE_SCORECARD_API_KEY --repo PandaXPanther/localledger
+printf '%s' '<bea-key>' | gh secret set BEA_API_KEY --repo PandaXPanther/localledger
+```
 
 Push to `main` to trigger automatic deployment.
 

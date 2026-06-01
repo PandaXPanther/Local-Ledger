@@ -8,6 +8,9 @@ export interface CitySnapshot {
   unemploymentRate: DataPoint;
   coloradoUnemploymentRate: DataPoint;
   usUnemploymentRate: DataPoint;
+  medianHouseholdIncome: DataPoint | null;
+  medianHomeValue: DataPoint | null;
+  localEconomyScore: DataPoint | null;
   generatedAt: string;
 }
 
@@ -33,13 +36,33 @@ export function loadCitySnapshot(slug: string): CitySnapshot | null {
 
   const cityData = cities[key];
   if (!cityData) return null;
+  const cityName = cityData.city ?? cityData.name;
+  const place = Array.isArray(cities.cities)
+    ? cities.cities.find((item: Record<string, unknown>) => item.stateSlug === 'colorado' && String(item.name).toLowerCase().includes(String(cityName).toLowerCase()))
+    : null;
+
+  const metric = (field: 'medianHouseholdIncome' | 'medianHomeValue', label: string, unit: string) => place ? {
+    value: typeof place[field] === 'number' ? place[field] : null,
+    unit,
+    geography: `${cityName}, Colorado`,
+    date: '2022',
+    sourceName: 'U.S. Census Bureau',
+    sourceUrl: 'https://api.census.gov/data/2022/acs/acs5',
+    sourceDataset: `ACS 2022 5-Year ${label}`,
+    lastFetchedAt: place.lastFetchedAt ?? cities._meta?.generatedAt ?? '',
+    transformation: 'latest ACS 5-year estimate',
+    methodologyNote: 'City-level estimate from Census ACS place data.',
+  } as DataPoint : null;
 
   return {
-    city: cityData.city,
+    city: cityName,
     state: 'Colorado',
     unemploymentRate: cityData.unemploymentRate,
     coloradoUnemploymentRate: overview.unemploymentRate,
     usUnemploymentRate: overview.usUnemploymentRate,
+    medianHouseholdIncome: metric('medianHouseholdIncome', 'B19013_001E', 'USD'),
+    medianHomeValue: metric('medianHomeValue', 'B25077_001E', 'USD'),
+    localEconomyScore: null,
     generatedAt: cities._meta?.generatedAt ?? '',
   };
 }

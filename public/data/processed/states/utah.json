@@ -1,0 +1,3218 @@
+{
+  "_meta": {
+    "description": "Utah state economic dashboard data",
+    "generatedAt": "2026-06-01T02:31:29.107Z",
+    "sourceAttemptLog": [
+      {
+        "source": "BEA",
+        "id": "state-gdp",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-states",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-counties",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-places",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "UNRATE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DENV708URN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "BOUL708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COLO708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FTCO708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AK-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AK",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AZ-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AZ",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AR-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AR",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CORGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CO-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CO",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CT-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CT",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-DE-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-DE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-FL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-FL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-GA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-GA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-HI-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-HI",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-ID-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-ID",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IN-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-KS-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-KS",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-KY-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-KY",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-LA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-LA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-ME-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-ME",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MDURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MDPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MDRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MD-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MD",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MIURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MIPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MIRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MI-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MI",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MNURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MNPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MNRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MN-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MSURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MSPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MSRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MS-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MS",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MOURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MOPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MORGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MO-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MO",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MTURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MTPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MTRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MT-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MT",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NE-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NVURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NVPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NVRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NV-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NV",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NHURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NHPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NHRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NH-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NH",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NJURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NJPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NJRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NJ-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NJ",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NMURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NMPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NMRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NM-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NM",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NYURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NYPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NYRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NY-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NY",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NCURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NCPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NCRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NC-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NC",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NDURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NDPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NDRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-ND-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-ND",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "OHURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "OHPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "OHRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-OH-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-OH",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "OKURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "OKPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "OKRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-OK-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-OK",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ORURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ORPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ORRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-OR-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-OR",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "PAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "PAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "PARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-PA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-PA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "RIURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "RIPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "RIRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-RI-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-RI",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "SCURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "SCPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "SCRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-SC-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-SC",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "SDURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "SDPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "SDRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-SD-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-SD",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "TNURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "TNPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "TNRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-TN-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-TN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "TXURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "TXPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "TXRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-TX-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-TX",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "UTURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "UTPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "UTRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-UT-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-UT",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      }
+    ]
+  },
+  "state": {
+    "slug": "utah",
+    "name": "Utah",
+    "abbreviation": "UT",
+    "fips": "49",
+    "population": {
+      "value": 3283809,
+      "unit": "persons",
+      "geography": "Utah",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "medianHouseholdIncome": {
+      "value": 86833,
+      "unit": "USD",
+      "geography": "Utah",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "medianHomeValue": {
+      "value": 408500,
+      "unit": "USD",
+      "geography": "Utah",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "unemploymentRate": {
+      "value": 3.5,
+      "unit": "percent",
+      "geography": "Utah",
+      "date": "2026-04-01",
+      "sourceName": "Federal Reserve Economic Data (FRED)",
+      "sourceUrl": "https://fred.stlouisfed.org/series/UTURN",
+      "sourceDataset": "FRED Series UTURN",
+      "sourceSeriesId": "UTURN",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "gdp": {
+      "value": 240786.9,
+      "unit": "millions of chained 2017 dollars",
+      "geography": "Utah",
+      "date": "2025-01-01",
+      "sourceName": "Federal Reserve Economic Data (FRED)",
+      "sourceUrl": "https://fred.stlouisfed.org/series/UTRGSP",
+      "sourceDataset": "FRED Series UTRGSP",
+      "sourceSeriesId": "UTRGSP",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "federalSpendingPerCapita": {
+      "value": 9284.7667773552,
+      "unit": "USD per person",
+      "geography": "Utah",
+      "date": "FY2024",
+      "sourceName": "USAspending.gov",
+      "sourceUrl": "https://api.usaspending.gov/",
+      "sourceDataset": "USAspending API v2 spending_by_geography",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "localEconomyScore": {
+      "value": 65.3,
+      "unit": "score",
+      "geography": "Utah",
+      "date": "2026-06-01",
+      "sourceName": "LocalLedger methodology",
+      "sourceUrl": "https://localledger.pages.dev/methodology/",
+      "sourceDataset": "Composite score from Census, FRED, and USAspending",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "weighted score",
+      "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
+      "availability": "available"
+    }
+  },
+  "counties": [
+    {
+      "slug": "salt-lake",
+      "county": "Salt Lake County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49035",
+      "population": 1180643,
+      "medianHouseholdIncome": 90011,
+      "medianHomeValue": 440400,
+      "localEconomyScore": 65,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "utah",
+      "county": "Utah County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49049",
+      "population": 666021,
+      "medianHouseholdIncome": 91263,
+      "medianHomeValue": 443000,
+      "localEconomyScore": 65.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "davis",
+      "county": "Davis County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49011",
+      "population": 363032,
+      "medianHouseholdIncome": 101285,
+      "medianHomeValue": 423200,
+      "localEconomyScore": 69.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "weber",
+      "county": "Weber County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49057",
+      "population": 262960,
+      "medianHouseholdIncome": 82291,
+      "medianHomeValue": 346800,
+      "localEconomyScore": 63.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "washington",
+      "county": "Washington County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49053",
+      "population": 183297,
+      "medianHouseholdIncome": 71976,
+      "medianHomeValue": 417400,
+      "localEconomyScore": 55.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "cache",
+      "county": "Cache County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49005",
+      "population": 134428,
+      "medianHouseholdIncome": 72719,
+      "medianHomeValue": 351700,
+      "localEconomyScore": 58.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "tooele",
+      "county": "Tooele County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49045",
+      "population": 74032,
+      "medianHouseholdIncome": 95545,
+      "medianHomeValue": 343900,
+      "localEconomyScore": 68.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "box-elder",
+      "county": "Box Elder County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49003",
+      "population": 58291,
+      "medianHouseholdIncome": 72769,
+      "medianHomeValue": 308900,
+      "localEconomyScore": 60,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "iron",
+      "county": "Iron County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49021",
+      "population": 58068,
+      "medianHouseholdIncome": 63005,
+      "medianHomeValue": 299400,
+      "localEconomyScore": 55.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "summit",
+      "county": "Summit County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49043",
+      "population": 42524,
+      "medianHouseholdIncome": 126392,
+      "medianHomeValue": 895100,
+      "localEconomyScore": 65,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "uintah",
+      "county": "Uintah County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49047",
+      "population": 35951,
+      "medianHouseholdIncome": 67983,
+      "medianHomeValue": 253100,
+      "localEconomyScore": 59.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "wasatch",
+      "county": "Wasatch County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49051",
+      "population": 35009,
+      "medianHouseholdIncome": 104855,
+      "medianHomeValue": 620800,
+      "localEconomyScore": 64,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "sanpete",
+      "county": "Sanpete County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49039",
+      "population": 28816,
+      "medianHouseholdIncome": 64356,
+      "medianHomeValue": 268600,
+      "localEconomyScore": 57.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "sevier",
+      "county": "Sevier County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49041",
+      "population": 21667,
+      "medianHouseholdIncome": 66972,
+      "medianHomeValue": 239400,
+      "localEconomyScore": 59.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "carbon",
+      "county": "Carbon County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49007",
+      "population": 20338,
+      "medianHouseholdIncome": 53734,
+      "medianHomeValue": 176400,
+      "localEconomyScore": 56.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "duchesne",
+      "county": "Duchesne County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49013",
+      "population": 19779,
+      "medianHouseholdIncome": 70821,
+      "medianHomeValue": 228600,
+      "localEconomyScore": 61.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "san-juan",
+      "county": "San Juan County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49037",
+      "population": 14524,
+      "medianHouseholdIncome": 52108,
+      "medianHomeValue": 177900,
+      "localEconomyScore": 55.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "millard",
+      "county": "Millard County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49027",
+      "population": 13027,
+      "medianHouseholdIncome": 69403,
+      "medianHomeValue": 227000,
+      "localEconomyScore": 60.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "morgan",
+      "county": "Morgan County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49029",
+      "population": 12367,
+      "medianHouseholdIncome": 120854,
+      "medianHomeValue": 556900,
+      "localEconomyScore": 71.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "juab",
+      "county": "Juab County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49023",
+      "population": 11943,
+      "medianHouseholdIncome": 88048,
+      "medianHomeValue": 322100,
+      "localEconomyScore": 65.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "emery",
+      "county": "Emery County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49015",
+      "population": 9898,
+      "medianHouseholdIncome": 67056,
+      "medianHomeValue": 168700,
+      "localEconomyScore": 62.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "grand",
+      "county": "Grand County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49019",
+      "population": 9680,
+      "medianHouseholdIncome": 59171,
+      "medianHomeValue": 426800,
+      "localEconomyScore": 45.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "kane",
+      "county": "Kane County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49025",
+      "population": 7814,
+      "medianHouseholdIncome": 70327,
+      "medianHomeValue": 297500,
+      "localEconomyScore": 58,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "beaver",
+      "county": "Beaver County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49001",
+      "population": 7102,
+      "medianHouseholdIncome": 80268,
+      "medianHomeValue": 248200,
+      "localEconomyScore": 64.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "garfield",
+      "county": "Garfield County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49017",
+      "population": 5121,
+      "medianHouseholdIncome": 56481,
+      "medianHomeValue": 237800,
+      "localEconomyScore": 53.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "rich",
+      "county": "Rich County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49033",
+      "population": 2543,
+      "medianHouseholdIncome": 69250,
+      "medianHomeValue": 272900,
+      "localEconomyScore": 57.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "wayne",
+      "county": "Wayne County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49055",
+      "population": 2532,
+      "medianHouseholdIncome": 64870,
+      "medianHomeValue": 316200,
+      "localEconomyScore": 53.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "piute",
+      "county": "Piute County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49031",
+      "population": 1764,
+      "medianHouseholdIncome": 33359,
+      "medianHomeValue": 218800,
+      "localEconomyScore": 39.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "daggett",
+      "county": "Daggett County",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fips": "49009",
+      "population": 638,
+      "medianHouseholdIncome": 61250,
+      "medianHomeValue": 252400,
+      "localEconomyScore": 54.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    }
+  ],
+  "colleges": [
+    {
+      "unitId": "230010",
+      "name": "Bridgerland Technical College",
+      "city": "Logan",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": 2338,
+      "graduationRate": 0.7031,
+      "medianEarnings": 38347,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230038",
+      "name": "Brigham Young University",
+      "city": "Provo",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private nonprofit",
+      "netPrice": 15564,
+      "graduationRate": 0.8157,
+      "medianEarnings": 75790,
+      "medianDebt": 11069,
+      "debtToEarningsRatio": 0.1460482913313102,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230065",
+      "name": "Cameo College of Essential Beauty",
+      "city": "Murray",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": 0.8353,
+      "medianEarnings": 32364,
+      "medianDebt": 5500,
+      "debtToEarningsRatio": 0.16994191076504758,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230144",
+      "name": "Collectiv Academy",
+      "city": "Sandy",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 19748,
+      "graduationRate": 0.8,
+      "medianEarnings": 29334,
+      "medianDebt": 10540,
+      "debtToEarningsRatio": 0.35931001568146176,
+      "valueScore": 47,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230162",
+      "name": "Davis Technical College",
+      "city": "Kaysville",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": 13410,
+      "graduationRate": 0.5793,
+      "medianEarnings": 41734,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 71,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230171",
+      "name": "Utah Tech University",
+      "city": "Saint George",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": 16039,
+      "graduationRate": 0.3623,
+      "medianEarnings": 44570,
+      "medianDebt": 15000,
+      "debtToEarningsRatio": 0.3365492483733453,
+      "valueScore": 59,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230199",
+      "name": "Evans Hairstyling College-Cedar City",
+      "city": "Cedar City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 5955,
+      "graduationRate": 0.6552,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230205",
+      "name": "Evans Hairstyling College-St George",
+      "city": "Saint George",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 9355,
+      "graduationRate": 0.8974,
+      "medianEarnings": 16916,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 55,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230214",
+      "name": "Paul Mitchell the School-Salt Lake City",
+      "city": "Holladay",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 22214,
+      "graduationRate": 0.7813,
+      "medianEarnings": 26893,
+      "medianDebt": 9500,
+      "debtToEarningsRatio": 0.3532517755549771,
+      "valueScore": 41,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230366",
+      "name": "Eagle Gate College-Murray",
+      "city": "Murray",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 27345,
+      "graduationRate": 0.4918,
+      "medianEarnings": 37518,
+      "medianDebt": 43021,
+      "debtToEarningsRatio": 1.1466762620608775,
+      "valueScore": 37,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230418",
+      "name": "Ensign College",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private nonprofit",
+      "netPrice": 10824,
+      "graduationRate": 0.3764,
+      "medianEarnings": 50630,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 94,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230490",
+      "name": "Ogden-Weber Technical College",
+      "city": "Ogden",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": 3229,
+      "graduationRate": 0.5431,
+      "medianEarnings": 35032,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230597",
+      "name": "Snow College",
+      "city": "Ephraim",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": 5552,
+      "graduationRate": 0.4469,
+      "medianEarnings": 41022,
+      "medianDebt": 7000,
+      "debtToEarningsRatio": 0.17064014431280777,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230603",
+      "name": "Southern Utah University",
+      "city": "Cedar City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": 10462,
+      "graduationRate": 0.5988,
+      "medianEarnings": 50296,
+      "medianDebt": 12500,
+      "debtToEarningsRatio": 0.24852871003658342,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230676",
+      "name": "Uintah Basin Technical College",
+      "city": "Roosevelt",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": null,
+      "graduationRate": 0.8852,
+      "medianEarnings": 28178,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230728",
+      "name": "Utah State University",
+      "city": "Logan",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": 14936,
+      "graduationRate": 0.5824,
+      "medianEarnings": 54022,
+      "medianDebt": 14340,
+      "debtToEarningsRatio": 0.2654474103143164,
+      "valueScore": 80,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230737",
+      "name": "Utah Valley University",
+      "city": "Orem",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": 6376,
+      "graduationRate": 0.4313,
+      "medianEarnings": 55486,
+      "medianDebt": 14750,
+      "debtToEarningsRatio": 0.2658328226940129,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230746",
+      "name": "Salt Lake Community College",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": 9804,
+      "graduationRate": 0.2949,
+      "medianEarnings": 47867,
+      "medianDebt": 8003,
+      "debtToEarningsRatio": 0.167192429022082,
+      "valueScore": 95,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230764",
+      "name": "University of Utah",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": 16200,
+      "graduationRate": 0.6449,
+      "medianEarnings": 67170,
+      "medianDebt": 19000,
+      "debtToEarningsRatio": 0.28286437397647757,
+      "valueScore": 91,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230782",
+      "name": "Weber State University",
+      "city": "Ogden",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": 10258,
+      "graduationRate": 0.4467,
+      "medianEarnings": 56287,
+      "medianDebt": 15113,
+      "debtToEarningsRatio": 0.26849894291754756,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "230807",
+      "name": "Westminster University",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private nonprofit",
+      "netPrice": 27094,
+      "graduationRate": 0.6633,
+      "medianEarnings": 66215,
+      "medianDebt": 22250,
+      "debtToEarningsRatio": 0.33602658008004227,
+      "valueScore": 61,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "380438",
+      "name": "Provo College",
+      "city": "Provo",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 27053,
+      "graduationRate": 0.5326,
+      "medianEarnings": 39645,
+      "medianDebt": 41733,
+      "debtToEarningsRatio": 1.05266742338252,
+      "valueScore": 40,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "406486",
+      "name": "Myotherapy Massage College",
+      "city": "Millcreek",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 18920,
+      "graduationRate": 0.6818,
+      "medianEarnings": 31678,
+      "medianDebt": 8233,
+      "debtToEarningsRatio": 0.25989645810972917,
+      "valueScore": 47,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "421610",
+      "name": "Paul Mitchell the School-St. George",
+      "city": "Saint George",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 15069,
+      "graduationRate": 0.6852,
+      "medianEarnings": 38043,
+      "medianDebt": 10556,
+      "debtToEarningsRatio": 0.277475488263281,
+      "valueScore": 63,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "433387",
+      "name": "Western Governors University",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private nonprofit",
+      "netPrice": 12548,
+      "graduationRate": 0.4815,
+      "medianEarnings": 60615,
+      "medianDebt": 11116,
+      "debtToEarningsRatio": 0.18338695042481234,
+      "valueScore": 99,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "441830",
+      "name": "Healing Mountain Massage School",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 18659,
+      "graduationRate": 0.8788,
+      "medianEarnings": 22160,
+      "medianDebt": 8217,
+      "debtToEarningsRatio": 0.3708032490974729,
+      "valueScore": 43,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "444787",
+      "name": "Nightingale College",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 30852,
+      "graduationRate": 0.301,
+      "medianEarnings": 27126,
+      "medianDebt": 25250,
+      "debtToEarningsRatio": 0.9308412593084125,
+      "valueScore": 23,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "444857",
+      "name": "Skinworks School of Advanced Skincare",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 22900,
+      "graduationRate": 0.7361,
+      "medianEarnings": 35562,
+      "medianDebt": 6333,
+      "debtToEarningsRatio": 0.17808334739328496,
+      "valueScore": 46,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "445692",
+      "name": "Neumont College of Computer Science",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 35205,
+      "graduationRate": 0.5919,
+      "medianEarnings": 97827,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 65,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "447263",
+      "name": "Joyce University of Nursing and Health Sciences",
+      "city": "Draper",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 28039,
+      "graduationRate": 0.5122,
+      "medianEarnings": 49841,
+      "medianDebt": 20000,
+      "debtToEarningsRatio": 0.40127605786400755,
+      "valueScore": 45,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "447421",
+      "name": "Eagle Gate College-Layton",
+      "city": "Layton",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 25873,
+      "graduationRate": 0.5789,
+      "medianEarnings": 37518,
+      "medianDebt": 43021,
+      "debtToEarningsRatio": 1.1466762620608775,
+      "valueScore": 41,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "448220",
+      "name": "Paul Mitchell the School-Logan",
+      "city": "Logan",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 19923,
+      "graduationRate": 0.75,
+      "medianEarnings": 23620,
+      "medianDebt": 9250,
+      "debtToEarningsRatio": 0.3916172734970364,
+      "valueScore": 40,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "448239",
+      "name": "Careers Unlimited",
+      "city": "Orem",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": 30829,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "448248",
+      "name": "Mountainland Technical College",
+      "city": "Lehi",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": null,
+      "graduationRate": 0.8074,
+      "medianEarnings": 31963,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "449816",
+      "name": "Southwest Technical College",
+      "city": "Cedar City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": null,
+      "graduationRate": 0.9417,
+      "medianEarnings": 35507,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "451574",
+      "name": "Aveda Institute-Provo",
+      "city": "Provo",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 17372,
+      "graduationRate": 0.8595,
+      "medianEarnings": 20414,
+      "medianDebt": 7666,
+      "debtToEarningsRatio": 0.3755265993925737,
+      "valueScore": 43,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "451583",
+      "name": "Dixie Technical College",
+      "city": "Saint George",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": null,
+      "graduationRate": 0.8038,
+      "medianEarnings": 31051,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "455381",
+      "name": "Skin Science Institute",
+      "city": "Sandy",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 20486,
+      "graduationRate": 0.7987,
+      "medianEarnings": 27153,
+      "medianDebt": 7667,
+      "debtToEarningsRatio": 0.2823629064928369,
+      "valueScore": 44,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "456454",
+      "name": "Fortis College-Salt Lake City",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 27586,
+      "graduationRate": 0.4975,
+      "medianEarnings": 34509,
+      "medianDebt": 13000,
+      "debtToEarningsRatio": 0.37671332116259526,
+      "valueScore": 35,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "458104",
+      "name": "Renaissance Academie",
+      "city": "Provo",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 21901,
+      "graduationRate": 0.9254,
+      "medianEarnings": 21547,
+      "medianDebt": 6167,
+      "debtToEarningsRatio": 0.2862115375690351,
+      "valueScore": 41,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "459541",
+      "name": "American Beauty Academy",
+      "city": "Payson",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 12255,
+      "graduationRate": 0.725,
+      "medianEarnings": 20236,
+      "medianDebt": 10060,
+      "debtToEarningsRatio": 0.49713382091322394,
+      "valueScore": 48,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "461272",
+      "name": "Mandalyn Academy",
+      "city": "American Fork",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 13945,
+      "graduationRate": 0.7692,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "461342",
+      "name": "Acaydia School of Aesthetics",
+      "city": "Provo",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 19501,
+      "graduationRate": 0.7606,
+      "medianEarnings": null,
+      "medianDebt": 7667,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "461494",
+      "name": "Taylor Andrews Academy of Hair Design-West Jordan",
+      "city": "West Jordan",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 18265,
+      "graduationRate": 0.7174,
+      "medianEarnings": 36048,
+      "medianDebt": 10556,
+      "debtToEarningsRatio": 0.2928317798490901,
+      "valueScore": 53,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "461926",
+      "name": "Taylor Andrews Academy-St George",
+      "city": "St. George",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 16230,
+      "graduationRate": 0.8387,
+      "medianEarnings": 17368,
+      "medianDebt": 7505,
+      "debtToEarningsRatio": 0.4321165361584523,
+      "valueScore": 40,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "474924",
+      "name": "Avalon Institute-Layton",
+      "city": "Layton",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 16501,
+      "graduationRate": 0.7273,
+      "medianEarnings": 30803,
+      "medianDebt": 6332,
+      "debtToEarningsRatio": 0.20556439307859625,
+      "valueScore": 52,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "475495",
+      "name": "Rocky Mountain University of Health Professions",
+      "city": "Provo",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "475723",
+      "name": "Tooele Technical College",
+      "city": "Tooele",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": null,
+      "graduationRate": 0.7545,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "476708",
+      "name": "The Barber School",
+      "city": "Midvale",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 18744,
+      "graduationRate": 0.6148,
+      "medianEarnings": null,
+      "medianDebt": 8096,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "476993",
+      "name": "Medspa Academies",
+      "city": "South Jordan",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 19466,
+      "graduationRate": 0.9413,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "480985",
+      "name": "Midwives College of Utah",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private nonprofit",
+      "netPrice": 37278,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": 21054,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "481100",
+      "name": "Top Nails & Hair Beauty School",
+      "city": "Taylorsville",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": 0.9543,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "481456",
+      "name": "Bonnie Joseph Academy of Cosmetology & Barbering",
+      "city": "Heber City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": 0.5333,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "484394",
+      "name": "Taylor Andrews Academy of Hair Design-Provo",
+      "city": "Provo",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 24085,
+      "graduationRate": 0.8039,
+      "medianEarnings": 36048,
+      "medianDebt": 10556,
+      "debtToEarningsRatio": 0.2928317798490901,
+      "valueScore": 47,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "489247",
+      "name": "American Beauty Academy-West Valley Campus",
+      "city": "West Valley City",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 13882,
+      "graduationRate": 0.5208,
+      "medianEarnings": 20236,
+      "medianDebt": 10060,
+      "debtToEarningsRatio": 0.49713382091322394,
+      "valueScore": 39,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "494649",
+      "name": "Esteem Academy of Beauty",
+      "city": "South Ogden",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 12002,
+      "graduationRate": 0.9412,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "495101",
+      "name": "Zion Massage College",
+      "city": "St. George",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 22276,
+      "graduationRate": 0.9059,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "495411",
+      "name": "Paul Mitchell the School-Provo",
+      "city": "Provo",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 24785,
+      "graduationRate": 0.6892,
+      "medianEarnings": 27407,
+      "medianDebt": 9917,
+      "debtToEarningsRatio": 0.36184186521691536,
+      "valueScore": 37,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "497268",
+      "name": "Arizona College of Nursing-Salt Lake City",
+      "city": "Murray",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 37660,
+      "graduationRate": null,
+      "medianEarnings": 34657,
+      "medianDebt": 9500,
+      "debtToEarningsRatio": 0.27411489742331996,
+      "valueScore": 17,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "499307",
+      "name": "Galen Health Institutes-Salt Lake City",
+      "city": "Draper",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": 28324,
+      "graduationRate": null,
+      "medianEarnings": 61480,
+      "medianDebt": 24166,
+      "debtToEarningsRatio": 0.3930709173715029,
+      "valueScore": 39,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "23059701",
+      "name": "Snow College-Richfield Campus",
+      "city": "Richfield",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Public",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": 41022,
+      "medianDebt": 7000,
+      "debtToEarningsRatio": 0.17064014431280777,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "45538101",
+      "name": "Utah County Campus",
+      "city": "Orem",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": 27153,
+      "medianDebt": 7667,
+      "debtToEarningsRatio": 0.2823629064928369,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "48079001",
+      "name": "Rocky Vista University - Southern Utah",
+      "city": "Ivins",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    }
+  ],
+  "federalSpending": [
+    {
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbreviation": "UT",
+      "fiscalYear": 2024,
+      "total": 30489400706.38,
+      "perCapita": 9284.7667773552,
+      "source": "USAspending.gov"
+    }
+  ],
+  "recessionRadar": {
+    "overall": "low",
+    "score": 35,
+    "components": {
+      "unemploymentTrend": "stable",
+      "housingActivity": "stable",
+      "laborMarket": "stable"
+    },
+    "methodologyNote": "Educational indicator based on latest state unemployment relative to simple public thresholds.",
+    "sources": [
+      "FRED state unemployment series"
+    ]
+  }
+}

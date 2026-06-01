@@ -1,0 +1,2513 @@
+{
+  "_meta": {
+    "description": "New Mexico state economic dashboard data",
+    "generatedAt": "2026-06-01T02:31:29.107Z",
+    "sourceAttemptLog": [
+      {
+        "source": "BEA",
+        "id": "state-gdp",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-states",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-counties",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "Census",
+        "id": "acs-places",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "UNRATE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DENV708URN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "BOUL708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COLO708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FTCO708URN",
+        "ok": false,
+        "status": 400,
+        "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ALRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AKRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AK-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AK",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "AZRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AZ-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AZ",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ARRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-AR-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-AR",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "COPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CORGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CO-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CO",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "CTRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-CT-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-CT",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "DERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-DE-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-DE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "FLRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-FL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-FL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "GARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-GA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-GA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "HIRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-HI-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-HI",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IDRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-ID-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-ID",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "ILRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IL-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IL",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "INRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IN-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "IARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-IA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-IA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KSRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-KS-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-KS",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "KYRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-KY-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-KY",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "LARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-LA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-LA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-ME-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-ME",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MDURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MDPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MDRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MD-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MD",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MAURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MAPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MARGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MA-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MA",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MIURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MIPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MIRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MI-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MI",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MNURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MNPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MNRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MN-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MSURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MSPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MSRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MS-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MS",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MOURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MOPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MORGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MO-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MO",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MTURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MTPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "MTRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-MT-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-MT",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NEURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NEPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NERGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NE-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NE",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NVURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NVPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NVRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NV-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NV",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NHURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NHPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NHRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NH-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NH",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NJURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NJPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NJRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NJ-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NJ",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NMURN",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NMPOP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "FRED",
+        "id": "NMRGSP",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "USAspending",
+        "id": "state-NM-2024",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      },
+      {
+        "source": "College Scorecard",
+        "id": "scorecard-NM",
+        "ok": true,
+        "status": 200,
+        "retrievedAt": "2026-06-01T02:31:29.107Z"
+      }
+    ]
+  },
+  "state": {
+    "slug": "new-mexico",
+    "name": "New Mexico",
+    "abbreviation": "NM",
+    "fips": "35",
+    "population": {
+      "value": 2112463,
+      "unit": "persons",
+      "geography": "New Mexico",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "medianHouseholdIncome": {
+      "value": 58722,
+      "unit": "USD",
+      "geography": "New Mexico",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "medianHomeValue": {
+      "value": 216000,
+      "unit": "USD",
+      "geography": "New Mexico",
+      "date": "2022",
+      "sourceName": "U.S. Census Bureau",
+      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
+      "sourceDataset": "ACS 2022 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "unemploymentRate": {
+      "value": 4.6,
+      "unit": "percent",
+      "geography": "New Mexico",
+      "date": "2026-04-01",
+      "sourceName": "Federal Reserve Economic Data (FRED)",
+      "sourceUrl": "https://fred.stlouisfed.org/series/NMURN",
+      "sourceDataset": "FRED Series NMURN",
+      "sourceSeriesId": "NMURN",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "gdp": {
+      "value": 120851.9,
+      "unit": "millions of chained 2017 dollars",
+      "geography": "New Mexico",
+      "date": "2025-01-01",
+      "sourceName": "Federal Reserve Economic Data (FRED)",
+      "sourceUrl": "https://fred.stlouisfed.org/series/NMRGSP",
+      "sourceDataset": "FRED Series NMRGSP",
+      "sourceSeriesId": "NMRGSP",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "federalSpendingPerCapita": {
+      "value": 19032.828572183276,
+      "unit": "USD per person",
+      "geography": "New Mexico",
+      "date": "FY2024",
+      "sourceName": "USAspending.gov",
+      "sourceUrl": "https://api.usaspending.gov/",
+      "sourceDataset": "USAspending API v2 spending_by_geography",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "latest official observation",
+      "methodologyNote": "Pulled from the cited official public source.",
+      "availability": "available"
+    },
+    "localEconomyScore": {
+      "value": 59.1,
+      "unit": "score",
+      "geography": "New Mexico",
+      "date": "2026-06-01",
+      "sourceName": "LocalLedger methodology",
+      "sourceUrl": "https://localledger.pages.dev/methodology/",
+      "sourceDataset": "Composite score from Census, FRED, and USAspending",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z",
+      "transformation": "weighted score",
+      "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
+      "availability": "available"
+    }
+  },
+  "counties": [
+    {
+      "slug": "bernalillo",
+      "county": "Bernalillo County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35001",
+      "population": 674692,
+      "medianHouseholdIncome": 62220,
+      "medianHomeValue": 247300,
+      "localEconomyScore": 58.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "do-a-ana",
+      "county": "Doña Ana County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35013",
+      "population": 219870,
+      "medianHouseholdIncome": 51232,
+      "medianHomeValue": 187400,
+      "localEconomyScore": 55.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "santa-fe",
+      "county": "Santa Fe County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35049",
+      "population": 154481,
+      "medianHouseholdIncome": 70522,
+      "medianHomeValue": 374200,
+      "localEconomyScore": 55.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "sandoval",
+      "county": "Sandoval County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35043",
+      "population": 149460,
+      "medianHouseholdIncome": 76424,
+      "medianHomeValue": 258100,
+      "localEconomyScore": 63.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "san-juan",
+      "county": "San Juan County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35045",
+      "population": 121798,
+      "medianHouseholdIncome": 50734,
+      "medianHomeValue": 170700,
+      "localEconomyScore": 55.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "valencia",
+      "county": "Valencia County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35061",
+      "population": 76613,
+      "medianHouseholdIncome": 56246,
+      "medianHomeValue": 184400,
+      "localEconomyScore": 57.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "lea",
+      "county": "Lea County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35025",
+      "population": 73103,
+      "medianHouseholdIncome": 65855,
+      "medianHomeValue": 162000,
+      "localEconomyScore": 62.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "mckinley",
+      "county": "McKinley County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35031",
+      "population": 72073,
+      "medianHouseholdIncome": 44029,
+      "medianHomeValue": 70200,
+      "localEconomyScore": 58.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "otero",
+      "county": "Otero County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35035",
+      "population": 67850,
+      "medianHouseholdIncome": 50833,
+      "medianHomeValue": 139100,
+      "localEconomyScore": 57.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "chaves",
+      "county": "Chaves County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35005",
+      "population": 64701,
+      "medianHouseholdIncome": 49673,
+      "medianHomeValue": 133200,
+      "localEconomyScore": 57.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "eddy",
+      "county": "Eddy County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35015",
+      "population": 61264,
+      "medianHouseholdIncome": 77458,
+      "medianHomeValue": 188400,
+      "localEconomyScore": 66,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "curry",
+      "county": "Curry County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35009",
+      "population": 48327,
+      "medianHouseholdIncome": 55427,
+      "medianHomeValue": 151300,
+      "localEconomyScore": 58.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "rio-arriba",
+      "county": "Rio Arriba County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35039",
+      "population": 40285,
+      "medianHouseholdIncome": 52031,
+      "medianHomeValue": 212700,
+      "localEconomyScore": 53.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "taos",
+      "county": "Taos County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35055",
+      "population": 34475,
+      "medianHouseholdIncome": 55145,
+      "medianHomeValue": 313400,
+      "localEconomyScore": 49.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "grant",
+      "county": "Grant County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35017",
+      "population": 28006,
+      "medianHouseholdIncome": 44895,
+      "medianHomeValue": 153900,
+      "localEconomyScore": 53,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "san-miguel",
+      "county": "San Miguel County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35047",
+      "population": 27215,
+      "medianHouseholdIncome": 43490,
+      "medianHomeValue": 150400,
+      "localEconomyScore": 52.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "cibola",
+      "county": "Cibola County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35006",
+      "population": 27211,
+      "medianHouseholdIncome": 49866,
+      "medianHomeValue": 101900,
+      "localEconomyScore": 58.6,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "luna",
+      "county": "Luna County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35029",
+      "population": 25393,
+      "medianHouseholdIncome": 38241,
+      "medianHomeValue": 100900,
+      "localEconomyScore": 53.3,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "lincoln",
+      "county": "Lincoln County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35027",
+      "population": 20222,
+      "medianHouseholdIncome": 47919,
+      "medianHomeValue": 195800,
+      "localEconomyScore": 51.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "los-alamos",
+      "county": "Los Alamos County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35028",
+      "population": 19253,
+      "medianHouseholdIncome": 135801,
+      "medianHomeValue": 412700,
+      "localEconomyScore": 75.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "roosevelt",
+      "county": "Roosevelt County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35041",
+      "population": 19142,
+      "medianHouseholdIncome": 52644,
+      "medianHomeValue": 128100,
+      "localEconomyScore": 58,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "socorro",
+      "county": "Socorro County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35053",
+      "population": 16453,
+      "medianHouseholdIncome": 40699,
+      "medianHomeValue": 132700,
+      "localEconomyScore": 51.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "torrance",
+      "county": "Torrance County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35057",
+      "population": 15203,
+      "medianHouseholdIncome": 50727,
+      "medianHomeValue": 132600,
+      "localEconomyScore": 56.7,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "colfax",
+      "county": "Colfax County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35007",
+      "population": 12370,
+      "medianHouseholdIncome": 46286,
+      "medianHomeValue": 138400,
+      "localEconomyScore": 54.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "sierra",
+      "county": "Sierra County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35051",
+      "population": 11506,
+      "medianHouseholdIncome": 35256,
+      "medianHomeValue": 138400,
+      "localEconomyScore": 48.1,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "quay",
+      "county": "Quay County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35037",
+      "population": 8641,
+      "medianHouseholdIncome": 38998,
+      "medianHomeValue": 76800,
+      "localEconomyScore": 54.9,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "guadalupe",
+      "county": "Guadalupe County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35019",
+      "population": 4413,
+      "medianHouseholdIncome": 38713,
+      "medianHomeValue": 116400,
+      "localEconomyScore": 51.2,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "mora",
+      "county": "Mora County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35033",
+      "population": 4208,
+      "medianHouseholdIncome": 40231,
+      "medianHomeValue": 105600,
+      "localEconomyScore": 52.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "hidalgo",
+      "county": "Hidalgo County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35023",
+      "population": 4160,
+      "medianHouseholdIncome": 53651,
+      "medianHomeValue": 102500,
+      "localEconomyScore": 58.8,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "union",
+      "county": "Union County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35059",
+      "population": 4074,
+      "medianHouseholdIncome": 41714,
+      "medianHomeValue": 126900,
+      "localEconomyScore": 52,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "catron",
+      "county": "Catron County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35003",
+      "population": 3635,
+      "medianHouseholdIncome": 44777,
+      "medianHomeValue": 156400,
+      "localEconomyScore": 51.4,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "de-baca",
+      "county": "De Baca County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35011",
+      "population": 1695,
+      "medianHouseholdIncome": 34702,
+      "medianHomeValue": 219200,
+      "localEconomyScore": 39.5,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "slug": "harding",
+      "county": "Harding County",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fips": "35021",
+      "population": 671,
+      "medianHouseholdIncome": 39489,
+      "medianHomeValue": 95500,
+      "localEconomyScore": 52,
+      "source": "U.S. Census Bureau ACS 2022 5-Year",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    }
+  ],
+  "colleges": [
+    {
+      "unitId": "105543",
+      "name": "Pima Medical Institute-Albuquerque",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": 21084,
+      "graduationRate": 0.6324,
+      "medianEarnings": 30917,
+      "medianDebt": 5500,
+      "debtToEarningsRatio": 0.17789565611152441,
+      "valueScore": 42,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187505",
+      "name": "Olympian Academy of Cosmetology",
+      "city": "LAS CRUCES",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": 20793,
+      "graduationRate": 0.6332,
+      "medianEarnings": 23991,
+      "medianDebt": 9500,
+      "debtToEarningsRatio": 0.3959818265182777,
+      "valueScore": 37,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187532",
+      "name": "Central New Mexico Community College",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 4621,
+      "graduationRate": 0.2998,
+      "medianEarnings": 36869,
+      "medianDebt": 6612,
+      "debtToEarningsRatio": 0.17933765494046489,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187596",
+      "name": "Navajo Technical University",
+      "city": "Crownpoint",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 5338,
+      "graduationRate": 0.1585,
+      "medianEarnings": 26364,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 93,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187620",
+      "name": "New Mexico State University-Dona Ana",
+      "city": "Las Cruces",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 6048,
+      "graduationRate": 0.1733,
+      "medianEarnings": 39067,
+      "medianDebt": 17095,
+      "debtToEarningsRatio": 0.4375815906007628,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187639",
+      "name": "Clovis Community College",
+      "city": "Clovis",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 3230,
+      "graduationRate": 0.3803,
+      "medianEarnings": 34020,
+      "medianDebt": 7250,
+      "debtToEarningsRatio": 0.21310993533215755,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187648",
+      "name": "Eastern New Mexico University-Main Campus",
+      "city": "Portales",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 4904,
+      "graduationRate": 0.4229,
+      "medianEarnings": 38550,
+      "medianDebt": 16500,
+      "debtToEarningsRatio": 0.4280155642023346,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187666",
+      "name": "Eastern New Mexico University-Roswell Campus",
+      "city": "Roswell",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 3645,
+      "graduationRate": 0.2979,
+      "medianEarnings": 38550,
+      "medianDebt": 16500,
+      "debtToEarningsRatio": 0.4280155642023346,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187745",
+      "name": "Institute of American Indian and Alaska Native Culture and Arts Development",
+      "city": "Santa Fe",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 12570,
+      "graduationRate": 0.2021,
+      "medianEarnings": 24505,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 40,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187897",
+      "name": "New Mexico Highlands University",
+      "city": "Las Vegas",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 14838,
+      "graduationRate": 0.259,
+      "medianEarnings": 45937,
+      "medianDebt": 11399,
+      "debtToEarningsRatio": 0.24814419748786382,
+      "valueScore": 62,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187903",
+      "name": "New Mexico Junior College",
+      "city": "Hobbs",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 6524,
+      "graduationRate": 0.4211,
+      "medianEarnings": 34233,
+      "medianDebt": 11313,
+      "debtToEarningsRatio": 0.33047059854526334,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187912",
+      "name": "New Mexico Military Institute",
+      "city": "Roswell",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 4571,
+      "graduationRate": 0.4115,
+      "medianEarnings": 57410,
+      "medianDebt": 5500,
+      "debtToEarningsRatio": 0.09580212506531963,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187958",
+      "name": "University of New Mexico-Gallup Campus",
+      "city": "Gallup",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 4868,
+      "graduationRate": 0.1947,
+      "medianEarnings": 44792,
+      "medianDebt": 18450,
+      "debtToEarningsRatio": 0.4119039114127523,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187967",
+      "name": "New Mexico Institute of Mining and Technology",
+      "city": "Socorro",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 9873,
+      "graduationRate": 0.5675,
+      "medianEarnings": 76489,
+      "medianDebt": 19085,
+      "debtToEarningsRatio": 0.24951300186954986,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187976",
+      "name": "University of New Mexico-Los Alamos Campus",
+      "city": "Los Alamos",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 13470,
+      "graduationRate": 0.266,
+      "medianEarnings": 44792,
+      "medianDebt": 18450,
+      "debtToEarningsRatio": 0.4119039114127523,
+      "valueScore": 67,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187985",
+      "name": "University of New Mexico-Main Campus",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 15489,
+      "graduationRate": 0.535,
+      "medianEarnings": 44792,
+      "medianDebt": 18450,
+      "debtToEarningsRatio": 0.4119039114127523,
+      "valueScore": 65,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "187994",
+      "name": "New Mexico State University-Alamogordo",
+      "city": "Alamogordo",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 7369,
+      "graduationRate": 0.1642,
+      "medianEarnings": 39067,
+      "medianDebt": 17095,
+      "debtToEarningsRatio": 0.4375815906007628,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188003",
+      "name": "Southeast New Mexico College",
+      "city": "Carlsbad",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 5734,
+      "graduationRate": 0.2597,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188021",
+      "name": "New Mexico State University-Grants",
+      "city": "Grants",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 68,
+      "graduationRate": 0.2533,
+      "medianEarnings": 39067,
+      "medianDebt": 17095,
+      "debtToEarningsRatio": 0.4375815906007628,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188030",
+      "name": "New Mexico State University-Main Campus",
+      "city": "Las Cruces",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 8889,
+      "graduationRate": 0.5377,
+      "medianEarnings": 39067,
+      "medianDebt": 17095,
+      "debtToEarningsRatio": 0.4375815906007628,
+      "valueScore": 93,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188049",
+      "name": "University of New Mexico-Valencia County Campus",
+      "city": "Los Lunas",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 5714,
+      "graduationRate": 0.2,
+      "medianEarnings": 44792,
+      "medianDebt": 18450,
+      "debtToEarningsRatio": 0.4119039114127523,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188058",
+      "name": "Northern New Mexico College",
+      "city": "Espanola",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 7276,
+      "graduationRate": 0.3048,
+      "medianEarnings": 38112,
+      "medianDebt": 6000,
+      "debtToEarningsRatio": 0.1574307304785894,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188100",
+      "name": "San Juan College",
+      "city": "Farmington",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 5769,
+      "graduationRate": 0.3416,
+      "medianEarnings": 36513,
+      "medianDebt": 9750,
+      "debtToEarningsRatio": 0.26702818174348864,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188137",
+      "name": "Santa Fe Community College",
+      "city": "Santa Fe",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 11067,
+      "graduationRate": 0.241,
+      "medianEarnings": 38005,
+      "medianDebt": 13236,
+      "debtToEarningsRatio": 0.3482699644783581,
+      "valueScore": 68,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188182",
+      "name": "University of the Southwest",
+      "city": "Hobbs",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private nonprofit",
+      "netPrice": 16927,
+      "graduationRate": 0.2308,
+      "medianEarnings": 45389,
+      "medianDebt": 21303,
+      "debtToEarningsRatio": 0.469342792306506,
+      "valueScore": 54,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188207",
+      "name": "Southwestern College",
+      "city": "Santa Fe",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private nonprofit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188216",
+      "name": "Southwestern Indian Polytechnic Institute",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 5181,
+      "graduationRate": 0.1101,
+      "medianEarnings": 27660,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 99,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188225",
+      "name": "University of New Mexico-Taos Campus",
+      "city": "Ranchos de Taos",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 9165,
+      "graduationRate": 0.2283,
+      "medianEarnings": 44792,
+      "medianDebt": 18450,
+      "debtToEarningsRatio": 0.4119039114127523,
+      "valueScore": 94,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188261",
+      "name": "Mesalands Community College",
+      "city": "Tucumcari",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 9445,
+      "graduationRate": 0.4933,
+      "medianEarnings": 32272,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 74,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188289",
+      "name": "Vogue College of Cosmetology-Santa Fe",
+      "city": "Santa Fe",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": 17279,
+      "graduationRate": 0.7541,
+      "medianEarnings": null,
+      "medianDebt": 6333,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "188304",
+      "name": "Western New Mexico University",
+      "city": "Silver City",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 8522,
+      "graduationRate": 0.3365,
+      "medianEarnings": 39095,
+      "medianDebt": 23000,
+      "debtToEarningsRatio": 0.5883105256426653,
+      "valueScore": 91,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "245652",
+      "name": "St. John's College",
+      "city": "Santa Fe",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private nonprofit",
+      "netPrice": 26674,
+      "graduationRate": 0.5745,
+      "medianEarnings": 44985,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 45,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "363633",
+      "name": "Luna Community College",
+      "city": "Las Vegas",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 4595,
+      "graduationRate": 0.3319,
+      "medianEarnings": 32461,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "383996",
+      "name": "Eastern New Mexico University Ruidoso Branch Community College",
+      "city": "Ruidoso",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Public",
+      "netPrice": 2042,
+      "graduationRate": 0.2162,
+      "medianEarnings": 38550,
+      "medianDebt": 16500,
+      "debtToEarningsRatio": 0.4280155642023346,
+      "valueScore": 100,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "442602",
+      "name": "Carrington College-Albuquerque",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": 49030,
+      "graduationRate": 0.5872,
+      "medianEarnings": 36718,
+      "medianDebt": 9500,
+      "debtToEarningsRatio": 0.2587286889264121,
+      "valueScore": 28,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "444088",
+      "name": "Brookline College-Albuquerque",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": 37459,
+      "graduationRate": 0.5542,
+      "medianEarnings": 29576,
+      "medianDebt": 9500,
+      "debtToEarningsRatio": 0.32120638355423314,
+      "valueScore": 28,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "457776",
+      "name": "Paul Mitchell the School-Albuquerque",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": 15634,
+      "graduationRate": 0.7957,
+      "medianEarnings": 33273,
+      "medianDebt": 10556,
+      "debtToEarningsRatio": 0.31725423015658344,
+      "valueScore": 58,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "461555",
+      "name": "Aveda Institute-New Mexico",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": 15607,
+      "graduationRate": 0.8521,
+      "medianEarnings": null,
+      "medianDebt": 7000,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "488554",
+      "name": "Burrell College of Osteopathic Medicine",
+      "city": "Las Cruces",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "488651",
+      "name": "Glitz School of Cosmetology",
+      "city": "Las Cruces",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": 14378,
+      "graduationRate": 0.6378,
+      "medianEarnings": null,
+      "medianDebt": 7999,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "491826",
+      "name": "Avenue Academy A Cosmetology Institute",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": 13175,
+      "graduationRate": 0.901,
+      "medianEarnings": null,
+      "medianDebt": 6333,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "493372",
+      "name": "Urban Academy of Beauty",
+      "city": "Rio Rancho",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": 33273,
+      "medianDebt": 10556,
+      "debtToEarningsRatio": 0.31725423015658344,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "493868",
+      "name": "A Better U Beauty Barber Academy",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": 20249,
+      "graduationRate": 0.8987,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "499981",
+      "name": "Southwest University of Naprapathic Medicine",
+      "city": "Santa Fe",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": null,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": null,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    },
+    {
+      "unitId": "500467",
+      "name": "Glitz School of Cosmetology -  Santa Fe Campus",
+      "city": "Santa Fe",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "type": "Private for-profit",
+      "netPrice": 5184,
+      "graduationRate": null,
+      "medianEarnings": null,
+      "medianDebt": 7999,
+      "debtToEarningsRatio": null,
+      "valueScore": null,
+      "source": "College Scorecard",
+      "lastFetchedAt": "2026-06-01T02:31:29.107Z"
+    }
+  ],
+  "federalSpending": [
+    {
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbreviation": "NM",
+      "fiscalYear": 2024,
+      "total": 40206146144.08,
+      "perCapita": 19032.828572183276,
+      "source": "USAspending.gov"
+    }
+  ],
+  "recessionRadar": {
+    "overall": "low",
+    "score": 46,
+    "components": {
+      "unemploymentTrend": "stable",
+      "housingActivity": "stable",
+      "laborMarket": "stable"
+    },
+    "methodologyNote": "Educational indicator based on latest state unemployment relative to simple public thresholds.",
+    "sources": [
+      "FRED state unemployment series"
+    ]
+  }
+}

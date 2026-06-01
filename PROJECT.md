@@ -8,7 +8,7 @@ LocalLedger is a public economic intelligence site that turns official labor, in
 
 ## Current Status
 
-- Phase: Colorado MVP live build
+- Phase: National expansion build
 - Last update: 2026-06-01
 - Owner: Saras Totey
 - Repo: https://github.com/PandaXPanther/localledger
@@ -33,7 +33,22 @@ LocalLedger is a public economic intelligence site that turns official labor, in
 - `/api`
 - `/about`
 - `/states`
+- `/states/[stateSlug]`
+- `/states/[stateSlug]/counties`
+- `/states/[stateSlug]/cities`
+- `/states/[stateSlug]/college-roi`
+- `/states/[stateSlug]/federal-spending`
+- `/states/[stateSlug]/recession-radar`
+- `/counties`
+- `/counties/[stateSlug]/[countySlug]`
+- `/metros`
+- `/metros/[metroSlug]`
 - `/rankings`
+- `/rankings/best-local-economies`
+- `/rankings/fastest-growing-counties`
+- `/rankings/highest-income-counties`
+- `/rankings/most-affordable-college-states`
+- `/rankings/federal-spending-per-capita`
 
 ## Data Integrity
 
@@ -74,3 +89,10 @@ Required GitHub secrets are configured for:
 - Added SEO metadata, JSON-LD, sitemap, robots, source pages, methodology pages, API catalog, and founder page.
 - Added national foundations with `/states` and `/rankings`.
 - Added data fetch and validation scripts with official-source provenance rules.
+
+### 2026-06-01 02:35 UTC
+
+- Expanded LocalLedger from Colorado MVP to national static platform.
+- Added official API fetches with raw cache files, source attempt logs, retries, and per-source success counts.
+- Added logo/favicons/OG image, slim Explore nav, search index, national state/county/metro routes, and ranking routes.
+- Static export prebuilds states, state modules, major metros, and top counties; full county long tail is published as static JSON.

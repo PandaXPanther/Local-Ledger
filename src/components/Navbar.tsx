@@ -1,85 +1,152 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
-import { NAV_LINKS, SITE_NAME } from '@/lib/constants';
+import { useMemo, useState } from 'react';
+import { EXPLORE_LINKS, NAV_LINKS } from '@/lib/constants';
+
+interface SearchItem {
+  label: string;
+  type: string;
+  href: string;
+}
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
+  const [exploreOpen, setExploreOpen] = useState(false);
+  const [query, setQuery] = useState('');
+  const [items, setItems] = useState<SearchItem[]>([]);
+
+  async function loadSearch() {
+    if (items.length > 0) return;
+    const res = await fetch('/data/processed/search-index.json');
+    if (res.ok) {
+      const json = await res.json() as { items?: SearchItem[] };
+      setItems(json.items ?? []);
+    }
+  }
+
+  const matches = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return [];
+    return items.filter(item => item.label.toLowerCase().includes(q)).slice(0, 6);
+  }, [items, query]);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white border-b border-border shadow-sm" role="navigation" aria-label="Main navigation">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-blue to-brand-teal flex items-center justify-center">
-              <span className="text-white font-bold text-sm">L</span>
-            </div>
-            <span className="text-lg font-bold text-text-primary group-hover:text-brand-blue transition-colors">
-              {SITE_NAME}
-            </span>
+    <nav className="sticky top-0 z-50 border-b border-border bg-white/95 shadow-sm backdrop-blur" role="navigation" aria-label="Main navigation">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex h-16 items-center justify-between gap-4">
+          <Link href="/" className="flex shrink-0 items-center" aria-label="LocalLedger home">
+            <Image src="/logo-lockup.svg" alt="LocalLedger" width={180} height={42} priority className="h-9 w-auto" />
           </Link>
 
-          {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-1">
-            {NAV_LINKS.map(link => (
+          <div className="hidden items-center gap-1 md:flex">
+            <div className="relative">
+              <button
+                type="button"
+                onClick={() => setExploreOpen(value => !value)}
+                className="rounded-lg px-3 py-2 text-sm font-medium text-text-secondary transition-colors hover:bg-gray-50 hover:text-text-primary"
+                aria-expanded={exploreOpen}
+              >
+                Explore
+              </button>
+              {exploreOpen && (
+                <div className="absolute left-0 top-11 w-[520px] rounded-xl border border-border bg-white p-4 shadow-lg">
+                  <div className="grid grid-cols-2 gap-2">
+                    {EXPLORE_LINKS.map(link => (
+                      <Link
+                        key={link.href}
+                        href={link.href}
+                        className="rounded-lg px-3 py-2 text-sm font-medium text-text-secondary hover:bg-gray-50 hover:text-brand-blue"
+                        onClick={() => setExploreOpen(false)}
+                      >
+                        {link.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+            {NAV_LINKS.filter(link => link.label !== 'Explore').map(link => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-3 py-2 text-sm font-medium text-text-secondary hover:text-text-primary hover:bg-gray-50 rounded-lg transition-colors"
+                className="rounded-lg px-3 py-2 text-sm font-medium text-text-secondary transition-colors hover:bg-gray-50 hover:text-text-primary"
               >
                 {link.label}
               </Link>
             ))}
-            <Link href="/about/" className="ml-2 btn-primary text-sm py-2 px-4">
-              About
-            </Link>
           </div>
 
-          {/* Mobile toggle */}
+          <div className="relative hidden w-64 lg:block">
+            <input
+              type="search"
+              value={query}
+              onFocus={loadSearch}
+              onChange={event => {
+                setQuery(event.target.value);
+                void loadSearch();
+              }}
+              placeholder="Search places"
+              className="w-full rounded-lg border border-border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand-blue"
+              aria-label="Search places"
+            />
+            {matches.length > 0 && (
+              <div className="absolute right-0 top-11 w-full overflow-hidden rounded-lg border border-border bg-white shadow-lg">
+                {matches.map(item => (
+                  <Link
+                    key={`${item.type}-${item.href}`}
+                    href={item.href}
+                    className="block px-3 py-2 text-sm hover:bg-gray-50"
+                    onClick={() => setQuery('')}
+                  >
+                    <span className="font-medium text-text-primary">{item.label}</span>
+                    <span className="ml-2 text-xs text-text-muted">{item.type}</span>
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
           <button
             type="button"
-            className="md:hidden p-2 text-text-secondary hover:text-text-primary rounded-lg"
-            onClick={() => setOpen(!open)}
-            aria-expanded={open}
-            aria-label="Toggle menu"
+            className="rounded-lg p-2 text-text-secondary hover:bg-gray-50 hover:text-text-primary md:hidden"
+            onClick={() => setOpen(true)}
+            aria-label="Open menu"
           >
-            {open ? (
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            ) : (
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            )}
+            <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7h16M4 12h16M4 17h16" />
+            </svg>
           </button>
         </div>
-
-        {/* Mobile menu */}
-        {open && (
-          <div className="md:hidden border-t border-border py-3 space-y-1">
-            {NAV_LINKS.map(link => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="block px-4 py-2 text-sm font-medium text-text-secondary hover:text-text-primary hover:bg-gray-50 rounded-lg transition-colors"
-                onClick={() => setOpen(false)}
-              >
-                {link.label}
-              </Link>
-            ))}
-            <Link
-              href="/about/"
-              className="block px-4 py-2 text-sm font-medium text-brand-blue hover:bg-blue-50 rounded-lg transition-colors"
-              onClick={() => setOpen(false)}
-            >
-              About
-            </Link>
-          </div>
-        )}
       </div>
+
+      {open && (
+        <div className="fixed inset-0 z-50 bg-slate-950/35 md:hidden" onClick={() => setOpen(false)}>
+          <div className="ml-auto h-full w-80 max-w-[86vw] bg-white p-5 shadow-xl" onClick={event => event.stopPropagation()}>
+            <div className="mb-6 flex items-center justify-between">
+              <Image src="/logo-lockup.svg" alt="LocalLedger" width={160} height={38} className="h-8 w-auto" />
+              <button type="button" className="rounded-lg p-2 hover:bg-gray-50" onClick={() => setOpen(false)} aria-label="Close menu">
+                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18 18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div className="space-y-1">
+              {[...NAV_LINKS, ...EXPLORE_LINKS.filter(link => link.label !== 'States')].map(link => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="block rounded-lg px-3 py-2 text-sm font-medium text-text-secondary hover:bg-gray-50 hover:text-text-primary"
+                  onClick={() => setOpen(false)}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </nav>
   );
 }

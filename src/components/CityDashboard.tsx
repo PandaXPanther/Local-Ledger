@@ -11,7 +11,7 @@ interface CityDashboardProps {
 }
 
 export function CityDashboard({ snapshot, description }: CityDashboardProps) {
-  const { city, unemploymentRate, coloradoUnemploymentRate, usUnemploymentRate, generatedAt } = snapshot;
+  const { city, unemploymentRate, coloradoUnemploymentRate, usUnemploymentRate, medianHouseholdIncome, medianHomeValue, localEconomyScore, generatedAt } = snapshot;
 
   const coVal = coloradoUnemploymentRate?.value;
   const usVal = usUnemploymentRate?.value;
@@ -45,37 +45,9 @@ export function CityDashboard({ snapshot, description }: CityDashboardProps) {
             highlight
             comparison={coVal !== null && coVal !== undefined ? { label: 'CO avg', value: coVal, unit: 'percent' } : undefined}
           />
-          <div className="kpi-card">
-            <span className="section-label">Median Household Income</span>
-            <div className="text-2xl font-bold text-text-muted mt-2">Data unavailable</div>
-            <p className="text-xs text-text-muted mt-1">
-              City-level income data available from Census ACS. Set CENSUS_API_KEY to fetch.
-            </p>
-            <SourceBadge
-              name="U.S. Census Bureau (ACS)"
-              url="https://data.census.gov/"
-              dataset="ACS 5-Year Estimates"
-            />
-          </div>
-          <div className="kpi-card">
-            <span className="section-label">Median Home Value</span>
-            <div className="text-2xl font-bold text-text-muted mt-2">Data unavailable</div>
-            <p className="text-xs text-text-muted mt-1">
-              Housing data available from Census ACS. Set CENSUS_API_KEY to fetch.
-            </p>
-            <SourceBadge
-              name="U.S. Census Bureau (ACS)"
-              url="https://data.census.gov/"
-              dataset="ACS 5-Year Estimates"
-            />
-          </div>
-          <div className="kpi-card">
-            <span className="section-label">Local Economy Score</span>
-            <div className="text-2xl font-bold text-text-muted mt-2">Data unavailable</div>
-            <p className="text-xs text-text-muted mt-1">
-              Score requires full data inputs. Fetch Census + FRED data to compute.
-            </p>
-          </div>
+          <KpiCard label="Median Household Income" dataPoint={medianHouseholdIncome} />
+          <KpiCard label="Median Home Value" dataPoint={medianHomeValue} />
+          <KpiCard label="Local Economy Score" dataPoint={localEconomyScore} />
         </div>
       </section>
 
@@ -120,7 +92,7 @@ export function CityDashboard({ snapshot, description }: CityDashboardProps) {
       <MethodologyCallout
         type="disclaimer"
         title="Data notes"
-        note={`${city} unemployment data uses the Metropolitan Statistical Area (MSA) series from FRED, which may include surrounding counties. City-level data from Census ACS requires API access. Income, housing, and full economy score will populate when Census API key is configured.`}
+        note={`${city} unemployment data uses the Metropolitan Statistical Area (MSA) series from FRED where available, which may include surrounding counties. Income and housing use Census ACS place data.`}
       />
 
       <div className="mt-6 source-strip flex-wrap gap-3">
