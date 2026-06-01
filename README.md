@@ -2,7 +2,7 @@
 
 Official public economic data, turned into readable local dashboards.
 
-[Live site](https://localledger.pages.dev)
+[Live site](local-ledger.net)
 
 [![Build and deploy](https://github.com/PandaXPanther/localledger/actions/workflows/deploy.yml/badge.svg)](https://github.com/PandaXPanther/localledger/actions/workflows/deploy.yml)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
