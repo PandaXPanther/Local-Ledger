@@ -43,8 +43,8 @@ const DEFAULT_VALIDATION_ITEMS: HeroValidationItem[] = [
 ];
 
 const STATUS_CLASS = {
-  pass: 'border-accent/20 bg-accent-soft text-accent',
-  warn: 'border-ember/25 bg-ember-soft text-ember',
+  pass: 'border-accent/25 bg-accent-soft text-accent',
+  warn: 'border-ember/30 bg-ember-soft text-ember',
   fail: 'border-danger/20 bg-red-50 text-danger',
 };
 
@@ -113,9 +113,9 @@ export function Hero({
               <span className="font-mono text-xs font-bold uppercase tracking-[0.16em] text-accent">{pulseTitle}</span>
               <span className="rounded-full bg-accent-soft px-2 py-1 font-mono text-xs font-bold text-accent">{pulseStatus}</span>
             </div>
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-2 gap-3 xl:gap-4">
               {sourceCards.map(card => (
-                <div key={card.label} className="rounded-md border border-border bg-background/70 p-4">
+                <div key={card.label} className="min-h-[146px] rounded-md border border-border bg-background/70 p-4">
                   <div className="font-mono text-[0.65rem] uppercase tracking-[0.16em] text-text-muted">Source</div>
                   <div className="mt-2 text-base font-semibold text-ink">{card.label}</div>
                   <div className="mt-3 font-mono text-2xl font-bold text-accent">{card.value}</div>
@@ -132,7 +132,7 @@ export function Hero({
                 {validationItems.map(item => (
                   <span
                     key={item.label}
-                    className={`flex h-10 items-center justify-center rounded-sm border px-1 text-center font-mono text-[10px] font-bold uppercase leading-tight ${STATUS_CLASS[item.status]}`}
+                    className={`flex min-h-[46px] items-center justify-center rounded-sm border px-1.5 text-center font-mono text-[11px] font-bold uppercase leading-tight ${STATUS_CLASS[item.status]}`}
                     title={`${item.label}: ${statusLabel(item.status)}. ${item.detail}`}
                     aria-label={`${item.label}: ${statusLabel(item.status)}. ${item.detail}`}
                   >

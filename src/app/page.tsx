@@ -107,7 +107,7 @@ export default function HomePage() {
                   </svg>
                 </div>
                 <div className="mb-1 font-mono text-4xl font-extrabold text-ink">{card.value}</div>
-                <div className="text-sm font-medium text-text-secondary">{card.label}</div>
+                <div className="text-sm font-medium leading-tight text-text-secondary sm:text-base">{card.label}</div>
               </div>
             ))}
           </div>
@@ -164,15 +164,15 @@ export default function HomePage() {
       <section className="border-y border-rule bg-canvas py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="mb-6 font-display text-3xl font-bold text-ink">Browse by state</h2>
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-2.5 sm:gap-3">
             {browseStates.map(state => (
               <Link
                 key={state.slug}
                 href={`/states/${state.slug}/`}
-                className="inline-flex items-center rounded-full border border-border bg-surface/80 px-4 py-2 text-sm font-semibold text-text-secondary shadow-sm backdrop-blur transition-all hover:scale-[1.03] hover:border-accent/35 hover:bg-accent-soft hover:text-accent hover:shadow-md"
+                className="inline-flex max-w-full items-center gap-1.5 rounded-full border border-border bg-surface/80 px-3.5 py-2 text-sm font-semibold text-text-secondary shadow-sm backdrop-blur transition-all hover:scale-[1.03] hover:border-accent/35 hover:bg-accent-soft hover:text-accent hover:shadow-md sm:px-4"
               >
-                {state.name}
-                <svg className="ml-1.5 w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <span className="truncate">{state.name}</span>
+                <svg className="h-3.5 w-3.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </Link>
@@ -213,17 +213,35 @@ export default function HomePage() {
             </div>
           </div>
           <div className="rounded-lg border border-border bg-surface p-6 shadow-[0_18px_45px_rgba(31,36,33,0.05)]">
-            <svg viewBox="0 0 420 250" className="h-auto w-full" role="img" aria-label="United States data coverage preview">
-              <rect x="0" y="0" width="420" height="250" rx="18" fill="#F4F1EA" />
-              {states.slice(0, 50).map((state, index) => {
-                const x = 24 + (index % 10) * 38;
-                const y = 30 + Math.floor(index / 10) * 38;
-                const score = state.localEconomyScore.value ?? 0;
-                const fill = score > 65 ? '#23684A' : score > 55 ? '#B45F2A' : '#D8D0BE';
-                return <rect key={state.slug} x={x} y={y} width="28" height="28" rx="6" fill={fill}><title>{state.name}</title></rect>;
-              })}
-            </svg>
-            <p className="mt-4 text-sm text-text-secondary">Lightweight coverage map: each tile is a state generated from the national static data index.</p>
+            <div className="rounded-xl bg-canvas p-4">
+              <div className="grid grid-cols-10 gap-1.5">
+                {states.slice(0, 50).map(state => {
+                  const score = state.localEconomyScore.value ?? 0;
+                  const bg = score > 65
+                    ? 'bg-accent hover:bg-[#1A4F37]'
+                    : score > 55
+                      ? 'bg-ember hover:bg-[#9A5124]'
+                      : 'bg-[#C8BFA8] hover:bg-[#B5AA90]';
+                  return (
+                    <Link
+                      key={state.slug}
+                      href={`/states/${state.slug}/`}
+                      title={`${state.name}: ${score > 0 ? score.toFixed(1) : 'N/A'}`}
+                      aria-label={`${state.name} - Local Economy Score: ${score > 0 ? score.toFixed(1) : 'N/A'}`}
+                      className={`group relative aspect-square rounded-md ${bg} transition-all duration-150 hover:z-10 hover:scale-110 hover:shadow-md focus-visible:z-10 focus-visible:scale-110`}
+                    >
+                      <span className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-150 group-hover:opacity-100 group-focus-visible:opacity-100">
+                        <span className="pointer-events-none absolute -top-8 left-1/2 z-20 -translate-x-1/2 whitespace-nowrap rounded bg-ink px-2 py-1 text-[10px] font-semibold text-canvas shadow-lg">
+                          {state.name}
+                          <span className="ml-1 font-mono text-accent-soft">{score > 0 ? score.toFixed(0) : 'N/A'}</span>
+                        </span>
+                      </span>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+            <p className="mt-4 text-sm leading-relaxed text-text-secondary">50 states tracked - each tile links to that state&apos;s dashboard. Color = local economy score (green = strong, amber = moderate, tan = developing).</p>
           </div>
         </div>
       </section>

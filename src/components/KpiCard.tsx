@@ -22,7 +22,7 @@ export function KpiCard({ label, dataPoint, icon, highlight, comparison }: KpiCa
     : 'Data unavailable';
 
   return (
-    <div className={`kpi-card group ${highlight ? 'border-accent/35 bg-accent-soft/60 shadow-[inset_0_3px_0_#23684A,0_18px_45px_rgba(31,36,33,0.05)]' : ''}`}>
+    <div className={`kpi-card group ${highlight ? 'border-l-2 border-l-accent border-[#23684A59] bg-[#E4EEE699] shadow-[inset_0_3px_0_#23684A,0_18px_45px_rgba(31,36,33,0.05)]' : ''}`}>
       <div className="flex items-start justify-between mb-2">
         <span className="section-label">{label}</span>
         {icon && <div className="text-text-muted transition-colors group-hover:text-accent">{icon}</div>}

@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { EXPLORE_LINKS, NAV_LINKS } from '@/lib/constants';
 
 interface SearchItem {
@@ -16,6 +16,7 @@ export function Navbar() {
   const [exploreOpen, setExploreOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [items, setItems] = useState<SearchItem[]>([]);
+  const exploreRef = useRef<HTMLDivElement | null>(null);
 
   async function loadSearch() {
     if (items.length > 0) return;
@@ -32,6 +33,19 @@ export function Navbar() {
     return items.filter(item => item.label.toLowerCase().includes(q)).slice(0, 6);
   }, [items, query]);
 
+  useEffect(() => {
+    if (!exploreOpen) return;
+
+    function handlePointerDown(event: MouseEvent) {
+      if (!exploreRef.current?.contains(event.target as Node)) {
+        setExploreOpen(false);
+      }
+    }
+
+    document.addEventListener('mousedown', handlePointerDown);
+    return () => document.removeEventListener('mousedown', handlePointerDown);
+  }, [exploreOpen]);
+
   return (
     <nav className="sticky top-0 z-50 border-b border-rule bg-background/92 shadow-[0_1px_0_rgba(31,36,33,0.05)] backdrop-blur" role="navigation" aria-label="Main navigation">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -41,7 +55,7 @@ export function Navbar() {
           </Link>
 
           <div className="hidden items-center gap-1 md:flex">
-            <div className="relative">
+            <div ref={exploreRef} className="relative">
               <button
                 type="button"
                 onClick={() => setExploreOpen(value => !value)}
@@ -87,10 +101,13 @@ export function Navbar() {
                 setQuery(event.target.value);
                 void loadSearch();
               }}
-              placeholder="Search places"
-              className="w-full rounded-full border border-border bg-surface px-4 py-2 font-mono text-sm shadow-inner placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-accent"
+              placeholder="Search places  /"
+              className="w-full rounded-full border border-border bg-surface px-4 py-2 pr-14 font-mono text-sm shadow-inner placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-accent"
               aria-label="Search places"
             />
+            <span className="pointer-events-none absolute right-3 top-1/2 inline-flex -translate-y-1/2 rounded-full border border-border bg-canvas px-2 py-0.5 font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-text-muted">
+              /
+            </span>
             {matches.length > 0 && (
               <div className="absolute right-0 top-11 w-full overflow-hidden rounded-lg border border-rule bg-surface shadow-[0_20px_60px_rgba(31,36,33,0.14)]">
                 {matches.map(item => (
