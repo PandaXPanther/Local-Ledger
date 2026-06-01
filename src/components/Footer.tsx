@@ -80,6 +80,14 @@ export function Footer() {
           <p className="text-xs text-gray-500">
             Built with transparency. Every data point cites its source.
           </p>
+          <a
+            href="https://econ.mom"
+            target="_blank"
+            rel="noopener"
+            className="text-xs text-gray-500 hover:text-gray-300 transition-colors"
+          >
+            Founder site: econ.mom
+          </a>
         </div>
       </div>
     </footer>

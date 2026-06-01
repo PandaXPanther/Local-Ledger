@@ -102,3 +102,8 @@ Required GitHub secrets are configured for:
 - Reworked the hero pulse panel so source cards show real build data instead of decorative empty rectangles.
 - Added build sanity checks for homepage and Colorado KPIs plus a CI Unicode guard for U+2014.
 - Prepared public repo materials: README, license, security, contributing, code of conduct, issue templates, PR template, and branding assets.
+
+### 2026-06-01 03:55 UTC
+
+- Added econ.mom as Saras Totey's primary site and LocalLedger sister project on the About page.
+- Added footer, metadata, and JSON-LD references that connect LocalLedger with econ.mom without changing canonical URLs.

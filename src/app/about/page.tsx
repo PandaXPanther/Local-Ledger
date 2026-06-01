@@ -3,14 +3,68 @@ import Link from 'next/link';
 import { Hero } from '@/components/Hero';
 
 export const metadata: Metadata = {
-  title: 'About Saras Totey, Founder',
+  title: 'About Saras Totey, LocalLedger Founder and econ.mom Creator',
   description:
-    'Saras Totey is the founder of LocalLedger, builder of econ.mom and EconLever, and a Fairview High School student in Boulder, Colorado.',
+    'About Saras Totey, founder of LocalLedger and creator of econ.mom, with economics work from Boulder, Colorado.',
 };
 
 export default function AboutPage() {
+  const personJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    '@id': 'https://localledger.pages.dev/about/#saras',
+    name: 'Saras Totey',
+    givenName: 'Saras',
+    familyName: 'Totey',
+    jobTitle: 'Founder, LocalLedger',
+    url: 'https://econ.mom',
+    mainEntityOfPage: 'https://localledger.pages.dev/about/',
+    sameAs: [
+      'https://econ.mom',
+      'https://econlever.org',
+      'https://github.com/PandaXPanther',
+      'https://thedividendcollective.com/saras-totey',
+      'https://www.linkedin.com/in/saras-totey-64a777334/',
+      'https://www.buymeacoffee.com/sarast1',
+      'https://www.instagram.com/sarastotey_/',
+    ],
+  };
+
+  const aboutJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': 'https://localledger.pages.dev/#org',
+        name: 'LocalLedger',
+        url: 'https://localledger.pages.dev',
+        founder: { '@id': 'https://localledger.pages.dev/about/#saras' },
+        relatedLink: ['https://econ.mom'],
+        subOrganization: { '@id': 'https://econ.mom/#organization' },
+      },
+      {
+        '@type': 'WebSite',
+        '@id': 'https://localledger.pages.dev/#site',
+        url: 'https://localledger.pages.dev',
+        name: 'LocalLedger',
+        publisher: { '@id': 'https://localledger.pages.dev/#org' },
+        relatedLink: ['https://econ.mom'],
+        inLanguage: 'en-US',
+      },
+      {
+        '@type': 'Organization',
+        '@id': 'https://econ.mom/#organization',
+        name: 'econ.mom',
+        url: 'https://econ.mom',
+        founder: { '@id': 'https://localledger.pages.dev/about/#saras' },
+      },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutJsonLd) }} />
       <Hero
         tag="Founder"
         headline="Saras Totey"
@@ -28,10 +82,20 @@ export default function AboutPage() {
           </p>
           <p className="text-text-secondary leading-relaxed">
             He also serves as Head Economics Researcher at{' '}
-            <a href="https://thedividendcollective.com/saras-totey" className="text-brand-blue hover:underline">
+            <a
+              href="https://thedividendcollective.com/saras-totey"
+              target="_blank"
+              rel="noopener"
+              className="text-brand-blue hover:underline"
+            >
               The Dividend Collective
             </a>
-            , a youth-led economics and policy research organization.
+            , a youth-led economics and policy research organization, while publishing his broader economics
+            work through{' '}
+            <a href="https://econ.mom" target="_blank" rel="noopener" className="text-brand-blue hover:underline">
+              econ.mom
+            </a>
+            .
           </p>
         </section>
 
@@ -45,7 +109,7 @@ export default function AboutPage() {
           </p>
           <p className="text-text-secondary leading-relaxed">
             The journey began with{' '}
-            <a href="https://econlever.org" className="text-brand-blue hover:underline">
+            <a href="https://econlever.org" target="_blank" rel="noopener" className="text-brand-blue hover:underline">
               EconLever
             </a>
             , a single-purpose calculator built to demystify the levers behind macroeconomic policy. Students
@@ -64,7 +128,7 @@ export default function AboutPage() {
             The Mother of Econ was built independently in a bedroom in Boulder with no team and no budget.
             The lessons from shipping it, including how to make a free tool feel serious and how to earn
             trust without a brand behind you, eventually became the foundation for{' '}
-            <a href="https://attagency.co" className="text-brand-blue hover:underline">
+            <a href="https://attagency.co" target="_blank" rel="noopener" className="text-brand-blue hover:underline">
               ATT Agency
             </a>
             , a Boulder, Colorado marketing and brand studio Saras went on to co-found.
@@ -90,20 +154,47 @@ export default function AboutPage() {
 
         <section>
           <h2 className="text-2xl font-bold text-text-primary mb-4">Links</h2>
-          <div className="flex flex-wrap gap-3">
-            <a href="https://www.linkedin.com/in/saras-totey-64a777334/" className="btn-primary">
-              LinkedIn
-            </a>
-            <a href="https://www.buymeacoffee.com/sarast1" className="btn-secondary">
-              Buy Me a Coffee
-            </a>
-            <a href="https://econlever.org" className="btn-secondary">
-              EconLever
-            </a>
-            <a href="https://thedividendcollective.com/saras-totey" className="btn-secondary">
-              The Dividend Collective
-            </a>
-          </div>
+          <ul className="grid gap-3 sm:grid-cols-2">
+            {[
+              {
+                label: 'econ.mom',
+                href: 'https://econ.mom',
+                desc: 'Primary site and sister project for Saras Totey economics work.',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/saras-totey-64a777334/',
+                desc: 'Founder profile and professional background.',
+              },
+              {
+                label: 'Buy Me a Coffee',
+                href: 'https://www.buymeacoffee.com/sarast1',
+                desc: 'Support Saras Totey and independent economics tools.',
+              },
+              {
+                label: 'EconLever',
+                href: 'https://econlever.org',
+                desc: 'Macroeconomic policy lever calculator.',
+              },
+              {
+                label: 'The Dividend Collective',
+                href: 'https://thedividendcollective.com/saras-totey',
+                desc: 'Youth-led economics and policy research profile.',
+              },
+            ].map(link => (
+              <li key={link.href} className="card p-4">
+                <a
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener"
+                  className="font-semibold text-brand-blue hover:underline"
+                >
+                  {link.label}
+                </a>
+                <p className="mt-1 text-sm leading-relaxed text-text-secondary">{link.desc}</p>
+              </li>
+            ))}
+          </ul>
         </section>
 
         <div className="flex gap-4">
