@@ -1,49 +1,49 @@
 {
   "_meta": {
     "description": "Arkansas state economic dashboard data",
-    "generatedAt": "2026-06-01T03:28:30.522Z",
+    "generatedAt": "2026-06-01T04:13:25.162Z",
     "sourceAttemptLog": [
       {
         "source": "BEA",
         "id": "state-gdp",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "Census",
         "id": "acs-states",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "Census",
         "id": "acs-counties",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "Census",
         "id": "acs-places",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "UNRATE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "DENV708URN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
@@ -51,7 +51,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
@@ -59,7 +59,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
@@ -67,147 +67,147 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "ALURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "ALPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "ALRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "USAspending",
         "id": "state-AL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "AKURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "AKPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "AKRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "USAspending",
         "id": "state-AK-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AK",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "AZURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "AZPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "AZRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "USAspending",
         "id": "state-AZ-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AZ",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "ARURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "ARPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "FRED",
         "id": "ARRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "USAspending",
         "id": "state-AR-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AR",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T03:28:30.522Z"
+        "retrievedAt": "2026-06-01T04:13:25.162Z"
       }
     ]
   },
@@ -224,7 +224,7 @@
       "sourceName": "U.S. Census Bureau",
       "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
       "sourceDataset": "ACS 2022 5-Year B01003_001E",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z",
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -237,7 +237,7 @@
       "sourceName": "U.S. Census Bureau",
       "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
       "sourceDataset": "ACS 2022 5-Year B19013_001E",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z",
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -250,7 +250,7 @@
       "sourceName": "U.S. Census Bureau",
       "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
       "sourceDataset": "ACS 2022 5-Year B25077_001E",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z",
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -264,7 +264,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/ARURN",
       "sourceDataset": "FRED Series ARURN",
       "sourceSeriesId": "ARURN",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z",
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -278,7 +278,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/ARRGSP",
       "sourceDataset": "FRED Series ARRGSP",
       "sourceSeriesId": "ARRGSP",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z",
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -291,7 +291,7 @@
       "sourceName": "USAspending.gov",
       "sourceUrl": "https://api.usaspending.gov/",
       "sourceDataset": "USAspending API v2 spending_by_geography",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z",
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -304,7 +304,7 @@
       "sourceName": "LocalLedger methodology",
       "sourceUrl": "https://localledger.pages.dev/methodology/",
       "sourceDataset": "Composite score from Census, FRED, and USAspending",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z",
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
       "transformation": "weighted score",
       "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
       "availability": "available"
@@ -323,7 +323,7 @@
       "medianHomeValue": 187600,
       "localEconomyScore": 60.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "benton",
@@ -337,7 +337,7 @@
       "medianHomeValue": 254000,
       "localEconomyScore": 68.9,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "washington",
@@ -351,7 +351,7 @@
       "medianHomeValue": 235500,
       "localEconomyScore": 59.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "sebastian",
@@ -365,7 +365,7 @@
       "medianHomeValue": 154900,
       "localEconomyScore": 59.6,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "faulkner",
@@ -379,7 +379,7 @@
       "medianHomeValue": 195800,
       "localEconomyScore": 60.7,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "saline",
@@ -393,7 +393,7 @@
       "medianHomeValue": 194400,
       "localEconomyScore": 65.8,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "craighead",
@@ -407,7 +407,7 @@
       "medianHomeValue": 182600,
       "localEconomyScore": 58.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "garland",
@@ -421,7 +421,7 @@
       "medianHomeValue": 166600,
       "localEconomyScore": 58.9,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "white",
@@ -435,7 +435,7 @@
       "medianHomeValue": 150700,
       "localEconomyScore": 58.2,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "lonoke",
@@ -449,7 +449,7 @@
       "medianHomeValue": 169600,
       "localEconomyScore": 64.4,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "jefferson",
@@ -463,7 +463,7 @@
       "medianHomeValue": 105300,
       "localEconomyScore": 58.9,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "pope",
@@ -477,7 +477,7 @@
       "medianHomeValue": 152000,
       "localEconomyScore": 58.2,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "crawford",
@@ -491,7 +491,7 @@
       "medianHomeValue": 154900,
       "localEconomyScore": 60.3,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "crittenden",
@@ -505,7 +505,7 @@
       "medianHomeValue": 147300,
       "localEconomyScore": 58.4,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "greene",
@@ -519,7 +519,7 @@
       "medianHomeValue": 157400,
       "localEconomyScore": 59.2,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "miller",
@@ -533,7 +533,7 @@
       "medianHomeValue": 137700,
       "localEconomyScore": 56.9,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "baxter",
@@ -547,7 +547,7 @@
       "medianHomeValue": 155600,
       "localEconomyScore": 55.7,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "mississippi",
@@ -561,7 +561,7 @@
       "medianHomeValue": 110000,
       "localEconomyScore": 59.7,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "union",
@@ -575,7 +575,7 @@
       "medianHomeValue": 110900,
       "localEconomyScore": 59.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "independence",
@@ -589,7 +589,7 @@
       "medianHomeValue": 111300,
       "localEconomyScore": 60.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "boone",
@@ -603,7 +603,7 @@
       "medianHomeValue": 158100,
       "localEconomyScore": 57.8,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "hot-spring",
@@ -617,7 +617,7 @@
       "medianHomeValue": 119600,
       "localEconomyScore": 59.1,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "carroll",
@@ -631,7 +631,7 @@
       "medianHomeValue": 169700,
       "localEconomyScore": 59.1,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "johnson",
@@ -645,7 +645,7 @@
       "medianHomeValue": 119800,
       "localEconomyScore": 55.3,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "cleburne",
@@ -659,7 +659,7 @@
       "medianHomeValue": 162200,
       "localEconomyScore": 57.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "st-francis",
@@ -673,7 +673,7 @@
       "medianHomeValue": 82400,
       "localEconomyScore": 56.7,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "poinsett",
@@ -687,7 +687,7 @@
       "medianHomeValue": 93900,
       "localEconomyScore": 57.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "columbia",
@@ -701,7 +701,7 @@
       "medianHomeValue": 123200,
       "localEconomyScore": 57.3,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "ouachita",
@@ -715,7 +715,7 @@
       "medianHomeValue": 96000,
       "localEconomyScore": 59,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "clark",
@@ -729,7 +729,7 @@
       "medianHomeValue": 143300,
       "localEconomyScore": 56.3,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "logan",
@@ -743,7 +743,7 @@
       "medianHomeValue": 121600,
       "localEconomyScore": 59,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "conway",
@@ -757,7 +757,7 @@
       "medianHomeValue": 129600,
       "localEconomyScore": 58.2,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "yell",
@@ -771,7 +771,7 @@
       "medianHomeValue": 128400,
       "localEconomyScore": 60.6,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "hempstead",
@@ -785,7 +785,7 @@
       "medianHomeValue": 104700,
       "localEconomyScore": 57.4,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "polk",
@@ -799,7 +799,7 @@
       "medianHomeValue": 120800,
       "localEconomyScore": 57.8,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "ashley",
@@ -813,7 +813,7 @@
       "medianHomeValue": 86600,
       "localEconomyScore": 58.4,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "randolph",
@@ -827,7 +827,7 @@
       "medianHomeValue": 110700,
       "localEconomyScore": 57.4,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "grant",
@@ -841,7 +841,7 @@
       "medianHomeValue": 141400,
       "localEconomyScore": 65,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "sharp",
@@ -855,7 +855,7 @@
       "medianHomeValue": 89900,
       "localEconomyScore": 57.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "drew",
@@ -869,7 +869,7 @@
       "medianHomeValue": 123900,
       "localEconomyScore": 56,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "franklin",
@@ -883,7 +883,7 @@
       "medianHomeValue": 117500,
       "localEconomyScore": 57.6,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "arkansas",
@@ -897,7 +897,7 @@
       "medianHomeValue": 125900,
       "localEconomyScore": 61.8,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "marion",
@@ -911,7 +911,7 @@
       "medianHomeValue": 147100,
       "localEconomyScore": 53.3,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "cross",
@@ -925,7 +925,7 @@
       "medianHomeValue": 97500,
       "localEconomyScore": 59.1,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "jackson",
@@ -939,7 +939,7 @@
       "medianHomeValue": 85700,
       "localEconomyScore": 57.2,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "madison",
@@ -953,7 +953,7 @@
       "medianHomeValue": 148300,
       "localEconomyScore": 57.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "phillips",
@@ -967,7 +967,7 @@
       "medianHomeValue": 74100,
       "localEconomyScore": 56.1,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "lawrence",
@@ -981,7 +981,7 @@
       "medianHomeValue": 84300,
       "localEconomyScore": 58,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "sevier",
@@ -995,7 +995,7 @@
       "medianHomeValue": 99200,
       "localEconomyScore": 61.1,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "van-buren",
@@ -1009,7 +1009,7 @@
       "medianHomeValue": 117900,
       "localEconomyScore": 56.7,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "clay",
@@ -1023,7 +1023,7 @@
       "medianHomeValue": 85800,
       "localEconomyScore": 58.3,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "izard",
@@ -1037,7 +1037,7 @@
       "medianHomeValue": 110600,
       "localEconomyScore": 57.2,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "lincoln",
@@ -1051,7 +1051,7 @@
       "medianHomeValue": 112500,
       "localEconomyScore": 59,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "howard",
@@ -1065,7 +1065,7 @@
       "medianHomeValue": 125300,
       "localEconomyScore": 55.6,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "stone",
@@ -1079,7 +1079,7 @@
       "medianHomeValue": 153700,
       "localEconomyScore": 49.6,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "fulton",
@@ -1093,7 +1093,7 @@
       "medianHomeValue": 100000,
       "localEconomyScore": 54.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "little-river",
@@ -1107,7 +1107,7 @@
       "medianHomeValue": 108200,
       "localEconomyScore": 62.4,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "desha",
@@ -1121,7 +1121,7 @@
       "medianHomeValue": 88300,
       "localEconomyScore": 55,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "bradley",
@@ -1135,7 +1135,7 @@
       "medianHomeValue": 87900,
       "localEconomyScore": 57.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "chicot",
@@ -1149,7 +1149,7 @@
       "medianHomeValue": 88100,
       "localEconomyScore": 54.2,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "pike",
@@ -1163,7 +1163,7 @@
       "medianHomeValue": 99200,
       "localEconomyScore": 59.1,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "perry",
@@ -1177,7 +1177,7 @@
       "medianHomeValue": 123400,
       "localEconomyScore": 59.6,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "scott",
@@ -1191,7 +1191,7 @@
       "medianHomeValue": 97600,
       "localEconomyScore": 57.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "lee",
@@ -1205,7 +1205,7 @@
       "medianHomeValue": 80600,
       "localEconomyScore": 53.4,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "montgomery",
@@ -1219,7 +1219,7 @@
       "medianHomeValue": 126200,
       "localEconomyScore": 56.4,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "nevada",
@@ -1233,7 +1233,7 @@
       "medianHomeValue": 85100,
       "localEconomyScore": 57.4,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "prairie",
@@ -1247,7 +1247,7 @@
       "medianHomeValue": 87200,
       "localEconomyScore": 58.8,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "searcy",
@@ -1261,7 +1261,7 @@
       "medianHomeValue": 107100,
       "localEconomyScore": 55.2,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "cleveland",
@@ -1275,7 +1275,7 @@
       "medianHomeValue": 109200,
       "localEconomyScore": 58.1,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "newton",
@@ -1289,7 +1289,7 @@
       "medianHomeValue": 160500,
       "localEconomyScore": 55.8,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "monroe",
@@ -1303,7 +1303,7 @@
       "medianHomeValue": 84600,
       "localEconomyScore": 56.6,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "dallas",
@@ -1317,7 +1317,7 @@
       "medianHomeValue": 94300,
       "localEconomyScore": 55.1,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "lafayette",
@@ -1331,7 +1331,7 @@
       "medianHomeValue": 70900,
       "localEconomyScore": 56.9,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "woodruff",
@@ -1345,7 +1345,7 @@
       "medianHomeValue": 96100,
       "localEconomyScore": 59.1,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "slug": "calhoun",
@@ -1359,7 +1359,7 @@
       "medianHomeValue": 82700,
       "localEconomyScore": 63.7,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     }
   ],
   "colleges": [
@@ -1378,7 +1378,7 @@
       "debtToEarningsRatio": 0.48602673147023084,
       "valueScore": 58,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106263",
@@ -1395,7 +1395,7 @@
       "debtToEarningsRatio": 0.18963251926801847,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106306",
@@ -1412,7 +1412,7 @@
       "debtToEarningsRatio": 0.8929199802941797,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106315",
@@ -1429,7 +1429,7 @@
       "debtToEarningsRatio": 0.3503153003650846,
       "valueScore": 34,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106324",
@@ -1446,7 +1446,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 49,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106342",
@@ -1463,7 +1463,7 @@
       "debtToEarningsRatio": 0.48607343100018086,
       "valueScore": 53,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106351",
@@ -1480,7 +1480,7 @@
       "debtToEarningsRatio": 1.0179529890801406,
       "valueScore": 14,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106397",
@@ -1497,7 +1497,7 @@
       "debtToEarningsRatio": 0.3694729425512536,
       "valueScore": 75,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106412",
@@ -1514,7 +1514,7 @@
       "debtToEarningsRatio": 0.6807876230661041,
       "valueScore": 61,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106449",
@@ -1531,7 +1531,7 @@
       "debtToEarningsRatio": 0.22110209545665654,
       "valueScore": 66,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106458",
@@ -1548,7 +1548,7 @@
       "debtToEarningsRatio": 0.4810286974681465,
       "valueScore": 76,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106467",
@@ -1565,7 +1565,7 @@
       "debtToEarningsRatio": 0.5028013216491883,
       "valueScore": 70,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106485",
@@ -1582,7 +1582,7 @@
       "debtToEarningsRatio": 0.5411901793940708,
       "valueScore": 58,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106494",
@@ -1599,7 +1599,7 @@
       "debtToEarningsRatio": 0.4478910449120889,
       "valueScore": 36,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106546",
@@ -1616,7 +1616,7 @@
       "debtToEarningsRatio": 0.1606580553948975,
       "valueScore": 44,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106625",
@@ -1633,7 +1633,7 @@
       "debtToEarningsRatio": 0.27284737779309554,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106704",
@@ -1650,7 +1650,7 @@
       "debtToEarningsRatio": 0.44290130175453873,
       "valueScore": 63,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106713",
@@ -1667,7 +1667,7 @@
       "debtToEarningsRatio": 0.4755391224433093,
       "valueScore": 77,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106795",
@@ -1684,7 +1684,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106810",
@@ -1701,7 +1701,7 @@
       "debtToEarningsRatio": 0.6634457288847292,
       "valueScore": 51,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106883",
@@ -1718,7 +1718,7 @@
       "debtToEarningsRatio": 0.21074075374942924,
       "valueScore": 83,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106908",
@@ -1735,7 +1735,7 @@
       "debtToEarningsRatio": 0.4330708661417323,
       "valueScore": 40,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106980",
@@ -1752,7 +1752,7 @@
       "debtToEarningsRatio": 0.32363457033657994,
       "valueScore": 55,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "106999",
@@ -1769,7 +1769,7 @@
       "debtToEarningsRatio": 0.3041001602088649,
       "valueScore": 90,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107044",
@@ -1786,7 +1786,7 @@
       "debtToEarningsRatio": 0.5011725546561767,
       "valueScore": 60,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107071",
@@ -1803,7 +1803,7 @@
       "debtToEarningsRatio": 0.44869877355668564,
       "valueScore": 43,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107080",
@@ -1820,7 +1820,7 @@
       "debtToEarningsRatio": 0.4420299456737777,
       "valueScore": 63,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107099",
@@ -1837,7 +1837,7 @@
       "debtToEarningsRatio": 0.4498446412836804,
       "valueScore": 37,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107123",
@@ -1854,7 +1854,7 @@
       "debtToEarningsRatio": 0.1622169651909429,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107141",
@@ -1871,7 +1871,7 @@
       "debtToEarningsRatio": 0.3941974140649637,
       "valueScore": 65,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107220",
@@ -1888,7 +1888,7 @@
       "debtToEarningsRatio": 0.29512681411415587,
       "valueScore": 48,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107293",
@@ -1905,7 +1905,7 @@
       "debtToEarningsRatio": 0.2852842217106428,
       "valueScore": 40,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107318",
@@ -1922,7 +1922,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107327",
@@ -1939,7 +1939,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107442",
@@ -1956,7 +1956,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 32,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107460",
@@ -1973,7 +1973,7 @@
       "debtToEarningsRatio": 0.2597177733529564,
       "valueScore": 70,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107488",
@@ -1990,7 +1990,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 65,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107512",
@@ -2007,7 +2007,7 @@
       "debtToEarningsRatio": 0.40736941923248116,
       "valueScore": 58,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107521",
@@ -2024,7 +2024,7 @@
       "debtToEarningsRatio": 0.27425482956065717,
       "valueScore": 91,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107549",
@@ -2041,7 +2041,7 @@
       "debtToEarningsRatio": 0.33492529166950946,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107558",
@@ -2058,7 +2058,7 @@
       "debtToEarningsRatio": 0.4703271449170872,
       "valueScore": 59,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107585",
@@ -2075,7 +2075,7 @@
       "debtToEarningsRatio": 0.2953556293666247,
       "valueScore": 83,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107600",
@@ -2092,7 +2092,7 @@
       "debtToEarningsRatio": 0.643714055221589,
       "valueScore": 56,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107619",
@@ -2109,7 +2109,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107637",
@@ -2126,7 +2126,7 @@
       "debtToEarningsRatio": 0.255929530101479,
       "valueScore": 37,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107655",
@@ -2143,7 +2143,7 @@
       "debtToEarningsRatio": 0.3675338267175002,
       "valueScore": 60,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107664",
@@ -2160,7 +2160,7 @@
       "debtToEarningsRatio": 0.34790622659985027,
       "valueScore": 52,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107725",
@@ -2177,7 +2177,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 80,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107743",
@@ -2194,7 +2194,7 @@
       "debtToEarningsRatio": 0.21639977361254453,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107789",
@@ -2211,7 +2211,7 @@
       "debtToEarningsRatio": 0.48976440703292323,
       "valueScore": 43,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107831",
@@ -2228,7 +2228,7 @@
       "debtToEarningsRatio": 0.6246984318455971,
       "valueScore": 36,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107840",
@@ -2245,7 +2245,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107877",
@@ -2262,7 +2262,7 @@
       "debtToEarningsRatio": 0.5669888784949589,
       "valueScore": 52,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107974",
@@ -2279,7 +2279,7 @@
       "debtToEarningsRatio": 0.3230787057153617,
       "valueScore": 90,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107983",
@@ -2296,7 +2296,7 @@
       "debtToEarningsRatio": 0.4423630444014533,
       "valueScore": 66,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "107992",
@@ -2313,7 +2313,7 @@
       "debtToEarningsRatio": 0.16494391906751704,
       "valueScore": 88,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "108065",
@@ -2330,7 +2330,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 63,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "108092",
@@ -2347,7 +2347,7 @@
       "debtToEarningsRatio": 0.44401732275801664,
       "valueScore": 79,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "367459",
@@ -2364,7 +2364,7 @@
       "debtToEarningsRatio": 0.2185036202735318,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "420538",
@@ -2381,7 +2381,7 @@
       "debtToEarningsRatio": 0.3066767918686839,
       "valueScore": 81,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "440402",
@@ -2398,7 +2398,7 @@
       "debtToEarningsRatio": 0.1927078316154513,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "442569",
@@ -2415,7 +2415,7 @@
       "debtToEarningsRatio": 0.3457855612951997,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "445540",
@@ -2432,7 +2432,7 @@
       "debtToEarningsRatio": 0.4478910449120889,
       "valueScore": 36,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "446233",
@@ -2449,7 +2449,7 @@
       "debtToEarningsRatio": 0.3202706027060271,
       "valueScore": 43,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "457192",
@@ -2466,7 +2466,7 @@
       "debtToEarningsRatio": 1.6318918288844855,
       "valueScore": 32,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "458885",
@@ -2483,7 +2483,7 @@
       "debtToEarningsRatio": 1.0131946522997106,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "460987",
@@ -2500,7 +2500,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "480921",
@@ -2517,7 +2517,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "485591",
@@ -2534,7 +2534,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "486619",
@@ -2551,7 +2551,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "488527",
@@ -2568,7 +2568,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "489830",
@@ -2585,7 +2585,7 @@
       "debtToEarningsRatio": 0.4890544946436889,
       "valueScore": 31,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "490744",
@@ -2602,7 +2602,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "491075",
@@ -2619,7 +2619,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "492069",
@@ -2636,7 +2636,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "492281",
@@ -2653,7 +2653,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "497453",
@@ -2670,7 +2670,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "10635101",
@@ -2687,7 +2687,7 @@
       "debtToEarningsRatio": 1.0179529890801406,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "10722001",
@@ -2704,7 +2704,7 @@
       "debtToEarningsRatio": 0.29512681411415587,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "10722002",
@@ -2721,7 +2721,7 @@
       "debtToEarningsRatio": 0.29512681411415587,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "10722003",
@@ -2738,7 +2738,7 @@
       "debtToEarningsRatio": 0.29512681411415587,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "10722004",
@@ -2755,7 +2755,7 @@
       "debtToEarningsRatio": 0.29512681411415587,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "10772501",
@@ -2772,7 +2772,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     },
     {
       "unitId": "48092101",
@@ -2789,7 +2789,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T03:28:30.522Z"
+      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
     }
   ],
   "federalSpending": [

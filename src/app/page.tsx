@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Hero } from '@/components/Hero';
-import { COLORADO_CITIES, SITE_DESCRIPTION } from '@/lib/constants';
+import { SITE_DESCRIPTION } from '@/lib/constants';
 import { formatMetric, getCounties, getMetros, getStates, topBy } from '@/lib/nationalData';
 
 export const metadata: Metadata = {
@@ -17,8 +17,8 @@ const FEATURE_CARDS = [
       </svg>
     ),
     title: 'Economic Dashboards',
-    desc: 'City-level scorecards with unemployment, income, housing, and labor data from BLS, FRED, and Census.',
-    href: '/colorado/',
+    desc: 'State and county-level scorecards with unemployment, income, housing, and labor data from BLS, FRED, and Census.',
+    href: '/states/',
   },
   {
     icon: (
@@ -27,8 +27,8 @@ const FEATURE_CARDS = [
       </svg>
     ),
     title: 'College ROI',
-    desc: 'College Scorecard data: net price, graduation rates, earnings, and debt-to-income ratios for Colorado institutions.',
-    href: '/colorado/college-roi/',
+    desc: 'College Scorecard data: net price, graduation rates, earnings, and debt-to-income ratios across U.S. institutions.',
+    href: '/rankings/most-affordable-college-states/',
   },
   {
     icon: (
@@ -37,8 +37,8 @@ const FEATURE_CARDS = [
       </svg>
     ),
     title: 'Federal Spending',
-    desc: 'USAspending.gov data on federal grants, contracts, and loans flowing into Colorado communities.',
-    href: '/colorado/federal-spending/',
+    desc: 'USAspending.gov data on federal grants, contracts, and loans flowing across U.S. counties.',
+    href: '/rankings/federal-spending-per-capita/',
   },
   {
     icon: (
@@ -57,6 +57,7 @@ export default function HomePage() {
   const counties = getCounties();
   const metros = getMetros();
   const topStates = topBy(states, state => state.localEconomyScore.value, 5);
+  const browseStates = topBy(states, state => state.localEconomyScore.value, 16);
   const statCards = [
     { value: formatMetric(states.length, 'count'), label: 'states tracked' },
     { value: formatMetric(counties.length, 'count'), label: 'counties indexed' },
@@ -67,10 +68,10 @@ export default function HomePage() {
   return (
     <>
       <Hero
-        tag="Colorado Economic Observatory"
+        tag="Nationwide Economic Observatory"
         headline="Public economic intelligence for every community."
         subheadline={SITE_DESCRIPTION}
-        primaryCta={{ label: 'Explore Colorado', href: '/colorado/' }}
+        primaryCta={{ label: 'Browse States', href: '/states/' }}
         secondaryCta={{ label: 'View Methodology', href: '/methodology/' }}
         pulseTitle="National coverage"
         pulseStatus="Static export"
@@ -81,12 +82,12 @@ export default function HomePage() {
           { label: 'Integrity', value: '0 fabricated', detail: 'Unavailable values stay explicit and sourced.', status: 'pass' },
         ]}
         validationItems={[
-          { label: 'State index', status: states.length > 0 ? 'pass' : 'fail', detail: `${states.length} states loaded from processed JSON.` },
-          { label: 'County index', status: counties.length > 0 ? 'pass' : 'fail', detail: `${counties.length} counties loaded from processed JSON.` },
-          { label: 'Metro index', status: metros.length > 0 ? 'pass' : 'fail', detail: `${metros.length} metros loaded from processed JSON.` },
-          { label: 'Top rankings', status: topStates.length > 0 ? 'pass' : 'fail', detail: `${topStates.length} ranked states available.` },
-          { label: 'Static data', status: 'pass', detail: 'Next.js imports processed data during static build.' },
-          { label: 'Citations', status: 'pass', detail: 'Data validation checks metric provenance.' },
+          { label: 'State index', shortLabel: 'States', status: states.length > 0 ? 'pass' : 'fail', detail: `${states.length} states loaded from processed JSON.` },
+          { label: 'County index', shortLabel: 'Counties', status: counties.length > 0 ? 'pass' : 'fail', detail: `${counties.length} counties loaded from processed JSON.` },
+          { label: 'Metro index', shortLabel: 'Metros', status: metros.length > 0 ? 'pass' : 'fail', detail: `${metros.length} metros loaded from processed JSON.` },
+          { label: 'Top rankings', shortLabel: 'Top', status: topStates.length > 0 ? 'pass' : 'fail', detail: `${topStates.length} ranked states available.` },
+          { label: 'Static data', shortLabel: 'Static', status: 'pass', detail: 'Next.js imports processed data during static build.' },
+          { label: 'Citations', shortLabel: 'Cites', status: 'pass', detail: 'Data validation checks metric provenance.' },
         ]}
       />
 
@@ -145,18 +146,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Colorado cities quick links */}
+      {/* Browse by state */}
       <section className="bg-gray-50 border-t border-border py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-text-primary mb-6">Colorado Cities</h2>
+          <h2 className="text-2xl font-bold text-text-primary mb-6">Browse by state</h2>
           <div className="flex flex-wrap gap-3">
-            {COLORADO_CITIES.map(city => (
+            {browseStates.map(state => (
               <Link
-                key={city.href}
-                href={city.href}
+                key={state.slug}
+                href={`/states/${state.slug}/`}
                 className="inline-flex items-center px-4 py-2 rounded-lg bg-white border border-border text-sm font-medium text-text-secondary hover:border-brand-blue hover:text-brand-blue hover:shadow-sm transition-all"
               >
-                {city.label}
+                {state.name}
                 <svg className="ml-1.5 w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>

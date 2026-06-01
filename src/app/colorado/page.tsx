@@ -118,31 +118,37 @@ export default function ColoradoPage() {
   const validationItems = [
     {
       label: 'CO unemployment',
+      shortLabel: 'Jobs',
       status: statusForMetric(overview?.unemploymentRate),
       detail: overview?.unemploymentRate?.sourceDataset ?? 'Missing FRED series metadata.',
     },
     {
       label: 'CO income',
+      shortLabel: 'Income',
       status: statusForMetric(overview?.medianHouseholdIncome),
       detail: overview?.medianHouseholdIncome?.sourceDataset ?? 'Missing Census income metadata.',
     },
     {
       label: 'CO GDP',
+      shortLabel: 'GDP',
       status: statusForMetric(overview?.gdp),
       detail: overview?.gdp?.sourceDataset ?? 'Missing GDP metadata.',
     },
     {
       label: 'CO population',
+      shortLabel: 'People',
       status: statusForMetric(overview?.population),
       detail: overview?.population?.sourceDataset ?? 'Missing population metadata.',
     },
     {
       label: 'Federal spending',
+      shortLabel: 'Federal',
       status: statusForMetric(overview?.state?.federalSpendingPerCapita),
       detail: overview?.state?.federalSpendingPerCapita?.sourceDataset ?? 'Missing USAspending metadata.',
     },
     {
       label: 'Pipeline report',
+      shortLabel: 'Pipeline',
       status: Object.keys(sourceCounts).length > 0 ? 'pass' as const : 'fail' as const,
       detail: 'Source attempt counts are bundled in metadata-catalog.json.',
     },

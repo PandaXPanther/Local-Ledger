@@ -9,6 +9,7 @@ export interface HeroSourceCard {
 
 export interface HeroValidationItem {
   label: string;
+  shortLabel?: string;
   status: 'pass' | 'warn' | 'fail';
   detail: string;
 }
@@ -123,11 +124,11 @@ export function Hero({
                 {validationItems.map(item => (
                   <span
                     key={item.label}
-                    className={`h-8 rounded-sm border text-[10px] font-semibold uppercase leading-8 ${STATUS_CLASS[item.status]}`}
+                    className={`flex h-10 items-center justify-center rounded-sm border px-1 text-center text-[10px] font-semibold uppercase leading-tight ${STATUS_CLASS[item.status]}`}
                     title={`${item.label}: ${statusLabel(item.status)}. ${item.detail}`}
                     aria-label={`${item.label}: ${statusLabel(item.status)}. ${item.detail}`}
                   >
-                    <span className="sr-only">{item.label}</span>
+                    <span className="block max-w-full truncate">{item.shortLabel ?? item.label}</span>
                   </span>
                 ))}
               </div>
