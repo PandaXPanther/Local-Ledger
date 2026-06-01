@@ -1,12 +1,12 @@
 {
   "_meta": {
-    "generatedAt": "2026-06-01T04:13:25.162Z",
+    "generatedAt": "2026-06-01T04:28:27.842Z",
     "description": "Federal spending by state",
     "source": {
       "name": "USAspending.gov",
       "url": "https://www.usaspending.gov/",
       "dataset": "USAspending API v2",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     }
   },
   "states": [

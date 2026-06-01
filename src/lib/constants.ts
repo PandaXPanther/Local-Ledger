@@ -12,14 +12,13 @@ export const NAV_LINKS = [
 ];
 
 export const EXPLORE_LINKS = [
-  { label: 'Colorado', href: '/colorado/' },
   { label: 'States', href: '/states/' },
   { label: 'Counties', href: '/counties/' },
   { label: 'Metros', href: '/metros/' },
-  { label: 'College ROI', href: '/states/colorado/college-roi/' },
-  { label: 'Federal Spending', href: '/states/colorado/federal-spending/' },
-  { label: 'Recession Radar', href: '/states/colorado/recession-radar/' },
+  { label: 'College ROI', href: '/rankings/most-affordable-college-states/' },
+  { label: 'Federal Spending', href: '/rankings/federal-spending-per-capita/' },
   { label: 'API', href: '/api/' },
+  { label: 'Featured: Colorado', href: '/colorado/' },
 ];
 
 export const COLORADO_CITIES = [

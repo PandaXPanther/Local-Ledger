@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generatedAt": "2026-06-01T04:13:25.162Z",
+    "generatedAt": "2026-06-01T04:28:27.842Z",
     "description": "Major place-based metro preview data"
   },
   "metros": [
@@ -13,7 +13,7 @@
       "medianHouseholdIncome": 76607,
       "medianHomeValue": 732100,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "los-angeles-city-ca",
@@ -24,7 +24,7 @@
       "medianHouseholdIncome": 76244,
       "medianHomeValue": 822600,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "chicago-city-il",
@@ -35,7 +35,7 @@
       "medianHouseholdIncome": 71673,
       "medianHomeValue": 304500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "houston-city-tx",
@@ -46,7 +46,7 @@
       "medianHouseholdIncome": 60440,
       "medianHomeValue": 235000,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "phoenix-city-az",
@@ -57,7 +57,7 @@
       "medianHouseholdIncome": 72092,
       "medianHomeValue": 340200,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "philadelphia-city-pa",
@@ -68,7 +68,7 @@
       "medianHouseholdIncome": 57537,
       "medianHomeValue": 215500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "san-antonio-city-tx",
@@ -79,7 +79,7 @@
       "medianHouseholdIncome": 59593,
       "medianHomeValue": 198000,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "san-diego-city-ca",
@@ -90,7 +90,7 @@
       "medianHouseholdIncome": 98657,
       "medianHomeValue": 783300,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "dallas-city-tx",
@@ -101,7 +101,7 @@
       "medianHouseholdIncome": 63985,
       "medianHomeValue": 270700,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "san-jose-city-ca",
@@ -112,7 +112,7 @@
       "medianHouseholdIncome": 136010,
       "medianHomeValue": 1149600,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "austin-city-tx",
@@ -123,7 +123,7 @@
       "medianHouseholdIncome": 86556,
       "medianHomeValue": 461500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "jacksonville-city-fl",
@@ -134,7 +134,7 @@
       "medianHouseholdIncome": 64138,
       "medianHomeValue": 243000,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "fort-worth-city-tx",
@@ -145,7 +145,7 @@
       "medianHouseholdIncome": 72726,
       "medianHomeValue": 250300,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "columbus-city-oh",
@@ -156,7 +156,7 @@
       "medianHouseholdIncome": 62994,
       "medianHomeValue": 212500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "indianapolis-city-balance-in",
@@ -167,7 +167,7 @@
       "medianHouseholdIncome": 59110,
       "medianHomeValue": 184600,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "charlotte-city-nc",
@@ -178,7 +178,7 @@
       "medianHouseholdIncome": 74070,
       "medianHomeValue": 312800,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "san-francisco-city-ca",
@@ -189,7 +189,7 @@
       "medianHouseholdIncome": 136689,
       "medianHomeValue": 1348700,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "seattle-city-wa",
@@ -200,7 +200,7 @@
       "medianHouseholdIncome": 116068,
       "medianHomeValue": 879900,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "denver-city-co",
@@ -211,7 +211,7 @@
       "medianHouseholdIncome": 85853,
       "medianHomeValue": 540400,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "nashville-davidson-metropolitan-government-balance-tn",
@@ -222,7 +222,7 @@
       "medianHouseholdIncome": 71328,
       "medianHomeValue": 351400,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "oklahoma-city-city-ok",
@@ -233,7 +233,7 @@
       "medianHouseholdIncome": 64251,
       "medianHomeValue": 196700,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "el-paso-city-tx",
@@ -244,7 +244,7 @@
       "medianHouseholdIncome": 55710,
       "medianHomeValue": 159300,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "boston-city-ma",
@@ -255,7 +255,7 @@
       "medianHouseholdIncome": 89212,
       "medianHomeValue": 684900,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "portland-city-or",
@@ -266,7 +266,7 @@
       "medianHouseholdIncome": 85876,
       "medianHomeValue": 523100,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "las-vegas-city-nv",
@@ -277,7 +277,7 @@
       "medianHouseholdIncome": 66356,
       "medianHomeValue": 365300,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "detroit-city-mi",
@@ -288,7 +288,7 @@
       "medianHouseholdIncome": 37761,
       "medianHomeValue": 66700,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "memphis-city-tn",
@@ -299,7 +299,7 @@
       "medianHouseholdIncome": 48090,
       "medianHomeValue": 139600,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "louisville-jefferson-county-metro-government-balance-ky",
@@ -310,7 +310,7 @@
       "medianHouseholdIncome": 63114,
       "medianHomeValue": 204800,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "baltimore-city-md",
@@ -321,7 +321,7 @@
       "medianHouseholdIncome": 58349,
       "medianHomeValue": 202900,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "milwaukee-city-wi",
@@ -332,7 +332,7 @@
       "medianHouseholdIncome": 49733,
       "medianHomeValue": 157800,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "albuquerque-city-nm",
@@ -343,7 +343,7 @@
       "medianHouseholdIncome": 61503,
       "medianHomeValue": 246000,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "fresno-city-ca",
@@ -354,7 +354,7 @@
       "medianHouseholdIncome": 63001,
       "medianHomeValue": 321800,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "tucson-city-az",
@@ -365,7 +365,7 @@
       "medianHouseholdIncome": 52049,
       "medianHomeValue": 218200,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "sacramento-city-ca",
@@ -376,7 +376,7 @@
       "medianHouseholdIncome": 78954,
       "medianHomeValue": 450500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "kansas-city-city-mo",
@@ -387,7 +387,7 @@
       "medianHouseholdIncome": 65256,
       "medianHomeValue": 208900,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "mesa-city-az",
@@ -398,7 +398,7 @@
       "medianHouseholdIncome": 73766,
       "medianHomeValue": 327700,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "atlanta-city-ga",
@@ -409,7 +409,7 @@
       "medianHouseholdIncome": 77655,
       "medianHomeValue": 395600,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "omaha-city-ne",
@@ -420,7 +420,7 @@
       "medianHouseholdIncome": 70202,
       "medianHomeValue": 210300,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "colorado-springs-city-co",
@@ -431,7 +431,7 @@
       "medianHouseholdIncome": 79026,
       "medianHomeValue": 383000,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "raleigh-city-nc",
@@ -442,7 +442,7 @@
       "medianHouseholdIncome": 78631,
       "medianHomeValue": 347000,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "long-beach-city-ca",
@@ -453,7 +453,7 @@
       "medianHouseholdIncome": 78995,
       "medianHomeValue": 709700,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "virginia-beach-city-va",
@@ -464,7 +464,7 @@
       "medianHouseholdIncome": 87544,
       "medianHomeValue": 343700,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "miami-city-fl",
@@ -475,7 +475,7 @@
       "medianHouseholdIncome": 54858,
       "medianHomeValue": 433900,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "oakland-city-ca",
@@ -486,7 +486,7 @@
       "medianHouseholdIncome": 94389,
       "medianHomeValue": 883800,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "minneapolis-city-mn",
@@ -497,7 +497,7 @@
       "medianHouseholdIncome": 76332,
       "medianHomeValue": 328700,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "tulsa-city-ok",
@@ -508,7 +508,7 @@
       "medianHouseholdIncome": 56648,
       "medianHomeValue": 174200,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "bakersfield-city-ca",
@@ -519,7 +519,7 @@
       "medianHouseholdIncome": 73827,
       "medianHomeValue": 320600,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "wichita-city-ks",
@@ -530,7 +530,7 @@
       "medianHouseholdIncome": 60712,
       "medianHomeValue": 166400,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "arlington-city-tx",
@@ -541,7 +541,7 @@
       "medianHouseholdIncome": 71736,
       "medianHomeValue": 251300,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "tampa-city-fl",
@@ -552,7 +552,7 @@
       "medianHouseholdIncome": 66802,
       "medianHomeValue": 333200,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "aurora-city-co",
@@ -563,7 +563,7 @@
       "medianHouseholdIncome": 78685,
       "medianHomeValue": 409700,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "new-orleans-city-la",
@@ -574,7 +574,7 @@
       "medianHouseholdIncome": 51116,
       "medianHomeValue": 281500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "cleveland-city-oh",
@@ -585,7 +585,7 @@
       "medianHouseholdIncome": 37271,
       "medianHomeValue": 87400,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "urban-honolulu-cdp-hi",
@@ -596,7 +596,7 @@
       "medianHouseholdIncome": 82772,
       "medianHomeValue": 805500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "anaheim-city-ca",
@@ -607,7 +607,7 @@
       "medianHouseholdIncome": 88538,
       "medianHomeValue": 713600,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "lexington-fayette-urban-county-ky",
@@ -618,7 +618,7 @@
       "medianHouseholdIncome": 66087,
       "medianHomeValue": 247900,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "stockton-city-ca",
@@ -629,7 +629,7 @@
       "medianHouseholdIncome": 71612,
       "medianHomeValue": 382000,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "henderson-city-nv",
@@ -640,7 +640,7 @@
       "medianHouseholdIncome": 85311,
       "medianHomeValue": 427900,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "corpus-christi-city-tx",
@@ -651,7 +651,7 @@
       "medianHouseholdIncome": 64449,
       "medianHomeValue": 180900,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "riverside-city-ca",
@@ -662,7 +662,7 @@
       "medianHouseholdIncome": 83448,
       "medianHomeValue": 485500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "santa-ana-city-ca",
@@ -673,7 +673,7 @@
       "medianHouseholdIncome": 84210,
       "medianHomeValue": 624000,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "cincinnati-city-oh",
@@ -684,7 +684,7 @@
       "medianHouseholdIncome": 49191,
       "medianHomeValue": 192000,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "st-paul-city-mn",
@@ -695,7 +695,7 @@
       "medianHouseholdIncome": 69919,
       "medianHomeValue": 264900,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "orlando-city-fl",
@@ -706,7 +706,7 @@
       "medianHouseholdIncome": 66292,
       "medianHomeValue": 332700,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "newark-city-nj",
@@ -717,7 +717,7 @@
       "medianHouseholdIncome": 46460,
       "medianHomeValue": 312300,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "irvine-city-ca",
@@ -728,7 +728,7 @@
       "medianHouseholdIncome": 122948,
       "medianHomeValue": 1025700,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "pittsburgh-city-pa",
@@ -739,7 +739,7 @@
       "medianHouseholdIncome": 60187,
       "medianHomeValue": 171800,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "st-louis-city-mo",
@@ -750,7 +750,7 @@
       "medianHouseholdIncome": 52941,
       "medianHomeValue": 174100,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "greensboro-city-nc",
@@ -761,7 +761,7 @@
       "medianHouseholdIncome": 55051,
       "medianHomeValue": 197200,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "anchorage-municipality-ak",
@@ -772,7 +772,7 @@
       "medianHouseholdIncome": 95731,
       "medianHomeValue": 363800,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "lincoln-city-ne",
@@ -783,7 +783,7 @@
       "medianHouseholdIncome": 67846,
       "medianHomeValue": 230400,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "jersey-city-city-nj",
@@ -794,7 +794,7 @@
       "medianHouseholdIncome": 91151,
       "medianHomeValue": 500100,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "plano-city-tx",
@@ -805,7 +805,7 @@
       "medianHouseholdIncome": 105679,
       "medianHomeValue": 412500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "durham-city-nc",
@@ -816,7 +816,7 @@
       "medianHouseholdIncome": 74710,
       "medianHomeValue": 316600,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "buffalo-city-ny",
@@ -827,7 +827,7 @@
       "medianHouseholdIncome": 46184,
       "medianHomeValue": 132100,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "chula-vista-city-ca",
@@ -838,7 +838,7 @@
       "medianHouseholdIncome": 101984,
       "medianHomeValue": 647100,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "chandler-city-az",
@@ -849,7 +849,7 @@
       "medianHouseholdIncome": 99374,
       "medianHomeValue": 423900,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "toledo-city-oh",
@@ -860,7 +860,7 @@
       "medianHouseholdIncome": 45405,
       "medianHomeValue": 98800,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "madison-city-wi",
@@ -871,7 +871,7 @@
       "medianHouseholdIncome": 74895,
       "medianHomeValue": 326600,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "gilbert-town-az",
@@ -882,7 +882,7 @@
       "medianHouseholdIncome": 115179,
       "medianHomeValue": 454300,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "reno-city-nv",
@@ -893,7 +893,7 @@
       "medianHouseholdIncome": 73073,
       "medianHomeValue": 462100,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "fort-wayne-city-in",
@@ -904,7 +904,7 @@
       "medianHouseholdIncome": 58233,
       "medianHomeValue": 152500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "north-las-vegas-city-nv",
@@ -915,7 +915,7 @@
       "medianHouseholdIncome": 71774,
       "medianHomeValue": 340200,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "st-petersburg-city-fl",
@@ -926,7 +926,7 @@
       "medianHouseholdIncome": 70333,
       "medianHomeValue": 289000,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "lubbock-city-tx",
@@ -937,7 +937,7 @@
       "medianHouseholdIncome": 58734,
       "medianHomeValue": 181600,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "laredo-city-tx",
@@ -948,7 +948,7 @@
       "medianHouseholdIncome": 60928,
       "medianHomeValue": 164400,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "irving-city-tx",
@@ -959,7 +959,7 @@
       "medianHouseholdIncome": 76686,
       "medianHomeValue": 259500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "winston-salem-city-nc",
@@ -970,7 +970,7 @@
       "medianHouseholdIncome": 54416,
       "medianHomeValue": 187400,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "chesapeake-city-va",
@@ -981,7 +981,7 @@
       "medianHouseholdIncome": 92703,
       "medianHomeValue": 339500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "glendale-city-az",
@@ -992,7 +992,7 @@
       "medianHouseholdIncome": 66375,
       "medianHomeValue": 310000,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "garland-city-tx",
@@ -1003,7 +1003,7 @@
       "medianHouseholdIncome": 71044,
       "medianHomeValue": 229000,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "scottsdale-city-az",
@@ -1014,7 +1014,7 @@
       "medianHouseholdIncome": 104197,
       "medianHomeValue": 651800,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "norfolk-city-va",
@@ -1025,7 +1025,7 @@
       "medianHouseholdIncome": 60998,
       "medianHomeValue": 254200,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "arlington-cdp-va",
@@ -1036,7 +1036,7 @@
       "medianHouseholdIncome": 137387,
       "medianHomeValue": 833300,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "boise-city-city-id",
@@ -1047,7 +1047,7 @@
       "medianHouseholdIncome": 76402,
       "medianHomeValue": 401800,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "fremont-city-ca",
@@ -1058,7 +1058,7 @@
       "medianHouseholdIncome": 169023,
       "medianHomeValue": 1231500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "spokane-city-wa",
@@ -1069,7 +1069,7 @@
       "medianHouseholdIncome": 63316,
       "medianHomeValue": 286900,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "richmond-city-va",
@@ -1080,7 +1080,7 @@
       "medianHouseholdIncome": 59606,
       "medianHomeValue": 308300,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "santa-clarita-city-ca",
@@ -1091,7 +1091,7 @@
       "medianHouseholdIncome": 116186,
       "medianHomeValue": 669200,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "baton-rouge-city-la",
@@ -1102,7 +1102,7 @@
       "medianHouseholdIncome": 50155,
       "medianHomeValue": 217700,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "enterprise-cdp-nv",
@@ -1113,7 +1113,7 @@
       "medianHouseholdIncome": 91165,
       "medianHomeValue": 413800,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "hialeah-city-fl",
@@ -1124,7 +1124,7 @@
       "medianHouseholdIncome": 49531,
       "medianHomeValue": 324300,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "san-bernardino-city-ca",
@@ -1135,7 +1135,7 @@
       "medianHouseholdIncome": 61323,
       "medianHomeValue": 347100,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "spring-valley-cdp-nv",
@@ -1146,7 +1146,7 @@
       "medianHouseholdIncome": 69341,
       "medianHomeValue": 375200,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "tacoma-city-wa",
@@ -1157,7 +1157,7 @@
       "medianHouseholdIncome": 79085,
       "medianHomeValue": 415300,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "modesto-city-ca",
@@ -1168,7 +1168,7 @@
       "medianHouseholdIncome": 73375,
       "medianHomeValue": 381800,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "huntsville-city-al",
@@ -1179,7 +1179,7 @@
       "medianHouseholdIncome": 67874,
       "medianHomeValue": 236300,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "des-moines-city-ia",
@@ -1190,7 +1190,7 @@
       "medianHouseholdIncome": 62378,
       "medianHomeValue": 170700,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "rochester-city-ny",
@@ -1201,7 +1201,7 @@
       "medianHouseholdIncome": 44156,
       "medianHomeValue": 111400,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "port-st-lucie-city-fl",
@@ -1212,7 +1212,7 @@
       "medianHouseholdIncome": 75040,
       "medianHomeValue": 292900,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "yonkers-city-ny",
@@ -1223,7 +1223,7 @@
       "medianHouseholdIncome": 78208,
       "medianHomeValue": 456500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "moreno-valley-city-ca",
@@ -1234,7 +1234,7 @@
       "medianHouseholdIncome": 82637,
       "medianHomeValue": 421400,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "fontana-city-ca",
@@ -1245,7 +1245,7 @@
       "medianHouseholdIncome": 93230,
       "medianHomeValue": 506600,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "fayetteville-city-nc",
@@ -1256,7 +1256,7 @@
       "medianHouseholdIncome": 53424,
       "medianHomeValue": 158500,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "columbus-city-ga",
@@ -1267,7 +1267,7 @@
       "medianHouseholdIncome": 54561,
       "medianHomeValue": 168400,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "worcester-city-ma",
@@ -1278,7 +1278,7 @@
       "medianHouseholdIncome": 63011,
       "medianHomeValue": 305600,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "oxnard-city-ca",
@@ -1289,7 +1289,7 @@
       "medianHouseholdIncome": 90409,
       "medianHomeValue": 587200,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "little-rock-city-ar",
@@ -1300,7 +1300,7 @@
       "medianHouseholdIncome": 58697,
       "medianHomeValue": 205800,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "frisco-city-tx",
@@ -1311,7 +1311,7 @@
       "medianHouseholdIncome": 144567,
       "medianHomeValue": 531400,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "augusta-richmond-county-consolidated-government-balance-ga",
@@ -1322,7 +1322,7 @@
       "medianHouseholdIncome": 50492,
       "medianHomeValue": 141900,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     }
   ]
 }

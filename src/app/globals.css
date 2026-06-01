@@ -19,6 +19,10 @@
     box-sizing: border-box;
   }
 
+  a, button {
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     @apply font-semibold tracking-tight;
   }

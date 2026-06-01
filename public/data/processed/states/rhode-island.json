@@ -1,49 +1,49 @@
 {
   "_meta": {
     "description": "Rhode Island state economic dashboard data",
-    "generatedAt": "2026-06-01T04:13:25.162Z",
+    "generatedAt": "2026-06-01T04:28:27.842Z",
     "sourceAttemptLog": [
       {
         "source": "BEA",
         "id": "state-gdp",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "Census",
         "id": "acs-states",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "Census",
         "id": "acs-counties",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "Census",
         "id": "acs-places",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "UNRATE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "DENV708URN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
@@ -51,7 +51,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
@@ -59,7 +59,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
@@ -67,1372 +67,1372 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "ALURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "ALPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "ALRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-AL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "AKURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "AKPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "AKRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-AK-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AK",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "AZURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "AZPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "AZRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-AZ-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AZ",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "ARURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "ARPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "ARRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-AR-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AR",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "CAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "CAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "CARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-CA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "COURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "COPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "CORGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-CO-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CO",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "CTURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "CTPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "CTRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-CT-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CT",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "DEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "DEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "DERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-DE-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-DE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "FLURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "FLPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "FLRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-FL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-FL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "GAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "GAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "GARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-GA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-GA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "HIURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "HIPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "HIRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-HI-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-HI",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "IDURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "IDPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "IDRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-ID-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-ID",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "ILURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "ILPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "ILRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-IL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "INURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "INPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "INRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-IN-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "IAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "IAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "IARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-IA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "KSURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "KSPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "KSRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-KS-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-KS",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "KYURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "KYPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "KYRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-KY-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-KY",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "LAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "LAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "LARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-LA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-LA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-ME-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-ME",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MDURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MDPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MDRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-MD-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MD",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-MA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MIURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MIPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MIRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-MI-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MI",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MNURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MNPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MNRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-MN-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MSURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MSPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MSRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-MS-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MS",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MOURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MOPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MORGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-MO-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MO",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MTURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MTPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "MTRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-MT-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MT",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-NE-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NVURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NVPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NVRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-NV-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NV",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NHURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NHPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NHRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-NH-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NH",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NJURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NJPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NJRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-NJ-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NJ",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NMURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NMPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NMRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-NM-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NM",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NYURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NYPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NYRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-NY-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NY",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NCURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NCPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NCRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-NC-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NC",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NDURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NDPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "NDRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-ND-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-ND",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "OHURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "OHPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "OHRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-OH-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-OH",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "OKURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "OKPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "OKRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-OK-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-OK",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "ORURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "ORPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "ORRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-OR-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-OR",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "PAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "PAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "PARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-PA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-PA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "RIURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "RIPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "FRED",
         "id": "RIRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "USAspending",
         "id": "state-RI-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-RI",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:13:25.162Z"
+        "retrievedAt": "2026-06-01T04:28:27.842Z"
       }
     ]
   },
@@ -1449,7 +1449,7 @@
       "sourceName": "U.S. Census Bureau",
       "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
       "sourceDataset": "ACS 2022 5-Year B01003_001E",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -1462,7 +1462,7 @@
       "sourceName": "U.S. Census Bureau",
       "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
       "sourceDataset": "ACS 2022 5-Year B19013_001E",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -1475,7 +1475,7 @@
       "sourceName": "U.S. Census Bureau",
       "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
       "sourceDataset": "ACS 2022 5-Year B25077_001E",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -1489,7 +1489,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/RIURN",
       "sourceDataset": "FRED Series RIURN",
       "sourceSeriesId": "RIURN",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -1503,7 +1503,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/RIRGSP",
       "sourceDataset": "FRED Series RIRGSP",
       "sourceSeriesId": "RIRGSP",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -1516,7 +1516,7 @@
       "sourceName": "USAspending.gov",
       "sourceUrl": "https://api.usaspending.gov/",
       "sourceDataset": "USAspending API v2 spending_by_geography",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -1529,7 +1529,7 @@
       "sourceName": "LocalLedger methodology",
       "sourceUrl": "https://localledger.pages.dev/methodology/",
       "sourceDataset": "Composite score from Census, FRED, and USAspending",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z",
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z",
       "transformation": "weighted score",
       "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
       "availability": "available"
@@ -1548,7 +1548,7 @@
       "medianHomeValue": 310500,
       "localEconomyScore": 63.2,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "kent",
@@ -1562,7 +1562,7 @@
       "medianHomeValue": 306000,
       "localEconomyScore": 68.3,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "washington",
@@ -1576,7 +1576,7 @@
       "medianHomeValue": 436000,
       "localEconomyScore": 69.7,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "newport",
@@ -1590,7 +1590,7 @@
       "medianHomeValue": 503700,
       "localEconomyScore": 66,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "slug": "bristol",
@@ -1604,7 +1604,7 @@
       "medianHomeValue": 443700,
       "localEconomyScore": 71.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     }
   ],
   "colleges": [
@@ -1623,7 +1623,7 @@
       "debtToEarningsRatio": 0.12224159508808712,
       "valueScore": 91,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "217165",
@@ -1640,7 +1640,7 @@
       "debtToEarningsRatio": 0.29829570704826236,
       "valueScore": 59,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "217235",
@@ -1657,7 +1657,7 @@
       "debtToEarningsRatio": 0.5988299783499931,
       "valueScore": 39,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "217305",
@@ -1674,7 +1674,7 @@
       "debtToEarningsRatio": 0.3423712102538822,
       "valueScore": 39,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "217323",
@@ -1691,7 +1691,7 @@
       "debtToEarningsRatio": 0.11929923707261939,
       "valueScore": 80,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "217402",
@@ -1708,7 +1708,7 @@
       "debtToEarningsRatio": 0.3101523192501206,
       "valueScore": 54,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "217420",
@@ -1725,7 +1725,7 @@
       "debtToEarningsRatio": 0.36400440356546754,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "217475",
@@ -1742,7 +1742,7 @@
       "debtToEarningsRatio": 0.2559834970346234,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "217484",
@@ -1759,7 +1759,7 @@
       "debtToEarningsRatio": 0.319028432961014,
       "valueScore": 77,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "217493",
@@ -1776,7 +1776,7 @@
       "debtToEarningsRatio": 0.3962430290578221,
       "valueScore": 46,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "217518",
@@ -1793,7 +1793,7 @@
       "debtToEarningsRatio": 0.3834002220134916,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "217536",
@@ -1810,7 +1810,7 @@
       "debtToEarningsRatio": 0.3699897225077081,
       "valueScore": 54,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "217581",
@@ -1827,7 +1827,7 @@
       "debtToEarningsRatio": 0.4337191063631354,
       "valueScore": 38,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "409616",
@@ -1844,7 +1844,7 @@
       "debtToEarningsRatio": 0.3834002220134916,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "433101",
@@ -1861,7 +1861,7 @@
       "debtToEarningsRatio": 0.3296672306824591,
       "valueScore": 37,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "437237",
@@ -1878,7 +1878,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "443641",
@@ -1895,7 +1895,7 @@
       "debtToEarningsRatio": 0.4833252779120348,
       "valueScore": 34,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "455965",
@@ -1912,7 +1912,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "460349",
@@ -1929,7 +1929,7 @@
       "debtToEarningsRatio": 0.5988299783499931,
       "valueScore": 39,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "479062",
@@ -1946,7 +1946,7 @@
       "debtToEarningsRatio": 0.19676477289202793,
       "valueScore": 52,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "493822",
@@ -1963,7 +1963,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "37369601",
@@ -1980,7 +1980,7 @@
       "debtToEarningsRatio": 0.3151533313355309,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     },
     {
       "unitId": "49382201",
@@ -1997,7 +1997,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:13:25.162Z"
+      "lastFetchedAt": "2026-06-01T04:28:27.842Z"
     }
   ],
   "federalSpending": [

@@ -4,7 +4,8 @@ import { SITE_NAME, DATA_SOURCES } from '@/lib/constants';
 
 export function Footer() {
   return (
-    <footer className="bg-[#0F172A] text-gray-400 mt-16">
+    <footer className="mt-16 bg-[#0F172A] text-gray-400">
+      <div className="h-px bg-gradient-to-r from-cyan-500/40 via-blue-500/40 to-teal-500/40" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
@@ -19,14 +20,24 @@ export function Footer() {
             <p className="text-xs mt-3 text-gray-500">
               No fabricated data. No estimates. No hallucinations.
             </p>
+            <a
+              href="https://buymeacoffee.com/sarast1"
+              target="_blank"
+              rel="noopener"
+              className="mt-5 inline-flex items-center gap-2 rounded-full border border-cyan-300/30 bg-cyan-300/10 px-3 py-1.5 text-xs font-semibold text-cyan-100 transition-colors hover:border-cyan-200/60 hover:bg-cyan-300/20 hover:text-white"
+            >
+              <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M5 8h11v6a5 5 0 01-5 5H9a5 5 0 01-5-5V9a1 1 0 011-1zm11 2h2a3 3 0 010 6h-2M7 4h8M8 2v2m4-2v2" />
+              </svg>
+              Support LocalLedger
+            </a>
           </div>
 
           {/* Explore */}
           <div>
             <h3 className="text-white text-sm font-semibold mb-3">Explore</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/colorado/" className="hover:text-white transition-colors">Overview</Link></li>
-              <li><Link href="/states/" className="hover:text-white transition-colors">States</Link></li>
+              <li><Link href="/states/" className="hover:text-white transition-colors">All States</Link></li>
               <li><Link href="/counties/" className="hover:text-white transition-colors">Counties</Link></li>
               <li><Link href="/metros/" className="hover:text-white transition-colors">Metros</Link></li>
               <li><Link href="/rankings/" className="hover:text-white transition-colors">Rankings</Link></li>
@@ -37,10 +48,10 @@ export function Footer() {
           <div>
             <h3 className="text-white text-sm font-semibold mb-3">Dashboards</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/states/colorado/counties/" className="hover:text-white transition-colors">Colorado Counties</Link></li>
-              <li><Link href="/states/colorado/college-roi/" className="hover:text-white transition-colors">College ROI</Link></li>
-              <li><Link href="/states/colorado/federal-spending/" className="hover:text-white transition-colors">Federal Spending</Link></li>
-              <li><Link href="/states/colorado/recession-radar/" className="hover:text-white transition-colors">Recession Radar</Link></li>
+              <li><Link href="/counties/" className="hover:text-white transition-colors">Top Counties</Link></li>
+              <li><Link href="/rankings/most-affordable-college-states/" className="hover:text-white transition-colors">College ROI</Link></li>
+              <li><Link href="/rankings/federal-spending-per-capita/" className="hover:text-white transition-colors">Federal Spending</Link></li>
+              <li><Link href="/rankings/best-local-economies/" className="hover:text-white transition-colors">Best Local Economies</Link></li>
             </ul>
           </div>
 
@@ -73,13 +84,21 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-          <p className="text-xs text-gray-500">
-            © {new Date().getFullYear()} LocalLedger. All data from official public sources.
-            Not financial advice.
-          </p>
-          <p className="text-xs text-gray-500">
-            Built with transparency. Every data point cites its source.
-          </p>
+          <div className="space-y-2">
+            <p className="text-xs text-gray-500">
+              © {new Date().getFullYear()} LocalLedger. All data from official public sources.
+              Not financial advice.
+            </p>
+            <p className="text-xs text-gray-500">
+              Built with transparency. Every data point cites its source.
+            </p>
+          </div>
+          <Link
+            href="/colorado/"
+            className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-semibold text-gray-300 transition-colors hover:border-cyan-300/40 hover:bg-cyan-300/10 hover:text-white"
+          >
+            Featured: Colorado deep-dive
+          </Link>
           <a
             href="https://econ.mom"
             target="_blank"
