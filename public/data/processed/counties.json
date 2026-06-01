@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "description": "Colorado county economic data",
+    "generatedAt": "2026-06-01T01:51:38.898Z",
+    "note": "Full county data requires Census API key. Run data:fetch with CENSUS_API_KEY set.",
+    "source": {
+      "name": "U.S. Census Bureau (American Community Survey)",
+      "url": "https://data.census.gov/",
+      "dataset": "ACS 5-Year Estimates",
+      "lastFetchedAt": "2026-06-01T01:51:38.898Z"
+    }
+  },
+  "counties": "Data unavailable. Census county pipeline is not implemented yet."
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "description": "Federal award spending in Colorado FY2023",
+    "generatedAt": "2026-06-01T01:51:38.898Z",
+    "source": {
+      "name": "USAspending.gov",
+      "url": "https://www.usaspending.gov/",
+      "dataset": "USAspending API v2",
+      "lastFetchedAt": "2026-06-01T01:51:38.898Z"
+    }
+  },
+  "stateTotal": [
+    {
+      "shape_code": "CO",
+      "display_name": "Colorado",
+      "aggregated_amount": 63512934291.97,
+      "population": 5773714,
+      "per_capita": 11000.36
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+# LocalLedger Project Brain
+
+> Source of truth for LocalLedger. Agents should read and update this file when the project state changes.
+
+## 30-second TLDR
+
+LocalLedger is a public economic intelligence site that turns official labor, income, housing, education, and federal spending data into readable local dashboards.
+
+## Current Status
+
+- Phase: Colorado MVP live build
+- Last update: 2026-06-01
+- Owner: Saras Totey
+- Repo: https://github.com/PandaXPanther/localledger
+- Production: https://localledger.pages.dev
+- Hosting: Cloudflare Pages
+
+## Implemented Routes
+
+- `/`
+- `/colorado`
+- `/colorado/denver`
+- `/colorado/boulder`
+- `/colorado/colorado-springs`
+- `/colorado/fort-collins`
+- `/colorado/aurora`
+- `/colorado/counties`
+- `/colorado/college-roi`
+- `/colorado/federal-spending`
+- `/colorado/recession-radar`
+- `/methodology`
+- `/sources`
+- `/api`
+- `/about`
+- `/states`
+- `/rankings`
+
+## Data Integrity
+
+- Official public sources only.
+- Missing values display `Data unavailable`.
+- Every metric object requires source metadata, date, and last fetched timestamp.
+- Computed scores require methodology notes.
+- `pnpm data:validate` fails on missing metadata, invalid values, and production data strings that imply mock or invented data.
+
+## Deployment
+
+GitHub Actions runs:
+
+```bash
+pnpm data:fetch
+pnpm data:validate
+pnpm typecheck
+pnpm lint
+pnpm test
+pnpm build
+wrangler pages deploy out --project-name=localledger
+```
+
+Required GitHub secrets are configured for:
+
+- `FRED_API_KEY`
+- `CENSUS_API_KEY`
+- `COLLEGE_SCORECARD_API_KEY`
+- `BEA_API_KEY`
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
+
+## Decision Log
+
+### 2026-06-01
+
+- Built the Colorado MVP as a static-export Next.js app for Cloudflare Pages.
+- Added SEO metadata, JSON-LD, sitemap, robots, source pages, methodology pages, API catalog, and founder page.
+- Added national foundations with `/states` and `/rankings`.
+- Added data fetch and validation scripts with official-source provenance rules.

@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "description": "Colorado statewide economic overview",
+    "generatedAt": "2026-06-01T01:51:38.898Z",
+    "sources": [
+      {
+        "name": "Federal Reserve Economic Data (FRED)",
+        "url": "https://fred.stlouisfed.org/",
+        "dataset": "Multiple series"
+      }
+    ]
+  },
+  "unemploymentRate": {
+    "value": 3.5,
+    "unit": "percent",
+    "geography": "Colorado",
+    "date": "2026-04-01",
+    "sourceName": "Federal Reserve Economic Data (FRED)",
+    "sourceUrl": "https://fred.stlouisfed.org/series/COURN",
+    "sourceDataset": "FRED Series COURN",
+    "sourceSeriesId": "COURN",
+    "lastFetchedAt": "2026-06-01T01:51:38.898Z",
+    "transformation": "latest observation",
+    "methodologyNote": "Latest available observation for FRED series COURN."
+  },
+  "medianHouseholdIncome": {
+    "value": 106500,
+    "unit": "USD",
+    "geography": "Colorado",
+    "date": "2024-01-01",
+    "sourceName": "Federal Reserve Economic Data (FRED)",
+    "sourceUrl": "https://fred.stlouisfed.org/series/MEHOINUSCOA646N",
+    "sourceDataset": "FRED Series MEHOINUSCOA646N",
+    "sourceSeriesId": "MEHOINUSCOA646N",
+    "lastFetchedAt": "2026-06-01T01:51:38.898Z",
+    "transformation": "latest observation",
+    "methodologyNote": "Latest available observation for FRED series MEHOINUSCOA646N."
+  },
+  "gdp": {
+    "value": null,
+    "unit": "USD millions",
+    "geography": "Colorado",
+    "date": "unavailable",
+    "sourceName": "Federal Reserve Economic Data (FRED)",
+    "sourceUrl": "https://fred.stlouisfed.org/series/CORGSP",
+    "sourceDataset": "FRED Series CORGSP",
+    "sourceSeriesId": "CORGSP",
+    "lastFetchedAt": "2026-06-01T01:51:38.898Z",
+    "transformation": "none",
+    "methodologyNote": "Data could not be fetched; API key may be missing or service unavailable."
+  },
+  "population": {
+    "value": 6012.561,
+    "unit": "persons (thousands)",
+    "geography": "Colorado",
+    "date": "2025-01-01",
+    "sourceName": "Federal Reserve Economic Data (FRED)",
+    "sourceUrl": "https://fred.stlouisfed.org/series/COPOP",
+    "sourceDataset": "FRED Series COPOP",
+    "sourceSeriesId": "COPOP",
+    "lastFetchedAt": "2026-06-01T01:51:38.898Z",
+    "transformation": "latest observation",
+    "methodologyNote": "Latest available observation for FRED series COPOP."
+  },
+  "usUnemploymentRate": {
+    "value": null,
+    "unit": "percent",
+    "geography": "United States",
+    "date": "unavailable",
+    "sourceName": "Federal Reserve Economic Data (FRED)",
+    "sourceUrl": "https://fred.stlouisfed.org/series/UNRATE",
+    "sourceDataset": "FRED Series UNRATE",
+    "sourceSeriesId": "UNRATE",
+    "lastFetchedAt": "2026-06-01T01:51:38.898Z",
+    "transformation": "none",
+    "methodologyNote": "Data could not be fetched; API key may be missing or service unavailable."
+  },
+  "usMedianHouseholdIncome": {
+    "value": 83730,
+    "unit": "USD",
+    "geography": "United States",
+    "date": "2024-01-01",
+    "sourceName": "Federal Reserve Economic Data (FRED)",
+    "sourceUrl": "https://fred.stlouisfed.org/series/MEHOINUSA672N",
+    "sourceDataset": "FRED Series MEHOINUSA672N",
+    "sourceSeriesId": "MEHOINUSA672N",
+    "lastFetchedAt": "2026-06-01T01:51:38.898Z",
+    "transformation": "latest observation",
+    "methodologyNote": "Latest available observation for FRED series MEHOINUSA672N."
+  }
+}

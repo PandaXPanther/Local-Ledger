@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-06-01T01:51:38.898Z",
+  "datasets": [
+    {
+      "id": "colorado-overview",
+      "name": "Colorado Economic Overview",
+      "source": "FRED",
+      "file": "/data/processed/colorado-overview.json",
+      "lastFetchedAt": "2026-06-01T01:51:38.898Z"
+    },
+    {
+      "id": "cities",
+      "name": "Colorado City Data",
+      "source": "FRED",
+      "file": "/data/processed/cities.json",
+      "lastFetchedAt": "2026-06-01T01:51:38.898Z"
+    },
+    {
+      "id": "colleges",
+      "name": "Colorado College ROI",
+      "source": "College Scorecard",
+      "file": "/data/processed/colleges.json",
+      "lastFetchedAt": "2026-06-01T01:51:38.898Z"
+    },
+    {
+      "id": "federal-spending",
+      "name": "Federal Spending in Colorado",
+      "source": "USAspending.gov",
+      "file": "/data/processed/federal-spending.json",
+      "lastFetchedAt": "2026-06-01T01:51:38.898Z"
+    },
+    {
+      "id": "recession-indicator",
+      "name": "Colorado Slowdown Risk Indicator",
+      "source": "FRED",
+      "file": "/data/processed/recession-indicator.json",
+      "lastFetchedAt": "2026-06-01T01:51:38.898Z"
+    },
+    {
+      "id": "counties",
+      "name": "Colorado County Data",
+      "source": "Census ACS",
+      "file": "/data/processed/counties.json",
+      "lastFetchedAt": "2026-06-01T01:51:38.898Z"
+    }
+  ]
+}

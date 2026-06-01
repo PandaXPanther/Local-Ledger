@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# Build output
+dist/
+
+# Environment variables (NEVER commit)
+.env
+.env.local
+.env.*.local
+
+# Raw data (may contain API responses with keys in URLs)
+data/raw/
+
+# Processed data (generated at build time)
+data/processed/
+
+# Public data (generated at build time, committed for static serving)
+# public/data/ - intentionally NOT gitignored so static files are in repo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Cloudflare
+.wrangler/
