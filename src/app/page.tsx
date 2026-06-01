@@ -93,20 +93,20 @@ export default function HomePage() {
       />
 
       {/* Stat cards */}
-      <section className="bg-white border-b border-border" aria-label="Key statistics">
+      <section className="border-b border-rule bg-background" aria-label="Key statistics">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {statCards.map(card => (
               <div
                 key={card.label}
-                className="group rounded-xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-5 text-center shadow-sm ring-1 ring-transparent transition-all hover:-translate-y-0.5 hover:border-cyan-300 hover:shadow-lg hover:ring-cyan-300/60"
+                className="group rounded-lg border border-border bg-surface p-5 text-center shadow-[0_1px_0_rgba(31,36,33,0.08)] transition-all hover:-translate-y-0.5 hover:border-rule hover:shadow-[0_18px_45px_rgba(31,36,33,0.08)]"
               >
-                <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-cyan-50 text-cyan-700 ring-1 ring-cyan-100 transition-colors group-hover:bg-cyan-100">
+                <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-accent-soft text-accent ring-1 ring-accent/10 transition-colors group-hover:bg-accent group-hover:text-white">
                   <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.7} d={card.icon} />
                   </svg>
                 </div>
-                <div className="mb-1 bg-gradient-to-br from-cyan-500 to-blue-600 bg-clip-text text-4xl font-extrabold text-transparent">{card.value}</div>
+                <div className="mb-1 font-mono text-4xl font-extrabold text-ink">{card.value}</div>
                 <div className="text-sm font-medium text-text-secondary">{card.label}</div>
               </div>
             ))}
@@ -115,7 +115,7 @@ export default function HomePage() {
       </section>
 
       {/* Data integrity banner */}
-      <section className="bg-gradient-to-r from-brand-teal to-brand-blue text-white py-4">
+      <section className="bg-ink py-4 text-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-sm text-center">
             <span className="flex items-center gap-2">
@@ -124,20 +124,20 @@ export default function HomePage() {
               </svg>
               Every metric cites its source
             </span>
-            <span className="hidden sm:block text-white/40">·</span>
+            <span className="hidden text-background/40 sm:block">·</span>
             <span>No AI-generated data</span>
-            <span className="hidden sm:block text-white/40">·</span>
+            <span className="hidden text-background/40 sm:block">·</span>
             <span>Build fails if citations are missing</span>
-            <span className="hidden sm:block text-white/40">·</span>
+            <span className="hidden text-background/40 sm:block">·</span>
             <span>No unsourced or model-imputed numbers</span>
           </div>
         </div>
       </section>
 
       {/* Feature cards */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16" aria-label="Dashboard features">
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8" aria-label="Dashboard features">
         <div className="text-center mb-10">
-          <h2 className="text-3xl font-bold text-text-primary mb-3">What LocalLedger tracks</h2>
+          <h2 className="mb-3 font-display text-4xl font-bold text-ink">What LocalLedger tracks</h2>
           <p className="text-text-secondary max-w-xl mx-auto">
             Official labor, income, housing, education, and public finance data - presented clearly.
           </p>
@@ -147,10 +147,10 @@ export default function HomePage() {
             <Link
               key={card.href}
               href={card.href}
-              className="group relative overflow-hidden rounded-xl border border-border bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:border-cyan-300 hover:shadow-xl"
+              className="group relative overflow-hidden rounded-lg border border-border bg-surface p-6 shadow-[0_1px_0_rgba(31,36,33,0.08)] transition-all hover:-translate-y-1 hover:border-rule hover:shadow-[0_22px_55px_rgba(31,36,33,0.1)]"
             >
-              <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-cyan-400 via-blue-500 to-teal-400 opacity-70" />
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 text-brand-blue ring-1 ring-blue-100 transition-all group-hover:scale-105 group-hover:bg-cyan-50 group-hover:text-cyan-700">
+              <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-accent via-ember to-data opacity-80" />
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-accent-soft text-accent ring-1 ring-accent/10 transition-all group-hover:scale-105 group-hover:bg-accent group-hover:text-white">
                 {card.icon}
               </div>
               <h3 className="font-semibold text-text-primary mb-2">{card.title}</h3>
@@ -161,15 +161,15 @@ export default function HomePage() {
       </section>
 
       {/* Browse by state */}
-      <section className="border-t border-border bg-gradient-to-br from-slate-50 via-white to-cyan-50/50 py-12">
+      <section className="border-y border-rule bg-canvas py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-text-primary mb-6">Browse by state</h2>
+          <h2 className="mb-6 font-display text-3xl font-bold text-ink">Browse by state</h2>
           <div className="flex flex-wrap gap-3">
             {browseStates.map(state => (
               <Link
                 key={state.slug}
                 href={`/states/${state.slug}/`}
-                className="inline-flex items-center rounded-full border border-white/80 bg-white/70 px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm ring-1 ring-slate-200/70 backdrop-blur transition-all hover:scale-[1.03] hover:border-cyan-300 hover:bg-cyan-50/80 hover:text-brand-blue hover:shadow-md"
+                className="inline-flex items-center rounded-full border border-border bg-surface/80 px-4 py-2 text-sm font-semibold text-text-secondary shadow-sm backdrop-blur transition-all hover:scale-[1.03] hover:border-accent/35 hover:bg-accent-soft hover:text-accent hover:shadow-md"
               >
                 {state.name}
                 <svg className="ml-1.5 w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -181,30 +181,30 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-white border-t border-border py-14">
+      <section className="border-t border-border bg-background py-14">
         <div className="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 lg:grid-cols-[1fr_420px] lg:px-8">
           <div>
             <p className="section-label mb-3">National preview</p>
-            <h2 className="text-2xl font-bold text-text-primary">Top state economy scores</h2>
+            <h2 className="font-display text-3xl font-bold text-ink">Top state economy scores</h2>
             <div className="mt-6 space-y-3">
               {topStates.map((state, index) => (
                 <Link
                   key={state.slug}
                   href={`/states/${state.slug}/`}
-                  className="group block rounded-xl border border-border bg-white p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:border-cyan-300 hover:shadow-lg"
+                  className="group block rounded-lg border border-border bg-surface p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:border-rule hover:shadow-lg"
                 >
                   <div className="flex items-center justify-between gap-4">
                     <span className="flex items-center gap-3 font-semibold text-text-primary">
-                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 text-xs font-bold text-slate-600 group-hover:bg-cyan-100 group-hover:text-cyan-700">
+                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-canvas font-mono text-xs font-bold text-text-muted group-hover:bg-accent-soft group-hover:text-accent">
                         #{index + 1}
                       </span>
                       {state.name}
                     </span>
-                    <span className="font-bold text-brand-blue">{formatMetric(state.localEconomyScore.value, 'score')}</span>
+                    <span className="font-mono font-bold text-accent">{formatMetric(state.localEconomyScore.value, 'score')}</span>
                   </div>
-                  <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-slate-100">
+                  <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-canvas">
                     <div
-                      className="h-full rounded-full bg-gradient-to-r from-cyan-400 to-blue-600"
+                      className="h-full rounded-full bg-gradient-to-r from-accent to-ember"
                       style={{ width: `${Math.min(100, Math.max(0, state.localEconomyScore.value ?? 0))}%` }}
                     />
                   </div>
@@ -212,14 +212,14 @@ export default function HomePage() {
               ))}
             </div>
           </div>
-          <div className="rounded-xl border border-border bg-slate-50 p-6">
+          <div className="rounded-lg border border-border bg-surface p-6 shadow-[0_18px_45px_rgba(31,36,33,0.05)]">
             <svg viewBox="0 0 420 250" className="h-auto w-full" role="img" aria-label="United States data coverage preview">
-              <rect x="0" y="0" width="420" height="250" rx="18" fill="#f8fafc" />
+              <rect x="0" y="0" width="420" height="250" rx="18" fill="#F4F1EA" />
               {states.slice(0, 50).map((state, index) => {
                 const x = 24 + (index % 10) * 38;
                 const y = 30 + Math.floor(index / 10) * 38;
                 const score = state.localEconomyScore.value ?? 0;
-                const fill = score > 65 ? '#0f766e' : score > 55 ? '#14b8a6' : '#bfdbfe';
+                const fill = score > 65 ? '#23684A' : score > 55 ? '#B45F2A' : '#D8D0BE';
                 return <rect key={state.slug} x={x} y={y} width="28" height="28" rx="6" fill={fill}><title>{state.name}</title></rect>;
               })}
             </svg>
@@ -229,7 +229,7 @@ export default function HomePage() {
       </section>
 
       {/* Data sources strip */}
-      <section className="bg-white border-t border-border py-8">
+      <section className="border-t border-rule bg-surface py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-4 text-center">
             Official Data Sources
@@ -248,7 +248,7 @@ export default function HomePage() {
                 href={s.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-brand-blue transition-colors"
+                className="editorial-link transition-colors hover:text-accent"
               >
                 {s.label}
               </a>

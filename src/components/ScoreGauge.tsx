@@ -8,10 +8,10 @@ interface ScoreGaugeProps {
 }
 
 function getScoreColor(score: number): string {
-  if (score >= 70) return '#16A34A';
-  if (score >= 50) return '#2563EB';
-  if (score >= 30) return '#D97706';
-  return '#DC2626';
+  if (score >= 70) return '#23684A';
+  if (score >= 50) return '#315B7A';
+  if (score >= 30) return '#B45F2A';
+  return '#A23B3B';
 }
 
 function getScoreLabel(score: number): string {
@@ -51,7 +51,7 @@ export function ScoreGauge({ score, label = 'Local Economy Score', size = 'md', 
           <path
             d={`M ${stroke} ${cy} A ${radius} ${radius} 0 0 1 ${svgSize - stroke} ${cy}`}
             fill="none"
-            stroke="#E2E8F0"
+            stroke="#DED7C8"
             strokeWidth={stroke}
             strokeLinecap="round"
           />
@@ -72,7 +72,7 @@ export function ScoreGauge({ score, label = 'Local Economy Score', size = 'md', 
             y={cy - 4}
             textAnchor="middle"
             dominantBaseline="middle"
-            style={{ fontSize: size === 'lg' ? 28 : size === 'sm' ? 18 : 22, fontWeight: 700, fill: '#0F172A', fontFamily: 'Inter, sans-serif' }}
+            style={{ fontSize: size === 'lg' ? 28 : size === 'sm' ? 18 : 22, fontWeight: 800, fill: '#1F2421', fontFamily: 'JetBrains Mono, monospace' }}
           >
             {clampedScore}
           </text>
@@ -80,7 +80,7 @@ export function ScoreGauge({ score, label = 'Local Economy Score', size = 'md', 
             x={cx}
             y={cy + (size === 'lg' ? 18 : 14)}
             textAnchor="middle"
-            style={{ fontSize: 10, fill: '#475569', fontFamily: 'Inter, sans-serif' }}
+            style={{ fontSize: 10, fill: '#8D887A', fontFamily: 'JetBrains Mono, monospace' }}
           >
             / 100
           </text>
@@ -88,8 +88,8 @@ export function ScoreGauge({ score, label = 'Local Economy Score', size = 'md', 
       </div>
 
       <div className="text-center">
-        <div className="text-xs font-semibold text-text-secondary uppercase tracking-wide">{label}</div>
-        <div className="text-sm font-bold mt-0.5" style={{ color }}>
+        <div className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">{label}</div>
+        <div className="mt-0.5 text-sm font-bold" style={{ color }}>
           {scoreLabel}
         </div>
       </div>

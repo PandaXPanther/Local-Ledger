@@ -22,13 +22,13 @@ export function KpiCard({ label, dataPoint, icon, highlight, comparison }: KpiCa
     : 'Data unavailable';
 
   return (
-    <div className={`kpi-card ${highlight ? 'border-brand-blue/30 bg-blue-50/30' : ''}`}>
+    <div className={`kpi-card group ${highlight ? 'border-accent/35 bg-accent-soft/60 shadow-[inset_0_3px_0_#23684A,0_18px_45px_rgba(31,36,33,0.05)]' : ''}`}>
       <div className="flex items-start justify-between mb-2">
         <span className="section-label">{label}</span>
-        {icon && <div className="text-text-muted">{icon}</div>}
+        {icon && <div className="text-text-muted transition-colors group-hover:text-accent">{icon}</div>}
       </div>
 
-      <div className={`text-3xl font-bold ${value === null ? 'text-text-muted' : 'text-text-primary'}`}>
+      <div className={`font-mono text-3xl font-bold tracking-tight ${value === null ? 'text-text-muted' : 'text-ink'}`}>
         {displayValue}
       </div>
 
@@ -39,7 +39,7 @@ export function KpiCard({ label, dataPoint, icon, highlight, comparison }: KpiCa
       )}
 
       {comparison && comparison.value !== null && (
-        <div className="text-xs text-text-secondary mt-2">
+        <div className="mt-2 text-xs font-medium text-text-secondary">
           {comparison.label}: {formatDataValue(comparison.value, comparison.unit)}
         </div>
       )}

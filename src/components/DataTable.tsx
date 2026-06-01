@@ -90,7 +90,7 @@ export function DataTable<T extends Record<string, unknown>>({
               placeholder="Search..."
               value={search}
               onChange={e => { setSearch(e.target.value); setPage(0); }}
-              className="w-full pl-9 pr-4 py-2 text-sm border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-blue"
+              className="w-full rounded-full border border-border bg-surface py-2 pl-9 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-accent"
               aria-label="Search table"
             />
           </div>
@@ -98,23 +98,23 @@ export function DataTable<T extends Record<string, unknown>>({
         </div>
       )}
 
-      <div className="overflow-x-auto rounded-xl border border-border">
+      <div className="table-shell overflow-x-auto">
         <table className="w-full text-sm" aria-label={caption}>
           {caption && <caption className="sr-only">{caption}</caption>}
-          <thead className="bg-gray-50 border-b border-border">
+          <thead className="table-head">
             <tr>
               {columns.map(col => (
                 <th
                   key={String(col.key)}
                   scope="col"
-                  className={`px-4 py-3 font-semibold text-text-secondary ${alignClass[col.align ?? 'left']} ${col.sortable ? 'cursor-pointer hover:bg-gray-100 select-none' : ''}`}
+                  className={`px-4 py-3 ${alignClass[col.align ?? 'left']} ${col.sortable ? 'cursor-pointer select-none hover:bg-accent-soft' : ''}`}
                   onClick={col.sortable ? () => handleSort(col.key) : undefined}
                   aria-sort={sortKey === col.key ? (sortDir === 'asc' ? 'ascending' : 'descending') : undefined}
                 >
                   <span className="flex items-center gap-1 justify-start">
                     {col.label}
                     {col.sortable && (
-                      <svg className={`w-3 h-3 ${sortKey === col.key ? 'text-brand-blue' : 'text-text-muted'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className={`h-3 w-3 ${sortKey === col.key ? 'text-accent' : 'text-text-muted'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={sortDir === 'asc' && sortKey === col.key ? 'M5 15l7-7 7 7' : 'M19 9l-7 7-7-7'} />
                       </svg>
                     )}
@@ -123,7 +123,7 @@ export function DataTable<T extends Record<string, unknown>>({
               ))}
             </tr>
           </thead>
-          <tbody className="divide-y divide-border">
+          <tbody className="divide-y divide-border bg-surface">
             {paged.length === 0 ? (
               <tr>
                 <td colSpan={columns.length} className="px-4 py-8 text-center text-text-muted">
@@ -132,9 +132,9 @@ export function DataTable<T extends Record<string, unknown>>({
               </tr>
             ) : (
               paged.map((row, idx) => (
-                <tr key={idx} className="hover:bg-gray-50 transition-colors">
+                <tr key={idx} className="table-row">
                   {columns.map(col => (
-                    <td key={String(col.key)} className={`px-4 py-3 ${alignClass[col.align ?? 'left']}`}>
+                    <td key={String(col.key)} className={`px-4 py-3 ${alignClass[col.align ?? 'left']} ${col.align === 'right' ? 'font-mono tabular-nums' : ''}`}>
                       {col.render
                         ? col.render(row[col.key], row)
                         : row[col.key] !== null && row[col.key] !== undefined
@@ -159,14 +159,14 @@ export function DataTable<T extends Record<string, unknown>>({
             <button
               onClick={() => setPage(p => Math.max(0, p - 1))}
               disabled={page === 0}
-              className="px-3 py-1.5 border border-border rounded-lg disabled:opacity-40 hover:bg-gray-50 transition-colors"
+              className="rounded-full border border-border px-3 py-1.5 transition-colors hover:bg-accent-soft disabled:opacity-40"
             >
               Previous
             </button>
             <button
               onClick={() => setPage(p => Math.min(totalPages - 1, p + 1))}
               disabled={page === totalPages - 1}
-              className="px-3 py-1.5 border border-border rounded-lg disabled:opacity-40 hover:bg-gray-50 transition-colors"
+              className="rounded-full border border-border px-3 py-1.5 transition-colors hover:bg-accent-soft disabled:opacity-40"
             >
               Next
             </button>

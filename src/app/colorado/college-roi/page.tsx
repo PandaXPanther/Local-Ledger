@@ -126,7 +126,7 @@ export default function CollegeRoiPage() {
             <CollegeTable colleges={colleges as Record<string, unknown>[]} />
           ) : (
             <div className="card p-8 text-center text-text-muted">
-              <p>Data unavailable - set <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">COLLEGE_SCORECARD_API_KEY</code> and re-fetch.</p>
+              <p>Data unavailable - set <code className="text-xs bg-canvas px-1 py-0.5 rounded">COLLEGE_SCORECARD_API_KEY</code> and re-fetch.</p>
             </div>
           )}
         </section>

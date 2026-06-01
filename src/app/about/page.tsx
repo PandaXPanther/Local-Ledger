@@ -88,13 +88,13 @@ export default function AboutPage() {
               href="https://thedividendcollective.com/saras-totey"
               target="_blank"
               rel="noopener"
-              className="text-brand-blue hover:underline"
+              className="text-accent editorial-link"
             >
               The Dividend Collective
             </a>
             , a youth-led economics and policy research organization, while publishing his broader economics
             work through{' '}
-            <a href="https://econ.mom" target="_blank" rel="noopener" className="text-brand-blue hover:underline">
+            <a href="https://econ.mom" target="_blank" rel="noopener" className="text-accent editorial-link">
               econ.mom
             </a>
             .
@@ -111,7 +111,7 @@ export default function AboutPage() {
           </p>
           <p className="text-text-secondary leading-relaxed">
             The journey began with{' '}
-            <a href="https://econlever.org" target="_blank" rel="noopener" className="text-brand-blue hover:underline">
+            <a href="https://econlever.org" target="_blank" rel="noopener" className="text-accent editorial-link">
               EconLever
             </a>
             , a single-purpose calculator built to demystify the levers behind macroeconomic policy. Students
@@ -130,7 +130,7 @@ export default function AboutPage() {
             The Mother of Econ was built independently in a bedroom in Boulder with no team and no budget.
             The lessons from shipping it, including how to make a free tool feel serious and how to earn
             trust without a brand behind you, eventually became the foundation for{' '}
-            <a href="https://attagency.co" target="_blank" rel="noopener" className="text-brand-blue hover:underline">
+            <a href="https://attagency.co" target="_blank" rel="noopener" className="text-accent editorial-link">
               ATT Agency
             </a>
             , a Boulder, Colorado marketing and brand studio Saras went on to co-found.
@@ -189,7 +189,7 @@ export default function AboutPage() {
                   href={link.href}
                   target="_blank"
                   rel="noopener"
-                  className="font-semibold text-brand-blue hover:underline"
+                  className="font-semibold text-accent editorial-link"
                 >
                   {link.label}
                 </a>

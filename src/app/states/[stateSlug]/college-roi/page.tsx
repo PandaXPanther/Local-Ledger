@@ -35,19 +35,19 @@ export default function StateCollegeRoiPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsJsonLd) }} />
       <Hero tag="College ROI" headline={`${bundle.state.name} college ROI`} subheadline="College Scorecard net price, completion, earnings, and debt indicators." />
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="overflow-hidden rounded-xl border border-border bg-white">
+        <div className="table-shell overflow-x-auto">
           <table className="w-full text-sm">
-            <thead className="bg-gray-50 text-left text-text-secondary">
+            <thead className="table-head">
               <tr><th className="px-4 py-3">College</th><th className="px-4 py-3">City</th><th className="px-4 py-3">Net price</th><th className="px-4 py-3">Earnings</th><th className="px-4 py-3">Value score</th></tr>
             </thead>
             <tbody className="divide-y divide-border">
               {colleges.map(college => (
-                <tr key={college.unitId}>
+                <tr key={college.unitId} className="table-row">
                   <td className="px-4 py-3 font-medium">{college.name}</td>
                   <td className="px-4 py-3">{college.city}</td>
-                  <td className="px-4 py-3">{formatMetric(college.netPrice, 'USD')}</td>
-                  <td className="px-4 py-3">{formatMetric(college.medianEarnings, 'USD')}</td>
-                  <td className="px-4 py-3">{formatMetric(college.valueScore, 'score')}</td>
+                  <td className="px-4 py-3 font-mono">{formatMetric(college.netPrice, 'USD')}</td>
+                  <td className="px-4 py-3 font-mono">{formatMetric(college.medianEarnings, 'USD')}</td>
+                  <td className="px-4 py-3 font-mono font-bold text-accent">{formatMetric(college.valueScore, 'score')}</td>
                 </tr>
               ))}
             </tbody>

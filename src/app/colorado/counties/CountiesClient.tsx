@@ -76,7 +76,7 @@ const COLUMNS: Column<CountyRow>[] = [
     sortable: true,
     align: 'right',
     render: (v) => v !== null && v !== undefined ? (
-      <span className="font-bold text-brand-blue">{formatNumber(v as number, 0)}</span>
+      <span className="font-bold text-accent">{formatNumber(v as number, 0)}</span>
     ) : <span className="unavailable-badge">N/A</span>,
   },
   {

@@ -87,18 +87,19 @@ export default function StatePage({ params }: Props) {
             ['Federal Spending', `/states/${state.slug}/federal-spending/`],
             ['Recession Radar', `/states/${state.slug}/recession-radar/`],
           ].map(([label, href]) => (
-            <Link key={href} href={href} className="card p-5 font-semibold text-text-primary transition-shadow hover:shadow-md">
+            <Link key={href} href={href} className="card group p-5 font-semibold text-text-primary">
               {label}
+              <span className="mt-3 block h-0.5 w-8 bg-accent transition-all group-hover:w-14" />
             </Link>
           ))}
         </div>
         <div className="mt-10">
-          <h2 className="mb-4 text-2xl font-bold text-text-primary">Top counties</h2>
+          <h2 className="mb-4 font-display text-3xl font-bold text-ink">Top counties</h2>
           <div className="grid gap-3 md:grid-cols-2">
             {counties.map(county => (
-              <Link key={county.fips} href={`/counties/${county.stateSlug}/${county.slug}/`} className="card flex items-center justify-between p-4 hover:shadow-md">
+              <Link key={county.fips} href={`/counties/${county.stateSlug}/${county.slug}/`} className="card flex items-center justify-between p-4">
                 <span className="font-medium">{county.county}</span>
-                <span className="text-sm text-text-secondary">{formatMetric(county.localEconomyScore, 'score')}</span>
+                <span className="font-mono text-sm font-bold text-accent">{formatMetric(county.localEconomyScore, 'score')}</span>
               </Link>
             ))}
           </div>

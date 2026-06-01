@@ -110,7 +110,7 @@ export default function FederalSpendingPage() {
           <h2 className="text-xl font-bold text-text-primary mb-4">Award Types</h2>
           <div className="card overflow-hidden">
             <table className="w-full text-sm" aria-label="Federal spending by award type">
-              <thead className="bg-gray-50 border-b border-border">
+              <thead className="bg-canvas border-b border-border">
                 <tr>
                   <th className="px-4 py-3 text-left font-semibold text-text-secondary">Award Type</th>
                   <th className="px-4 py-3 text-right font-semibold text-text-secondary">Amount</th>
@@ -120,7 +120,7 @@ export default function FederalSpendingPage() {
               </thead>
               <tbody className="divide-y divide-border">
                 {['Grants', 'Contracts', 'Loans', 'Direct Payments', 'Other'].map(type => (
-                  <tr key={type} className="hover:bg-gray-50">
+                  <tr key={type} className="hover:bg-accent-soft">
                     <td className="px-4 py-3 font-medium">{type}</td>
                     <td className="px-4 py-3 text-right">
                       <span className="unavailable-badge">Data unavailable</span>
@@ -133,7 +133,7 @@ export default function FederalSpendingPage() {
                 ))}
               </tbody>
             </table>
-            <div className="px-4 py-3 bg-gray-50 border-t border-border text-xs text-text-muted">
+            <div className="px-4 py-3 bg-canvas border-t border-border text-xs text-text-muted">
               Detailed breakdown requires additional USAspending API queries by award type.
               Re-run data:fetch with network access to populate.
             </div>

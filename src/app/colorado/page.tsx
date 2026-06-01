@@ -285,7 +285,7 @@ export default function ColoradoPage() {
             <h2 className="text-xl font-bold text-text-primary">City Comparison</h2>
             <div className="flex gap-2">
               {COLORADO_CITIES.map(c => (
-                <Link key={c.href} href={c.href} className="text-xs text-brand-blue hover:underline">
+                <Link key={c.href} href={c.href} className="text-xs text-accent editorial-link">
                   {c.label}
                 </Link>
               ))}

@@ -24,7 +24,7 @@ interface LineChartCardProps {
   methodologyNote?: string;
 }
 
-const COLORS = ['#2563EB', '#0F766E', '#D97706', '#DC2626', '#7C3AED'];
+const COLORS = ['#23684A', '#315B7A', '#B45F2A', '#A23B3B', '#6E5B3F'];
 
 export function LineChartCard({
   title,
@@ -40,8 +40,8 @@ export function LineChartCard({
   if (!data || data.length === 0) {
     return (
       <div className="card p-6">
-        <h3 className="text-sm font-semibold text-text-secondary mb-2">{title}</h3>
-        <div className="flex items-center justify-center h-32 text-text-muted text-sm">
+        <h3 className="mb-2 text-sm font-semibold text-text-secondary">{title}</h3>
+        <div className="flex h-32 items-center justify-center text-sm text-text-muted">
           Data unavailable
         </div>
         {source && <SourceBadge name={source.name} url={source.url} dataset={source.dataset} />}
@@ -51,25 +51,25 @@ export function LineChartCard({
 
   return (
     <div className="card p-6">
-      <h3 className="font-semibold text-text-primary mb-4">{title}</h3>
+      <h3 className="mb-4 font-display text-xl font-bold text-ink">{title}</h3>
       <ResponsiveContainer width="100%" height={height}>
         <LineChart data={data} margin={{ top: 5, right: 10, left: 0, bottom: 5 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#E2E8F0" />
+          <CartesianGrid strokeDasharray="3 3" stroke="#DED7C8" />
           <XAxis
             dataKey={xAxisKey}
-            tick={{ fontSize: 12, fill: '#94A3B8' }}
+            tick={{ fontSize: 12, fill: '#8D887A', fontFamily: 'JetBrains Mono, monospace' }}
             tickLine={false}
-            axisLine={{ stroke: '#E2E8F0' }}
+            axisLine={{ stroke: '#DED7C8' }}
           />
           <YAxis
-            tick={{ fontSize: 12, fill: '#94A3B8' }}
+            tick={{ fontSize: 12, fill: '#8D887A', fontFamily: 'JetBrains Mono, monospace' }}
             tickLine={false}
             axisLine={false}
-            label={yAxisLabel ? { value: yAxisLabel, angle: -90, position: 'insideLeft', style: { fontSize: 11, fill: '#94A3B8' } } : undefined}
+            label={yAxisLabel ? { value: yAxisLabel, angle: -90, position: 'insideLeft', style: { fontSize: 11, fill: '#8D887A' } } : undefined}
           />
           <Tooltip
-            contentStyle={{ border: '1px solid #E2E8F0', borderRadius: 8, fontSize: 12 }}
-            labelStyle={{ fontWeight: 600, color: '#0F172A' }}
+            contentStyle={{ border: '1px solid #DED7C8', borderRadius: 8, fontSize: 12, background: '#FFFDF7' }}
+            labelStyle={{ fontWeight: 700, color: '#1F2421' }}
           />
           {series.length > 1 && <Legend iconType="line" wrapperStyle={{ fontSize: 12 }} />}
           {series.map((s, i) => (

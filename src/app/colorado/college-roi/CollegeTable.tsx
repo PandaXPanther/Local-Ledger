@@ -137,7 +137,7 @@ const COLUMNS: Column<CollegeRow>[] = [
     sortable: true,
     align: 'right',
     render: (v) => v !== null ? (
-      <span className={`font-bold ${(v as number) >= 70 ? 'text-success' : (v as number) >= 50 ? 'text-brand-blue' : 'text-warning'}`}>
+      <span className={`font-bold ${(v as number) >= 70 ? 'text-success' : (v as number) >= 50 ? 'text-accent' : 'text-warning'}`}>
         {v as number}
       </span>
     ) : <span className="unavailable-badge">N/A</span>,

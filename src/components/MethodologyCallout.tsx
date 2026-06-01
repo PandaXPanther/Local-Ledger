@@ -10,9 +10,9 @@ export function MethodologyCallout({
   title,
 }: MethodologyCalloutProps) {
   const styles = {
-    info: 'bg-blue-50 border-brand-blue/20 text-brand-blue',
+    info: 'bg-accent-soft border-accent/20 text-accent',
     warning: 'bg-amber-50 border-warning/20 text-warning',
-    disclaimer: 'bg-gray-50 border-gray-200 text-text-secondary',
+    disclaimer: 'bg-canvas border-border text-text-secondary',
   };
 
   const icons = {

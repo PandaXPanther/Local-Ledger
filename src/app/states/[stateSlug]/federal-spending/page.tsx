@@ -39,7 +39,7 @@ export default function StateFederalSpendingPage({ params }: Props) {
         <MetricGrid metrics={[{ label: 'Federal spending per capita', metric: bundle.state.federalSpendingPerCapita }]} />
         <div className="card mt-8 p-6">
           <h2 className="text-xl font-bold text-text-primary">FY{spending?.fiscalYear ?? 2024} state total</h2>
-          <p className="mt-2 text-4xl font-bold text-brand-blue">{formatMetric(spending?.total, 'USD')}</p>
+          <p className="mt-2 text-4xl font-bold text-accent">{formatMetric(spending?.total, 'USD')}</p>
           <p className="mt-3 text-sm text-text-secondary">Source: USAspending.gov API v2 spending_by_geography.</p>
         </div>
       </section>

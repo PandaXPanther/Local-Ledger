@@ -49,7 +49,7 @@ export default function SourcesPage() {
                   href={source.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-brand-blue hover:underline font-semibold text-base"
+                  className="text-accent editorial-link font-semibold text-base"
                 >
                   {source.name}
                 </a>
@@ -60,7 +60,7 @@ export default function SourcesPage() {
                   href={source.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs text-text-muted mt-2 inline-block hover:text-brand-blue"
+                  className="text-xs text-text-muted mt-2 inline-block hover:text-accent"
                 >
                   {source.url}
                 </a>
@@ -73,13 +73,13 @@ export default function SourcesPage() {
         <section aria-label="Data file catalog">
           <h2 className="text-2xl font-bold text-text-primary mb-4">Dataset Catalog</h2>
           <p className="text-text-secondary text-sm mb-6">
-            Static JSON files are published at <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">/data/processed/</code> and can be accessed directly.
+            Static JSON files are published at <code className="text-xs bg-canvas px-1 py-0.5 rounded">/data/processed/</code> and can be accessed directly.
           </p>
 
           {datasets.length > 0 ? (
             <div className="card overflow-hidden">
               <table className="w-full text-sm" aria-label="Dataset catalog">
-                <thead className="bg-gray-50 border-b border-border">
+                <thead className="bg-canvas border-b border-border">
                   <tr>
                     <th className="px-4 py-3 text-left font-semibold text-text-secondary">Dataset</th>
                     <th className="px-4 py-3 text-left font-semibold text-text-secondary">Source</th>
@@ -89,13 +89,13 @@ export default function SourcesPage() {
                 </thead>
                 <tbody className="divide-y divide-border">
                   {datasets.map(ds => (
-                    <tr key={ds.id} className="hover:bg-gray-50">
+                    <tr key={ds.id} className="hover:bg-accent-soft">
                       <td className="px-4 py-3 font-medium text-text-primary">{ds.name}</td>
                       <td className="px-4 py-3 text-text-secondary">{ds.source}</td>
                       <td className="px-4 py-3">
                         <a
                           href={ds.file}
-                          className="text-brand-blue hover:underline font-mono text-xs"
+                          className="text-accent editorial-link font-mono text-xs"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -110,7 +110,7 @@ export default function SourcesPage() {
             </div>
           ) : (
             <div className="card p-6 text-center text-text-muted">
-              <p>Run <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">pnpm data:fetch</code> to generate the dataset catalog.</p>
+              <p>Run <code className="text-xs bg-canvas px-1 py-0.5 rounded">pnpm data:fetch</code> to generate the dataset catalog.</p>
             </div>
           )}
         </section>
@@ -142,7 +142,7 @@ export default function SourcesPage() {
                 <svg className="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                Computed scores (Local Economy Score, Value Score, Slowdown Risk) have transparent formulas in <a href="/methodology/" className="text-brand-blue hover:underline">Methodology</a>.
+                Computed scores (Local Economy Score, Value Score, Slowdown Risk) have transparent formulas in <a href="/methodology/" className="text-accent editorial-link">Methodology</a>.
               </li>
               <li className="flex items-start gap-3">
                 <svg className="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

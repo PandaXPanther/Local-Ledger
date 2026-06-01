@@ -89,11 +89,11 @@ export default function ApiPage() {
       />
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
-        <div className="card p-5 bg-blue-50/50 border-brand-blue/20">
-          <h2 className="font-semibold text-brand-blue mb-2">Static JSON API</h2>
+        <div className="card p-5 bg-accent-soft/50 border-accent/20">
+          <h2 className="font-semibold text-accent mb-2">Static JSON API</h2>
           <p className="text-sm text-text-secondary leading-relaxed">
             LocalLedger publishes all processed data as static JSON files. No authentication required.
-            Base URL: <code className="text-xs bg-white border border-border px-1.5 py-0.5 rounded">{SITE_URL}</code>
+            Base URL: <code className="text-xs bg-surface border border-border px-1.5 py-0.5 rounded">{SITE_URL}</code>
           </p>
         </div>
 
@@ -110,7 +110,7 @@ export default function ApiPage() {
                   </div>
                   <a
                     href={file.path}
-                    className="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-brand-blue bg-blue-50 border border-blue-100 rounded-lg hover:bg-blue-100 transition-colors font-mono"
+                    className="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-accent bg-accent-soft border border-accent/20 rounded-lg hover:bg-accent-soft transition-colors font-mono"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -129,10 +129,10 @@ export default function ApiPage() {
           <h2 className="text-xl font-bold text-text-primary mb-4">Usage Notes</h2>
           <div className="card p-6">
             <ul className="space-y-3 text-sm text-text-secondary">
-              <li>• All files use a consistent schema with <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">_meta</code> block including <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">generatedAt</code>, description, and sources.</li>
-              <li>• Data values of <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">null</code> indicate unavailable data - not zero.</li>
-              <li>• Every data point includes <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">sourceName</code>, <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">sourceUrl</code>, <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">lastFetchedAt</code>.</li>
-              <li>• Files are regenerated on each build. Cache with care - always check <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">lastFetchedAt</code>.</li>
+              <li>• All files use a consistent schema with <code className="text-xs bg-canvas px-1 py-0.5 rounded">_meta</code> block including <code className="text-xs bg-canvas px-1 py-0.5 rounded">generatedAt</code>, description, and sources.</li>
+              <li>• Data values of <code className="text-xs bg-canvas px-1 py-0.5 rounded">null</code> indicate unavailable data - not zero.</li>
+              <li>• Every data point includes <code className="text-xs bg-canvas px-1 py-0.5 rounded">sourceName</code>, <code className="text-xs bg-canvas px-1 py-0.5 rounded">sourceUrl</code>, <code className="text-xs bg-canvas px-1 py-0.5 rounded">lastFetchedAt</code>.</li>
+              <li>• Files are regenerated on each build. Cache with care - always check <code className="text-xs bg-canvas px-1 py-0.5 rounded">lastFetchedAt</code>.</li>
               <li>• If you use this data, please cite both LocalLedger and the underlying official source.</li>
             </ul>
           </div>

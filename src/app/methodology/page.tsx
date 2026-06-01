@@ -45,7 +45,7 @@ export default function MethodologyPage() {
                 desc: '"Lorem ipsum", "placeholder", "sample data", "demo data", "fabricated", "random", "dummy" are forbidden in production data files.',
               },
             ].map(item => (
-              <div key={item.rule} className="border-l-4 border-brand-blue pl-4">
+              <div key={item.rule} className="border-l-4 border-accent pl-4">
                 <p className="font-semibold text-text-primary">{item.rule}</p>
                 <p className="text-sm text-text-secondary mt-1 leading-relaxed">{item.desc}</p>
               </div>
@@ -63,7 +63,7 @@ export default function MethodologyPage() {
 
           <div className="mt-6 card overflow-hidden">
             <table className="w-full text-sm" aria-label="Local Economy Score weights">
-              <thead className="bg-gray-50 border-b border-border">
+              <thead className="bg-canvas border-b border-border">
                 <tr>
                   <th className="px-4 py-3 text-left font-semibold text-text-secondary">Dimension</th>
                   <th className="px-4 py-3 text-right font-semibold text-text-secondary">Weight</th>
@@ -74,39 +74,39 @@ export default function MethodologyPage() {
               <tbody className="divide-y divide-border">
                 <tr>
                   <td className="px-4 py-3 font-medium">Labor</td>
-                  <td className="px-4 py-3 text-right font-bold text-brand-blue">{LOCAL_ECONOMY_SCORE_WEIGHTS.labor}%</td>
+                  <td className="px-4 py-3 text-right font-bold text-accent">{LOCAL_ECONOMY_SCORE_WEIGHTS.labor}%</td>
                   <td className="px-4 py-3 text-text-secondary">FRED, BLS</td>
                   <td className="px-4 py-3 text-xs text-text-muted">Unemployment (70%): 0% = 100, 15%+ = 0. LFPR (30%): 80%+ = 100, 50% = 0.</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-medium">Income</td>
-                  <td className="px-4 py-3 text-right font-bold text-brand-blue">{LOCAL_ECONOMY_SCORE_WEIGHTS.income}%</td>
+                  <td className="px-4 py-3 text-right font-bold text-accent">{LOCAL_ECONOMY_SCORE_WEIGHTS.income}%</td>
                   <td className="px-4 py-3 text-text-secondary">FRED, Census ACS</td>
                   <td className="px-4 py-3 text-xs text-text-muted">Median HH income relative to CO median. 2× CO median = 100, 0 = 0.</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-medium">Affordability</td>
-                  <td className="px-4 py-3 text-right font-bold text-brand-blue">{LOCAL_ECONOMY_SCORE_WEIGHTS.affordability}%</td>
+                  <td className="px-4 py-3 text-right font-bold text-accent">{LOCAL_ECONOMY_SCORE_WEIGHTS.affordability}%</td>
                   <td className="px-4 py-3 text-text-secondary">Census ACS, Zillow (future)</td>
                   <td className="px-4 py-3 text-xs text-text-muted">Home price-to-income ratio. Ratio 2× = 100 (affordable), 10× = 0 (unaffordable).</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-medium">Population Growth</td>
-                  <td className="px-4 py-3 text-right font-bold text-brand-blue">{LOCAL_ECONOMY_SCORE_WEIGHTS.population}%</td>
+                  <td className="px-4 py-3 text-right font-bold text-accent">{LOCAL_ECONOMY_SCORE_WEIGHTS.population}%</td>
                   <td className="px-4 py-3 text-text-secondary">Census Bureau</td>
                   <td className="px-4 py-3 text-xs text-text-muted">YoY growth rate. +3%+ = 100, −2% = 0.</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-medium">Fiscal</td>
-                  <td className="px-4 py-3 text-right font-bold text-brand-blue">{LOCAL_ECONOMY_SCORE_WEIGHTS.fiscal}%</td>
+                  <td className="px-4 py-3 text-right font-bold text-accent">{LOCAL_ECONOMY_SCORE_WEIGHTS.fiscal}%</td>
                   <td className="px-4 py-3 text-text-secondary">USAspending.gov</td>
                   <td className="px-4 py-3 text-xs text-text-muted">Federal spending per capita. $20k+ = 100, $0 = 0.</td>
                 </tr>
               </tbody>
-              <tfoot className="bg-gray-50 border-t border-border">
+              <tfoot className="bg-canvas border-t border-border">
                 <tr>
                   <td className="px-4 py-3 font-bold">Total</td>
-                  <td className="px-4 py-3 text-right font-bold text-brand-blue">100%</td>
+                  <td className="px-4 py-3 text-right font-bold text-accent">100%</td>
                   <td colSpan={2} className="px-4 py-3 text-xs text-text-muted">
                     Missing dimensions reduce effective weight proportionally. Score is always between 0 and 100.
                   </td>
@@ -212,32 +212,32 @@ export default function MethodologyPage() {
             <p className="text-sm text-text-secondary mb-4">LocalLedger uses only official public data sources:</p>
             <ul className="space-y-3 text-sm text-text-secondary">
               <li>
-                <a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener noreferrer" className="text-brand-blue hover:underline font-medium">
+                <a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener noreferrer" className="text-accent editorial-link font-medium">
                   Federal Reserve Economic Data (FRED)
                 </a> - unemployment rates, GDP, income, population
               </li>
               <li>
-                <a href="https://www.bls.gov/" target="_blank" rel="noopener noreferrer" className="text-brand-blue hover:underline font-medium">
+                <a href="https://www.bls.gov/" target="_blank" rel="noopener noreferrer" className="text-accent editorial-link font-medium">
                   Bureau of Labor Statistics (BLS)
                 </a> - labor force statistics, detailed employment
               </li>
               <li>
-                <a href="https://www.census.gov/" target="_blank" rel="noopener noreferrer" className="text-brand-blue hover:underline font-medium">
+                <a href="https://www.census.gov/" target="_blank" rel="noopener noreferrer" className="text-accent editorial-link font-medium">
                   U.S. Census Bureau (ACS)
                 </a> - population, income, housing
               </li>
               <li>
-                <a href="https://www.bea.gov/" target="_blank" rel="noopener noreferrer" className="text-brand-blue hover:underline font-medium">
+                <a href="https://www.bea.gov/" target="_blank" rel="noopener noreferrer" className="text-accent editorial-link font-medium">
                   Bureau of Economic Analysis (BEA)
                 </a> - regional GDP, personal income
               </li>
               <li>
-                <a href="https://collegescorecard.ed.gov/" target="_blank" rel="noopener noreferrer" className="text-brand-blue hover:underline font-medium">
+                <a href="https://collegescorecard.ed.gov/" target="_blank" rel="noopener noreferrer" className="text-accent editorial-link font-medium">
                   College Scorecard (U.S. Dept. of Education)
                 </a> - institutional outcomes, costs, earnings
               </li>
               <li>
-                <a href="https://www.usaspending.gov/" target="_blank" rel="noopener noreferrer" className="text-brand-blue hover:underline font-medium">
+                <a href="https://www.usaspending.gov/" target="_blank" rel="noopener noreferrer" className="text-accent editorial-link font-medium">
                   USAspending.gov
                 </a> - federal award spending by geography
               </li>

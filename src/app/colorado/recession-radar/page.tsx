@@ -124,7 +124,7 @@ export default function RecessionRadarPage() {
                   </div>
 
                   {data.dataQualityNote && (
-                    <p className="text-xs text-text-muted mt-4 p-2 bg-gray-50 rounded">{data.dataQualityNote}</p>
+                    <p className="text-xs text-text-muted mt-4 p-2 bg-canvas rounded">{data.dataQualityNote}</p>
                   )}
                 </div>
               </div>
@@ -182,7 +182,7 @@ export default function RecessionRadarPage() {
           </>
         ) : (
           <div className="card p-8 text-center text-text-muted">
-            Data not yet fetched. Run <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">pnpm data:fetch</code> first.
+            Data not yet fetched. Run <code className="text-xs bg-canvas px-1 py-0.5 rounded">pnpm data:fetch</code> first.
           </div>
         )}
       </div>

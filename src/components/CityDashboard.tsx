@@ -57,7 +57,7 @@ export function CityDashboard({ snapshot, description }: CityDashboardProps) {
         <h2 className="text-xl font-bold text-text-primary mb-4">Unemployment Rate - Metro Proxy vs. State vs. US</h2>
         <div className="card overflow-hidden">
           <table className="w-full text-sm" aria-label="Unemployment rate comparison">
-            <thead className="bg-gray-50 border-b border-border">
+            <thead className="bg-canvas border-b border-border">
               <tr>
                 <th className="px-4 py-3 text-left font-semibold text-text-secondary">Geography</th>
                 <th className="px-4 py-3 text-right font-semibold text-text-secondary">Unemployment Rate</th>
@@ -66,8 +66,8 @@ export function CityDashboard({ snapshot, description }: CityDashboardProps) {
             </thead>
             <tbody className="divide-y divide-border">
               {comparisonRows.map(row => (
-                <tr key={row.label} className={row.highlight ? 'bg-blue-50/40' : 'hover:bg-gray-50'}>
-                  <td className={`px-4 py-3 font-medium ${row.highlight ? 'text-brand-blue' : 'text-text-primary'}`}>
+                <tr key={row.label} className={row.highlight ? 'bg-accent-soft/40' : 'hover:bg-accent-soft'}>
+                  <td className={`px-4 py-3 font-medium ${row.highlight ? 'text-accent' : 'text-text-primary'}`}>
                     {row.label}
                   </td>
                   <td className="px-4 py-3 text-right font-semibold">
@@ -80,7 +80,7 @@ export function CityDashboard({ snapshot, description }: CityDashboardProps) {
               ))}
             </tbody>
           </table>
-          <div className="px-4 py-3 bg-gray-50 border-t border-border">
+          <div className="px-4 py-3 bg-canvas border-t border-border">
             <SourceBadge
               name="Federal Reserve Economic Data (FRED)"
               url="https://fred.stlouisfed.org/"

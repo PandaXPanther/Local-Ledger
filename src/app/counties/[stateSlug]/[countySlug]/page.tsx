@@ -60,7 +60,7 @@ export default function CountyPage({ params }: Props) {
         ].map(([label, value]) => (
           <div key={label} className="card p-6">
             <div className="section-label">{label}</div>
-            <div className="mt-2 text-3xl font-bold text-text-primary">{value}</div>
+            <div className="mt-2 font-mono text-3xl font-bold text-ink">{value}</div>
             <p className="mt-3 text-xs text-text-muted">{county.source}</p>
           </div>
         ))}

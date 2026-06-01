@@ -38,7 +38,7 @@ export function DownloadCsvButton({ data, filename, label = 'Download CSV' }: Do
     <button
       type="button"
       onClick={handleDownload}
-      className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-text-secondary border border-border rounded-lg hover:bg-gray-50 hover:text-text-primary transition-colors"
+      className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-text-secondary border border-border rounded-lg hover:bg-accent-soft hover:text-text-primary transition-colors"
       disabled={!data.length}
     >
       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

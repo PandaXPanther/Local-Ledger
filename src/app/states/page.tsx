@@ -28,16 +28,16 @@ export default function StatesPage() {
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="mb-8 grid gap-4 md:grid-cols-5">
           {leaders.map(state => (
-            <Link key={state.slug} href={`/states/${state.slug}/`} className="card p-4 transition-shadow hover:shadow-md">
-              <div className="text-xs font-semibold uppercase text-text-muted">{state.abbreviation}</div>
+            <Link key={state.slug} href={`/states/${state.slug}/`} className="card p-4">
+              <div className="section-label">{state.abbreviation}</div>
               <div className="mt-1 font-semibold text-text-primary">{state.name}</div>
-              <div className="mt-2 text-2xl font-bold text-brand-blue">{formatMetric(state.localEconomyScore.value, 'score')}</div>
+              <div className="mt-2 font-mono text-2xl font-bold text-accent">{formatMetric(state.localEconomyScore.value, 'score')}</div>
             </Link>
           ))}
         </div>
-        <div className="overflow-hidden rounded-xl border border-border bg-white">
+        <div className="table-shell overflow-x-auto">
           <table className="w-full text-sm">
-            <thead className="bg-gray-50 text-left text-text-secondary">
+            <thead className="table-head">
               <tr>
                 <th className="px-4 py-3">State</th>
                 <th className="px-4 py-3">Population</th>
@@ -48,12 +48,12 @@ export default function StatesPage() {
             </thead>
             <tbody className="divide-y divide-border">
               {states.map(state => (
-                <tr key={state.slug} className="hover:bg-gray-50">
-                  <td className="px-4 py-3 font-medium"><Link href={`/states/${state.slug}/`} className="text-brand-blue hover:underline">{state.name}</Link></td>
-                  <td className="px-4 py-3">{formatMetric(state.population.value, 'persons')}</td>
-                  <td className="px-4 py-3">{formatMetric(state.medianHouseholdIncome.value, 'USD')}</td>
-                  <td className="px-4 py-3">{formatMetric(state.unemploymentRate.value, 'percent')}</td>
-                  <td className="px-4 py-3">{formatMetric(state.localEconomyScore.value, 'score')}</td>
+                <tr key={state.slug} className="table-row">
+                  <td className="px-4 py-3 font-medium"><Link href={`/states/${state.slug}/`} className="editorial-link text-accent">{state.name}</Link></td>
+                  <td className="px-4 py-3 font-mono">{formatMetric(state.population.value, 'persons')}</td>
+                  <td className="px-4 py-3 font-mono">{formatMetric(state.medianHouseholdIncome.value, 'USD')}</td>
+                  <td className="px-4 py-3 font-mono">{formatMetric(state.unemploymentRate.value, 'percent')}</td>
+                  <td className="px-4 py-3 font-mono font-bold text-accent">{formatMetric(state.localEconomyScore.value, 'score')}</td>
                 </tr>
               ))}
             </tbody>

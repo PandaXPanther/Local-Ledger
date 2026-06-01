@@ -22,7 +22,7 @@ export default function BoulderPage() {
         <CityDashboard snapshot={snapshot} />
       ) : (
         <div className="max-w-7xl mx-auto px-4 py-12 text-center text-text-muted">
-          Data not yet fetched. Run <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">pnpm data:fetch</code> first.
+          Data not yet fetched. Run <code className="text-xs bg-canvas px-1 py-0.5 rounded">pnpm data:fetch</code> first.
         </div>
       )}
     </>
