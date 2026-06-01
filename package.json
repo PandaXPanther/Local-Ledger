@@ -13,7 +13,8 @@
     "data:validate": "tsx scripts/validate-data.ts",
     "data:sanity": "tsx scripts/check-build-data.ts",
     "lint:unicode": "tsx scripts/check-no-em-dash.ts",
-    "prebuild": "pnpm data:fetch && pnpm data:validate && pnpm data:sanity && pnpm lint:unicode"
+    "prebuild": "pnpm data:validate && pnpm data:sanity && pnpm lint:unicode",
+    "refresh-data": "pnpm data:fetch && pnpm data:validate && pnpm data:sanity"
   },
   "dependencies": {
     "clsx": "^2.1.1",

@@ -55,6 +55,16 @@ LocalLedger uses official public data sources only.
 | [College Scorecard](https://collegescorecard.ed.gov/) | Net price, graduation, earnings, debt |
 | [USAspending.gov](https://www.usaspending.gov/) | Federal award spending by geography |
 
+## Data Refresh
+
+The build does not refetch API data by default. To refresh from FRED, Census, BEA, BLS, College Scorecard, and USAspending:
+
+```bash
+pnpm refresh-data
+```
+
+This rewrites `public/data/processed/*.json` and `data/processed/*.json` with current API responses. Commit those changes separately from UI or code changes.
+
 ## Data Integrity Rules
 
 1. Official public sources only.
@@ -72,9 +82,7 @@ LocalLedger uses official public data sources only.
 git clone https://github.com/PandaXPanther/localledger.git
 cd localledger
 pnpm install
-pnpm data:fetch
-pnpm data:validate
-pnpm data:sanity
+pnpm refresh-data
 pnpm dev
 ```
 

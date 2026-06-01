@@ -63,8 +63,7 @@ LocalLedger is a public economic intelligence site that turns official labor, in
 GitHub Actions runs:
 
 ```bash
-pnpm data:fetch
-pnpm data:validate
+pnpm refresh-data
 pnpm typecheck
 pnpm lint
 pnpm test
@@ -107,3 +106,7 @@ Required GitHub secrets are configured for:
 
 - Added econ.mom as Saras Totey's primary site and LocalLedger sister project on the About page.
 - Added footer, metadata, and JSON-LD references that connect LocalLedger with econ.mom without changing canonical URLs.
+
+### 2026-06-01 18:37 UTC
+
+- Split normal builds from API data refreshes. `pnpm build` validates existing processed data without refetching, and `pnpm refresh-data` performs the explicit API refresh plus validation.
