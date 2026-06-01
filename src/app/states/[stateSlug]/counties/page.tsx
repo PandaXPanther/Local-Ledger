@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/Hero';
 import { getStateBundle, getStates, formatMetric } from '@/lib/nationalData';
+import { breadcrumbJsonLd } from '@/lib/seo';
 
 interface Props {
   params: { stateSlug: string };
@@ -17,7 +18,7 @@ export function generateMetadata({ params }: Props): Metadata {
   if (!bundle.state) return {};
   return {
     title: `${bundle.state.name} Counties`,
-    description: `County-level Census ACS economic data for ${bundle.state.name}.`,
+    description: `Compare ${bundle.state.name} county economic indicators for population, income, home value, and Local Economy Score.`,
     alternates: { canonical: `/states/${bundle.state.slug}/counties/` },
   };
 }
@@ -25,9 +26,16 @@ export function generateMetadata({ params }: Props): Metadata {
 export default function StateCountiesPage({ params }: Props) {
   const bundle = getStateBundle(params.stateSlug);
   if (!bundle.state) notFound();
+  const breadcrumbsJsonLd = breadcrumbJsonLd([
+    { name: 'Home', path: '/' },
+    { name: 'States', path: '/states/' },
+    { name: bundle.state.name, path: `/states/${bundle.state.slug}/` },
+    { name: 'Counties', path: `/states/${bundle.state.slug}/counties/` },
+  ]);
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsJsonLd) }} />
       <Hero tag={bundle.state.abbreviation} headline={`${bundle.state.name} counties`} subheadline="County population, income, housing, and Local Economy Score from official public data." />
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="overflow-hidden rounded-xl border border-border bg-white">

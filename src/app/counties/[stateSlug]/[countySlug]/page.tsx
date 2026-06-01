@@ -1,12 +1,13 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/Hero';
-import { getCounties, getCounty, formatMetric, topBy } from '@/lib/nationalData';
+import { getCounties, getCounty, formatMetric } from '@/lib/nationalData';
+import { breadcrumbJsonLd, localLedgerDatasetJsonLd } from '@/lib/seo';
 
 interface Props { params: { stateSlug: string; countySlug: string } }
 
 export function generateStaticParams() {
-  return topBy(getCounties(), county => county.population, 350).map(county => ({
+  return getCounties().map(county => ({
     stateSlug: county.stateSlug,
     countySlug: county.slug,
   }));
@@ -17,7 +18,7 @@ export function generateMetadata({ params }: Props): Metadata {
   if (!county) return {};
   return {
     title: `${county.county} Economic Dashboard`,
-    description: `Official Census ACS indicators for ${county.county}, ${county.state}.`,
+    description: `${county.county}, ${county.state} economic indicators for population, median income, home value, and Local Economy Score.`,
     alternates: { canonical: `/counties/${county.stateSlug}/${county.slug}/` },
   };
 }
@@ -25,16 +26,30 @@ export function generateMetadata({ params }: Props): Metadata {
 export default function CountyPage({ params }: Props) {
   const county = getCounty(params.stateSlug, params.countySlug);
   if (!county) notFound();
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'Dataset',
+  const datasetJsonLd = localLedgerDatasetJsonLd({
     name: `${county.county}, ${county.state} economic indicators`,
-    url: `https://localledger.pages.dev/counties/${county.stateSlug}/${county.slug}/`,
-  };
+    description: `County economic indicators for ${county.county}, ${county.state} from official Census ACS data.`,
+    url: `/counties/${county.stateSlug}/${county.slug}/`,
+    variableMeasured: ['population', 'median household income', 'median home value', 'Local Economy Score'],
+    distribution: [
+      {
+        name: 'County economic indicators',
+        contentUrl: '/data/processed/counties.json',
+        description: 'County ACS data by state.',
+      },
+    ],
+  });
+  const breadcrumbsJsonLd = breadcrumbJsonLd([
+    { name: 'Home', path: '/' },
+    { name: 'Counties', path: '/counties/' },
+    { name: county.state, path: `/states/${county.stateSlug}/` },
+    { name: county.county, path: `/counties/${county.stateSlug}/${county.slug}/` },
+  ]);
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsJsonLd) }} />
       <Hero tag={county.stateAbbreviation} headline={`${county.county} economic dashboard`} subheadline="County indicators from Census ACS with transparent source metadata." />
       <section className="mx-auto grid max-w-5xl gap-4 px-4 py-12 sm:px-6 md:grid-cols-2 lg:px-8">
         {[

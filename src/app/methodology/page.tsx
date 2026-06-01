@@ -5,7 +5,8 @@ import { LOCAL_ECONOMY_SCORE_WEIGHTS, TREND_THRESHOLDS, RECESSION_THRESHOLDS } f
 
 export const metadata: Metadata = {
   title: 'Methodology',
-  description: 'How LocalLedger computes the Local Economy Score, Slowdown Risk Indicator, and all derived metrics.',
+  description: 'How LocalLedger computes Local Economy Score, slowdown risk, college ROI, federal spending per capita, and data availability.',
+  alternates: { canonical: '/methodology/' },
 };
 
 export default function MethodologyPage() {

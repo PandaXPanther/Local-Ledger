@@ -5,7 +5,7 @@ import { getCounties, formatMetric, topBy } from '@/lib/nationalData';
 
 export const metadata: Metadata = {
   title: 'County Economic Dashboards',
-  description: 'County-level economic indicators from Census ACS across the United States.',
+  description: 'Find county economic indicators for income, population, housing, and Local Economy Score from official Census ACS data.',
   alternates: { canonical: '/counties/' },
 };
 
@@ -13,7 +13,7 @@ export default function CountiesPage() {
   const counties = topBy(getCounties(), county => county.population, 300);
   return (
     <>
-      <Hero tag="Counties" headline="County economic dashboards" subheadline="The national long tail is available in static JSON. The site prebuilds the largest county pages for fast static export." />
+      <Hero tag="Counties" headline="County economic dashboards" subheadline="Search county-level income, population, housing, and Local Economy Score from official public data." />
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {counties.map(county => (

@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generatedAt": "2026-06-01T04:51:39.863Z",
+    "generatedAt": "2026-06-01T05:36:01.612Z",
     "description": "Colorado Slowdown Risk Indicator",
     "disclaimer": "Educational model, not financial advice."
   },
@@ -15,5 +15,5 @@
   "sources": [
     "FRED state unemployment series"
   ],
-  "lastUpdated": "2026-06-01T04:51:39.863Z"
+  "lastUpdated": "2026-06-01T05:36:01.612Z"
 }

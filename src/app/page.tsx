@@ -5,8 +5,9 @@ import { SITE_DESCRIPTION } from '@/lib/constants';
 import { formatMetric, getCounties, getMetros, getStates, topBy } from '@/lib/nationalData';
 
 export const metadata: Metadata = {
-  title: 'LocalLedger - Public Economic Intelligence for Every Community',
-  description: SITE_DESCRIPTION,
+  title: 'Local Economy Data Dashboard',
+  description: 'Free public economic data for U.S. states, counties, metros, rankings, income, jobs, housing, college ROI, and federal spending.',
+  alternates: { canonical: '/' },
 };
 
 const FEATURE_CARDS = [

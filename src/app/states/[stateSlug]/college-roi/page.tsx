@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/Hero';
 import { getStateBundle, getStates, formatMetric } from '@/lib/nationalData';
+import { breadcrumbJsonLd } from '@/lib/seo';
 
 interface Props { params: { stateSlug: string } }
 
@@ -12,15 +13,26 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Props): Metadata {
   const bundle = getStateBundle(params.stateSlug);
   if (!bundle.state) return {};
-  return { title: `${bundle.state.name} College ROI`, description: `College Scorecard ROI indicators for ${bundle.state.name}.`, alternates: { canonical: `/states/${bundle.state.slug}/college-roi/` } };
+  return {
+    title: `${bundle.state.name} College ROI`,
+    description: `Compare ${bundle.state.name} college ROI indicators including net price, completion, earnings, debt, and value score.`,
+    alternates: { canonical: `/states/${bundle.state.slug}/college-roi/` },
+  };
 }
 
 export default function StateCollegeRoiPage({ params }: Props) {
   const bundle = getStateBundle(params.stateSlug);
   if (!bundle.state) notFound();
   const colleges = [...bundle.colleges].sort((a, b) => (b.valueScore ?? -1) - (a.valueScore ?? -1)).slice(0, 100);
+  const breadcrumbsJsonLd = breadcrumbJsonLd([
+    { name: 'Home', path: '/' },
+    { name: 'States', path: '/states/' },
+    { name: bundle.state.name, path: `/states/${bundle.state.slug}/` },
+    { name: 'College ROI', path: `/states/${bundle.state.slug}/college-roi/` },
+  ]);
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsJsonLd) }} />
       <Hero tag="College ROI" headline={`${bundle.state.name} college ROI`} subheadline="College Scorecard net price, completion, earnings, and debt indicators." />
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="overflow-hidden rounded-xl border border-border bg-white">

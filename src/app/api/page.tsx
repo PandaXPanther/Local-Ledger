@@ -1,12 +1,33 @@
 import type { Metadata } from 'next';
 import { Hero } from '@/components/Hero';
+import { SITE_URL } from '@/lib/constants';
+import { localLedgerDatasetJsonLd } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'API & Data Files',
-  description: 'Access LocalLedger static JSON data files - official economic data for Colorado.',
+  title: 'Public Economic Data API',
+  description: 'Download free static JSON files for LocalLedger state, county, metro, college ROI, federal spending, and source metadata.',
+  alternates: { canonical: '/api/' },
 };
 
 const DATA_FILES = [
+  {
+    path: '/data/processed/states.json',
+    name: 'State Dashboards',
+    description: 'All U.S. state economic dashboards with income, labor, GDP, and federal spending metrics.',
+    source: 'FRED, Census, BEA, USAspending',
+  },
+  {
+    path: '/data/processed/counties.json',
+    name: 'County Economic Indicators',
+    description: 'County population, income, housing, and Local Economy Score records across the United States.',
+    source: 'Census ACS',
+  },
+  {
+    path: '/data/processed/metros.json',
+    name: 'Metro Economic Indicators',
+    description: 'Major U.S. metro and city population, income, and housing indicators.',
+    source: 'Census ACS',
+  },
   {
     path: '/data/processed/colorado-overview.json',
     name: 'Colorado Overview',
@@ -38,12 +59,6 @@ const DATA_FILES = [
     source: 'FRED (computed)',
   },
   {
-    path: '/data/processed/counties.json',
-    name: 'County Data',
-    description: '64 Colorado counties - population, income, unemployment, housing.',
-    source: 'Census ACS',
-  },
-  {
     path: '/data/processed/metadata-catalog.json',
     name: 'Metadata Catalog',
     description: 'Catalog of all datasets with fetch timestamps and source info.',
@@ -52,8 +67,21 @@ const DATA_FILES = [
 ];
 
 export default function ApiPage() {
+  const datasetJsonLd = localLedgerDatasetJsonLd({
+    name: 'LocalLedger public economic data files',
+    description: 'Static JSON data files for public economic dashboards using official federal data sources.',
+    url: '/api/',
+    variableMeasured: ['state economic dashboard', 'county economic indicators', 'metro economic indicators', 'college ROI', 'federal spending'],
+    distribution: DATA_FILES.map(file => ({
+      name: file.name,
+      contentUrl: file.path,
+      description: file.description,
+    })),
+  });
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetJsonLd) }} />
       <Hero
         tag="Open Data"
         headline="API & Data Files"
@@ -65,7 +93,7 @@ export default function ApiPage() {
           <h2 className="font-semibold text-brand-blue mb-2">Static JSON API</h2>
           <p className="text-sm text-text-secondary leading-relaxed">
             LocalLedger publishes all processed data as static JSON files. No authentication required.
-            Base URL: <code className="text-xs bg-white border border-border px-1.5 py-0.5 rounded">https://localledger.pages.dev</code>
+            Base URL: <code className="text-xs bg-white border border-border px-1.5 py-0.5 rounded">{SITE_URL}</code>
           </p>
         </div>
 

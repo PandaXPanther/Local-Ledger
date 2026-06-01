@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { SITE_URL } from '@/lib/constants';
-import { getCounties, getMetros, getStates, topBy } from '@/lib/nationalData';
+import { getCounties, getMetros, getStates } from '@/lib/nationalData';
 
 const routes = [
   '/',
@@ -39,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       `/states/${state.slug}/federal-spending/`,
       `/states/${state.slug}/recession-radar/`,
     ]),
-    ...topBy(getCounties(), county => county.population, 350).map(county => `/counties/${county.stateSlug}/${county.slug}/`),
+    ...getCounties().map(county => `/counties/${county.stateSlug}/${county.slug}/`),
     ...getMetros().map(metro => `/metros/${metro.slug}/`),
   ];
 

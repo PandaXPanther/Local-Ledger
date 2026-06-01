@@ -5,7 +5,7 @@ import { getMetros, formatMetric } from '@/lib/nationalData';
 
 export const metadata: Metadata = {
   title: 'Metro Economic Dashboards',
-  description: 'Major U.S. metro and city economic previews from Census ACS.',
+  description: 'Browse major U.S. metro economic dashboards with Census ACS population, income, and housing indicators.',
   alternates: { canonical: '/metros/' },
 };
 

@@ -1,7 +1,7 @@
 export const SITE_NAME = 'LocalLedger';
 export const SITE_DESCRIPTION =
   'LocalLedger transforms official labor, income, housing, education, business, and public finance data into readable dashboards, scorecards, and economic briefs.';
-export const SITE_URL = 'https://localledger.pages.dev';
+export const SITE_URL = 'https://local-ledger.net';
 
 export const NAV_LINKS = [
   { label: 'Explore', href: '/states/' },

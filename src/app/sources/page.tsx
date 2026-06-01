@@ -8,7 +8,8 @@ import { DATA_SOURCES } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Data Sources',
-  description: 'All data sources used by LocalLedger - official public federal databases only.',
+  description: 'Official public data sources behind LocalLedger, including Census, FRED, BLS, BEA, College Scorecard, and USAspending.',
+  alternates: { canonical: '/sources/' },
 };
 
 function loadCatalog() {

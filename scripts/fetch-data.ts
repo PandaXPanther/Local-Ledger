@@ -416,7 +416,7 @@ async function main() {
         geography: state.name,
         date: NOW.slice(0, 10),
         sourceName: 'LocalLedger methodology',
-        sourceUrl: 'https://localledger.pages.dev/methodology/',
+        sourceUrl: 'https://local-ledger.net/methodology/',
         sourceDataset: 'Composite score from Census, FRED, and USAspending',
         transformation: 'weighted score',
         methodologyNote: 'Weighted score using income, affordability, labor market, population scale, and federal spending per capita.',

@@ -1,49 +1,49 @@
 {
   "_meta": {
     "description": "Alaska state economic dashboard data",
-    "generatedAt": "2026-06-01T04:51:39.863Z",
+    "generatedAt": "2026-06-01T05:36:01.612Z",
     "sourceAttemptLog": [
       {
         "source": "BEA",
         "id": "state-gdp",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "Census",
         "id": "acs-states",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "Census",
         "id": "acs-counties",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "Census",
         "id": "acs-places",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "FRED",
         "id": "UNRATE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "FRED",
         "id": "DENV708URN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "FRED",
@@ -51,7 +51,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "FRED",
@@ -59,7 +59,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "FRED",
@@ -67,77 +67,77 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "FRED",
         "id": "ALURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "FRED",
         "id": "ALPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "FRED",
         "id": "ALRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "USAspending",
         "id": "state-AL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "FRED",
         "id": "AKURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "FRED",
         "id": "AKPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "FRED",
         "id": "AKRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "USAspending",
         "id": "state-AK-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AK",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T04:51:39.863Z"
+        "retrievedAt": "2026-06-01T05:36:01.612Z"
       }
     ]
   },
@@ -154,7 +154,7 @@
       "sourceName": "U.S. Census Bureau",
       "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
       "sourceDataset": "ACS 2022 5-Year B01003_001E",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z",
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -167,7 +167,7 @@
       "sourceName": "U.S. Census Bureau",
       "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
       "sourceDataset": "ACS 2022 5-Year B19013_001E",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z",
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -180,7 +180,7 @@
       "sourceName": "U.S. Census Bureau",
       "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
       "sourceDataset": "ACS 2022 5-Year B25077_001E",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z",
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -194,7 +194,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/AKURN",
       "sourceDataset": "FRED Series AKURN",
       "sourceSeriesId": "AKURN",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z",
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -208,7 +208,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/AKRGSP",
       "sourceDataset": "FRED Series AKRGSP",
       "sourceSeriesId": "AKRGSP",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z",
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -221,7 +221,7 @@
       "sourceName": "USAspending.gov",
       "sourceUrl": "https://api.usaspending.gov/",
       "sourceDataset": "USAspending API v2 spending_by_geography",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z",
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -232,9 +232,9 @@
       "geography": "Alaska",
       "date": "2026-06-01",
       "sourceName": "LocalLedger methodology",
-      "sourceUrl": "https://localledger.pages.dev/methodology/",
+      "sourceUrl": "https://local-ledger.net/methodology/",
       "sourceDataset": "Composite score from Census, FRED, and USAspending",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z",
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
       "transformation": "weighted score",
       "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
       "availability": "available"
@@ -253,7 +253,7 @@
       "medianHomeValue": 363800,
       "localEconomyScore": 67.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "matanuska-susitna",
@@ -267,7 +267,7 @@
       "medianHomeValue": 296900,
       "localEconomyScore": 65.2,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "fairbanks-north-star",
@@ -281,7 +281,7 @@
       "medianHomeValue": 276800,
       "localEconomyScore": 63.9,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "kenai-peninsula",
@@ -295,7 +295,7 @@
       "medianHomeValue": 280900,
       "localEconomyScore": 61.1,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "juneau-city-and",
@@ -309,7 +309,7 @@
       "medianHomeValue": 404600,
       "localEconomyScore": 64.7,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "bethel",
@@ -323,7 +323,7 @@
       "medianHomeValue": 120600,
       "localEconomyScore": 62.2,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "ketchikan-gateway",
@@ -337,7 +337,7 @@
       "medianHomeValue": 361000,
       "localEconomyScore": 60,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "kodiak-island",
@@ -351,7 +351,7 @@
       "medianHomeValue": 355000,
       "localEconomyScore": 63.8,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "north-slope",
@@ -365,7 +365,7 @@
       "medianHomeValue": 193800,
       "localEconomyScore": 66.2,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "nome",
@@ -379,7 +379,7 @@
       "medianHomeValue": 181300,
       "localEconomyScore": 61.4,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "sitka-city-and",
@@ -393,7 +393,7 @@
       "medianHomeValue": 424700,
       "localEconomyScore": 63.1,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "kusilvak",
@@ -407,7 +407,7 @@
       "medianHomeValue": 82200,
       "localEconomyScore": 55.3,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "northwest-arctic",
@@ -421,7 +421,7 @@
       "medianHomeValue": 147200,
       "localEconomyScore": 65.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "chugach",
@@ -435,7 +435,7 @@
       "medianHomeValue": 287900,
       "localEconomyScore": 62.3,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "southeast-fairbanks",
@@ -449,7 +449,7 @@
       "medianHomeValue": 222200,
       "localEconomyScore": 61.6,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "prince-of-wales-hyder",
@@ -463,7 +463,7 @@
       "medianHomeValue": 220800,
       "localEconomyScore": 55.7,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "yukon-koyukuk",
@@ -477,7 +477,7 @@
       "medianHomeValue": 86600,
       "localEconomyScore": 56.9,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "aleutians-west",
@@ -491,7 +491,7 @@
       "medianHomeValue": 377100,
       "localEconomyScore": 66.4,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "dillingham",
@@ -505,7 +505,7 @@
       "medianHomeValue": 167700,
       "localEconomyScore": 61.3,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "aleutians-east",
@@ -519,7 +519,7 @@
       "medianHomeValue": 164100,
       "localEconomyScore": 65.2,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "petersburg",
@@ -533,7 +533,7 @@
       "medianHomeValue": 279800,
       "localEconomyScore": 60,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "copper-river",
@@ -547,7 +547,7 @@
       "medianHomeValue": 235100,
       "localEconomyScore": 58.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "hoonah-angoon",
@@ -561,7 +561,7 @@
       "medianHomeValue": 243800,
       "localEconomyScore": 54.3,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "wrangell-city-and",
@@ -575,7 +575,7 @@
       "medianHomeValue": 273800,
       "localEconomyScore": 52.1,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "denali",
@@ -589,7 +589,7 @@
       "medianHomeValue": 227000,
       "localEconomyScore": 65.4,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "haines",
@@ -603,7 +603,7 @@
       "medianHomeValue": 289200,
       "localEconomyScore": 54.9,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "skagway",
@@ -617,7 +617,7 @@
       "medianHomeValue": 434300,
       "localEconomyScore": 54.3,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "lake-and-peninsula",
@@ -631,7 +631,7 @@
       "medianHomeValue": 167000,
       "localEconomyScore": 57.1,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "bristol-bay",
@@ -645,7 +645,7 @@
       "medianHomeValue": 253400,
       "localEconomyScore": 66.5,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "slug": "yakutat-city-and",
@@ -659,7 +659,7 @@
       "medianHomeValue": 152100,
       "localEconomyScore": 63.4,
       "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     }
   ],
   "colleges": [
@@ -678,7 +678,7 @@
       "debtToEarningsRatio": 0.3896204044649226,
       "valueScore": 68,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "unitId": "102580",
@@ -695,7 +695,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "unitId": "102614",
@@ -712,7 +712,7 @@
       "debtToEarningsRatio": 0.4152375885073466,
       "valueScore": 89,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "unitId": "102632",
@@ -729,7 +729,7 @@
       "debtToEarningsRatio": 0.3942444559051057,
       "valueScore": 78,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "unitId": "102669",
@@ -746,7 +746,7 @@
       "debtToEarningsRatio": 0.4330121059129185,
       "valueScore": 57,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "unitId": "102711",
@@ -763,7 +763,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 96,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "unitId": "102845",
@@ -780,7 +780,7 @@
       "debtToEarningsRatio": 0.3992789544840018,
       "valueScore": 33,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "unitId": "103501",
@@ -797,7 +797,7 @@
       "debtToEarningsRatio": 0.21402460252988278,
       "valueScore": 47,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "unitId": "434584",
@@ -814,7 +814,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     },
     {
       "unitId": "442523",
@@ -831,7 +831,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 69,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T04:51:39.863Z"
+      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
     }
   ],
   "federalSpending": [

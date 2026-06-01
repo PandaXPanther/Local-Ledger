@@ -1,25 +1,27 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { AppShell } from '@/components/AppShell';
+import { SITE_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: {
-    default: 'LocalLedger | Public Economic Intelligence',
+    default: 'Local Economy Data Dashboard | LocalLedger',
     template: '%s | LocalLedger',
   },
   description:
-    'LocalLedger transforms official labor, income, housing, education, business, and public finance data into readable dashboards, scorecards, and economic briefs.',
+    'Free public economic data dashboards for states, counties, metros, rankings, federal spending, income, jobs, housing, and college ROI.',
   keywords: [
-    'Colorado economy', 'economic data', 'public finance', 'labor statistics',
-    'census data', 'economic dashboard', 'community economics',
+    'local economy data', 'county economic indicators', 'state economic dashboard', 'public economic data',
+    'federal spending per county', 'college ROI by state', 'Census economic data',
   ],
+  alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
     siteName: 'LocalLedger',
-    title: 'LocalLedger | Public Economic Intelligence',
+    title: 'Local Economy Data Dashboard | LocalLedger',
     description:
-      'Official labor, income, housing, education, and public finance data for Colorado communities.',
-    url: 'https://localledger.pages.dev',
+      'Free public economic data for states, counties, metros, rankings, income, jobs, housing, college ROI, and federal spending.',
+    url: SITE_URL,
     images: [
       {
         url: '/og-default.png',
@@ -31,9 +33,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'LocalLedger | Public Economic Intelligence',
+    title: 'Local Economy Data Dashboard | LocalLedger',
     description:
-      'Official labor, income, housing, education, and public finance data for every community.',
+      'Free public economic data for states, counties, metros, rankings, income, jobs, housing, college ROI, and federal spending.',
     images: ['/og-default.png'],
   },
   icons: {
@@ -50,7 +52,7 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  metadataBase: new URL('https://localledger.pages.dev'),
+  metadataBase: new URL(SITE_URL),
 };
 
 export default function RootLayout({
@@ -63,10 +65,10 @@ export default function RootLayout({
     '@graph': [
       {
         '@type': 'Organization',
-        '@id': 'https://localledger.pages.dev/#org',
+        '@id': `${SITE_URL}/#org`,
         name: 'LocalLedger',
-        url: 'https://localledger.pages.dev',
-        founder: { '@id': 'https://localledger.pages.dev/about/#saras' },
+        url: SITE_URL,
+        founder: { '@id': `${SITE_URL}/about/#saras` },
         relatedLink: ['https://econ.mom'],
         subOrganization: { '@id': 'https://econ.mom/#organization' },
         description:
@@ -74,10 +76,10 @@ export default function RootLayout({
       },
       {
         '@type': 'WebSite',
-        '@id': 'https://localledger.pages.dev/#site',
-        url: 'https://localledger.pages.dev',
+        '@id': `${SITE_URL}/#site`,
+        url: SITE_URL,
         name: 'LocalLedger',
-        publisher: { '@id': 'https://localledger.pages.dev/#org' },
+        publisher: { '@id': `${SITE_URL}/#org` },
         relatedLink: ['https://econ.mom'],
         inLanguage: 'en-US',
       },
@@ -86,17 +88,17 @@ export default function RootLayout({
         '@id': 'https://econ.mom/#organization',
         name: 'econ.mom',
         url: 'https://econ.mom',
-        founder: { '@id': 'https://localledger.pages.dev/about/#saras' },
+        founder: { '@id': `${SITE_URL}/about/#saras` },
       },
       {
         '@type': 'Person',
-        '@id': 'https://localledger.pages.dev/about/#saras',
+        '@id': `${SITE_URL}/about/#saras`,
         name: 'Saras Totey',
         givenName: 'Saras',
         familyName: 'Totey',
         jobTitle: 'Founder, LocalLedger',
         url: 'https://econ.mom',
-        mainEntityOfPage: 'https://localledger.pages.dev/about/',
+        mainEntityOfPage: `${SITE_URL}/about/`,
         sameAs: [
           'https://econ.mom',
           'https://econlever.org',

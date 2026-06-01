@@ -5,7 +5,7 @@ import { getStates, formatMetric, topBy } from '@/lib/nationalData';
 
 export const metadata: Metadata = {
   title: 'State Economic Dashboards',
-  description: 'Economic dashboards for every U.S. state using official Census, FRED, BEA, College Scorecard, and USAspending data.',
+  description: 'Compare U.S. state economic dashboards with official data on jobs, income, housing, GDP, college ROI, and federal spending.',
   alternates: { canonical: '/states/' },
   openGraph: {
     title: 'State Economic Dashboards | LocalLedger',

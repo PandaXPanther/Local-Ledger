@@ -4,7 +4,7 @@ import { Hero } from '@/components/Hero';
 
 export const metadata: Metadata = {
   title: 'Economic Rankings',
-  description: 'Transparent rankings from official LocalLedger state, county, college, and federal spending data.',
+  description: 'Rank states and counties by local economy score, income, population growth proxy, college affordability, and federal spending.',
   alternates: { canonical: '/rankings/' },
 };
 

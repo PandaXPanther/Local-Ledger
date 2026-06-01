@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/Hero';
 import { getMetros, getStateBundle, getStates, formatMetric } from '@/lib/nationalData';
+import { breadcrumbJsonLd } from '@/lib/seo';
 
 interface Props {
   params: { stateSlug: string };
@@ -15,16 +16,27 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Props): Metadata {
   const bundle = getStateBundle(params.stateSlug);
   if (!bundle.state) return {};
-  return { title: `${bundle.state.name} Cities`, description: `Major city and metro indicators for ${bundle.state.name}.`, alternates: { canonical: `/states/${bundle.state.slug}/cities/` } };
+  return {
+    title: `${bundle.state.name} Cities`,
+    description: `Browse ${bundle.state.name} city and metro economic indicators for population, income, and housing from Census ACS.`,
+    alternates: { canonical: `/states/${bundle.state.slug}/cities/` },
+  };
 }
 
 export default function StateCitiesPage({ params }: Props) {
   const bundle = getStateBundle(params.stateSlug);
   if (!bundle.state) notFound();
   const metros = getMetros().filter(metro => metro.stateSlug === params.stateSlug);
+  const breadcrumbsJsonLd = breadcrumbJsonLd([
+    { name: 'Home', path: '/' },
+    { name: 'States', path: '/states/' },
+    { name: bundle.state.name, path: `/states/${bundle.state.slug}/` },
+    { name: 'Cities', path: `/states/${bundle.state.slug}/cities/` },
+  ]);
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsJsonLd) }} />
       <Hero tag={bundle.state.abbreviation} headline={`${bundle.state.name} cities`} subheadline="Major Census place indicators used as lightweight metro previews." />
       <section className="mx-auto grid max-w-7xl gap-4 px-4 py-12 sm:px-6 md:grid-cols-2 lg:grid-cols-3 lg:px-8">
         {metros.map(metro => (

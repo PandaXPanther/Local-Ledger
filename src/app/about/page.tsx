@@ -1,24 +1,26 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Hero } from '@/components/Hero';
+import { SITE_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'About Saras Totey, LocalLedger Founder and econ.mom Creator',
+  title: 'About Saras Totey',
   description:
-    'About Saras Totey, founder of LocalLedger and creator of econ.mom, with economics work from Boulder, Colorado.',
+    'About Saras Totey, founder of LocalLedger and creator of free public economics tools including econ.mom and EconLever.',
+  alternates: { canonical: '/about/' },
 };
 
 export default function AboutPage() {
   const personJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    '@id': 'https://localledger.pages.dev/about/#saras',
+    '@id': `${SITE_URL}/about/#saras`,
     name: 'Saras Totey',
     givenName: 'Saras',
     familyName: 'Totey',
     jobTitle: 'Founder, LocalLedger',
     url: 'https://econ.mom',
-    mainEntityOfPage: 'https://localledger.pages.dev/about/',
+    mainEntityOfPage: `${SITE_URL}/about/`,
     sameAs: [
       'https://econ.mom',
       'https://econlever.org',
@@ -35,19 +37,19 @@ export default function AboutPage() {
     '@graph': [
       {
         '@type': 'Organization',
-        '@id': 'https://localledger.pages.dev/#org',
+        '@id': `${SITE_URL}/#org`,
         name: 'LocalLedger',
-        url: 'https://localledger.pages.dev',
-        founder: { '@id': 'https://localledger.pages.dev/about/#saras' },
+        url: SITE_URL,
+        founder: { '@id': `${SITE_URL}/about/#saras` },
         relatedLink: ['https://econ.mom'],
         subOrganization: { '@id': 'https://econ.mom/#organization' },
       },
       {
         '@type': 'WebSite',
-        '@id': 'https://localledger.pages.dev/#site',
-        url: 'https://localledger.pages.dev',
+        '@id': `${SITE_URL}/#site`,
+        url: SITE_URL,
         name: 'LocalLedger',
-        publisher: { '@id': 'https://localledger.pages.dev/#org' },
+        publisher: { '@id': `${SITE_URL}/#org` },
         relatedLink: ['https://econ.mom'],
         inLanguage: 'en-US',
       },
@@ -56,7 +58,7 @@ export default function AboutPage() {
         '@id': 'https://econ.mom/#organization',
         name: 'econ.mom',
         url: 'https://econ.mom',
-        founder: { '@id': 'https://localledger.pages.dev/about/#saras' },
+        founder: { '@id': `${SITE_URL}/about/#saras` },
       },
     ],
   };
