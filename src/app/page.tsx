@@ -72,6 +72,22 @@ export default function HomePage() {
         subheadline={SITE_DESCRIPTION}
         primaryCta={{ label: 'Explore Colorado', href: '/colorado/' }}
         secondaryCta={{ label: 'View Methodology', href: '/methodology/' }}
+        pulseTitle="National coverage"
+        pulseStatus="Static export"
+        sourceCards={[
+          { label: 'States', value: formatMetric(states.length, 'count'), detail: 'State dashboards generated from official data.', status: 'pass' },
+          { label: 'Counties', value: formatMetric(counties.length, 'count'), detail: 'County records indexed for search and rankings.', status: 'pass' },
+          { label: 'Metros', value: formatMetric(metros.length, 'count'), detail: 'Major place previews published as static routes.', status: 'pass' },
+          { label: 'Integrity', value: '0 fabricated', detail: 'Unavailable values stay explicit and sourced.', status: 'pass' },
+        ]}
+        validationItems={[
+          { label: 'State index', status: states.length > 0 ? 'pass' : 'fail', detail: `${states.length} states loaded from processed JSON.` },
+          { label: 'County index', status: counties.length > 0 ? 'pass' : 'fail', detail: `${counties.length} counties loaded from processed JSON.` },
+          { label: 'Metro index', status: metros.length > 0 ? 'pass' : 'fail', detail: `${metros.length} metros loaded from processed JSON.` },
+          { label: 'Top rankings', status: topStates.length > 0 ? 'pass' : 'fail', detail: `${topStates.length} ranked states available.` },
+          { label: 'Static data', status: 'pass', detail: 'Next.js imports processed data during static build.' },
+          { label: 'Citations', status: 'pass', detail: 'Data validation checks metric provenance.' },
+        ]}
       />
 
       {/* Stat cards */}

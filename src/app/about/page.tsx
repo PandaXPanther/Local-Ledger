@@ -95,7 +95,7 @@ export default function AboutPage() {
               LinkedIn
             </a>
             <a href="https://www.buymeacoffee.com/sarast1" className="btn-secondary">
-              Leave a tip
+              Buy Me a Coffee
             </a>
             <a href="https://econlever.org" className="btn-secondary">
               EconLever

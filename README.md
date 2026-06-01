@@ -1,184 +1,161 @@
-# LocalLedger - Public Economic Intelligence
+# LocalLedger
 
-Public economic intelligence for every community. LocalLedger transforms official labor, income, housing, education, business, and public finance data into readable dashboards, scorecards, and economic briefs.
+Official public economic data, turned into readable local dashboards.
 
-**Live:** https://localledger.pages.dev
+[Live site](https://localledger.pages.dev)
 
----
+[![Build and deploy](https://github.com/PandaXPanther/localledger/actions/workflows/deploy.yml/badge.svg)](https://github.com/PandaXPanther/localledger/actions/workflows/deploy.yml)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+[![Deploy](https://img.shields.io/badge/deploy-Cloudflare%20Pages-f38020.svg)](https://localledger.pages.dev)
+![Stack](https://img.shields.io/badge/stack-Next.js%20%2B%20TypeScript%20%2B%20Tailwind-111827.svg)
 
-## What it does
+<p align="center">
+  <a href="https://localledger.pages.dev">
+    <img src="./branding/localledger-logo.svg" alt="LocalLedger logo" width="360">
+  </a>
+</p>
 
-- **National State Dashboards** - `/states` plus one dashboard per state
-- **County Dashboards** - top county pages plus full county static JSON by state
-- **Metro Previews** - major place-based metro pages from Census ACS
-- **Colorado Overview** - statewide KPIs, trend charts, city comparison
-- **City Dashboards** - Denver, Boulder, Colorado Springs, Fort Collins, Aurora with scorecards and trend data
-- **64 Counties** - searchable/sortable table with population, income, unemployment, housing, federal spending, and economy score
-- **College ROI** - College Scorecard data: net price, graduation, earnings, debt, debt-to-earnings, value score
-- **Federal Spending** - USAspending.gov: grants, contracts, loans, per-capita, agency breakdown
-- **Recession Radar** - educational slowdown risk indicator with transparent methodology
-- **Methodology** - fully documented score formulas, thresholds, and data sources
-- **Rankings** - best local economies, income, college affordability, and federal spending
-- **Static JSON API** - all processed data published at `/data/processed/`
+## What It Is
 
----
+LocalLedger is a public economic intelligence site for communities, students, journalists, local builders, and civic researchers. It turns official labor, income, housing, education, GDP, and federal spending datasets into static dashboards with source metadata attached to every displayed metric.
+
+The current release covers every U.S. state, national rankings, Colorado state pages, major Colorado city pages, county tables, college ROI pages, federal spending pages, and static JSON data exports.
+
+## Features
+
+- State dashboards with unemployment, income, population, GDP, federal spending, and composite local economy scores.
+- Colorado deep dives for Denver, Boulder, Colorado Springs, Fort Collins, Aurora, counties, college ROI, recession radar, and federal spending.
+- National rankings for local economy score, county growth, county income, college affordability, and federal spending per capita.
+- Static JSON API under `/data/processed/` for downstream analysis.
+- Data validation that fails the build when source metadata is missing or production data looks fabricated.
+- Static export optimized for Cloudflare Pages.
 
 ## Tech Stack
 
-| Layer | Technology |
+| Layer | Choice |
 |---|---|
-| Framework | Next.js 14 (App Router, static export) |
-| Language | TypeScript (strict) |
+| Framework | Next.js 14 App Router |
+| Language | TypeScript |
 | Styling | Tailwind CSS |
 | Charts | Recharts |
+| Tests | Jest |
 | Package manager | pnpm 9 |
 | Hosting | Cloudflare Pages |
-| CI/CD | GitHub Actions |
-| Data | Static JSON, generated at build time from official APIs |
-
----
+| CI | GitHub Actions |
 
 ## Data Sources
 
-LocalLedger uses **only official public data sources**:
+LocalLedger uses official public data sources only.
 
-| Source | Data |
+| Source | Used for |
 |---|---|
-| [FRED (Federal Reserve)](https://fred.stlouisfed.org/) | Unemployment, GDP, income, population |
-| [Bureau of Labor Statistics](https://www.bls.gov/) | Labor force, employment detail |
-| [U.S. Census Bureau (ACS)](https://www.census.gov/) | Population, income, housing |
-| [Bureau of Economic Analysis](https://www.bea.gov/) | Regional GDP, personal income |
-| [College Scorecard](https://collegescorecard.ed.gov/) | Costs, earnings, graduation, debt |
-| [USAspending.gov](https://www.usaspending.gov/) | Federal awards by geography |
-
----
+| [FRED, Federal Reserve Economic Data](https://fred.stlouisfed.org/) | Unemployment, population, GDP, selected national comparisons |
+| [U.S. Census Bureau ACS](https://www.census.gov/programs-surveys/acs) | Population, household income, housing values, counties, places |
+| [Bureau of Economic Analysis](https://www.bea.gov/) | Regional state account cross checks |
+| [College Scorecard](https://collegescorecard.ed.gov/) | Net price, graduation, earnings, debt |
+| [USAspending.gov](https://www.usaspending.gov/) | Federal award spending by geography |
 
 ## Data Integrity Rules
 
-1. **No fabricated data** - if unavailable, displays "Data unavailable", never an estimate
-2. **Every metric cites its source** - name, URL, dataset, geography, date, lastFetchedAt
-3. **Build fails on missing citations** - `pnpm data:validate` enforces this
-4. **No impossible values** - NaN, Infinity, negative rates cause build failure
-5. **No mock/demo strings** - forbidden in production data files
-6. **Computed scores are transparent** - all formulas documented in `/methodology/`
-
----
+1. Official public sources only.
+2. No AI generated or invented numeric values.
+3. Missing source values display as `Data unavailable`.
+4. Every metric object must include source name, source URL, dataset, geography, date, and fetch timestamp.
+5. Computed scores must include methodology notes.
+6. `pnpm data:validate` fails on missing metadata, invalid numeric values, and mock data strings.
+7. `pnpm data:sanity` fails the build if homepage or Colorado page KPIs go null while source data succeeded.
+8. `pnpm lint:unicode` fails if U+2014 appears in checked source paths.
 
 ## Local Development
-
-### Prerequisites
-
-- Node.js 22+
-- pnpm 9+
-- API keys (optional, see below)
-
-### Setup
 
 ```bash
 git clone https://github.com/PandaXPanther/localledger.git
 cd localledger
 pnpm install
+pnpm data:fetch
+pnpm data:validate
+pnpm data:sanity
+pnpm dev
 ```
 
-### API Keys (optional)
-
-Create a `.env` or `.env.local` file:
-
-```env
-FRED_API_KEY=your_fred_key         # https://fred.stlouisfed.org/docs/api/api_key.html
-CENSUS_API_KEY=your_census_key     # https://api.census.gov/data/key_signup.html
-COLLEGE_SCORECARD_API_KEY=your_key # https://api.data.gov/signup/
-BEA_API_KEY=your_bea_key           # https://apps.bea.gov/api/signup/
-```
-
-Without API keys, the data pipeline writes explicit structured unavailable values with source attempt reasons. Production builds should use keys.
-
-### Commands
+Production verification:
 
 ```bash
-pnpm dev           # Development server
-pnpm data:fetch    # Fetch data from official APIs
-pnpm data:validate # Validate data integrity (fails on violations)
-pnpm typecheck     # TypeScript type check
-pnpm lint          # ESLint
-pnpm test          # Jest unit tests
-pnpm build         # Full build (runs data:fetch + data:validate first)
+pnpm typecheck
+pnpm lint
+pnpm test
+pnpm build
 ```
 
-### Routes
+## Environment Variables
 
-- `/states`, `/states/[stateSlug]`
-- `/states/[stateSlug]/counties`, `/states/[stateSlug]/cities`
-- `/states/[stateSlug]/college-roi`, `/states/[stateSlug]/federal-spending`, `/states/[stateSlug]/recession-radar`
-- `/counties`, `/counties/[stateSlug]/[countySlug]`
-- `/metros`, `/metros/[metroSlug]`
-- `/rankings/best-local-economies`
-- `/rankings/fastest-growing-counties`
-- `/rankings/highest-income-counties`
-- `/rankings/most-affordable-college-states`
-- `/rankings/federal-spending-per-capita`
+Create `.env.local` for local data fetches. Values are secrets and should never be committed.
 
-The static export prebuilds every state route, every state module route, major metros, and the largest county pages. The long county tail is available in `/data/processed/counties.json` and per-state files under `/data/processed/states/`.
-
----
+```env
+FRED_API_KEY=
+CENSUS_API_KEY=
+COLLEGE_SCORECARD_API_KEY=
+BEA_API_KEY=
+CLOUDFLARE_API_TOKEN=
+CLOUDFLARE_ACCOUNT_ID=
+```
 
 ## Deployment
 
-### Cloudflare Pages
+The GitHub Actions workflow fetches official data, validates processed JSON, checks build sanity, runs typecheck, lint, tests, builds a static export, then deploys `out/` to Cloudflare Pages.
 
-1. Create a Cloudflare Pages project named `localledger`
-2. Add GitHub repository secrets:
-   - `CLOUDFLARE_API_TOKEN` - Cloudflare API token with Pages Edit permission
-   - `CLOUDFLARE_ACCOUNT_ID` - Your Cloudflare account ID
-   - `FRED_API_KEY` - (optional) FRED API key
-   - `CENSUS_API_KEY` - (optional) Census API key
-   - `COLLEGE_SCORECARD_API_KEY` - (optional) College Scorecard API key
-   - `BEA_API_KEY` - (optional) BEA API key
+Production: https://localledger.pages.dev
 
-Secret setup commands:
-
-```bash
-printf '%s' '<fred-key>' | gh secret set FRED_API_KEY --repo PandaXPanther/localledger
-printf '%s' '<census-key>' | gh secret set CENSUS_API_KEY --repo PandaXPanther/localledger
-printf '%s' '<scorecard-key>' | gh secret set COLLEGE_SCORECARD_API_KEY --repo PandaXPanther/localledger
-printf '%s' '<bea-key>' | gh secret set BEA_API_KEY --repo PandaXPanther/localledger
-```
-
-Push to `main` to trigger automatic deployment.
-
----
+Cloudflare Pages project: `localledger`
 
 ## Methodology
 
-### Local Economy Score (0-100)
+Score formulas, risk indicators, validation policy, and source handling are documented on the live methodology page:
 
-Weighted composite of five dimensions (weights must sum to 100):
+[Read the methodology](https://localledger.pages.dev/methodology/)
 
-| Dimension | Weight | Normalization |
-|---|---|---|
-| Labor | 30% | Unemployment + LFPR, normalized 0-100 |
-| Income | 25% | Median HH income vs. CO median |
-| Affordability | 20% | Home price-to-income ratio |
-| Population Growth | 15% | YoY growth rate |
-| Fiscal | 10% | Federal spending per capita |
+## Branding
 
-Missing data reduces effective weight proportionally.
+Committed brand assets:
 
-### Slowdown Risk Indicator
+- `branding/localledger-logo.svg`
+- `branding/localledger-logo.png`
+- `branding/localledger-logo-1024.png`
+- `branding/localledger-favicon-source.svg`
+- `branding/localledger-social.png`
 
-Educational model based on CO vs. US unemployment differential (FRED data).
-- Score 0-33 = Low
-- Score 34-66 = Moderate
-- Score 67-100 = Elevated
+GitHub social preview can be set in repo settings using `branding/localledger-social.png`.
 
-**Not financial advice. Not investment advice. Not a guaranteed forecast.**
+## Contributing
 
-See `/methodology/` for full documentation.
+Contributions are welcome. Start with [CONTRIBUTING.md](./CONTRIBUTING.md), open an issue for meaningful behavior changes, and keep data provenance intact in every PR.
 
----
+## Security
+
+Please report security issues through GitHub Security Advisories or by email to `pandaxpanther@gmail.com`. See [SECURITY.md](./SECURITY.md).
 
 ## License
 
-MIT - source code. Data from official public sources; check each source's terms of use.
+MIT. See [LICENSE](./LICENSE).
 
-Computed scores (Local Economy Score, Value Score, Slowdown Risk Indicator) are educational tools only.
+Public datasets remain governed by their source agencies and published terms.
+
+## Credits
+
+Founded and built by [Saras Totey](https://www.linkedin.com/in/saras-totey-64a777334/).
+
+Founder site: [econ.mom](https://econ.mom)
+
+## GitHub About Box
+
+Suggested description:
+
+`Official public economic data, turned into readable local dashboards.`
+
+Website:
+
+`https://localledger.pages.dev`
+
+Suggested topics:
+
+`economics`, `public-data`, `dashboard`, `nextjs`, `typescript`, `tailwindcss`, `cloudflare-pages`, `census`, `fred`, `usaspending`, `college-scorecard`

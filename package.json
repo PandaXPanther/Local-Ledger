@@ -11,7 +11,9 @@
     "test": "jest --passWithNoTests",
     "data:fetch": "tsx scripts/fetch-data.ts",
     "data:validate": "tsx scripts/validate-data.ts",
-    "prebuild": "pnpm data:fetch && pnpm data:validate"
+    "data:sanity": "tsx scripts/check-build-data.ts",
+    "lint:unicode": "tsx scripts/check-no-em-dash.ts",
+    "prebuild": "pnpm data:fetch && pnpm data:validate && pnpm data:sanity && pnpm lint:unicode"
   },
   "dependencies": {
     "clsx": "^2.1.1",

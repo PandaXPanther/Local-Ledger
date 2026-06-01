@@ -1,13 +1,14 @@
 import type { Metadata } from 'next';
 import { readFileSync, existsSync } from 'fs';
 import { join } from 'path';
-import { Hero } from '@/components/Hero';
+import { Hero, type HeroSourceCard, type HeroValidationItem } from '@/components/Hero';
 import { KpiCard } from '@/components/KpiCard';
 import { SourceBadge } from '@/components/SourceBadge';
 import { LastUpdated } from '@/components/LastUpdated';
 import { MethodologyCallout } from '@/components/MethodologyCallout';
 import { CityComparisonTable } from '@/components/CityComparisonTable';
 import { COLORADO_CITIES } from '@/lib/constants';
+import { formatCurrency, formatDataValue, formatNumber } from '@/lib/format';
 import Link from 'next/link';
 import type { DataPoint } from '@/types/data';
 
@@ -28,6 +29,9 @@ interface OverviewData {
   population: DataPoint;
   usUnemploymentRate: DataPoint;
   usMedianHouseholdIncome: DataPoint;
+  state?: {
+    federalSpendingPerCapita?: DataPoint;
+  };
 }
 
 interface CityData {
@@ -37,6 +41,19 @@ interface CityData {
   coloradoSprings: { city: string; unemploymentRate: DataPoint };
   fortCollins: { city: string; unemploymentRate: DataPoint };
   aurora: { city: string; unemploymentRate: DataPoint };
+}
+
+interface SourceCounts {
+  [source: string]: {
+    attempted: number;
+    succeeded: number;
+    failed: number;
+    unavailable: number;
+  };
+}
+
+interface MetadataCatalog {
+  sourceCounts?: SourceCounts;
 }
 
 function loadOverview(): OverviewData | null {
@@ -51,10 +68,85 @@ function loadCities(): CityData | null {
   return JSON.parse(readFileSync(p, 'utf-8'));
 }
 
+function loadMetadataCatalog(): MetadataCatalog | null {
+  const p = join(process.cwd(), 'public', 'data', 'processed', 'metadata-catalog.json');
+  if (!existsSync(p)) return null;
+  return JSON.parse(readFileSync(p, 'utf-8'));
+}
+
+function statusForMetric(metric: DataPoint | null | undefined): 'pass' | 'warn' | 'fail' {
+  if (!metric) return 'fail';
+  return metric.value === null ? 'warn' : 'pass';
+}
+
 export default function ColoradoPage() {
   const overview = loadOverview();
   const cities = loadCities();
+  const metadataCatalog = loadMetadataCatalog();
   const generatedAt = overview?._meta?.generatedAt ?? null;
+  const sourceCounts = metadataCatalog?.sourceCounts ?? {};
+
+  const sourceCards = [
+    {
+      label: 'FRED',
+      value: overview?.unemploymentRate ? formatDataValue(overview.unemploymentRate.value, overview.unemploymentRate.unit) : 'Unavailable',
+      detail: `${sourceCounts.FRED?.succeeded ?? 0} series fetched. Colorado unemployment ${overview?.unemploymentRate?.date ?? 'date unavailable'}.`,
+      status: statusForMetric(overview?.unemploymentRate),
+    },
+    {
+      label: 'Census',
+      value: overview?.medianHouseholdIncome ? formatCurrency(overview.medianHouseholdIncome.value) : 'Unavailable',
+      detail: `${sourceCounts.Census?.succeeded ?? 0} ACS queries fetched. Population ${formatNumber(overview?.population?.value ?? null)}.`,
+      status: statusForMetric(overview?.medianHouseholdIncome),
+    },
+    {
+      label: 'BEA',
+      value: `${sourceCounts.BEA?.succeeded ?? 0} ok`,
+      detail: 'Regional GDP source available for state account cross checks.',
+      status: (sourceCounts.BEA?.succeeded ?? 0) > 0 ? 'pass' as const : 'warn' as const,
+    },
+    {
+      label: 'USAspending',
+      value: overview?.state?.federalSpendingPerCapita
+        ? formatCurrency(overview.state.federalSpendingPerCapita.value)
+        : 'Unavailable',
+      detail: `Per resident in FY2024. ${sourceCounts.USAspending?.succeeded ?? 0} state calls fetched.`,
+      status: statusForMetric(overview?.state?.federalSpendingPerCapita),
+    },
+  ] satisfies HeroSourceCard[];
+
+  const validationItems = [
+    {
+      label: 'CO unemployment',
+      status: statusForMetric(overview?.unemploymentRate),
+      detail: overview?.unemploymentRate?.sourceDataset ?? 'Missing FRED series metadata.',
+    },
+    {
+      label: 'CO income',
+      status: statusForMetric(overview?.medianHouseholdIncome),
+      detail: overview?.medianHouseholdIncome?.sourceDataset ?? 'Missing Census income metadata.',
+    },
+    {
+      label: 'CO GDP',
+      status: statusForMetric(overview?.gdp),
+      detail: overview?.gdp?.sourceDataset ?? 'Missing GDP metadata.',
+    },
+    {
+      label: 'CO population',
+      status: statusForMetric(overview?.population),
+      detail: overview?.population?.sourceDataset ?? 'Missing population metadata.',
+    },
+    {
+      label: 'Federal spending',
+      status: statusForMetric(overview?.state?.federalSpendingPerCapita),
+      detail: overview?.state?.federalSpendingPerCapita?.sourceDataset ?? 'Missing USAspending metadata.',
+    },
+    {
+      label: 'Pipeline report',
+      status: Object.keys(sourceCounts).length > 0 ? 'pass' as const : 'fail' as const,
+      detail: 'Source attempt counts are bundled in metadata-catalog.json.',
+    },
+  ] satisfies HeroValidationItem[];
 
   const cityRows = cities ? [
     { city: 'Denver', unemploymentRate: cities.denver?.unemploymentRate ?? null },
@@ -72,6 +164,10 @@ export default function ColoradoPage() {
         subheadline="Statewide economic indicators from official federal sources - FRED, BLS, and Census Bureau."
         primaryCta={{ label: 'View Counties', href: '/colorado/counties/' }}
         secondaryCta={{ label: 'Recession Radar', href: '/colorado/recession-radar/' }}
+        pulseTitle="Colorado pulse"
+        pulseStatus="Live build data"
+        sourceCards={sourceCards}
+        validationItems={validationItems}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">

@@ -96,3 +96,9 @@ Required GitHub secrets are configured for:
 - Added official API fetches with raw cache files, source attempt logs, retries, and per-source success counts.
 - Added logo/favicons/OG image, slim Explore nav, search index, national state/county/metro routes, and ranking routes.
 - Static export prebuilds states, state modules, major metros, and top counties; full county long tail is published as static JSON.
+
+### 2026-06-01 03:15 UTC
+
+- Reworked the hero pulse panel so source cards show real build data instead of decorative empty rectangles.
+- Added build sanity checks for homepage and Colorado KPIs plus a CI Unicode guard for U+2014.
+- Prepared public repo materials: README, license, security, contributing, code of conduct, issue templates, PR template, and branding assets.

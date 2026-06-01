@@ -41,3 +41,8 @@ npm-debug.log*
 
 # Cloudflare
 .wrangler/
+.wrangler
+
+# Vercel
+.vercel/
+.vercel

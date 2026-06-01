@@ -48,6 +48,12 @@ jobs:
       - name: Validate data
         run: pnpm data:validate
 
+      - name: Sanity check build data
+        run: pnpm data:sanity
+
+      - name: Check Unicode punctuation
+        run: pnpm lint:unicode
+
       - name: Type check
         run: pnpm typecheck
 
