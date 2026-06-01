@@ -1,49 +1,49 @@
 {
   "_meta": {
     "description": "North Carolina state economic dashboard data",
-    "generatedAt": "2026-06-01T05:36:01.612Z",
+    "generatedAt": "2026-06-01T06:09:58.945Z",
     "sourceAttemptLog": [
       {
         "source": "BEA",
         "id": "state-gdp",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-states",
+        "id": "acs-states-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-counties",
+        "id": "acs-counties-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-places",
+        "id": "acs-places-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "UNRATE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DENV708URN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -51,7 +51,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -59,7 +59,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -67,1162 +67,1162 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AK-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AK",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AZ-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AZ",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AR-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AR",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "COURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "COPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CORGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CO-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CO",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CT-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CT",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-DE-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-DE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-FL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-FL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-GA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-GA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-HI-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-HI",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-ID-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-ID",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IN-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KSURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KSPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KSRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-KS-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-KS",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KYURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KYPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KYRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-KY-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-KY",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "LAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "LAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "LARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-LA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-LA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-ME-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-ME",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MDURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MDPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MDRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MD-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MD",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MIURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MIPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MIRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MI-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MI",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MNURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MNPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MNRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MN-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MSURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MSPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MSRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MS-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MS",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MOURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MOPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MORGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MO-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MO",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MTURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MTPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MTRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MT-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MT",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NE-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NVURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NVPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NVRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NV-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NV",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NHURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NHPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NHRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NH-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NH",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NJURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NJPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NJRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NJ-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NJ",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NMURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NMPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NMRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NM-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NM",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NYURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NYPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NYRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NY-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NY",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NCURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NCPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NCRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NC-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NC",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       }
     ]
   },
@@ -1232,40 +1232,40 @@
     "abbreviation": "NC",
     "fips": "37",
     "population": {
-      "value": 10470214,
+      "value": 10730404,
       "unit": "persons",
       "geography": "North Carolina",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B01003_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHouseholdIncome": {
-      "value": 66186,
+      "value": 72388,
       "unit": "USD",
       "geography": "North Carolina",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B19013_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHomeValue": {
-      "value": 234900,
+      "value": 288900,
       "unit": "USD",
       "geography": "North Carolina",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B25077_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -1279,7 +1279,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/NCURN",
       "sourceDataset": "FRED Series NCURN",
       "sourceSeriesId": "NCURN",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -1293,33 +1293,33 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/NCRGSP",
       "sourceDataset": "FRED Series NCRGSP",
       "sourceSeriesId": "NCRGSP",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "federalSpendingPerCapita": {
-      "value": 10427.78092356756,
+      "value": 10174.928904342278,
       "unit": "USD per person",
       "geography": "North Carolina",
       "date": "FY2024",
       "sourceName": "USAspending.gov",
       "sourceUrl": "https://api.usaspending.gov/",
       "sourceDataset": "USAspending API v2 spending_by_geography",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "localEconomyScore": {
-      "value": 63.6,
+      "value": 64,
       "unit": "score",
       "geography": "North Carolina",
       "date": "2026-06-01",
       "sourceName": "LocalLedger methodology",
       "sourceUrl": "https://local-ledger.net/methodology/",
       "sourceDataset": "Composite score from Census, FRED, and USAspending",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "weighted score",
       "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
       "availability": "available"
@@ -1333,12 +1333,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37183",
-      "population": 1132103,
-      "medianHouseholdIncome": 96734,
-      "medianHomeValue": 385700,
-      "localEconomyScore": 70.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1178653,
+      "medianHouseholdIncome": 105768,
+      "medianHomeValue": 461300,
+      "localEconomyScore": 71.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "mecklenburg",
@@ -1347,12 +1347,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37119",
-      "population": 1115403,
-      "medianHouseholdIncome": 79265,
-      "medianHomeValue": 334700,
-      "localEconomyScore": 64.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1154681,
+      "medianHouseholdIncome": 87005,
+      "medianHomeValue": 406800,
+      "localEconomyScore": 65.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "guilford",
@@ -1361,12 +1361,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37081",
-      "population": 539557,
-      "medianHouseholdIncome": 62880,
-      "medianHomeValue": 215700,
-      "localEconomyScore": 61.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 547940,
+      "medianHouseholdIncome": 68642,
+      "medianHomeValue": 259900,
+      "localEconomyScore": 62.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "forsyth",
@@ -1375,12 +1375,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37067",
-      "population": 383739,
-      "medianHouseholdIncome": 61229,
-      "medianHomeValue": 205700,
-      "localEconomyScore": 61.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 389977,
+      "medianHouseholdIncome": 67165,
+      "medianHomeValue": 250400,
+      "localEconomyScore": 61.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cumberland",
@@ -1389,12 +1389,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37051",
-      "population": 335207,
-      "medianHouseholdIncome": 55551,
-      "medianHomeValue": 166600,
-      "localEconomyScore": 60.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 338545,
+      "medianHouseholdIncome": 61291,
+      "medianHomeValue": 199200,
+      "localEconomyScore": 61.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "durham",
@@ -1403,12 +1403,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37063",
-      "population": 325101,
-      "medianHouseholdIncome": 74927,
-      "medianHomeValue": 311300,
-      "localEconomyScore": 62.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 332353,
+      "medianHouseholdIncome": 82316,
+      "medianHomeValue": 389400,
+      "localEconomyScore": 63,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "buncombe",
@@ -1417,12 +1417,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37021",
-      "population": 269449,
-      "medianHouseholdIncome": 66531,
-      "medianHomeValue": 328900,
-      "localEconomyScore": 57.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 274360,
+      "medianHouseholdIncome": 74436,
+      "medianHomeValue": 391800,
+      "localEconomyScore": 59,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "union",
@@ -1431,40 +1431,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37179",
-      "population": 240109,
-      "medianHouseholdIncome": 95533,
-      "medianHomeValue": 336600,
-      "localEconomyScore": 70.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "gaston",
-      "county": "Gaston County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37071",
-      "population": 228972,
-      "medianHouseholdIncome": 62628,
-      "medianHomeValue": 206700,
-      "localEconomyScore": 61.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "new-hanover",
-      "county": "New Hanover County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37129",
-      "population": 228134,
-      "medianHouseholdIncome": 67515,
-      "medianHomeValue": 320000,
-      "localEconomyScore": 58.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 250958,
+      "medianHouseholdIncome": 102900,
+      "medianHomeValue": 417300,
+      "localEconomyScore": 70.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cabarrus",
@@ -1473,12 +1445,40 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37025",
-      "population": 226396,
-      "medianHouseholdIncome": 83828,
-      "medianHomeValue": 281600,
-      "localEconomyScore": 67.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 236133,
+      "medianHouseholdIncome": 89005,
+      "medianHomeValue": 354800,
+      "localEconomyScore": 67,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "new-hanover",
+      "county": "New Hanover County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37129",
+      "population": 235229,
+      "medianHouseholdIncome": 75166,
+      "medianHomeValue": 387800,
+      "localEconomyScore": 59.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "gaston",
+      "county": "Gaston County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37071",
+      "population": 234881,
+      "medianHouseholdIncome": 67478,
+      "medianHomeValue": 266000,
+      "localEconomyScore": 60.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "johnston",
@@ -1487,12 +1487,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37101",
-      "population": 219042,
-      "medianHouseholdIncome": 75288,
-      "medianHomeValue": 240100,
-      "localEconomyScore": 65.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 234263,
+      "medianHouseholdIncome": 83384,
+      "medianHomeValue": 305600,
+      "localEconomyScore": 66.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "onslow",
@@ -1501,12 +1501,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37133",
-      "population": 203686,
-      "medianHouseholdIncome": 59976,
-      "medianHomeValue": 196800,
-      "localEconomyScore": 60.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 207906,
+      "medianHouseholdIncome": 68148,
+      "medianHomeValue": 236400,
+      "localEconomyScore": 62.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "iredell",
@@ -1515,26 +1515,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37097",
-      "population": 187839,
-      "medianHouseholdIncome": 73103,
-      "medianHomeValue": 261200,
-      "localEconomyScore": 63.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "alamance",
-      "county": "Alamance County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37001",
-      "population": 171779,
-      "medianHouseholdIncome": 60866,
-      "medianHomeValue": 197700,
-      "localEconomyScore": 60.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 196544,
+      "medianHouseholdIncome": 81419,
+      "medianHomeValue": 321400,
+      "localEconomyScore": 64.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pitt",
@@ -1543,12 +1529,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37147",
-      "population": 171196,
-      "medianHouseholdIncome": 54915,
-      "medianHomeValue": 178700,
-      "localEconomyScore": 59.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 177193,
+      "medianHouseholdIncome": 58188,
+      "medianHomeValue": 208900,
+      "localEconomyScore": 59,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "alamance",
+      "county": "Alamance County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37001",
+      "population": 176893,
+      "medianHouseholdIncome": 65651,
+      "medianHomeValue": 241500,
+      "localEconomyScore": 60.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "davidson",
@@ -1557,12 +1557,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37057",
-      "population": 169498,
-      "medianHouseholdIncome": 58473,
-      "medianHomeValue": 184300,
-      "localEconomyScore": 60.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 172954,
+      "medianHouseholdIncome": 64172,
+      "medianHomeValue": 219100,
+      "localEconomyScore": 61.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "catawba",
@@ -1571,54 +1571,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37035",
-      "population": 161011,
-      "medianHouseholdIncome": 62070,
-      "medianHomeValue": 194000,
-      "localEconomyScore": 61.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "rowan",
-      "county": "Rowan County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37159",
-      "population": 147067,
-      "medianHouseholdIncome": 59717,
-      "medianHomeValue": 187300,
-      "localEconomyScore": 60.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "orange",
-      "county": "Orange County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37135",
-      "population": 145919,
-      "medianHouseholdIncome": 85785,
-      "medianHomeValue": 395600,
-      "localEconomyScore": 63.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "randolph",
-      "county": "Randolph County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37151",
-      "population": 144403,
-      "medianHouseholdIncome": 56423,
-      "medianHomeValue": 158300,
-      "localEconomyScore": 60.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 163573,
+      "medianHouseholdIncome": 67864,
+      "medianHomeValue": 241600,
+      "localEconomyScore": 61.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "brunswick",
@@ -1627,12 +1585,54 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37019",
-      "population": 139721,
-      "medianHouseholdIncome": 71193,
-      "medianHomeValue": 284100,
+      "population": 152568,
+      "medianHouseholdIncome": 77024,
+      "medianHomeValue": 349800,
       "localEconomyScore": 61.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "rowan",
+      "county": "Rowan County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37159",
+      "population": 149875,
+      "medianHouseholdIncome": 65725,
+      "medianHomeValue": 238400,
+      "localEconomyScore": 60.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "orange",
+      "county": "Orange County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37135",
+      "population": 149678,
+      "medianHouseholdIncome": 90089,
+      "medianHomeValue": 459500,
+      "localEconomyScore": 63.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "randolph",
+      "county": "Randolph County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37151",
+      "population": 146348,
+      "medianHouseholdIncome": 61022,
+      "medianHomeValue": 197100,
+      "localEconomyScore": 60.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "harnett",
@@ -1641,26 +1641,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37085",
-      "population": 134718,
-      "medianHouseholdIncome": 64992,
-      "medianHomeValue": 195900,
-      "localEconomyScore": 62.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "robeson",
-      "county": "Robeson County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37155",
-      "population": 117573,
-      "medianHouseholdIncome": 39393,
-      "medianHomeValue": 87700,
-      "localEconomyScore": 57.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 139150,
+      "medianHouseholdIncome": 71287,
+      "medianHomeValue": 246200,
+      "localEconomyScore": 63,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wayne",
@@ -1669,12 +1655,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37191",
-      "population": 117480,
-      "medianHouseholdIncome": 54323,
-      "medianHomeValue": 152300,
-      "localEconomyScore": 60,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 118652,
+      "medianHouseholdIncome": 59733,
+      "medianHomeValue": 178700,
+      "localEconomyScore": 61,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "henderson",
@@ -1683,26 +1669,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37089",
-      "population": 116469,
-      "medianHouseholdIncome": 65508,
-      "medianHomeValue": 291500,
-      "localEconomyScore": 58.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 118484,
+      "medianHouseholdIncome": 68187,
+      "medianHomeValue": 351400,
+      "localEconomyScore": 56.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "craven",
-      "county": "Craven County",
+      "slug": "robeson",
+      "county": "Robeson County",
       "state": "North Carolina",
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
-      "fips": "37049",
-      "population": 101098,
-      "medianHouseholdIncome": 61676,
-      "medianHomeValue": 194100,
-      "localEconomyScore": 61,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "37155",
+      "population": 116902,
+      "medianHouseholdIncome": 41978,
+      "medianHomeValue": 94500,
+      "localEconomyScore": 58,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "moore",
@@ -1711,12 +1697,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37125",
-      "population": 100759,
-      "medianHouseholdIncome": 77981,
-      "medianHomeValue": 284000,
-      "localEconomyScore": 64.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 104876,
+      "medianHouseholdIncome": 86080,
+      "medianHomeValue": 351400,
+      "localEconomyScore": 65.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "craven",
+      "county": "Craven County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37049",
+      "population": 102612,
+      "medianHouseholdIncome": 65873,
+      "medianHomeValue": 231600,
+      "localEconomyScore": 61.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cleveland",
@@ -1725,12 +1725,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37045",
-      "population": 99527,
-      "medianHouseholdIncome": 50723,
-      "medianHomeValue": 155000,
-      "localEconomyScore": 58.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 100991,
+      "medianHouseholdIncome": 58534,
+      "medianHomeValue": 200000,
+      "localEconomyScore": 59.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "nash",
@@ -1739,26 +1739,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37127",
-      "population": 95015,
-      "medianHouseholdIncome": 56770,
-      "medianHomeValue": 162100,
-      "localEconomyScore": 60.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "rockingham",
-      "county": "Rockingham County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37157",
-      "population": 91209,
-      "medianHouseholdIncome": 50737,
-      "medianHomeValue": 142900,
-      "localEconomyScore": 58.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 96216,
+      "medianHouseholdIncome": 62426,
+      "medianHomeValue": 191000,
+      "localEconomyScore": 61.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lincoln",
@@ -1767,12 +1753,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37109",
-      "population": 87933,
-      "medianHouseholdIncome": 75672,
-      "medianHomeValue": 241200,
-      "localEconomyScore": 64.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 92716,
+      "medianHouseholdIncome": 80016,
+      "medianHomeValue": 321000,
+      "localEconomyScore": 63.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "rockingham",
+      "county": "Rockingham County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37157",
+      "population": 92131,
+      "medianHouseholdIncome": 57053,
+      "medianHomeValue": 168600,
+      "localEconomyScore": 60.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "burke",
@@ -1781,12 +1781,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37023",
-      "population": 87799,
-      "medianHouseholdIncome": 53732,
-      "medianHomeValue": 155500,
-      "localEconomyScore": 59.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 87795,
+      "medianHouseholdIncome": 58592,
+      "medianHomeValue": 185400,
+      "localEconomyScore": 59.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "caldwell",
@@ -1795,26 +1795,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37027",
-      "population": 80716,
-      "medianHouseholdIncome": 52362,
-      "medianHomeValue": 158300,
+      "population": 80536,
+      "medianHouseholdIncome": 56425,
+      "medianHomeValue": 192200,
       "localEconomyScore": 58.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "wilson",
-      "county": "Wilson County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37195",
-      "population": 78667,
-      "medianHouseholdIncome": 49827,
-      "medianHomeValue": 153800,
-      "localEconomyScore": 57.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "chatham",
@@ -1823,26 +1809,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37037",
-      "population": 76754,
-      "medianHouseholdIncome": 84222,
-      "medianHomeValue": 373300,
-      "localEconomyScore": 63.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 80151,
+      "medianHouseholdIncome": 94317,
+      "medianHomeValue": 446200,
+      "localEconomyScore": 65.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "surry",
-      "county": "Surry County",
+      "slug": "wilson",
+      "county": "Wilson County",
       "state": "North Carolina",
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
-      "fips": "37171",
-      "population": 71429,
-      "medianHouseholdIncome": 52743,
-      "medianHomeValue": 153700,
-      "localEconomyScore": 58.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "37195",
+      "population": 79290,
+      "medianHouseholdIncome": 56423,
+      "medianHomeValue": 186000,
+      "localEconomyScore": 58.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "franklin",
@@ -1851,12 +1837,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37069",
-      "population": 69680,
-      "medianHouseholdIncome": 70493,
-      "medianHomeValue": 209500,
-      "localEconomyScore": 63.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 74386,
+      "medianHouseholdIncome": 74240,
+      "medianHomeValue": 284300,
+      "localEconomyScore": 62.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "surry",
+      "county": "Surry County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37171",
+      "population": 71425,
+      "medianHouseholdIncome": 55656,
+      "medianHomeValue": 177600,
+      "localEconomyScore": 58.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "carteret",
@@ -1865,12 +1865,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37031",
-      "population": 68353,
-      "medianHouseholdIncome": 66965,
-      "medianHomeValue": 277400,
-      "localEconomyScore": 59.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 69148,
+      "medianHouseholdIncome": 72322,
+      "medianHomeValue": 333300,
+      "localEconomyScore": 59.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wilkes",
@@ -1879,26 +1879,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37193",
-      "population": 66125,
-      "medianHouseholdIncome": 49119,
-      "medianHomeValue": 146200,
-      "localEconomyScore": 57.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "rutherford",
-      "county": "Rutherford County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37161",
-      "population": 64680,
-      "medianHouseholdIncome": 50512,
-      "medianHomeValue": 158200,
-      "localEconomyScore": 57.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 65935,
+      "medianHouseholdIncome": 51721,
+      "medianHomeValue": 168800,
+      "localEconomyScore": 57.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lee",
@@ -1907,40 +1893,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37105",
-      "population": 63560,
-      "medianHouseholdIncome": 60941,
-      "medianHomeValue": 186000,
-      "localEconomyScore": 60.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "stanly",
-      "county": "Stanly County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37167",
-      "population": 62723,
-      "medianHouseholdIncome": 60634,
-      "medianHomeValue": 190700,
-      "localEconomyScore": 60.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "haywood",
-      "county": "Haywood County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37087",
-      "population": 62152,
-      "medianHouseholdIncome": 56596,
-      "medianHomeValue": 227500,
-      "localEconomyScore": 56.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 65816,
+      "medianHouseholdIncome": 65387,
+      "medianHomeValue": 240200,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pender",
@@ -1949,12 +1907,54 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37141",
-      "population": 61592,
-      "medianHouseholdIncome": 74538,
-      "medianHomeValue": 240800,
-      "localEconomyScore": 64.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 65550,
+      "medianHouseholdIncome": 80396,
+      "medianHomeValue": 299000,
+      "localEconomyScore": 64.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "rutherford",
+      "county": "Rutherford County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37161",
+      "population": 64930,
+      "medianHouseholdIncome": 51410,
+      "medianHomeValue": 201800,
+      "localEconomyScore": 55.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "stanly",
+      "county": "Stanly County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37167",
+      "population": 64651,
+      "medianHouseholdIncome": 60704,
+      "medianHomeValue": 242400,
+      "localEconomyScore": 57.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "haywood",
+      "county": "Haywood County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37087",
+      "population": 62662,
+      "medianHouseholdIncome": 61912,
+      "medianHomeValue": 279200,
+      "localEconomyScore": 56.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "granville",
@@ -1963,12 +1963,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37077",
-      "population": 61161,
-      "medianHouseholdIncome": 68079,
-      "medianHomeValue": 208600,
-      "localEconomyScore": 62.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 60877,
+      "medianHouseholdIncome": 71111,
+      "medianHomeValue": 247700,
+      "localEconomyScore": 62.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "sampson",
@@ -1977,26 +1977,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37163",
-      "population": 59317,
-      "medianHouseholdIncome": 49963,
-      "medianHomeValue": 116600,
-      "localEconomyScore": 59.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "lenoir",
-      "county": "Lenoir County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37107",
-      "population": 55071,
-      "medianHouseholdIncome": 43063,
-      "medianHomeValue": 101600,
-      "localEconomyScore": 57.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 59470,
+      "medianHouseholdIncome": 52432,
+      "medianHomeValue": 150700,
+      "localEconomyScore": 58.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "watauga",
@@ -2005,12 +1991,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37189",
-      "population": 54540,
-      "medianHouseholdIncome": 50034,
-      "medianHomeValue": 283000,
-      "localEconomyScore": 49.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 55123,
+      "medianHouseholdIncome": 51693,
+      "medianHomeValue": 358900,
+      "localEconomyScore": 46.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "lenoir",
+      "county": "Lenoir County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37107",
+      "population": 54919,
+      "medianHouseholdIncome": 45143,
+      "medianHomeValue": 120500,
+      "localEconomyScore": 57.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hoke",
@@ -2019,12 +2019,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37093",
-      "population": 52612,
-      "medianHouseholdIncome": 57141,
-      "medianHomeValue": 177500,
-      "localEconomyScore": 59.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 53835,
+      "medianHouseholdIncome": 64912,
+      "medianHomeValue": 219300,
+      "localEconomyScore": 60.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "columbus",
@@ -2033,12 +2033,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37047",
-      "population": 50827,
-      "medianHouseholdIncome": 43206,
-      "medianHomeValue": 119800,
-      "localEconomyScore": 56.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 50140,
+      "medianHouseholdIncome": 49442,
+      "medianHomeValue": 146000,
+      "localEconomyScore": 57.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "duplin",
@@ -2047,12 +2047,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37061",
-      "population": 49312,
-      "medianHouseholdIncome": 49376,
-      "medianHomeValue": 112400,
-      "localEconomyScore": 59.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 49335,
+      "medianHouseholdIncome": 55148,
+      "medianHomeValue": 137400,
+      "localEconomyScore": 60.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "edgecombe",
@@ -2061,12 +2061,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37065",
-      "population": 49067,
-      "medianHouseholdIncome": 46370,
-      "medianHomeValue": 106200,
-      "localEconomyScore": 58.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 48736,
+      "medianHouseholdIncome": 51265,
+      "medianHomeValue": 125100,
+      "localEconomyScore": 59.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "halifax",
@@ -2075,26 +2075,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37083",
-      "population": 48772,
-      "medianHouseholdIncome": 41629,
-      "medianHomeValue": 98700,
-      "localEconomyScore": 57,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "beaufort",
-      "county": "Beaufort County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37013",
-      "population": 44711,
-      "medianHouseholdIncome": 56081,
-      "medianHomeValue": 159900,
-      "localEconomyScore": 59.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 47675,
+      "medianHouseholdIncome": 45590,
+      "medianHomeValue": 106200,
+      "localEconomyScore": 58.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "stokes",
@@ -2103,12 +2089,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37169",
-      "population": 44696,
-      "medianHouseholdIncome": 57539,
-      "medianHomeValue": 168600,
-      "localEconomyScore": 59.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 45139,
+      "medianHouseholdIncome": 62969,
+      "medianHomeValue": 196700,
+      "localEconomyScore": 60.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "mcdowell",
@@ -2117,26 +2103,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37111",
-      "population": 44629,
-      "medianHouseholdIncome": 53532,
-      "medianHomeValue": 153300,
-      "localEconomyScore": 59,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 44817,
+      "medianHouseholdIncome": 57168,
+      "medianHomeValue": 171100,
+      "localEconomyScore": 59.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "richmond",
-      "county": "Richmond County",
+      "slug": "beaufort",
+      "county": "Beaufort County",
       "state": "North Carolina",
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
-      "fips": "37153",
-      "population": 43149,
-      "medianHouseholdIncome": 42354,
-      "medianHomeValue": 111900,
-      "localEconomyScore": 56.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "37013",
+      "population": 44499,
+      "medianHouseholdIncome": 58357,
+      "medianHomeValue": 192700,
+      "localEconomyScore": 59,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "davie",
@@ -2145,26 +2131,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37059",
-      "population": 43030,
-      "medianHouseholdIncome": 69105,
-      "medianHomeValue": 219400,
-      "localEconomyScore": 62.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "vance",
-      "county": "Vance County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37181",
-      "population": 42492,
-      "medianHouseholdIncome": 48340,
-      "medianHomeValue": 133000,
-      "localEconomyScore": 57.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 44122,
+      "medianHouseholdIncome": 75057,
+      "medianHomeValue": 253900,
+      "localEconomyScore": 63.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jackson",
@@ -2173,12 +2145,40 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37099",
-      "population": 42388,
-      "medianHouseholdIncome": 51482,
-      "medianHomeValue": 240500,
-      "localEconomyScore": 52.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 43771,
+      "medianHouseholdIncome": 55815,
+      "medianHomeValue": 284700,
+      "localEconomyScore": 52.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "richmond",
+      "county": "Richmond County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37153",
+      "population": 42344,
+      "medianHouseholdIncome": 44883,
+      "medianHomeValue": 127800,
+      "localEconomyScore": 56.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "vance",
+      "county": "Vance County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37181",
+      "population": 42322,
+      "medianHouseholdIncome": 50465,
+      "medianHomeValue": 161500,
+      "localEconomyScore": 56.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pasquotank",
@@ -2187,12 +2187,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37139",
-      "population": 40454,
-      "medianHouseholdIncome": 61411,
-      "medianHomeValue": 201500,
-      "localEconomyScore": 60,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 40834,
+      "medianHouseholdIncome": 66589,
+      "medianHomeValue": 234600,
+      "localEconomyScore": 60.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "person",
@@ -2201,40 +2201,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37145",
-      "population": 39131,
-      "medianHouseholdIncome": 60688,
-      "medianHomeValue": 173200,
-      "localEconomyScore": 61,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "yadkin",
-      "county": "Yadkin County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37197",
-      "population": 37280,
-      "medianHouseholdIncome": 57486,
-      "medianHomeValue": 160500,
-      "localEconomyScore": 60.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "dare",
-      "county": "Dare County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37055",
-      "population": 37160,
-      "medianHouseholdIncome": 79742,
-      "medianHomeValue": 386600,
-      "localEconomyScore": 60.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 39542,
+      "medianHouseholdIncome": 63300,
+      "medianHomeValue": 213900,
+      "localEconomyScore": 60.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "macon",
@@ -2243,12 +2215,40 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37113",
-      "population": 37088,
-      "medianHouseholdIncome": 51042,
-      "medianHomeValue": 210900,
-      "localEconomyScore": 54.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 37941,
+      "medianHouseholdIncome": 59061,
+      "medianHomeValue": 251900,
+      "localEconomyScore": 56.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "dare",
+      "county": "Dare County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37055",
+      "population": 37875,
+      "medianHouseholdIncome": 88994,
+      "medianHomeValue": 460400,
+      "localEconomyScore": 62.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "yadkin",
+      "county": "Yadkin County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37197",
+      "population": 37574,
+      "medianHouseholdIncome": 62932,
+      "medianHomeValue": 181200,
+      "localEconomyScore": 61.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "alexander",
@@ -2257,26 +2257,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37003",
-      "population": 36505,
-      "medianHouseholdIncome": 62764,
-      "medianHomeValue": 169300,
-      "localEconomyScore": 62,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "scotland",
-      "county": "Scotland County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37165",
-      "population": 34222,
-      "medianHouseholdIncome": 41948,
-      "medianHomeValue": 99900,
-      "localEconomyScore": 56.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 36412,
+      "medianHouseholdIncome": 65354,
+      "medianHomeValue": 211800,
+      "localEconomyScore": 61.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "transylvania",
@@ -2285,40 +2271,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37175",
-      "population": 33131,
-      "medianHouseholdIncome": 62056,
-      "medianHomeValue": 298600,
-      "localEconomyScore": 55.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 33691,
+      "medianHouseholdIncome": 66184,
+      "medianHomeValue": 373600,
+      "localEconomyScore": 54.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "bladen",
-      "county": "Bladen County",
+      "slug": "scotland",
+      "county": "Scotland County",
       "state": "North Carolina",
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
-      "fips": "37017",
-      "population": 29807,
-      "medianHouseholdIncome": 40476,
-      "medianHomeValue": 115900,
-      "localEconomyScore": 54.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "cherokee",
-      "county": "Cherokee County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37039",
-      "population": 28868,
-      "medianHouseholdIncome": 49254,
-      "medianHomeValue": 193500,
-      "localEconomyScore": 54.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "37165",
+      "population": 33590,
+      "medianHouseholdIncome": 45730,
+      "medianHomeValue": 114900,
+      "localEconomyScore": 57.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "currituck",
@@ -2327,12 +2299,40 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37053",
-      "population": 28616,
-      "medianHouseholdIncome": 82793,
-      "medianHomeValue": 314100,
-      "localEconomyScore": 64.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 30601,
+      "medianHouseholdIncome": 93511,
+      "medianHomeValue": 378800,
+      "localEconomyScore": 66.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "bladen",
+      "county": "Bladen County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37017",
+      "population": 29566,
+      "medianHouseholdIncome": 42422,
+      "medianHomeValue": 135100,
+      "localEconomyScore": 54.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "cherokee",
+      "county": "Cherokee County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37039",
+      "population": 29562,
+      "medianHouseholdIncome": 53628,
+      "medianHomeValue": 232300,
+      "localEconomyScore": 54.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "ashe",
@@ -2341,12 +2341,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37009",
-      "population": 26759,
-      "medianHouseholdIncome": 49176,
-      "medianHomeValue": 199200,
-      "localEconomyScore": 53.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 26950,
+      "medianHouseholdIncome": 56866,
+      "medianHomeValue": 243100,
+      "localEconomyScore": 55.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "montgomery",
@@ -2355,12 +2355,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37123",
-      "population": 25839,
-      "medianHouseholdIncome": 55523,
-      "medianHomeValue": 139900,
-      "localEconomyScore": 60.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 26007,
+      "medianHouseholdIncome": 57766,
+      "medianHomeValue": 161700,
+      "localEconomyScore": 60,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "caswell",
@@ -2369,12 +2369,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37033",
-      "population": 22747,
-      "medianHouseholdIncome": 56999,
-      "medianHomeValue": 138600,
-      "localEconomyScore": 60.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 22404,
+      "medianHouseholdIncome": 59755,
+      "medianHomeValue": 164500,
+      "localEconomyScore": 60.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "anson",
@@ -2383,40 +2383,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37007",
-      "population": 22200,
-      "medianHouseholdIncome": 42000,
-      "medianHomeValue": 116300,
-      "localEconomyScore": 55.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "martin",
-      "county": "Martin County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37117",
-      "population": 21992,
-      "medianHouseholdIncome": 44799,
-      "medianHomeValue": 99200,
-      "localEconomyScore": 57.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "hertford",
-      "county": "Hertford County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37091",
-      "population": 21633,
-      "medianHouseholdIncome": 46196,
-      "medianHomeValue": 103600,
-      "localEconomyScore": 58.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 22289,
+      "medianHouseholdIncome": 47302,
+      "medianHomeValue": 148600,
+      "localEconomyScore": 55.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "madison",
@@ -2425,12 +2397,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37115",
-      "population": 21414,
-      "medianHouseholdIncome": 56664,
-      "medianHomeValue": 236300,
-      "localEconomyScore": 55.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 21867,
+      "medianHouseholdIncome": 58531,
+      "medianHomeValue": 284600,
+      "localEconomyScore": 53.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "martin",
+      "county": "Martin County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37117",
+      "population": 21644,
+      "medianHouseholdIncome": 48578,
+      "medianHomeValue": 109700,
+      "localEconomyScore": 58.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "greene",
@@ -2439,12 +2425,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37079",
-      "population": 20407,
-      "medianHouseholdIncome": 50320,
-      "medianHomeValue": 108300,
-      "localEconomyScore": 59.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 20486,
+      "medianHouseholdIncome": 53244,
+      "medianHomeValue": 117400,
+      "localEconomyScore": 60.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "hertford",
+      "county": "Hertford County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37091",
+      "population": 19908,
+      "medianHouseholdIncome": 45537,
+      "medianHomeValue": 119200,
+      "localEconomyScore": 56.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "polk",
@@ -2453,26 +2453,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37149",
-      "population": 19538,
-      "medianHouseholdIncome": 60465,
-      "medianHomeValue": 255000,
-      "localEconomyScore": 56.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "warren",
-      "county": "Warren County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37185",
-      "population": 18803,
-      "medianHouseholdIncome": 42282,
-      "medianHomeValue": 121300,
-      "localEconomyScore": 55.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 19891,
+      "medianHouseholdIncome": 67758,
+      "medianHomeValue": 315000,
+      "localEconomyScore": 57.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "yancey",
@@ -2481,26 +2467,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37199",
-      "population": 18538,
-      "medianHouseholdIncome": 53103,
-      "medianHomeValue": 206100,
-      "localEconomyScore": 55.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 18797,
+      "medianHouseholdIncome": 58709,
+      "medianHomeValue": 243100,
+      "localEconomyScore": 56,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "bertie",
-      "county": "Bertie County",
+      "slug": "warren",
+      "county": "Warren County",
       "state": "North Carolina",
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
-      "fips": "37015",
-      "population": 17818,
-      "medianHouseholdIncome": 41652,
-      "medianHomeValue": 87500,
-      "localEconomyScore": 57.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "37185",
+      "population": 18795,
+      "medianHouseholdIncome": 50638,
+      "medianHomeValue": 154200,
+      "localEconomyScore": 56.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "avery",
@@ -2509,12 +2495,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37011",
-      "population": 17679,
-      "medianHouseholdIncome": 53513,
-      "medianHomeValue": 215900,
-      "localEconomyScore": 54.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 17680,
+      "medianHouseholdIncome": 61428,
+      "medianHomeValue": 265800,
+      "localEconomyScore": 56.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "bertie",
+      "county": "Bertie County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37015",
+      "population": 17170,
+      "medianHouseholdIncome": 48750,
+      "medianHomeValue": 98500,
+      "localEconomyScore": 59.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "northampton",
@@ -2523,12 +2523,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37131",
-      "population": 17528,
-      "medianHouseholdIncome": 45698,
-      "medianHomeValue": 96000,
-      "localEconomyScore": 58.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 16931,
+      "medianHouseholdIncome": 50086,
+      "medianHomeValue": 114500,
+      "localEconomyScore": 59,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "mitchell",
@@ -2537,12 +2537,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37121",
-      "population": 14989,
-      "medianHouseholdIncome": 55534,
-      "medianHomeValue": 191400,
-      "localEconomyScore": 57.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14992,
+      "medianHouseholdIncome": 57602,
+      "medianHomeValue": 220100,
+      "localEconomyScore": 56.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "swain",
@@ -2551,12 +2551,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37173",
-      "population": 14130,
-      "medianHouseholdIncome": 52818,
-      "medianHomeValue": 178900,
-      "localEconomyScore": 56.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14013,
+      "medianHouseholdIncome": 52349,
+      "medianHomeValue": 207000,
+      "localEconomyScore": 54.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "chowan",
@@ -2565,12 +2565,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37041",
-      "population": 13835,
-      "medianHouseholdIncome": 51188,
-      "medianHomeValue": 181400,
-      "localEconomyScore": 55.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 13836,
+      "medianHouseholdIncome": 53864,
+      "medianHomeValue": 235800,
+      "localEconomyScore": 53.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "perquimans",
@@ -2579,12 +2579,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37143",
-      "population": 13053,
-      "medianHouseholdIncome": 59401,
-      "medianHomeValue": 211100,
-      "localEconomyScore": 57.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 13244,
+      "medianHouseholdIncome": 67917,
+      "medianHomeValue": 231700,
+      "localEconomyScore": 60.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pamlico",
@@ -2593,12 +2593,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37137",
-      "population": 12317,
-      "medianHouseholdIncome": 55867,
-      "medianHomeValue": 198600,
-      "localEconomyScore": 56.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 12390,
+      "medianHouseholdIncome": 59717,
+      "medianHomeValue": 216800,
+      "localEconomyScore": 57.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clay",
@@ -2607,26 +2607,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37043",
-      "population": 11186,
-      "medianHouseholdIncome": 57065,
-      "medianHomeValue": 251900,
-      "localEconomyScore": 54.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "washington",
-      "county": "Washington County",
-      "state": "North Carolina",
-      "stateSlug": "north-carolina",
-      "stateAbbreviation": "NC",
-      "fips": "37187",
-      "population": 11051,
-      "medianHouseholdIncome": 38927,
-      "medianHomeValue": 97800,
-      "localEconomyScore": 54.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11610,
+      "medianHouseholdIncome": 56971,
+      "medianHomeValue": 278400,
+      "localEconomyScore": 52.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "alleghany",
@@ -2635,12 +2621,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37005",
-      "population": 10989,
-      "medianHouseholdIncome": 42115,
-      "medianHomeValue": 171800,
+      "population": 11174,
+      "medianHouseholdIncome": 47172,
+      "medianHomeValue": 214800,
       "localEconomyScore": 51.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "camden",
@@ -2649,12 +2635,26 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37029",
-      "population": 10547,
-      "medianHouseholdIncome": 79120,
-      "medianHomeValue": 261000,
-      "localEconomyScore": 64.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10927,
+      "medianHouseholdIncome": 91078,
+      "medianHomeValue": 337100,
+      "localEconomyScore": 66.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "washington",
+      "county": "Washington County",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbreviation": "NC",
+      "fips": "37187",
+      "population": 10812,
+      "medianHouseholdIncome": 41813,
+      "medianHomeValue": 125900,
+      "localEconomyScore": 54.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "gates",
@@ -2663,12 +2663,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37073",
-      "population": 10509,
-      "medianHouseholdIncome": 55750,
-      "medianHomeValue": 153000,
-      "localEconomyScore": 59,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10376,
+      "medianHouseholdIncome": 66333,
+      "medianHomeValue": 170800,
+      "localEconomyScore": 62.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jones",
@@ -2677,12 +2677,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37103",
-      "population": 9263,
-      "medianHouseholdIncome": 53053,
-      "medianHomeValue": 115400,
-      "localEconomyScore": 59.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9302,
+      "medianHouseholdIncome": 59641,
+      "medianHomeValue": 130300,
+      "localEconomyScore": 61.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "graham",
@@ -2691,12 +2691,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37075",
-      "population": 8047,
-      "medianHouseholdIncome": 46010,
-      "medianHomeValue": 134000,
-      "localEconomyScore": 55.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8072,
+      "medianHouseholdIncome": 49684,
+      "medianHomeValue": 170600,
+      "localEconomyScore": 54.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hyde",
@@ -2705,12 +2705,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37095",
-      "population": 4636,
-      "medianHouseholdIncome": 43724,
-      "medianHomeValue": 105300,
-      "localEconomyScore": 56,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4592,
+      "medianHouseholdIncome": 53713,
+      "medianHomeValue": 124000,
+      "localEconomyScore": 59.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "tyrrell",
@@ -2719,12 +2719,12 @@
       "stateSlug": "north-carolina",
       "stateAbbreviation": "NC",
       "fips": "37177",
-      "population": 3389,
-      "medianHouseholdIncome": 55341,
-      "medianHomeValue": 140500,
-      "localEconomyScore": 58.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3423,
+      "medianHouseholdIncome": 41685,
+      "medianHomeValue": 164500,
+      "localEconomyScore": 50.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "colleges": [
@@ -2743,7 +2743,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "197850",
@@ -2760,7 +2760,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "197869",
@@ -2777,7 +2777,7 @@
       "debtToEarningsRatio": 0.3902886025156262,
       "valueScore": 74,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "197887",
@@ -2794,7 +2794,7 @@
       "debtToEarningsRatio": 0.43075898801597867,
       "valueScore": 65,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "197911",
@@ -2811,7 +2811,7 @@
       "debtToEarningsRatio": 0.5400830672260138,
       "valueScore": 49,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "197966",
@@ -2828,7 +2828,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "197984",
@@ -2845,7 +2845,7 @@
       "debtToEarningsRatio": 0.5423785384984459,
       "valueScore": 47,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "197993",
@@ -2862,7 +2862,7 @@
       "debtToEarningsRatio": 0.7674469362143286,
       "valueScore": 29,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198011",
@@ -2879,7 +2879,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 65,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198039",
@@ -2896,7 +2896,7 @@
       "debtToEarningsRatio": 0.3303600925008259,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198066",
@@ -2913,7 +2913,7 @@
       "debtToEarningsRatio": 0.5741187277528993,
       "valueScore": 44,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198084",
@@ -2930,7 +2930,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 84,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198109",
@@ -2947,7 +2947,7 @@
       "debtToEarningsRatio": 0.2725352592491654,
       "valueScore": 75,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198118",
@@ -2964,7 +2964,7 @@
       "debtToEarningsRatio": 0.25351296537737217,
       "valueScore": 68,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198136",
@@ -2981,7 +2981,7 @@
       "debtToEarningsRatio": 0.40994060416135264,
       "valueScore": 55,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198154",
@@ -2998,7 +2998,7 @@
       "debtToEarningsRatio": 0.24577016608889118,
       "valueScore": 81,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198206",
@@ -3015,7 +3015,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 67,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198215",
@@ -3032,7 +3032,7 @@
       "debtToEarningsRatio": 0.5123685774598815,
       "valueScore": 62,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198233",
@@ -3049,7 +3049,7 @@
       "debtToEarningsRatio": 0.13354247234767558,
       "valueScore": 72,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198251",
@@ -3066,7 +3066,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198260",
@@ -3083,7 +3083,7 @@
       "debtToEarningsRatio": 0.20929618381090717,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198303",
@@ -3100,7 +3100,7 @@
       "debtToEarningsRatio": 0.7677548682703322,
       "valueScore": 56,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198321",
@@ -3117,7 +3117,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198330",
@@ -3134,7 +3134,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 81,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198367",
@@ -3151,7 +3151,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198376",
@@ -3168,7 +3168,7 @@
       "debtToEarningsRatio": 0.2889616644191871,
       "valueScore": 86,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198385",
@@ -3185,7 +3185,7 @@
       "debtToEarningsRatio": 0.22958230958230957,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198419",
@@ -3202,7 +3202,7 @@
       "debtToEarningsRatio": 0.1329243353783231,
       "valueScore": 84,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198455",
@@ -3219,7 +3219,7 @@
       "debtToEarningsRatio": 0.4081124453544353,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198464",
@@ -3236,7 +3236,7 @@
       "debtToEarningsRatio": 0.41254125412541254,
       "valueScore": 79,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198491",
@@ -3253,7 +3253,7 @@
       "debtToEarningsRatio": 0.4784621396579193,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198507",
@@ -3270,7 +3270,7 @@
       "debtToEarningsRatio": 0.5362264528056763,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198516",
@@ -3287,7 +3287,7 @@
       "debtToEarningsRatio": 0.27500167683949295,
       "valueScore": 53,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198534",
@@ -3304,7 +3304,7 @@
       "debtToEarningsRatio": 0.3609428454850758,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198543",
@@ -3321,7 +3321,7 @@
       "debtToEarningsRatio": 0.5726135910721403,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198552",
@@ -3338,7 +3338,7 @@
       "debtToEarningsRatio": 0.2929201206830897,
       "valueScore": 93,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198561",
@@ -3355,7 +3355,7 @@
       "debtToEarningsRatio": 0.5042153250483982,
       "valueScore": 64,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198570",
@@ -3372,7 +3372,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198598",
@@ -3389,7 +3389,7 @@
       "debtToEarningsRatio": 0.549907657947859,
       "valueScore": 58,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198613",
@@ -3406,7 +3406,7 @@
       "debtToEarningsRatio": 0.5463332632906073,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198622",
@@ -3423,7 +3423,7 @@
       "debtToEarningsRatio": 0.43911710968350326,
       "valueScore": 49,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198640",
@@ -3440,7 +3440,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 72,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198668",
@@ -3457,7 +3457,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198677",
@@ -3474,7 +3474,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 30,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198695",
@@ -3491,7 +3491,7 @@
       "debtToEarningsRatio": 0.40031601752757007,
       "valueScore": 47,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198710",
@@ -3508,7 +3508,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 69,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198729",
@@ -3525,7 +3525,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198756",
@@ -3542,7 +3542,7 @@
       "debtToEarningsRatio": 0.7029053420805998,
       "valueScore": 45,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198774",
@@ -3559,7 +3559,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198808",
@@ -3576,7 +3576,7 @@
       "debtToEarningsRatio": 0.4002073016238627,
       "valueScore": 38,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198817",
@@ -3593,7 +3593,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198835",
@@ -3610,7 +3610,7 @@
       "debtToEarningsRatio": 0.5708890499088773,
       "valueScore": 52,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198844",
@@ -3627,7 +3627,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198862",
@@ -3644,7 +3644,7 @@
       "debtToEarningsRatio": 0.9547546012269938,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198871",
@@ -3661,7 +3661,7 @@
       "debtToEarningsRatio": 0.34464931931759435,
       "valueScore": 35,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198899",
@@ -3678,7 +3678,7 @@
       "debtToEarningsRatio": 0.5806033808981488,
       "valueScore": 51,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198905",
@@ -3695,7 +3695,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198914",
@@ -3712,7 +3712,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198923",
@@ -3729,7 +3729,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 90,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198950",
@@ -3746,7 +3746,7 @@
       "debtToEarningsRatio": 0.48506955897475695,
       "valueScore": 58,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198969",
@@ -3763,7 +3763,7 @@
       "debtToEarningsRatio": 0.5619146722164412,
       "valueScore": 45,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198978",
@@ -3780,7 +3780,7 @@
       "debtToEarningsRatio": 0.5117677319786509,
       "valueScore": 27,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "198987",
@@ -3797,7 +3797,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 98,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199023",
@@ -3814,7 +3814,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 59,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199032",
@@ -3831,7 +3831,7 @@
       "debtToEarningsRatio": 0.5717038382317113,
       "valueScore": 41,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199069",
@@ -3848,7 +3848,7 @@
       "debtToEarningsRatio": 0.5772078321559643,
       "valueScore": 57,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199078",
@@ -3865,7 +3865,7 @@
       "debtToEarningsRatio": 0.48988822459059006,
       "valueScore": 22,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199087",
@@ -3882,7 +3882,7 @@
       "debtToEarningsRatio": 0.32939963336388633,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199102",
@@ -3899,7 +3899,7 @@
       "debtToEarningsRatio": 0.6075607560756076,
       "valueScore": 88,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199111",
@@ -3916,7 +3916,7 @@
       "debtToEarningsRatio": 0.4655916420622303,
       "valueScore": 78,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199120",
@@ -3933,7 +3933,7 @@
       "debtToEarningsRatio": 0.19390581717451524,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199139",
@@ -3950,7 +3950,7 @@
       "debtToEarningsRatio": 0.37529019532545516,
       "valueScore": 84,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199148",
@@ -3967,7 +3967,7 @@
       "debtToEarningsRatio": 0.47462624584717605,
       "valueScore": 93,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199157",
@@ -3984,7 +3984,7 @@
       "debtToEarningsRatio": 0.6574660212250978,
       "valueScore": 61,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199184",
@@ -4001,7 +4001,7 @@
       "debtToEarningsRatio": 0.6223114425007169,
       "valueScore": 66,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199193",
@@ -4018,7 +4018,7 @@
       "debtToEarningsRatio": 0.292635038831845,
       "valueScore": 93,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199209",
@@ -4035,7 +4035,7 @@
       "debtToEarningsRatio": 0.5449828875373314,
       "valueScore": 58,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199218",
@@ -4052,7 +4052,7 @@
       "debtToEarningsRatio": 0.35475830953117327,
       "valueScore": 67,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199263",
@@ -4069,7 +4069,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199272",
@@ -4086,7 +4086,7 @@
       "debtToEarningsRatio": 0.4770276354436893,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199281",
@@ -4103,7 +4103,7 @@
       "debtToEarningsRatio": 0.5759439721703873,
       "valueScore": 87,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199306",
@@ -4120,7 +4120,7 @@
       "debtToEarningsRatio": 0.5074085566890345,
       "valueScore": 58,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199324",
@@ -4137,7 +4137,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199333",
@@ -4154,7 +4154,7 @@
       "debtToEarningsRatio": 0.32145253495799675,
       "valueScore": 99,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199412",
@@ -4171,7 +4171,7 @@
       "debtToEarningsRatio": 0.43347840410590743,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199421",
@@ -4188,7 +4188,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199449",
@@ -4205,7 +4205,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199458",
@@ -4222,7 +4222,7 @@
       "debtToEarningsRatio": 0.7041886182254447,
       "valueScore": 46,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199467",
@@ -4239,7 +4239,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199476",
@@ -4256,7 +4256,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199485",
@@ -4273,7 +4273,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199494",
@@ -4290,7 +4290,7 @@
       "debtToEarningsRatio": 0.27072360888481795,
       "valueScore": 87,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199582",
@@ -4307,7 +4307,7 @@
       "debtToEarningsRatio": 0.8303666386789812,
       "valueScore": 34,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199607",
@@ -4324,7 +4324,7 @@
       "debtToEarningsRatio": 0.5969758064516129,
       "valueScore": 58,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199625",
@@ -4341,7 +4341,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199634",
@@ -4358,7 +4358,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199643",
@@ -4375,7 +4375,7 @@
       "debtToEarningsRatio": 0.9445203289836961,
       "valueScore": 43,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199689",
@@ -4392,7 +4392,7 @@
       "debtToEarningsRatio": 0.4397662571171711,
       "valueScore": 42,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199698",
@@ -4409,7 +4409,7 @@
       "debtToEarningsRatio": 0.5536552208042801,
       "valueScore": 32,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "199722",
@@ -4426,7 +4426,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 71,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "federalSpending": [
@@ -4436,7 +4436,7 @@
       "stateAbbreviation": "NC",
       "fiscalYear": 2024,
       "total": 109181097814.87,
-      "perCapita": 10427.78092356756,
+      "perCapita": 10174.928904342278,
       "source": "USAspending.gov"
     }
   ],

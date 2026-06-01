@@ -1,49 +1,49 @@
 {
   "_meta": {
     "description": "Georgia state economic dashboard data",
-    "generatedAt": "2026-06-01T05:36:01.612Z",
+    "generatedAt": "2026-06-01T06:09:58.945Z",
     "sourceAttemptLog": [
       {
         "source": "BEA",
         "id": "state-gdp",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-states",
+        "id": "acs-states-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-counties",
+        "id": "acs-counties-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-places",
+        "id": "acs-places-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "UNRATE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DENV708URN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -51,7 +51,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -59,7 +59,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -67,357 +67,357 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AK-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AK",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AZ-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AZ",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AR-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AR",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "COURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "COPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CORGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CO-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CO",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CT-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CT",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-DE-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-DE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-FL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-FL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-GA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-GA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       }
     ]
   },
@@ -427,40 +427,40 @@
     "abbreviation": "GA",
     "fips": "13",
     "population": {
-      "value": 10722325,
+      "value": 10940407,
       "unit": "persons",
       "geography": "Georgia",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B01003_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHouseholdIncome": {
-      "value": 71355,
+      "value": 77353,
       "unit": "USD",
       "geography": "Georgia",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B19013_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHomeValue": {
-      "value": 245900,
+      "value": 303300,
       "unit": "USD",
       "geography": "Georgia",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B25077_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -474,7 +474,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/GAURN",
       "sourceDataset": "FRED Series GAURN",
       "sourceSeriesId": "GAURN",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -488,33 +488,33 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/GARGSP",
       "sourceDataset": "FRED Series GARGSP",
       "sourceSeriesId": "GARGSP",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "federalSpendingPerCapita": {
-      "value": 8761.537823417962,
+      "value": 8586.88859038608,
       "unit": "USD per person",
       "geography": "Georgia",
       "date": "FY2024",
       "sourceName": "USAspending.gov",
       "sourceUrl": "https://api.usaspending.gov/",
       "sourceDataset": "USAspending API v2 spending_by_geography",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "localEconomyScore": {
-      "value": 66.4,
+      "value": 66.7,
       "unit": "score",
       "geography": "Georgia",
       "date": "2026-06-01",
       "sourceName": "LocalLedger methodology",
       "sourceUrl": "https://local-ledger.net/methodology/",
       "sourceDataset": "Composite score from Census, FRED, and USAspending",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "weighted score",
       "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
       "availability": "available"
@@ -528,12 +528,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13121",
-      "population": 1061944,
-      "medianHouseholdIncome": 86267,
-      "medianHomeValue": 398300,
-      "localEconomyScore": 66.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1076561,
+      "medianHouseholdIncome": 95292,
+      "medianHomeValue": 458800,
+      "localEconomyScore": 68.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "gwinnett",
@@ -542,12 +542,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13135",
-      "population": 957977,
-      "medianHouseholdIncome": 82296,
-      "medianHomeValue": 307300,
-      "localEconomyScore": 67.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 979864,
+      "medianHouseholdIncome": 87890,
+      "medianHomeValue": 380900,
+      "localEconomyScore": 67.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cobb",
@@ -556,12 +556,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13067",
-      "population": 765813,
-      "medianHouseholdIncome": 94244,
-      "medianHomeValue": 346000,
-      "localEconomyScore": 71.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 775208,
+      "medianHouseholdIncome": 102738,
+      "medianHomeValue": 407200,
+      "localEconomyScore": 72.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dekalb",
@@ -570,26 +570,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13089",
-      "population": 761209,
-      "medianHouseholdIncome": 76044,
-      "medianHomeValue": 301100,
-      "localEconomyScore": 65,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "clayton",
-      "county": "Clayton County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13063",
-      "population": 296312,
-      "medianHouseholdIncome": 56207,
-      "medianHomeValue": 167200,
-      "localEconomyScore": 61.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 765351,
+      "medianHouseholdIncome": 80644,
+      "medianHomeValue": 357800,
+      "localEconomyScore": 64.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "chatham",
@@ -598,12 +584,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13051",
-      "population": 296266,
-      "medianHouseholdIncome": 66171,
-      "medianHomeValue": 256400,
-      "localEconomyScore": 61.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 300879,
+      "medianHouseholdIncome": 71097,
+      "medianHomeValue": 302700,
+      "localEconomyScore": 62,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "clayton",
+      "county": "Clayton County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13063",
+      "population": 298924,
+      "medianHouseholdIncome": 59806,
+      "medianHomeValue": 222300,
+      "localEconomyScore": 60.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cherokee",
@@ -612,12 +612,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13057",
-      "population": 268567,
-      "medianHouseholdIncome": 100824,
-      "medianHomeValue": 358400,
-      "localEconomyScore": 72.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 281032,
+      "medianHouseholdIncome": 108115,
+      "medianHomeValue": 435100,
+      "localEconomyScore": 73.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "forsyth",
@@ -626,12 +626,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13117",
-      "population": 253225,
-      "medianHouseholdIncome": 131660,
-      "medianHomeValue": 451100,
-      "localEconomyScore": 78.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 267287,
+      "medianHouseholdIncome": 143784,
+      "medianHomeValue": 550400,
+      "localEconomyScore": 77.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "henry",
@@ -640,26 +640,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13151",
-      "population": 240853,
-      "medianHouseholdIncome": 79663,
-      "medianHomeValue": 245200,
-      "localEconomyScore": 68,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "richmond",
-      "county": "Richmond County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13245",
-      "population": 206153,
-      "medianHouseholdIncome": 50605,
-      "medianHomeValue": 142100,
-      "localEconomyScore": 60.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 249960,
+      "medianHouseholdIncome": 83146,
+      "medianHomeValue": 313900,
+      "localEconomyScore": 66.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hall",
@@ -668,12 +654,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13139",
-      "population": 204953,
-      "medianHouseholdIncome": 74153,
-      "medianHomeValue": 277900,
-      "localEconomyScore": 64.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 212705,
+      "medianHouseholdIncome": 80901,
+      "medianHomeValue": 350400,
+      "localEconomyScore": 64.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "richmond",
+      "county": "Richmond County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13245",
+      "population": 206069,
+      "medianHouseholdIncome": 55637,
+      "medianHomeValue": 178500,
+      "localEconomyScore": 60.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "muscogee",
@@ -682,12 +682,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13215",
-      "population": 204572,
-      "medianHouseholdIncome": 54561,
-      "medianHomeValue": 168400,
-      "localEconomyScore": 60.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 203711,
+      "medianHouseholdIncome": 58073,
+      "medianHomeValue": 193900,
+      "localEconomyScore": 60.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "paulding",
@@ -696,12 +696,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13223",
-      "population": 169898,
-      "medianHouseholdIncome": 89237,
-      "medianHomeValue": 251100,
-      "localEconomyScore": 71.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 178909,
+      "medianHouseholdIncome": 98031,
+      "medianHomeValue": 326300,
+      "localEconomyScore": 72.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "houston",
@@ -710,12 +710,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13153",
-      "population": 164117,
-      "medianHouseholdIncome": 76968,
-      "medianHomeValue": 189500,
-      "localEconomyScore": 68.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 169649,
+      "medianHouseholdIncome": 80698,
+      "medianHomeValue": 219800,
+      "localEconomyScore": 69.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "columbia",
@@ -724,12 +724,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13073",
-      "population": 156921,
-      "medianHouseholdIncome": 92571,
-      "medianHomeValue": 259000,
-      "localEconomyScore": 72.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 162434,
+      "medianHouseholdIncome": 95592,
+      "medianHomeValue": 305300,
+      "localEconomyScore": 72,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "bibb",
@@ -738,12 +738,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13021",
-      "population": 156554,
-      "medianHouseholdIncome": 48897,
-      "medianHomeValue": 155200,
-      "localEconomyScore": 58.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 156578,
+      "medianHouseholdIncome": 51234,
+      "medianHomeValue": 174500,
+      "localEconomyScore": 58.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "coweta",
@@ -752,12 +752,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13077",
-      "population": 147449,
-      "medianHouseholdIncome": 90031,
-      "medianHomeValue": 291900,
-      "localEconomyScore": 70.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 152852,
+      "medianHouseholdIncome": 95548,
+      "medianHomeValue": 357500,
+      "localEconomyScore": 70.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "douglas",
@@ -766,12 +766,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13097",
-      "population": 144735,
-      "medianHouseholdIncome": 76930,
-      "medianHomeValue": 227800,
-      "localEconomyScore": 67.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 147888,
+      "medianHouseholdIncome": 82984,
+      "medianHomeValue": 296900,
+      "localEconomyScore": 67.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clarke",
@@ -780,12 +780,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13059",
-      "population": 128864,
-      "medianHouseholdIncome": 48692,
-      "medianHomeValue": 242600,
-      "localEconomyScore": 52.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 129609,
+      "medianHouseholdIncome": 53625,
+      "medianHomeValue": 298900,
+      "localEconomyScore": 52.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "carroll",
@@ -794,12 +794,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13045",
-      "population": 120060,
-      "medianHouseholdIncome": 66895,
-      "medianHomeValue": 196900,
-      "localEconomyScore": 64.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 124569,
+      "medianHouseholdIncome": 73714,
+      "medianHomeValue": 255100,
+      "localEconomyScore": 64.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "fayette",
@@ -808,12 +808,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13113",
-      "population": 119259,
-      "medianHouseholdIncome": 105910,
-      "medianHomeValue": 369700,
-      "localEconomyScore": 74,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 122244,
+      "medianHouseholdIncome": 111978,
+      "medianHomeValue": 436400,
+      "localEconomyScore": 74.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lowndes",
@@ -822,12 +822,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13185",
-      "population": 118257,
-      "medianHouseholdIncome": 52821,
-      "medianHomeValue": 177800,
-      "localEconomyScore": 58.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 119965,
+      "medianHouseholdIncome": 58541,
+      "medianHomeValue": 215600,
+      "localEconomyScore": 59.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "newton",
@@ -836,12 +836,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13217",
-      "population": 113298,
-      "medianHouseholdIncome": 70732,
-      "medianHomeValue": 200300,
-      "localEconomyScore": 65.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 118152,
+      "medianHouseholdIncome": 77179,
+      "medianHomeValue": 265000,
+      "localEconomyScore": 65.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "bartow",
@@ -850,12 +850,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13015",
-      "population": 109410,
-      "medianHouseholdIncome": 74812,
-      "medianHomeValue": 237000,
-      "localEconomyScore": 65.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 113113,
+      "medianHouseholdIncome": 82243,
+      "medianHomeValue": 289000,
+      "localEconomyScore": 66.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "whitfield",
@@ -864,26 +864,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13313",
-      "population": 103033,
-      "medianHouseholdIncome": 59659,
-      "medianHomeValue": 175000,
-      "localEconomyScore": 62,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "floyd",
-      "county": "Floyd County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13115",
-      "population": 98541,
-      "medianHouseholdIncome": 57868,
-      "medianHomeValue": 174000,
-      "localEconomyScore": 61.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 103598,
+      "medianHouseholdIncome": 67070,
+      "medianHomeValue": 218000,
+      "localEconomyScore": 63.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "walton",
@@ -892,12 +878,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13297",
-      "population": 97752,
-      "medianHouseholdIncome": 79425,
-      "medianHomeValue": 267400,
-      "localEconomyScore": 66.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 103313,
+      "medianHouseholdIncome": 84945,
+      "medianHomeValue": 339500,
+      "localEconomyScore": 66.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "floyd",
+      "county": "Floyd County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13115",
+      "population": 99693,
+      "medianHouseholdIncome": 65565,
+      "medianHomeValue": 217900,
+      "localEconomyScore": 62.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "rockdale",
@@ -906,40 +906,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13247",
-      "population": 93641,
-      "medianHouseholdIncome": 68999,
-      "medianHomeValue": 221800,
-      "localEconomyScore": 63.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "dougherty",
-      "county": "Dougherty County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13095",
-      "population": 85038,
-      "medianHouseholdIncome": 45640,
-      "medianHomeValue": 119100,
-      "localEconomyScore": 58.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "glynn",
-      "county": "Glynn County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13127",
-      "population": 84566,
-      "medianHouseholdIncome": 65970,
-      "medianHomeValue": 238000,
-      "localEconomyScore": 61.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 95281,
+      "medianHouseholdIncome": 77247,
+      "medianHomeValue": 292900,
+      "localEconomyScore": 64.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "barrow",
@@ -948,26 +920,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13013",
-      "population": 84399,
-      "medianHouseholdIncome": 75053,
-      "medianHomeValue": 228400,
-      "localEconomyScore": 66.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 89886,
+      "medianHouseholdIncome": 80653,
+      "medianHomeValue": 294700,
+      "localEconomyScore": 65.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "bulloch",
-      "county": "Bulloch County",
+      "slug": "glynn",
+      "county": "Glynn County",
       "state": "Georgia",
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
-      "fips": "13031",
-      "population": 79829,
-      "medianHouseholdIncome": 53675,
-      "medianHomeValue": 172500,
-      "localEconomyScore": 59.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "13127",
+      "population": 85447,
+      "medianHouseholdIncome": 69799,
+      "medianHomeValue": 301300,
+      "localEconomyScore": 60.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jackson",
@@ -976,12 +948,40 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13157",
-      "population": 77033,
-      "medianHouseholdIncome": 82056,
-      "medianHomeValue": 280600,
-      "localEconomyScore": 66.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 84757,
+      "medianHouseholdIncome": 89544,
+      "medianHomeValue": 345000,
+      "localEconomyScore": 67.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "dougherty",
+      "county": "Dougherty County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13095",
+      "population": 83091,
+      "medianHouseholdIncome": 49044,
+      "medianHomeValue": 134400,
+      "localEconomyScore": 59.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "bulloch",
+      "county": "Bulloch County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13031",
+      "population": 82683,
+      "medianHouseholdIncome": 58810,
+      "medianHomeValue": 222500,
+      "localEconomyScore": 59,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "troup",
@@ -990,68 +990,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13285",
-      "population": 69527,
-      "medianHouseholdIncome": 53599,
-      "medianHomeValue": 166700,
-      "localEconomyScore": 59.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "walker",
-      "county": "Walker County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13295",
-      "population": 68065,
-      "medianHouseholdIncome": 52276,
-      "medianHomeValue": 149600,
-      "localEconomyScore": 59.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "catoosa",
-      "county": "Catoosa County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13047",
-      "population": 68052,
-      "medianHouseholdIncome": 68896,
-      "medianHomeValue": 191200,
-      "localEconomyScore": 64.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "spalding",
-      "county": "Spalding County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13255",
-      "population": 67415,
-      "medianHouseholdIncome": 57367,
-      "medianHomeValue": 178800,
-      "localEconomyScore": 60.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "liberty",
-      "county": "Liberty County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13179",
-      "population": 65550,
-      "medianHouseholdIncome": 55149,
-      "medianHomeValue": 158400,
-      "localEconomyScore": 60.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 70330,
+      "medianHouseholdIncome": 56776,
+      "medianHomeValue": 217200,
+      "localEconomyScore": 58.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "effingham",
@@ -1060,12 +1004,68 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13103",
-      "population": 65314,
-      "medianHouseholdIncome": 79474,
-      "medianHomeValue": 219000,
-      "localEconomyScore": 68.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 69143,
+      "medianHouseholdIncome": 88438,
+      "medianHomeValue": 276000,
+      "localEconomyScore": 69.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "spalding",
+      "county": "Spalding County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13255",
+      "population": 68892,
+      "medianHouseholdIncome": 62071,
+      "medianHomeValue": 228700,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "walker",
+      "county": "Walker County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13295",
+      "population": 68762,
+      "medianHouseholdIncome": 59469,
+      "medianHomeValue": 197100,
+      "localEconomyScore": 60.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "catoosa",
+      "county": "Catoosa County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13047",
+      "population": 68634,
+      "medianHouseholdIncome": 74639,
+      "medianHomeValue": 240900,
+      "localEconomyScore": 65.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "liberty",
+      "county": "Liberty County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13179",
+      "population": 67397,
+      "medianHouseholdIncome": 60456,
+      "medianHomeValue": 201500,
+      "localEconomyScore": 60.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "gordon",
@@ -1074,12 +1074,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13129",
-      "population": 57785,
-      "medianHouseholdIncome": 57555,
-      "medianHomeValue": 179100,
-      "localEconomyScore": 60.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 59100,
+      "medianHouseholdIncome": 63650,
+      "medianHomeValue": 222900,
+      "localEconomyScore": 61.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "camden",
@@ -1088,12 +1088,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13039",
-      "population": 55105,
-      "medianHouseholdIncome": 68104,
-      "medianHomeValue": 213400,
-      "localEconomyScore": 63.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 56970,
+      "medianHouseholdIncome": 74378,
+      "medianHomeValue": 261400,
+      "localEconomyScore": 64.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "laurens",
@@ -1102,54 +1102,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13175",
-      "population": 49407,
-      "medianHouseholdIncome": 46776,
-      "medianHomeValue": 132000,
-      "localEconomyScore": 58.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "habersham",
-      "county": "Habersham County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13137",
-      "population": 46326,
-      "medianHouseholdIncome": 61292,
-      "medianHomeValue": 188800,
-      "localEconomyScore": 61.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "colquitt",
-      "county": "Colquitt County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13071",
-      "population": 45813,
-      "medianHouseholdIncome": 47235,
-      "medianHomeValue": 113900,
-      "localEconomyScore": 59.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "thomas",
-      "county": "Thomas County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13275",
-      "population": 45665,
-      "medianHouseholdIncome": 55958,
-      "medianHomeValue": 178900,
-      "localEconomyScore": 59.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 49798,
+      "medianHouseholdIncome": 55010,
+      "medianHomeValue": 154500,
+      "localEconomyScore": 60.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "bryan",
@@ -1158,40 +1116,54 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13029",
-      "population": 44995,
-      "medianHouseholdIncome": 90627,
-      "medianHomeValue": 276100,
-      "localEconomyScore": 70.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 48263,
+      "medianHouseholdIncome": 103408,
+      "medianHomeValue": 343200,
+      "localEconomyScore": 73.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "baldwin",
-      "county": "Baldwin County",
+      "slug": "habersham",
+      "county": "Habersham County",
       "state": "Georgia",
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
-      "fips": "13009",
-      "population": 43778,
-      "medianHouseholdIncome": 54699,
-      "medianHomeValue": 154400,
-      "localEconomyScore": 60.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "13137",
+      "population": 47793,
+      "medianHouseholdIncome": 67309,
+      "medianHomeValue": 238300,
+      "localEconomyScore": 61.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "coffee",
-      "county": "Coffee County",
+      "slug": "colquitt",
+      "county": "Colquitt County",
       "state": "Georgia",
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
-      "fips": "13069",
-      "population": 43056,
-      "medianHouseholdIncome": 48398,
-      "medianHomeValue": 122500,
-      "localEconomyScore": 59.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "13071",
+      "population": 46224,
+      "medianHouseholdIncome": 49341,
+      "medianHomeValue": 121400,
+      "localEconomyScore": 59.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "thomas",
+      "county": "Thomas County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13275",
+      "population": 45777,
+      "medianHouseholdIncome": 60736,
+      "medianHomeValue": 196700,
+      "localEconomyScore": 60.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "polk",
@@ -1200,12 +1172,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13233",
-      "population": 43019,
-      "medianHouseholdIncome": 51956,
-      "medianHomeValue": 151400,
-      "localEconomyScore": 59.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 43785,
+      "medianHouseholdIncome": 58515,
+      "medianHomeValue": 187600,
+      "localEconomyScore": 60.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "baldwin",
+      "county": "Baldwin County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13009",
+      "population": 43642,
+      "medianHouseholdIncome": 54403,
+      "medianHomeValue": 181900,
+      "localEconomyScore": 58.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "oconee",
@@ -1214,12 +1200,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13219",
-      "population": 41978,
-      "medianHouseholdIncome": 116221,
-      "medianHomeValue": 389200,
-      "localEconomyScore": 76.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 43551,
+      "medianHouseholdIncome": 121217,
+      "medianHomeValue": 461600,
+      "localEconomyScore": 76.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "coffee",
+      "county": "Coffee County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13069",
+      "population": 43347,
+      "medianHouseholdIncome": 50683,
+      "medianHomeValue": 128900,
+      "localEconomyScore": 60,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "tift",
@@ -1228,12 +1228,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13277",
-      "population": 41247,
-      "medianHouseholdIncome": 52561,
-      "medianHomeValue": 140700,
-      "localEconomyScore": 60.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 41438,
+      "medianHouseholdIncome": 53255,
+      "medianHomeValue": 165200,
+      "localEconomyScore": 59,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "murray",
@@ -1242,26 +1242,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13213",
-      "population": 40063,
-      "medianHouseholdIncome": 60617,
-      "medianHomeValue": 153700,
-      "localEconomyScore": 62.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "ware",
-      "county": "Ware County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13299",
-      "population": 35917,
-      "medianHouseholdIncome": 44138,
-      "medianHomeValue": 94600,
-      "localEconomyScore": 59.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 40562,
+      "medianHouseholdIncome": 69253,
+      "medianHomeValue": 180700,
+      "localEconomyScore": 65.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "harris",
@@ -1270,12 +1256,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13145",
-      "population": 34914,
-      "medianHouseholdIncome": 85936,
-      "medianHomeValue": 273200,
-      "localEconomyScore": 68.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 36086,
+      "medianHouseholdIncome": 97302,
+      "medianHomeValue": 302800,
+      "localEconomyScore": 71.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "ware",
+      "county": "Ware County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13299",
+      "population": 35976,
+      "medianHouseholdIncome": 47448,
+      "medianHomeValue": 109500,
+      "localEconomyScore": 59.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pickens",
@@ -1284,12 +1284,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13227",
-      "population": 33439,
-      "medianHouseholdIncome": 72558,
-      "medianHomeValue": 263200,
-      "localEconomyScore": 63,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 34951,
+      "medianHouseholdIncome": 78930,
+      "medianHomeValue": 332700,
+      "localEconomyScore": 63.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lumpkin",
@@ -1298,12 +1298,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13187",
-      "population": 33405,
-      "medianHouseholdIncome": 67592,
-      "medianHomeValue": 249400,
-      "localEconomyScore": 61.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 34505,
+      "medianHouseholdIncome": 77448,
+      "medianHomeValue": 307900,
+      "localEconomyScore": 63.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lee",
@@ -1312,12 +1312,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13177",
-      "population": 32968,
-      "medianHouseholdIncome": 83632,
-      "medianHomeValue": 208800,
-      "localEconomyScore": 69.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 33626,
+      "medianHouseholdIncome": 89168,
+      "medianHomeValue": 231800,
+      "localEconomyScore": 70.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "gilmer",
@@ -1326,12 +1326,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13123",
-      "population": 31519,
-      "medianHouseholdIncome": 70334,
-      "medianHomeValue": 259700,
-      "localEconomyScore": 62.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 32426,
+      "medianHouseholdIncome": 74499,
+      "medianHomeValue": 314000,
+      "localEconomyScore": 61.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "madison",
@@ -1340,26 +1340,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13195",
-      "population": 30378,
-      "medianHouseholdIncome": 53626,
-      "medianHomeValue": 170600,
-      "localEconomyScore": 58.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "wayne",
-      "county": "Wayne County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13305",
-      "population": 30277,
-      "medianHouseholdIncome": 49847,
-      "medianHomeValue": 142200,
-      "localEconomyScore": 58.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 31528,
+      "medianHouseholdIncome": 61963,
+      "medianHomeValue": 219700,
+      "localEconomyScore": 60,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "haralson",
@@ -1368,110 +1354,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13143",
-      "population": 30178,
-      "medianHouseholdIncome": 65940,
-      "medianHomeValue": 187700,
-      "localEconomyScore": 63.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 31285,
+      "medianHouseholdIncome": 72127,
+      "medianHomeValue": 227500,
+      "localEconomyScore": 64.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "sumter",
-      "county": "Sumter County",
+      "slug": "wayne",
+      "county": "Wayne County",
       "state": "Georgia",
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
-      "fips": "13261",
-      "population": 29378,
-      "medianHouseholdIncome": 38899,
-      "medianHomeValue": 130000,
-      "localEconomyScore": 53.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "decatur",
-      "county": "Decatur County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13087",
-      "population": 29063,
-      "medianHouseholdIncome": 47383,
-      "medianHomeValue": 140800,
-      "localEconomyScore": 57.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "jones",
-      "county": "Jones County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13169",
-      "population": 28382,
-      "medianHouseholdIncome": 66288,
-      "medianHomeValue": 159500,
-      "localEconomyScore": 64.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "monroe",
-      "county": "Monroe County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13207",
-      "population": 28287,
-      "medianHouseholdIncome": 74867,
-      "medianHomeValue": 204100,
-      "localEconomyScore": 66.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "white",
-      "county": "White County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13311",
-      "population": 28165,
-      "medianHouseholdIncome": 66256,
-      "medianHomeValue": 232000,
-      "localEconomyScore": 61.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "peach",
-      "county": "Peach County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13225",
-      "population": 28054,
-      "medianHouseholdIncome": 60940,
-      "medianHomeValue": 170500,
-      "localEconomyScore": 62,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "upson",
-      "county": "Upson County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13293",
-      "population": 27638,
-      "medianHouseholdIncome": 48740,
-      "medianHomeValue": 136500,
-      "localEconomyScore": 58.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "13305",
+      "population": 30949,
+      "medianHouseholdIncome": 53427,
+      "medianHomeValue": 162800,
+      "localEconomyScore": 59,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dawson",
@@ -1480,12 +1382,110 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13085",
-      "population": 27355,
-      "medianHouseholdIncome": 84516,
-      "medianHomeValue": 312600,
-      "localEconomyScore": 66.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 30242,
+      "medianHouseholdIncome": 92991,
+      "medianHomeValue": 406700,
+      "localEconomyScore": 66.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "monroe",
+      "county": "Monroe County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13207",
+      "population": 29664,
+      "medianHouseholdIncome": 83183,
+      "medianHomeValue": 271200,
+      "localEconomyScore": 67.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "decatur",
+      "county": "Decatur County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13087",
+      "population": 29195,
+      "medianHouseholdIncome": 53317,
+      "medianHomeValue": 158800,
+      "localEconomyScore": 59.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "sumter",
+      "county": "Sumter County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13261",
+      "population": 29061,
+      "medianHouseholdIncome": 42653,
+      "medianHomeValue": 120200,
+      "localEconomyScore": 56.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "white",
+      "county": "White County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13311",
+      "population": 28810,
+      "medianHouseholdIncome": 70666,
+      "medianHomeValue": 278900,
+      "localEconomyScore": 61.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "jones",
+      "county": "Jones County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13169",
+      "population": 28673,
+      "medianHouseholdIncome": 75500,
+      "medianHomeValue": 194500,
+      "localEconomyScore": 66.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "peach",
+      "county": "Peach County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13225",
+      "population": 28560,
+      "medianHouseholdIncome": 71293,
+      "medianHomeValue": 207800,
+      "localEconomyScore": 64.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "upson",
+      "county": "Upson County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13293",
+      "population": 28029,
+      "medianHouseholdIncome": 55429,
+      "medianHomeValue": 168700,
+      "localEconomyScore": 59.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "toombs",
@@ -1494,12 +1494,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13279",
-      "population": 26946,
-      "medianHouseholdIncome": 47310,
-      "medianHomeValue": 124800,
-      "localEconomyScore": 58.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 27102,
+      "medianHouseholdIncome": 52621,
+      "medianHomeValue": 137000,
+      "localEconomyScore": 60,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "stephens",
@@ -1508,12 +1508,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13257",
-      "population": 26732,
-      "medianHouseholdIncome": 52901,
-      "medianHomeValue": 154200,
-      "localEconomyScore": 59.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 27012,
+      "medianHouseholdIncome": 54754,
+      "medianHomeValue": 175300,
+      "localEconomyScore": 58.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hart",
@@ -1522,26 +1522,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13147",
-      "population": 26110,
-      "medianHouseholdIncome": 61765,
-      "medianHomeValue": 180500,
-      "localEconomyScore": 61.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "grady",
-      "county": "Grady County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13131",
-      "population": 26075,
-      "medianHouseholdIncome": 51929,
-      "medianHomeValue": 147000,
-      "localEconomyScore": 59.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 26939,
+      "medianHouseholdIncome": 59385,
+      "medianHomeValue": 215100,
+      "localEconomyScore": 59,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "butts",
@@ -1550,40 +1536,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13035",
-      "population": 25522,
-      "medianHouseholdIncome": 60076,
-      "medianHomeValue": 200000,
-      "localEconomyScore": 60.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "fannin",
-      "county": "Fannin County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13111",
-      "population": 25436,
-      "medianHouseholdIncome": 54857,
-      "medianHomeValue": 260100,
-      "localEconomyScore": 54.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "chattooga",
-      "county": "Chattooga County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13055",
-      "population": 24902,
-      "medianHouseholdIncome": 43556,
-      "medianHomeValue": 86400,
-      "localEconomyScore": 59.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 26496,
+      "medianHouseholdIncome": 69241,
+      "medianHomeValue": 240600,
+      "localEconomyScore": 62.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "union",
@@ -1592,12 +1550,54 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13291",
-      "population": 24880,
-      "medianHouseholdIncome": 59783,
-      "medianHomeValue": 252100,
-      "localEconomyScore": 57.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 26304,
+      "medianHouseholdIncome": 66176,
+      "medianHomeValue": 307400,
+      "localEconomyScore": 57.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "grady",
+      "county": "Grady County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13131",
+      "population": 26108,
+      "medianHouseholdIncome": 58980,
+      "medianHomeValue": 152400,
+      "localEconomyScore": 61.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "fannin",
+      "county": "Fannin County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13111",
+      "population": 25742,
+      "medianHouseholdIncome": 57073,
+      "medianHomeValue": 306600,
+      "localEconomyScore": 53,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "chattooga",
+      "county": "Chattooga County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13055",
+      "population": 25036,
+      "medianHouseholdIncome": 50285,
+      "medianHomeValue": 115600,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "burke",
@@ -1606,26 +1606,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13033",
-      "population": 24337,
-      "medianHouseholdIncome": 50321,
-      "medianHomeValue": 98300,
-      "localEconomyScore": 61.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "tattnall",
-      "county": "Tattnall County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13267",
-      "population": 24309,
-      "medianHouseholdIncome": 51868,
-      "medianHomeValue": 115600,
-      "localEconomyScore": 60.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 24470,
+      "medianHouseholdIncome": 53014,
+      "medianHomeValue": 151600,
+      "localEconomyScore": 59.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "franklin",
@@ -1634,12 +1620,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13119",
-      "population": 23480,
-      "medianHouseholdIncome": 52597,
-      "medianHomeValue": 146700,
-      "localEconomyScore": 59.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 24234,
+      "medianHouseholdIncome": 53046,
+      "medianHomeValue": 179000,
+      "localEconomyScore": 57.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "tattnall",
+      "county": "Tattnall County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13267",
+      "population": 24208,
+      "medianHouseholdIncome": 50747,
+      "medianHomeValue": 140000,
+      "localEconomyScore": 59,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "emanuel",
@@ -1648,12 +1648,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13107",
-      "population": 22907,
-      "medianHouseholdIncome": 47905,
-      "medianHomeValue": 87500,
-      "localEconomyScore": 61,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 23026,
+      "medianHouseholdIncome": 52772,
+      "medianHomeValue": 94700,
+      "localEconomyScore": 62.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "putnam",
@@ -1662,12 +1662,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13237",
-      "population": 22206,
-      "medianHouseholdIncome": 60825,
-      "medianHomeValue": 203300,
-      "localEconomyScore": 60.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 22855,
+      "medianHouseholdIncome": 72096,
+      "medianHomeValue": 249300,
+      "localEconomyScore": 63.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "mcduffie",
@@ -1676,68 +1676,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13189",
-      "population": 21715,
-      "medianHouseholdIncome": 54752,
-      "medianHomeValue": 140900,
-      "localEconomyScore": 60.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "mitchell",
-      "county": "Mitchell County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13205",
-      "population": 21634,
-      "medianHouseholdIncome": 45966,
-      "medianHomeValue": 98400,
-      "localEconomyScore": 59.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "worth",
-      "county": "Worth County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13321",
-      "population": 20706,
-      "medianHouseholdIncome": 56496,
-      "medianHomeValue": 98000,
-      "localEconomyScore": 63.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "meriwether",
-      "county": "Meriwether County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13199",
-      "population": 20679,
-      "medianHouseholdIncome": 52392,
-      "medianHomeValue": 147200,
-      "localEconomyScore": 59.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "crisp",
-      "county": "Crisp County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13081",
-      "population": 20255,
-      "medianHouseholdIncome": 47463,
-      "medianHomeValue": 106900,
-      "localEconomyScore": 59.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 21718,
+      "medianHouseholdIncome": 56733,
+      "medianHomeValue": 170200,
+      "localEconomyScore": 59.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "morgan",
@@ -1746,40 +1690,54 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13211",
-      "population": 20171,
-      "medianHouseholdIncome": 81524,
-      "medianHomeValue": 293300,
-      "localEconomyScore": 65.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 21078,
+      "medianHouseholdIncome": 78111,
+      "medianHomeValue": 342300,
+      "localEconomyScore": 62,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "dodge",
-      "county": "Dodge County",
+      "slug": "mitchell",
+      "county": "Mitchell County",
       "state": "Georgia",
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
-      "fips": "13091",
-      "population": 19977,
-      "medianHouseholdIncome": 46091,
-      "medianHomeValue": 104600,
-      "localEconomyScore": 59,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "13205",
+      "population": 21058,
+      "medianHouseholdIncome": 57613,
+      "medianHomeValue": 106000,
+      "localEconomyScore": 63.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "washington",
-      "county": "Washington County",
+      "slug": "meriwether",
+      "county": "Meriwether County",
       "state": "Georgia",
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
-      "fips": "13303",
-      "population": 19975,
-      "medianHouseholdIncome": 43810,
-      "medianHomeValue": 113700,
-      "localEconomyScore": 57.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "13199",
+      "population": 20929,
+      "medianHouseholdIncome": 57340,
+      "medianHomeValue": 168800,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "worth",
+      "county": "Worth County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13321",
+      "population": 20451,
+      "medianHouseholdIncome": 58694,
+      "medianHomeValue": 104900,
+      "localEconomyScore": 64.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pierce",
@@ -1788,40 +1746,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13229",
-      "population": 19822,
-      "medianHouseholdIncome": 54861,
-      "medianHomeValue": 116800,
-      "localEconomyScore": 62,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "elbert",
-      "county": "Elbert County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13105",
-      "population": 19570,
-      "medianHouseholdIncome": 48190,
-      "medianHomeValue": 104500,
-      "localEconomyScore": 59.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "pike",
-      "county": "Pike County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13231",
-      "population": 19145,
-      "medianHouseholdIncome": 83866,
-      "medianHomeValue": 234700,
-      "localEconomyScore": 68.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 20202,
+      "medianHouseholdIncome": 60517,
+      "medianHomeValue": 153300,
+      "localEconomyScore": 62.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "greene",
@@ -1830,12 +1760,82 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13133",
-      "population": 19020,
-      "medianHouseholdIncome": 77527,
-      "medianHomeValue": 308000,
-      "localEconomyScore": 63,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 20109,
+      "medianHouseholdIncome": 86272,
+      "medianHomeValue": 394800,
+      "localEconomyScore": 63.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "pike",
+      "county": "Pike County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13231",
+      "population": 19903,
+      "medianHouseholdIncome": 86719,
+      "medianHomeValue": 305600,
+      "localEconomyScore": 67,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "elbert",
+      "county": "Elbert County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13105",
+      "population": 19849,
+      "medianHouseholdIncome": 58450,
+      "medianHomeValue": 142000,
+      "localEconomyScore": 62.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "washington",
+      "county": "Washington County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13303",
+      "population": 19849,
+      "medianHouseholdIncome": 46023,
+      "medianHomeValue": 112500,
+      "localEconomyScore": 58.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "dodge",
+      "county": "Dodge County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13091",
+      "population": 19805,
+      "medianHouseholdIncome": 51587,
+      "medianHomeValue": 118100,
+      "localEconomyScore": 60.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "crisp",
+      "county": "Crisp County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13081",
+      "population": 19790,
+      "medianHouseholdIncome": 45105,
+      "medianHomeValue": 140200,
+      "localEconomyScore": 56.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lamar",
@@ -1844,26 +1844,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13171",
-      "population": 18676,
-      "medianHouseholdIncome": 64966,
-      "medianHomeValue": 177000,
-      "localEconomyScore": 63.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "appling",
-      "county": "Appling County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13001",
-      "population": 18441,
-      "medianHouseholdIncome": 43268,
-      "medianHomeValue": 88500,
-      "localEconomyScore": 58.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 19571,
+      "medianHouseholdIncome": 67062,
+      "medianHomeValue": 216500,
+      "localEconomyScore": 62.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "banks",
@@ -1872,82 +1858,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13011",
-      "population": 18381,
-      "medianHouseholdIncome": 69096,
-      "medianHomeValue": 229900,
-      "localEconomyScore": 62.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 19264,
+      "medianHouseholdIncome": 77063,
+      "medianHomeValue": 278100,
+      "localEconomyScore": 63.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "berrien",
-      "county": "Berrien County",
+      "slug": "appling",
+      "county": "Appling County",
       "state": "Georgia",
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
-      "fips": "13019",
-      "population": 18187,
-      "medianHouseholdIncome": 48670,
-      "medianHomeValue": 108300,
-      "localEconomyScore": 59.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "brantley",
-      "county": "Brantley County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13025",
-      "population": 18105,
-      "medianHouseholdIncome": 40166,
-      "medianHomeValue": 91900,
-      "localEconomyScore": 57.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "cook",
-      "county": "Cook County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13075",
-      "population": 17242,
-      "medianHouseholdIncome": 46706,
-      "medianHomeValue": 113600,
-      "localEconomyScore": 58.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "ben-hill",
-      "county": "Ben Hill County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13017",
-      "population": 17169,
-      "medianHouseholdIncome": 38255,
-      "medianHomeValue": 100000,
-      "localEconomyScore": 55.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "rabun",
-      "county": "Rabun County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13241",
-      "population": 16915,
-      "medianHouseholdIncome": 57261,
-      "medianHomeValue": 236900,
-      "localEconomyScore": 56.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "13001",
+      "population": 18493,
+      "medianHouseholdIncome": 46651,
+      "medianHomeValue": 76700,
+      "localEconomyScore": 60.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "long",
@@ -1956,12 +1886,82 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13183",
-      "population": 16804,
-      "medianHouseholdIncome": 56819,
-      "medianHomeValue": 159900,
-      "localEconomyScore": 60.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 18374,
+      "medianHouseholdIncome": 68808,
+      "medianHomeValue": 218300,
+      "localEconomyScore": 62.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "berrien",
+      "county": "Berrien County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13019",
+      "population": 18352,
+      "medianHouseholdIncome": 52876,
+      "medianHomeValue": 131600,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "brantley",
+      "county": "Brantley County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13025",
+      "population": 18315,
+      "medianHouseholdIncome": 58239,
+      "medianHomeValue": 99600,
+      "localEconomyScore": 64.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "cook",
+      "county": "Cook County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13075",
+      "population": 17532,
+      "medianHouseholdIncome": 53651,
+      "medianHomeValue": 157500,
+      "localEconomyScore": 59.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "rabun",
+      "county": "Rabun County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13241",
+      "population": 17312,
+      "medianHouseholdIncome": 67493,
+      "medianHomeValue": 295200,
+      "localEconomyScore": 58.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "ben-hill",
+      "county": "Ben Hill County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13017",
+      "population": 17089,
+      "medianHouseholdIncome": 41758,
+      "medianHomeValue": 112700,
+      "localEconomyScore": 56.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "brooks",
@@ -1970,12 +1970,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13027",
-      "population": 16275,
-      "medianHouseholdIncome": 42263,
-      "medianHomeValue": 128400,
-      "localEconomyScore": 55.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 16293,
+      "medianHouseholdIncome": 46807,
+      "medianHomeValue": 139200,
+      "localEconomyScore": 56.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dade",
@@ -1984,40 +1984,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13083",
-      "population": 16239,
-      "medianHouseholdIncome": 59531,
-      "medianHomeValue": 157900,
-      "localEconomyScore": 61.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "jefferson",
-      "county": "Jefferson County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13163",
-      "population": 15591,
-      "medianHouseholdIncome": 46865,
-      "medianHomeValue": 90900,
-      "localEconomyScore": 60.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "oglethorpe",
-      "county": "Oglethorpe County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13221",
-      "population": 14974,
-      "medianHouseholdIncome": 66672,
-      "medianHomeValue": 176300,
-      "localEconomyScore": 63.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 16165,
+      "medianHouseholdIncome": 64568,
+      "medianHomeValue": 198500,
+      "localEconomyScore": 61.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jasper",
@@ -2026,12 +1998,40 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13159",
-      "population": 14882,
-      "medianHouseholdIncome": 57374,
-      "medianHomeValue": 184000,
-      "localEconomyScore": 59.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 15929,
+      "medianHouseholdIncome": 60134,
+      "medianHomeValue": 243400,
+      "localEconomyScore": 57.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "oglethorpe",
+      "county": "Oglethorpe County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13221",
+      "population": 15509,
+      "medianHouseholdIncome": 75034,
+      "medianHomeValue": 231600,
+      "localEconomyScore": 64.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "jefferson",
+      "county": "Jefferson County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13163",
+      "population": 15341,
+      "medianHouseholdIncome": 53014,
+      "medianHomeValue": 105400,
+      "localEconomyScore": 61.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jeff-davis",
@@ -2040,12 +2040,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13161",
-      "population": 14791,
-      "medianHouseholdIncome": 41780,
-      "medianHomeValue": 106800,
-      "localEconomyScore": 56.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14924,
+      "medianHouseholdIncome": 40283,
+      "medianHomeValue": 118300,
+      "localEconomyScore": 55.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "screven",
@@ -2054,40 +2054,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13251",
-      "population": 14026,
-      "medianHouseholdIncome": 49941,
-      "medianHomeValue": 107800,
-      "localEconomyScore": 60.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "telfair",
-      "county": "Telfair County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13271",
-      "population": 12619,
-      "medianHouseholdIncome": 41801,
-      "medianHomeValue": 90000,
-      "localEconomyScore": 57.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "charlton",
-      "county": "Charlton County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13049",
-      "population": 12547,
-      "medianHouseholdIncome": 45770,
-      "medianHomeValue": 107500,
-      "localEconomyScore": 58.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14130,
+      "medianHouseholdIncome": 52792,
+      "medianHomeValue": 124300,
+      "localEconomyScore": 60.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "towns",
@@ -2096,12 +2068,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13281",
-      "population": 12546,
-      "medianHouseholdIncome": 55574,
-      "medianHomeValue": 278700,
+      "population": 12913,
+      "medianHouseholdIncome": 59135,
+      "medianHomeValue": 316100,
       "localEconomyScore": 53.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "charlton",
+      "county": "Charlton County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13049",
+      "population": 12818,
+      "medianHouseholdIncome": 61276,
+      "medianHomeValue": 142800,
+      "localEconomyScore": 62.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "bleckley",
@@ -2110,12 +2096,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13023",
-      "population": 12413,
-      "medianHouseholdIncome": 56021,
-      "medianHomeValue": 121600,
-      "localEconomyScore": 61.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 12430,
+      "medianHouseholdIncome": 62008,
+      "medianHomeValue": 149600,
+      "localEconomyScore": 62.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "crawford",
@@ -2124,12 +2110,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13079",
-      "population": 12156,
-      "medianHouseholdIncome": 56948,
-      "medianHomeValue": 149400,
-      "localEconomyScore": 60.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 12225,
+      "medianHouseholdIncome": 67116,
+      "medianHomeValue": 164100,
+      "localEconomyScore": 64.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "macon",
@@ -2138,12 +2124,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13193",
-      "population": 12099,
-      "medianHouseholdIncome": 33960,
-      "medianHomeValue": 78100,
-      "localEconomyScore": 55.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11864,
+      "medianHouseholdIncome": 41031,
+      "medianHomeValue": 97300,
+      "localEconomyScore": 56.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "telfair",
+      "county": "Telfair County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13271",
+      "population": 11831,
+      "medianHouseholdIncome": 50929,
+      "medianHomeValue": 113300,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "heard",
@@ -2152,26 +2152,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13149",
-      "population": 11489,
-      "medianHouseholdIncome": 62965,
-      "medianHomeValue": 134900,
-      "localEconomyScore": 63.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "dooly",
-      "county": "Dooly County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13093",
-      "population": 11236,
-      "medianHouseholdIncome": 54109,
-      "medianHomeValue": 94500,
-      "localEconomyScore": 62.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11773,
+      "medianHouseholdIncome": 65868,
+      "medianHomeValue": 186800,
+      "localEconomyScore": 62.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "mcintosh",
@@ -2180,12 +2166,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13191",
-      "population": 11183,
-      "medianHouseholdIncome": 51262,
-      "medianHomeValue": 157600,
-      "localEconomyScore": 57.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11312,
+      "medianHouseholdIncome": 50273,
+      "medianHomeValue": 182700,
+      "localEconomyScore": 55.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "bacon",
@@ -2194,12 +2180,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13005",
-      "population": 11138,
-      "medianHouseholdIncome": 43938,
-      "medianHomeValue": 95600,
-      "localEconomyScore": 58.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11109,
+      "medianHouseholdIncome": 44694,
+      "medianHomeValue": 101400,
+      "localEconomyScore": 58.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "candler",
@@ -2208,12 +2194,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13043",
-      "population": 10946,
-      "medianHouseholdIncome": 45519,
-      "medianHomeValue": 141500,
-      "localEconomyScore": 55.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11043,
+      "medianHouseholdIncome": 49581,
+      "medianHomeValue": 159200,
+      "localEconomyScore": 56.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "dooly",
+      "county": "Dooly County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13093",
+      "population": 10984,
+      "medianHouseholdIncome": 60987,
+      "medianHomeValue": 107400,
+      "localEconomyScore": 64.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "evans",
@@ -2222,12 +2222,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13109",
-      "population": 10759,
-      "medianHouseholdIncome": 55222,
-      "medianHomeValue": 130500,
-      "localEconomyScore": 61,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10757,
+      "medianHouseholdIncome": 53259,
+      "medianHomeValue": 138200,
+      "localEconomyScore": 59.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "early",
@@ -2236,12 +2236,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13099",
-      "population": 10753,
-      "medianHouseholdIncome": 48355,
-      "medianHomeValue": 126500,
-      "localEconomyScore": 58.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10603,
+      "medianHouseholdIncome": 54083,
+      "medianHomeValue": 131300,
+      "localEconomyScore": 60.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lanier",
@@ -2250,12 +2250,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13173",
-      "population": 9964,
-      "medianHouseholdIncome": 39971,
-      "medianHomeValue": 150200,
-      "localEconomyScore": 52.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10221,
+      "medianHouseholdIncome": 47186,
+      "medianHomeValue": 162300,
+      "localEconomyScore": 55.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pulaski",
@@ -2264,12 +2264,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13235",
-      "population": 9887,
-      "medianHouseholdIncome": 42545,
-      "medianHomeValue": 120500,
-      "localEconomyScore": 55.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9939,
+      "medianHouseholdIncome": 50406,
+      "medianHomeValue": 157600,
+      "localEconomyScore": 57.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wilkes",
@@ -2278,12 +2278,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13317",
-      "population": 9610,
-      "medianHouseholdIncome": 51780,
-      "medianHomeValue": 92500,
-      "localEconomyScore": 61.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9549,
+      "medianHouseholdIncome": 52043,
+      "medianHomeValue": 122700,
+      "localEconomyScore": 59.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "irwin",
@@ -2292,26 +2292,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13155",
-      "population": 9487,
-      "medianHouseholdIncome": 46383,
-      "medianHomeValue": 94700,
-      "localEconomyScore": 59.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "chattahoochee",
-      "county": "Chattahoochee County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13053",
-      "population": 9402,
-      "medianHouseholdIncome": 52943,
-      "medianHomeValue": 129300,
-      "localEconomyScore": 60,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9285,
+      "medianHouseholdIncome": 51384,
+      "medianHomeValue": 105600,
+      "localEconomyScore": 60.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "johnson",
@@ -2320,12 +2306,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13167",
-      "population": 9225,
-      "medianHouseholdIncome": 47796,
-      "medianHomeValue": 81300,
-      "localEconomyScore": 60.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9190,
+      "medianHouseholdIncome": 51028,
+      "medianHomeValue": 94900,
+      "localEconomyScore": 61.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "seminole",
@@ -2334,26 +2320,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13253",
-      "population": 9117,
-      "medianHouseholdIncome": 46063,
-      "medianHomeValue": 110300,
-      "localEconomyScore": 58.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "terrell",
-      "county": "Terrell County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13273",
-      "population": 9004,
-      "medianHouseholdIncome": 43507,
-      "medianHomeValue": 97000,
-      "localEconomyScore": 57.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9156,
+      "medianHouseholdIncome": 49495,
+      "medianHomeValue": 121900,
+      "localEconomyScore": 58.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "turner",
@@ -2362,26 +2334,40 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13287",
-      "population": 8894,
-      "medianHouseholdIncome": 39666,
-      "medianHomeValue": 85600,
-      "localEconomyScore": 56.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8939,
+      "medianHouseholdIncome": 36799,
+      "medianHomeValue": 97300,
+      "localEconomyScore": 54.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "wilkinson",
-      "county": "Wilkinson County",
+      "slug": "chattahoochee",
+      "county": "Chattahoochee County",
       "state": "Georgia",
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
-      "fips": "13319",
-      "population": 8852,
-      "medianHouseholdIncome": 40757,
-      "medianHomeValue": 87600,
-      "localEconomyScore": 57.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "13053",
+      "population": 8887,
+      "medianHouseholdIncome": 61042,
+      "medianHomeValue": 102700,
+      "localEconomyScore": 64.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "terrell",
+      "county": "Terrell County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13273",
+      "population": 8850,
+      "medianHouseholdIncome": 46171,
+      "medianHomeValue": 118400,
+      "localEconomyScore": 57.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wilcox",
@@ -2390,12 +2376,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13315",
-      "population": 8839,
-      "medianHouseholdIncome": 46759,
-      "medianHomeValue": 65300,
-      "localEconomyScore": 61.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8798,
+      "medianHouseholdIncome": 54138,
+      "medianHomeValue": 87600,
+      "localEconomyScore": 62.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "wilkinson",
+      "county": "Wilkinson County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13319",
+      "population": 8747,
+      "medianHouseholdIncome": 45465,
+      "medianHomeValue": 86300,
+      "localEconomyScore": 59.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jenkins",
@@ -2404,26 +2404,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13165",
-      "population": 8704,
-      "medianHouseholdIncome": 31463,
-      "medianHomeValue": 81800,
-      "localEconomyScore": 53.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "montgomery",
-      "county": "Montgomery County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13209",
-      "population": 8687,
-      "medianHouseholdIncome": 49138,
-      "medianHomeValue": 105300,
-      "localEconomyScore": 59.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8711,
+      "medianHouseholdIncome": 44389,
+      "medianHomeValue": 92900,
+      "localEconomyScore": 58.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hancock",
@@ -2432,12 +2418,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13141",
-      "population": 8588,
-      "medianHouseholdIncome": 31767,
-      "medianHomeValue": 93500,
-      "localEconomyScore": 52.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8650,
+      "medianHouseholdIncome": 40082,
+      "medianHomeValue": 88600,
+      "localEconomyScore": 56.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "montgomery",
+      "county": "Montgomery County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13209",
+      "population": 8640,
+      "medianHouseholdIncome": 51941,
+      "medianHomeValue": 115500,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "atkinson",
@@ -2446,40 +2446,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13003",
-      "population": 8265,
-      "medianHouseholdIncome": 38007,
-      "medianHomeValue": 77100,
-      "localEconomyScore": 56.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "twiggs",
-      "county": "Twiggs County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13289",
-      "population": 7955,
-      "medianHouseholdIncome": 50446,
-      "medianHomeValue": 89300,
-      "localEconomyScore": 61.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "taylor",
-      "county": "Taylor County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13269",
-      "population": 7799,
-      "medianHouseholdIncome": 40727,
-      "medianHomeValue": 90100,
-      "localEconomyScore": 57,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8337,
+      "medianHouseholdIncome": 42347,
+      "medianHomeValue": 79000,
+      "localEconomyScore": 58.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lincoln",
@@ -2488,26 +2460,40 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13181",
-      "population": 7726,
-      "medianHouseholdIncome": 50754,
-      "medianHomeValue": 164300,
-      "localEconomyScore": 56.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7854,
+      "medianHouseholdIncome": 56907,
+      "medianHomeValue": 165900,
+      "localEconomyScore": 59.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "wheeler",
-      "county": "Wheeler County",
+      "slug": "twiggs",
+      "county": "Twiggs County",
       "state": "Georgia",
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
-      "fips": "13309",
-      "population": 7550,
-      "medianHouseholdIncome": 36354,
-      "medianHomeValue": 82600,
-      "localEconomyScore": 55.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "13289",
+      "population": 7803,
+      "medianHouseholdIncome": 56324,
+      "medianHomeValue": 111300,
+      "localEconomyScore": 62.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "taylor",
+      "county": "Taylor County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13269",
+      "population": 7786,
+      "medianHouseholdIncome": 41788,
+      "medianHomeValue": 87700,
+      "localEconomyScore": 57.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "marion",
@@ -2516,12 +2502,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13197",
-      "population": 7508,
-      "medianHouseholdIncome": 48836,
-      "medianHomeValue": 111300,
-      "localEconomyScore": 59.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7509,
+      "medianHouseholdIncome": 51667,
+      "medianHomeValue": 154100,
+      "localEconomyScore": 57.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "wheeler",
+      "county": "Wheeler County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13309",
+      "population": 7335,
+      "medianHouseholdIncome": 40539,
+      "medianHomeValue": 88200,
+      "localEconomyScore": 57,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clinch",
@@ -2530,12 +2530,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13065",
-      "population": 6713,
-      "medianHouseholdIncome": 53350,
-      "medianHomeValue": 73900,
-      "localEconomyScore": 63.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6759,
+      "medianHouseholdIncome": 45847,
+      "medianHomeValue": 84400,
+      "localEconomyScore": 59.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "treutlen",
@@ -2544,12 +2544,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13283",
-      "population": 6411,
-      "medianHouseholdIncome": 38641,
-      "medianHomeValue": 98500,
-      "localEconomyScore": 55.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6376,
+      "medianHouseholdIncome": 55518,
+      "medianHomeValue": 100100,
+      "localEconomyScore": 62.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "randolph",
@@ -2558,12 +2558,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13243",
-      "population": 6365,
-      "medianHouseholdIncome": 24638,
-      "medianHomeValue": 83800,
-      "localEconomyScore": 48.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6196,
+      "medianHouseholdIncome": 28380,
+      "medianHomeValue": 90200,
+      "localEconomyScore": 50.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "miller",
@@ -2572,12 +2572,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13201",
-      "population": 5923,
-      "medianHouseholdIncome": 52132,
-      "medianHomeValue": 119400,
-      "localEconomyScore": 59.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5850,
+      "medianHouseholdIncome": 51425,
+      "medianHomeValue": 124000,
+      "localEconomyScore": 59.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "talbot",
@@ -2586,12 +2586,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13263",
-      "population": 5793,
-      "medianHouseholdIncome": 48065,
-      "medianHomeValue": 119400,
-      "localEconomyScore": 58.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5742,
+      "medianHouseholdIncome": 41597,
+      "medianHomeValue": 117100,
+      "localEconomyScore": 55.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "calhoun",
@@ -2600,12 +2600,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13037",
-      "population": 5594,
-      "medianHouseholdIncome": 48663,
-      "medianHomeValue": 77100,
-      "localEconomyScore": 61,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5498,
+      "medianHouseholdIncome": 46940,
+      "medianHomeValue": 81000,
+      "localEconomyScore": 60,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "warren",
@@ -2614,12 +2614,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13301",
-      "population": 5197,
-      "medianHouseholdIncome": 45091,
-      "medianHomeValue": 82700,
-      "localEconomyScore": 59.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5170,
+      "medianHouseholdIncome": 44289,
+      "medianHomeValue": 67100,
+      "localEconomyScore": 59.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "stewart",
@@ -2628,12 +2628,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13259",
-      "population": 5121,
-      "medianHouseholdIncome": 43094,
-      "medianHomeValue": 72500,
-      "localEconomyScore": 59,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4869,
+      "medianHouseholdIncome": 33250,
+      "medianHomeValue": 65100,
+      "localEconomyScore": 55.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "schley",
@@ -2642,12 +2642,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13249",
-      "population": 4565,
-      "medianHouseholdIncome": 53274,
-      "medianHomeValue": 154300,
-      "localEconomyScore": 58.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4513,
+      "medianHouseholdIncome": 56875,
+      "medianHomeValue": 143900,
+      "localEconomyScore": 60.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "echols",
@@ -2656,12 +2656,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13101",
-      "population": 3707,
-      "medianHouseholdIncome": 61184,
-      "medianHomeValue": 114900,
-      "localEconomyScore": 63.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3709,
+      "medianHouseholdIncome": 59489,
+      "medianHomeValue": 124100,
+      "localEconomyScore": 62.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "glascock",
@@ -2670,26 +2670,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13125",
-      "population": 2903,
-      "medianHouseholdIncome": 60469,
-      "medianHomeValue": 117300,
-      "localEconomyScore": 62.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "baker",
-      "county": "Baker County",
-      "state": "Georgia",
-      "stateSlug": "georgia",
-      "stateAbbreviation": "GA",
-      "fips": "13007",
-      "population": 2878,
-      "medianHouseholdIncome": 45417,
-      "medianHomeValue": 121600,
-      "localEconomyScore": 56.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2932,
+      "medianHouseholdIncome": 54934,
+      "medianHomeValue": 123800,
+      "localEconomyScore": 60.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clay",
@@ -2698,12 +2684,26 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13061",
-      "population": 2855,
-      "medianHouseholdIncome": 43264,
-      "medianHomeValue": 81200,
-      "localEconomyScore": 58.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2850,
+      "medianHouseholdIncome": 49147,
+      "medianHomeValue": 94400,
+      "localEconomyScore": 59.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "baker",
+      "county": "Baker County",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbreviation": "GA",
+      "fips": "13007",
+      "population": 2790,
+      "medianHouseholdIncome": 46012,
+      "medianHomeValue": 119500,
+      "localEconomyScore": 56.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "webster",
@@ -2712,12 +2712,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13307",
-      "population": 2354,
-      "medianHouseholdIncome": 35000,
-      "medianHomeValue": 77100,
-      "localEconomyScore": 54.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2381,
+      "medianHouseholdIncome": 46792,
+      "medianHomeValue": 82600,
+      "localEconomyScore": 59.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "quitman",
@@ -2726,12 +2726,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13239",
-      "population": 2180,
-      "medianHouseholdIncome": 38889,
-      "medianHomeValue": 85800,
-      "localEconomyScore": 55.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2264,
+      "medianHouseholdIncome": 40179,
+      "medianHomeValue": 104600,
+      "localEconomyScore": 54.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "taliaferro",
@@ -2740,12 +2740,12 @@
       "stateSlug": "georgia",
       "stateAbbreviation": "GA",
       "fips": "13265",
-      "population": 1635,
-      "medianHouseholdIncome": 45881,
-      "medianHomeValue": 69200,
-      "localEconomyScore": 59.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1558,
+      "medianHouseholdIncome": 52500,
+      "medianHomeValue": 68900,
+      "localEconomyScore": 62,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "colleges": [
@@ -2764,7 +2764,7 @@
       "debtToEarningsRatio": 0.726613194902453,
       "valueScore": 30,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138558",
@@ -2781,7 +2781,7 @@
       "debtToEarningsRatio": 0.4786261287004229,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138600",
@@ -2798,7 +2798,7 @@
       "debtToEarningsRatio": 0.47533496819134946,
       "valueScore": 59,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138655",
@@ -2815,7 +2815,7 @@
       "debtToEarningsRatio": 0.38998706816922224,
       "valueScore": 41,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138664",
@@ -2832,7 +2832,7 @@
       "debtToEarningsRatio": 0.38998706816922224,
       "valueScore": 39,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138682",
@@ -2849,7 +2849,7 @@
       "debtToEarningsRatio": 0.406404505418945,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138716",
@@ -2866,7 +2866,7 @@
       "debtToEarningsRatio": 0.6152333185818951,
       "valueScore": 68,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138761",
@@ -2883,7 +2883,7 @@
       "debtToEarningsRatio": 0.3257439896036387,
       "valueScore": 39,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138822",
@@ -2900,7 +2900,7 @@
       "debtToEarningsRatio": 0.3265642151481888,
       "valueScore": 46,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138840",
@@ -2917,7 +2917,7 @@
       "debtToEarningsRatio": 0.3130148270181219,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138868",
@@ -2934,7 +2934,7 @@
       "debtToEarningsRatio": 0.6517811048012391,
       "valueScore": 37,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138901",
@@ -2951,7 +2951,7 @@
       "debtToEarningsRatio": 0.4247263322506917,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138929",
@@ -2968,7 +2968,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138947",
@@ -2985,7 +2985,7 @@
       "debtToEarningsRatio": 0.6321408503465068,
       "valueScore": 32,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "138956",
@@ -3002,7 +3002,7 @@
       "debtToEarningsRatio": 0.13423619604450676,
       "valueScore": 65,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139144",
@@ -3019,7 +3019,7 @@
       "debtToEarningsRatio": 0.43215613382899626,
       "valueScore": 61,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139153",
@@ -3036,7 +3036,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139199",
@@ -3053,7 +3053,7 @@
       "debtToEarningsRatio": 0.4999722237653464,
       "valueScore": 60,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139205",
@@ -3070,7 +3070,7 @@
       "debtToEarningsRatio": 0.5948725273155753,
       "valueScore": 35,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139250",
@@ -3087,7 +3087,7 @@
       "debtToEarningsRatio": 0.3824965664581108,
       "valueScore": 53,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139278",
@@ -3104,7 +3104,7 @@
       "debtToEarningsRatio": 0.3131429859917134,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139311",
@@ -3121,7 +3121,7 @@
       "debtToEarningsRatio": 0.522702779641717,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139348",
@@ -3138,7 +3138,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139357",
@@ -3155,7 +3155,7 @@
       "debtToEarningsRatio": 0.2557392371049711,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139366",
@@ -3172,7 +3172,7 @@
       "debtToEarningsRatio": 0.5836925287356322,
       "valueScore": 72,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139384",
@@ -3189,7 +3189,7 @@
       "debtToEarningsRatio": 0.17956318689001372,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139393",
@@ -3206,7 +3206,7 @@
       "debtToEarningsRatio": 0.44632230421328256,
       "valueScore": 52,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139463",
@@ -3223,7 +3223,7 @@
       "debtToEarningsRatio": 0.3214081637723286,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139506",
@@ -3240,7 +3240,7 @@
       "debtToEarningsRatio": 0.5790790327063837,
       "valueScore": 41,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139579",
@@ -3257,7 +3257,7 @@
       "debtToEarningsRatio": 0.7589262368902705,
       "valueScore": 26,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139621",
@@ -3274,7 +3274,7 @@
       "debtToEarningsRatio": 0.3160811319739603,
       "valueScore": 73,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139630",
@@ -3291,7 +3291,7 @@
       "debtToEarningsRatio": 0.6366467755443886,
       "valueScore": 42,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139658",
@@ -3308,7 +3308,7 @@
       "debtToEarningsRatio": 0.22773500380598224,
       "valueScore": 87,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139700",
@@ -3325,7 +3325,7 @@
       "debtToEarningsRatio": 0.2778806965542794,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139719",
@@ -3342,7 +3342,7 @@
       "debtToEarningsRatio": 0.8454699176348661,
       "valueScore": 75,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139746",
@@ -3359,7 +3359,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139755",
@@ -3376,7 +3376,7 @@
       "debtToEarningsRatio": 0.21087455727240884,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139764",
@@ -3393,7 +3393,7 @@
       "debtToEarningsRatio": 0.3866316631458047,
       "valueScore": 82,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139861",
@@ -3410,7 +3410,7 @@
       "debtToEarningsRatio": 0.3826969384244926,
       "valueScore": 66,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139931",
@@ -3427,7 +3427,7 @@
       "debtToEarningsRatio": 0.4367345405364791,
       "valueScore": 76,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139940",
@@ -3444,7 +3444,7 @@
       "debtToEarningsRatio": 0.4411404693567449,
       "valueScore": 67,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139959",
@@ -3461,7 +3461,7 @@
       "debtToEarningsRatio": 0.26918487908506245,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139968",
@@ -3478,7 +3478,7 @@
       "debtToEarningsRatio": 0.4620950067333844,
       "valueScore": 89,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139986",
@@ -3495,7 +3495,7 @@
       "debtToEarningsRatio": 0.26312873919787283,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "139995",
@@ -3512,7 +3512,7 @@
       "debtToEarningsRatio": 0.3850501923257341,
       "valueScore": 44,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140003",
@@ -3529,7 +3529,7 @@
       "debtToEarningsRatio": 0.5748201896760232,
       "valueScore": 31,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140012",
@@ -3546,7 +3546,7 @@
       "debtToEarningsRatio": 0.2887284841754581,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140146",
@@ -3563,7 +3563,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140234",
@@ -3580,7 +3580,7 @@
       "debtToEarningsRatio": 0.49724611073533675,
       "valueScore": 56,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140243",
@@ -3597,7 +3597,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 96,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140252",
@@ -3614,7 +3614,7 @@
       "debtToEarningsRatio": 0.3516256303141549,
       "valueScore": 38,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140331",
@@ -3631,7 +3631,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140340",
@@ -3648,7 +3648,7 @@
       "debtToEarningsRatio": 0.5825137500338671,
       "valueScore": 35,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140447",
@@ -3665,7 +3665,7 @@
       "debtToEarningsRatio": 0.4146930801658841,
       "valueScore": 62,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140553",
@@ -3682,7 +3682,7 @@
       "debtToEarningsRatio": 0.4726880825880618,
       "valueScore": 38,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140562",
@@ -3699,7 +3699,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140571",
@@ -3716,7 +3716,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140678",
@@ -3733,7 +3733,7 @@
       "debtToEarningsRatio": 0.2375501032430463,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140696",
@@ -3750,7 +3750,7 @@
       "debtToEarningsRatio": 0.4526361529548088,
       "valueScore": 64,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140720",
@@ -3767,7 +3767,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 40,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140818",
@@ -3784,7 +3784,7 @@
       "debtToEarningsRatio": 0.5088540606554041,
       "valueScore": 54,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140827",
@@ -3801,7 +3801,7 @@
       "debtToEarningsRatio": 0.24452877806237758,
       "valueScore": 31,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140872",
@@ -3818,7 +3818,7 @@
       "debtToEarningsRatio": 0.5135257085150727,
       "valueScore": 44,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140942",
@@ -3835,7 +3835,7 @@
       "debtToEarningsRatio": 0.09867345084499364,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140951",
@@ -3852,7 +3852,7 @@
       "debtToEarningsRatio": 0.547242895068982,
       "valueScore": 34,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140960",
@@ -3869,7 +3869,7 @@
       "debtToEarningsRatio": 0.7372107106184671,
       "valueScore": 90,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "140988",
@@ -3886,7 +3886,7 @@
       "debtToEarningsRatio": 0.5604878486234418,
       "valueScore": 58,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "141006",
@@ -3903,7 +3903,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "141060",
@@ -3920,7 +3920,7 @@
       "debtToEarningsRatio": 0.4167152834497358,
       "valueScore": 47,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "141167",
@@ -3937,7 +3937,7 @@
       "debtToEarningsRatio": 0.426381848901762,
       "valueScore": 55,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "141185",
@@ -3954,7 +3954,7 @@
       "debtToEarningsRatio": 0.6074256074256075,
       "valueScore": 42,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "141237",
@@ -3971,7 +3971,7 @@
       "debtToEarningsRatio": 0.5019057815845824,
       "valueScore": 48,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "141255",
@@ -3988,7 +3988,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "141264",
@@ -4005,7 +4005,7 @@
       "debtToEarningsRatio": 0.5019955025222341,
       "valueScore": 92,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "141325",
@@ -4022,7 +4022,7 @@
       "debtToEarningsRatio": 0.5436739851524246,
       "valueScore": 75,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "141334",
@@ -4039,7 +4039,7 @@
       "debtToEarningsRatio": 0.48339282473228873,
       "valueScore": 81,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "141361",
@@ -4056,7 +4056,7 @@
       "debtToEarningsRatio": 0.5720945015361797,
       "valueScore": 49,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "212337",
@@ -4073,7 +4073,7 @@
       "debtToEarningsRatio": 0.4337191063631354,
       "valueScore": 40,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "244437",
@@ -4090,7 +4090,7 @@
       "debtToEarningsRatio": 0.4411404693567449,
       "valueScore": 80,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "244446",
@@ -4107,7 +4107,7 @@
       "debtToEarningsRatio": 0.3658684537392761,
       "valueScore": 55,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "246813",
@@ -4124,7 +4124,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "365091",
@@ -4141,7 +4141,7 @@
       "debtToEarningsRatio": 0.24882131070249883,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "366465",
@@ -4158,7 +4158,7 @@
       "debtToEarningsRatio": 0.3040194572452637,
       "valueScore": 96,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "368911",
@@ -4175,7 +4175,7 @@
       "debtToEarningsRatio": 0.18958752349236704,
       "valueScore": 60,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "372921",
@@ -4192,7 +4192,7 @@
       "debtToEarningsRatio": 0.34500109986801586,
       "valueScore": 42,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "408862",
@@ -4209,7 +4209,7 @@
       "debtToEarningsRatio": 0.5259891750653228,
       "valueScore": 39,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "413893",
@@ -4226,7 +4226,7 @@
       "debtToEarningsRatio": 0.3050640634533252,
       "valueScore": 29,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "419235",
@@ -4243,7 +4243,7 @@
       "debtToEarningsRatio": 0.42910700573648314,
       "valueScore": 35,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "419244",
@@ -4260,7 +4260,7 @@
       "debtToEarningsRatio": 0.49416404797024305,
       "valueScore": 22,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "420431",
@@ -4277,7 +4277,7 @@
       "debtToEarningsRatio": 0.21081588400919124,
       "valueScore": 57,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "425250",
@@ -4294,7 +4294,7 @@
       "debtToEarningsRatio": 0.3044286355188105,
       "valueScore": 32,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "434159",
@@ -4311,7 +4311,7 @@
       "debtToEarningsRatio": 0.3296672306824591,
       "valueScore": 33,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "438586",
@@ -4328,7 +4328,7 @@
       "debtToEarningsRatio": 0.8576803895528995,
       "valueScore": 45,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "440059",
@@ -4345,7 +4345,7 @@
       "debtToEarningsRatio": 0.6536490216015438,
       "valueScore": 44,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "440101",
@@ -4362,7 +4362,7 @@
       "debtToEarningsRatio": 0.4337191063631354,
       "valueScore": 43,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "442435",
@@ -4379,7 +4379,7 @@
       "debtToEarningsRatio": 0.38998706816922224,
       "valueScore": 36,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "444714",
@@ -4396,7 +4396,7 @@
       "debtToEarningsRatio": 0.4925708430221101,
       "valueScore": 23,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "447689",
@@ -4413,7 +4413,7 @@
       "debtToEarningsRatio": 0.4206159648020113,
       "valueScore": 59,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "447917",
@@ -4430,7 +4430,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 53,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "454607",
@@ -4447,7 +4447,7 @@
       "debtToEarningsRatio": 0.3740632251683342,
       "valueScore": 45,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "federalSpending": [
@@ -4457,7 +4457,7 @@
       "stateAbbreviation": "GA",
       "fiscalYear": 2024,
       "total": 93944056042.48,
-      "perCapita": 8761.537823417962,
+      "perCapita": 8586.88859038608,
       "source": "USAspending.gov"
     }
   ],

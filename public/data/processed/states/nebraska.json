@@ -1,49 +1,49 @@
 {
   "_meta": {
     "description": "Nebraska state economic dashboard data",
-    "generatedAt": "2026-06-01T05:36:01.612Z",
+    "generatedAt": "2026-06-01T06:09:58.945Z",
     "sourceAttemptLog": [
       {
         "source": "BEA",
         "id": "state-gdp",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-states",
+        "id": "acs-states-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-counties",
+        "id": "acs-counties-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-places",
+        "id": "acs-places-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "UNRATE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DENV708URN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -51,7 +51,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -59,7 +59,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -67,952 +67,952 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AK-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AK",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AZ-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AZ",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AR-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AR",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "COURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "COPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CORGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CO-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CO",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CT-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CT",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-DE-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-DE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-FL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-FL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-GA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-GA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-HI-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-HI",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-ID-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-ID",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IN-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KSURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KSPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KSRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-KS-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-KS",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KYURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KYPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KYRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-KY-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-KY",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "LAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "LAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "LARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-LA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-LA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-ME-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-ME",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MDURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MDPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MDRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MD-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MD",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MIURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MIPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MIRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MI-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MI",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MNURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MNPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MNRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MN-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MSURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MSPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MSRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MS-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MS",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MOURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MOPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MORGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MO-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MO",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MTURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MTPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MTRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MT-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MT",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NE-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       }
     ]
   },
@@ -1022,40 +1022,40 @@
     "abbreviation": "NE",
     "fips": "31",
     "population": {
-      "value": 1958939,
+      "value": 1978707,
       "unit": "persons",
       "geography": "Nebraska",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B01003_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHouseholdIncome": {
-      "value": 71722,
+      "value": 76475,
       "unit": "USD",
       "geography": "Nebraska",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B19013_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHomeValue": {
-      "value": 205600,
+      "value": 238600,
       "unit": "USD",
       "geography": "Nebraska",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B25077_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -1069,7 +1069,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/NEURN",
       "sourceDataset": "FRED Series NEURN",
       "sourceSeriesId": "NEURN",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -1083,33 +1083,33 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/NERGSP",
       "sourceDataset": "FRED Series NERGSP",
       "sourceSeriesId": "NERGSP",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "federalSpendingPerCapita": {
-      "value": 11893.772325437392,
+      "value": 11774.949229683827,
       "unit": "USD per person",
       "geography": "Nebraska",
       "date": "FY2024",
       "sourceName": "USAspending.gov",
       "sourceUrl": "https://api.usaspending.gov/",
       "sourceDataset": "USAspending API v2 spending_by_geography",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "localEconomyScore": {
-      "value": 69.2,
+      "value": 69.8,
       "unit": "score",
       "geography": "Nebraska",
       "date": "2026-06-01",
       "sourceName": "LocalLedger methodology",
       "sourceUrl": "https://local-ledger.net/methodology/",
       "sourceDataset": "Composite score from Census, FRED, and USAspending",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "weighted score",
       "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
       "availability": "available"
@@ -1123,12 +1123,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31055",
-      "population": 582638,
-      "medianHouseholdIncome": 76083,
-      "medianHomeValue": 227400,
-      "localEconomyScore": 69.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 590736,
+      "medianHouseholdIncome": 80391,
+      "medianHomeValue": 266100,
+      "localEconomyScore": 69.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lancaster",
@@ -1137,12 +1137,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31109",
-      "population": 322063,
-      "medianHouseholdIncome": 70387,
-      "medianHomeValue": 239900,
-      "localEconomyScore": 66,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 326696,
+      "medianHouseholdIncome": 74793,
+      "medianHomeValue": 275200,
+      "localEconomyScore": 66.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "sarpy",
@@ -1151,12 +1151,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31153",
-      "population": 191272,
-      "medianHouseholdIncome": 95911,
-      "medianHomeValue": 263000,
-      "localEconomyScore": 75.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 197389,
+      "medianHouseholdIncome": 103321,
+      "medianHomeValue": 314100,
+      "localEconomyScore": 76.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hall",
@@ -1165,12 +1165,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31079",
-      "population": 62575,
-      "medianHouseholdIncome": 63553,
-      "medianHomeValue": 190800,
-      "localEconomyScore": 64.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 62536,
+      "medianHouseholdIncome": 69251,
+      "medianHomeValue": 224600,
+      "localEconomyScore": 65.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "buffalo",
@@ -1179,12 +1179,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31019",
-      "population": 50103,
-      "medianHouseholdIncome": 70093,
-      "medianHomeValue": 218600,
-      "localEconomyScore": 65.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 50579,
+      "medianHouseholdIncome": 75911,
+      "medianHomeValue": 246400,
+      "localEconomyScore": 66.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dodge",
@@ -1193,12 +1193,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31053",
-      "population": 37175,
-      "medianHouseholdIncome": 66793,
-      "medianHomeValue": 168900,
-      "localEconomyScore": 66.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 37351,
+      "medianHouseholdIncome": 74329,
+      "medianHomeValue": 208600,
+      "localEconomyScore": 67.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "scotts-bluff",
@@ -1207,12 +1207,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31157",
-      "population": 36048,
-      "medianHouseholdIncome": 60137,
-      "medianHomeValue": 150600,
-      "localEconomyScore": 64.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 35843,
+      "medianHouseholdIncome": 63614,
+      "medianHomeValue": 168500,
+      "localEconomyScore": 64.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "madison",
@@ -1221,26 +1221,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31119",
-      "population": 35538,
-      "medianHouseholdIncome": 61139,
-      "medianHomeValue": 187100,
-      "localEconomyScore": 62.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "lincoln",
-      "county": "Lincoln County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31111",
-      "population": 34532,
-      "medianHouseholdIncome": 63019,
-      "medianHomeValue": 167900,
-      "localEconomyScore": 64.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 35532,
+      "medianHouseholdIncome": 63128,
+      "medianHomeValue": 208500,
+      "localEconomyScore": 62.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "platte",
@@ -1249,12 +1235,26 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31141",
-      "population": 34219,
-      "medianHouseholdIncome": 69943,
-      "medianHomeValue": 195800,
-      "localEconomyScore": 66.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 34716,
+      "medianHouseholdIncome": 71552,
+      "medianHomeValue": 223900,
+      "localEconomyScore": 65.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "lincoln",
+      "county": "Lincoln County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31111",
+      "population": 33802,
+      "medianHouseholdIncome": 65148,
+      "medianHomeValue": 189500,
+      "localEconomyScore": 64.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "adams",
@@ -1263,12 +1263,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31001",
-      "population": 31143,
-      "medianHouseholdIncome": 61502,
-      "medianHomeValue": 166300,
-      "localEconomyScore": 64,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 31052,
+      "medianHouseholdIncome": 68365,
+      "medianHomeValue": 193100,
+      "localEconomyScore": 65.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cass",
@@ -1277,12 +1277,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31025",
-      "population": 26749,
-      "medianHouseholdIncome": 87673,
-      "medianHomeValue": 234300,
-      "localEconomyScore": 71.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 27161,
+      "medianHouseholdIncome": 91836,
+      "medianHomeValue": 254900,
+      "localEconomyScore": 72.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dawson",
@@ -1291,12 +1291,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31047",
-      "population": 24037,
-      "medianHouseholdIncome": 67462,
-      "medianHomeValue": 136900,
-      "localEconomyScore": 67.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 24202,
+      "medianHouseholdIncome": 69880,
+      "medianHomeValue": 166200,
+      "localEconomyScore": 67.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "saunders",
@@ -1305,12 +1305,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31155",
-      "population": 22374,
-      "medianHouseholdIncome": 84474,
-      "medianHomeValue": 220600,
-      "localEconomyScore": 70.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 23048,
+      "medianHouseholdIncome": 94066,
+      "medianHomeValue": 271700,
+      "localEconomyScore": 72.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "gage",
@@ -1319,12 +1319,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31067",
-      "population": 21654,
-      "medianHouseholdIncome": 60035,
-      "medianHomeValue": 155600,
-      "localEconomyScore": 63.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 21629,
+      "medianHouseholdIncome": 67247,
+      "medianHomeValue": 174000,
+      "localEconomyScore": 65.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dakota",
@@ -1333,12 +1333,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31043",
-      "population": 21308,
-      "medianHouseholdIncome": 66112,
-      "medianHomeValue": 158700,
-      "localEconomyScore": 66,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 21354,
+      "medianHouseholdIncome": 70329,
+      "medianHomeValue": 185700,
+      "localEconomyScore": 66.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "washington",
@@ -1347,12 +1347,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31177",
-      "population": 20884,
-      "medianHouseholdIncome": 89671,
-      "medianHomeValue": 265800,
-      "localEconomyScore": 71.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 21106,
+      "medianHouseholdIncome": 94396,
+      "medianHomeValue": 297600,
+      "localEconomyScore": 72,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "seward",
@@ -1361,12 +1361,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31159",
-      "population": 17644,
-      "medianHouseholdIncome": 79677,
-      "medianHomeValue": 208700,
-      "localEconomyScore": 69.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 17641,
+      "medianHouseholdIncome": 82444,
+      "medianHomeValue": 241300,
+      "localEconomyScore": 69.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "otoe",
@@ -1375,12 +1375,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31131",
-      "population": 15995,
-      "medianHouseholdIncome": 73031,
-      "medianHomeValue": 172500,
-      "localEconomyScore": 68,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 16241,
+      "medianHouseholdIncome": 82188,
+      "medianHomeValue": 201600,
+      "localEconomyScore": 70.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "saline",
@@ -1389,12 +1389,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31151",
-      "population": 14275,
-      "medianHouseholdIncome": 71104,
-      "medianHomeValue": 155800,
-      "localEconomyScore": 67.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14650,
+      "medianHouseholdIncome": 79910,
+      "medianHomeValue": 197400,
+      "localEconomyScore": 69.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "york",
@@ -1403,12 +1403,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31185",
-      "population": 14212,
-      "medianHouseholdIncome": 72914,
-      "medianHomeValue": 160500,
-      "localEconomyScore": 68.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14286,
+      "medianHouseholdIncome": 77757,
+      "medianHomeValue": 189400,
+      "localEconomyScore": 69,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "box-butte",
@@ -1417,40 +1417,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31013",
-      "population": 10778,
-      "medianHouseholdIncome": 67893,
-      "medianHomeValue": 161600,
-      "localEconomyScore": 66.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "red-willow",
-      "county": "Red Willow County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31145",
-      "population": 10690,
-      "medianHouseholdIncome": 58344,
-      "medianHomeValue": 144700,
-      "localEconomyScore": 63.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "custer",
-      "county": "Custer County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31041",
-      "population": 10566,
-      "medianHouseholdIncome": 62288,
-      "medianHomeValue": 133400,
-      "localEconomyScore": 65.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10714,
+      "medianHouseholdIncome": 68892,
+      "medianHomeValue": 166600,
+      "localEconomyScore": 66.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "colfax",
@@ -1459,12 +1431,40 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31037",
-      "population": 10563,
-      "medianHouseholdIncome": 71205,
-      "medianHomeValue": 103400,
-      "localEconomyScore": 69.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10641,
+      "medianHouseholdIncome": 82530,
+      "medianHomeValue": 144700,
+      "localEconomyScore": 72.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "red-willow",
+      "county": "Red Willow County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31145",
+      "population": 10557,
+      "medianHouseholdIncome": 63697,
+      "medianHomeValue": 159600,
+      "localEconomyScore": 64.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "custer",
+      "county": "Custer County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31041",
+      "population": 10518,
+      "medianHouseholdIncome": 67906,
+      "medianHomeValue": 157800,
+      "localEconomyScore": 66.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "holt",
@@ -1473,12 +1473,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31089",
-      "population": 10149,
-      "medianHouseholdIncome": 66325,
-      "medianHomeValue": 148900,
-      "localEconomyScore": 66.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10102,
+      "medianHouseholdIncome": 68513,
+      "medianHomeValue": 165100,
+      "localEconomyScore": 66.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wayne",
@@ -1487,12 +1487,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31179",
-      "population": 9701,
-      "medianHouseholdIncome": 64951,
-      "medianHomeValue": 176200,
-      "localEconomyScore": 64.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9844,
+      "medianHouseholdIncome": 66215,
+      "medianHomeValue": 221600,
+      "localEconomyScore": 62.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cheyenne",
@@ -1501,12 +1501,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31033",
-      "population": 9489,
-      "medianHouseholdIncome": 54038,
-      "medianHomeValue": 117300,
-      "localEconomyScore": 62.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9533,
+      "medianHouseholdIncome": 60348,
+      "medianHomeValue": 139700,
+      "localEconomyScore": 64.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hamilton",
@@ -1515,26 +1515,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31081",
-      "population": 9400,
-      "medianHouseholdIncome": 73254,
-      "medianHomeValue": 201200,
-      "localEconomyScore": 66.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "cuming",
-      "county": "Cuming County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31039",
-      "population": 9000,
-      "medianHouseholdIncome": 68917,
-      "medianHomeValue": 160000,
-      "localEconomyScore": 66.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9464,
+      "medianHouseholdIncome": 83994,
+      "medianHomeValue": 253700,
+      "localEconomyScore": 68.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "phelps",
@@ -1543,40 +1529,26 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31137",
-      "population": 8966,
-      "medianHouseholdIncome": 65114,
-      "medianHomeValue": 161300,
+      "population": 9009,
+      "medianHouseholdIncome": 68919,
+      "medianHomeValue": 194900,
       "localEconomyScore": 65,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "knox",
-      "county": "Knox County",
+      "slug": "cuming",
+      "county": "Cuming County",
       "state": "Nebraska",
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
-      "fips": "31107",
-      "population": 8415,
-      "medianHouseholdIncome": 61250,
-      "medianHomeValue": 112700,
-      "localEconomyScore": 65.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "cedar",
-      "county": "Cedar County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31027",
-      "population": 8375,
-      "medianHouseholdIncome": 72035,
-      "medianHomeValue": 160700,
-      "localEconomyScore": 67.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "31039",
+      "population": 8975,
+      "medianHouseholdIncome": 71104,
+      "medianHomeValue": 178800,
+      "localEconomyScore": 66.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "butler",
@@ -1585,12 +1557,40 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31023",
-      "population": 8373,
-      "medianHouseholdIncome": 75690,
-      "medianHomeValue": 150400,
+      "population": 8424,
+      "medianHouseholdIncome": 79268,
+      "medianHomeValue": 184200,
       "localEconomyScore": 69.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "knox",
+      "county": "Knox County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31107",
+      "population": 8363,
+      "medianHouseholdIncome": 64636,
+      "medianHomeValue": 127700,
+      "localEconomyScore": 66.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "cedar",
+      "county": "Cedar County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31027",
+      "population": 8315,
+      "medianHouseholdIncome": 73578,
+      "medianHomeValue": 185000,
+      "localEconomyScore": 67.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "keith",
@@ -1599,12 +1599,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31101",
-      "population": 8303,
-      "medianHouseholdIncome": 59511,
-      "medianHomeValue": 158900,
+      "population": 8219,
+      "medianHouseholdIncome": 60645,
+      "medianHomeValue": 168000,
       "localEconomyScore": 62.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dawes",
@@ -1613,12 +1613,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31045",
-      "population": 8279,
-      "medianHouseholdIncome": 53760,
-      "medianHomeValue": 142100,
-      "localEconomyScore": 61.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8140,
+      "medianHouseholdIncome": 56280,
+      "medianHomeValue": 150900,
+      "localEconomyScore": 61.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "richardson",
@@ -1627,12 +1627,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31147",
-      "population": 7850,
-      "medianHouseholdIncome": 50321,
-      "medianHomeValue": 89500,
-      "localEconomyScore": 62.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7751,
+      "medianHouseholdIncome": 60108,
+      "medianHomeValue": 100300,
+      "localEconomyScore": 65.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "merrick",
@@ -1641,12 +1641,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31121",
-      "population": 7675,
-      "medianHouseholdIncome": 57873,
-      "medianHomeValue": 159300,
-      "localEconomyScore": 61.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7724,
+      "medianHouseholdIncome": 68354,
+      "medianHomeValue": 175900,
+      "localEconomyScore": 65.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pierce",
@@ -1655,12 +1655,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31139",
-      "population": 7301,
-      "medianHouseholdIncome": 65603,
-      "medianHomeValue": 167400,
-      "localEconomyScore": 64.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7325,
+      "medianHouseholdIncome": 72357,
+      "medianHomeValue": 196000,
+      "localEconomyScore": 66.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jefferson",
@@ -1669,12 +1669,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31095",
-      "population": 7185,
-      "medianHouseholdIncome": 54494,
-      "medianHomeValue": 116700,
-      "localEconomyScore": 62.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7161,
+      "medianHouseholdIncome": 59044,
+      "medianHomeValue": 129500,
+      "localEconomyScore": 63.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "nemaha",
@@ -1683,12 +1683,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31127",
-      "population": 7019,
-      "medianHouseholdIncome": 57196,
-      "medianHomeValue": 118300,
-      "localEconomyScore": 63.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7046,
+      "medianHouseholdIncome": 60924,
+      "medianHomeValue": 131700,
+      "localEconomyScore": 64.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "burt",
@@ -1697,26 +1697,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31021",
-      "population": 6717,
-      "medianHouseholdIncome": 54950,
-      "medianHomeValue": 123100,
-      "localEconomyScore": 62.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "thurston",
-      "county": "Thurston County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31173",
-      "population": 6716,
-      "medianHouseholdIncome": 63459,
-      "medianHomeValue": 90000,
-      "localEconomyScore": 67.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6740,
+      "medianHouseholdIncome": 63685,
+      "medianHomeValue": 147000,
+      "localEconomyScore": 64.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "kearney",
@@ -1725,12 +1711,26 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31099",
-      "population": 6655,
-      "medianHouseholdIncome": 74276,
-      "medianHomeValue": 203200,
-      "localEconomyScore": 66.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6713,
+      "medianHouseholdIncome": 78631,
+      "medianHomeValue": 223400,
+      "localEconomyScore": 67.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "thurston",
+      "county": "Thurston County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31173",
+      "population": 6627,
+      "medianHouseholdIncome": 69177,
+      "medianHomeValue": 114600,
+      "localEconomyScore": 68.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "howard",
@@ -1739,12 +1739,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31093",
-      "population": 6476,
-      "medianHouseholdIncome": 70766,
-      "medianHomeValue": 181600,
-      "localEconomyScore": 66.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6534,
+      "medianHouseholdIncome": 76767,
+      "medianHomeValue": 209100,
+      "localEconomyScore": 67.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "antelope",
@@ -1753,12 +1753,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31003",
-      "population": 6302,
-      "medianHouseholdIncome": 61924,
-      "medianHomeValue": 104500,
-      "localEconomyScore": 66.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6305,
+      "medianHouseholdIncome": 66105,
+      "medianHomeValue": 130300,
+      "localEconomyScore": 66.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clay",
@@ -1767,12 +1767,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31035",
-      "population": 6088,
-      "medianHouseholdIncome": 73933,
-      "medianHomeValue": 129600,
-      "localEconomyScore": 69.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6095,
+      "medianHouseholdIncome": 78986,
+      "medianHomeValue": 155600,
+      "localEconomyScore": 70.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "stanton",
@@ -1781,12 +1781,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31167",
-      "population": 5828,
-      "medianHouseholdIncome": 76035,
-      "medianHomeValue": 170900,
-      "localEconomyScore": 68.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5796,
+      "medianHouseholdIncome": 80687,
+      "medianHomeValue": 195400,
+      "localEconomyScore": 69.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dixon",
@@ -1795,12 +1795,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31051",
-      "population": 5579,
-      "medianHouseholdIncome": 60568,
-      "medianHomeValue": 123500,
-      "localEconomyScore": 64.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5545,
+      "medianHouseholdIncome": 72454,
+      "medianHomeValue": 155900,
+      "localEconomyScore": 67.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "fillmore",
@@ -1809,12 +1809,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31059",
-      "population": 5557,
-      "medianHouseholdIncome": 72335,
-      "medianHomeValue": 122700,
-      "localEconomyScore": 69.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5541,
+      "medianHouseholdIncome": 76295,
+      "medianHomeValue": 151000,
+      "localEconomyScore": 69.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cherry",
@@ -1823,12 +1823,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31031",
-      "population": 5473,
-      "medianHouseholdIncome": 62373,
-      "medianHomeValue": 137300,
-      "localEconomyScore": 64.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5498,
+      "medianHouseholdIncome": 66270,
+      "medianHomeValue": 152200,
+      "localEconomyScore": 65.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "boone",
@@ -1837,12 +1837,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31011",
-      "population": 5397,
-      "medianHouseholdIncome": 66800,
-      "medianHomeValue": 165400,
-      "localEconomyScore": 65.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5356,
+      "medianHouseholdIncome": 74947,
+      "medianHomeValue": 173700,
+      "localEconomyScore": 67.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "johnson",
@@ -1851,12 +1851,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31097",
-      "population": 5294,
-      "medianHouseholdIncome": 64352,
-      "medianHomeValue": 117300,
-      "localEconomyScore": 66.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5261,
+      "medianHouseholdIncome": 57632,
+      "medianHomeValue": 155500,
+      "localEconomyScore": 61.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "polk",
@@ -1865,12 +1865,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31143",
-      "population": 5182,
-      "medianHouseholdIncome": 67695,
-      "medianHomeValue": 152700,
-      "localEconomyScore": 66,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5225,
+      "medianHouseholdIncome": 69768,
+      "medianHomeValue": 189900,
+      "localEconomyScore": 65.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "sheridan",
@@ -1879,12 +1879,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31161",
-      "population": 5102,
-      "medianHouseholdIncome": 53609,
-      "medianHomeValue": 96900,
-      "localEconomyScore": 63.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5014,
+      "medianHouseholdIncome": 60121,
+      "medianHomeValue": 113400,
+      "localEconomyScore": 64.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "thayer",
@@ -1893,12 +1893,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31169",
-      "population": 5006,
-      "medianHouseholdIncome": 60305,
-      "medianHomeValue": 91600,
-      "localEconomyScore": 66,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4901,
+      "medianHouseholdIncome": 66213,
+      "medianHomeValue": 122800,
+      "localEconomyScore": 66.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "furnas",
@@ -1907,12 +1907,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31065",
-      "population": 4630,
-      "medianHouseholdIncome": 58895,
-      "medianHomeValue": 85600,
-      "localEconomyScore": 65.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4568,
+      "medianHouseholdIncome": 61048,
+      "medianHomeValue": 98400,
+      "localEconomyScore": 65.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "morrill",
@@ -1921,12 +1921,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31123",
-      "population": 4562,
-      "medianHouseholdIncome": 57325,
-      "medianHomeValue": 107700,
+      "population": 4534,
+      "medianHouseholdIncome": 58500,
+      "medianHomeValue": 116100,
       "localEconomyScore": 64,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "nuckolls",
@@ -1935,12 +1935,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31129",
-      "population": 4092,
-      "medianHouseholdIncome": 66000,
-      "medianHomeValue": 88500,
-      "localEconomyScore": 68.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4087,
+      "medianHouseholdIncome": 73976,
+      "medianHomeValue": 96500,
+      "localEconomyScore": 70.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "valley",
@@ -1949,12 +1949,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31175",
-      "population": 4053,
-      "medianHouseholdIncome": 62321,
-      "medianHomeValue": 125800,
-      "localEconomyScore": 65,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4066,
+      "medianHouseholdIncome": 61852,
+      "medianHomeValue": 154600,
+      "localEconomyScore": 63.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "chase",
@@ -1963,12 +1963,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31029",
-      "population": 3704,
-      "medianHouseholdIncome": 57313,
-      "medianHomeValue": 176900,
-      "localEconomyScore": 60.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3671,
+      "medianHouseholdIncome": 68173,
+      "medianHomeValue": 165900,
+      "localEconomyScore": 65.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "webster",
@@ -1977,26 +1977,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31181",
-      "population": 3410,
-      "medianHouseholdIncome": 62571,
-      "medianHomeValue": 92800,
-      "localEconomyScore": 66.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "kimball",
-      "county": "Kimball County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31105",
-      "population": 3395,
-      "medianHouseholdIncome": 53151,
-      "medianHomeValue": 92500,
-      "localEconomyScore": 63,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3360,
+      "medianHouseholdIncome": 64347,
+      "medianHomeValue": 117600,
+      "localEconomyScore": 66,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "nance",
@@ -2005,26 +1991,26 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31125",
-      "population": 3366,
-      "medianHouseholdIncome": 60054,
-      "medianHomeValue": 108000,
-      "localEconomyScore": 64.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3324,
+      "medianHouseholdIncome": 65179,
+      "medianHomeValue": 132000,
+      "localEconomyScore": 65.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "harlan",
-      "county": "Harlan County",
+      "slug": "kimball",
+      "county": "Kimball County",
       "state": "Nebraska",
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
-      "fips": "31083",
-      "population": 3094,
-      "medianHouseholdIncome": 64583,
-      "medianHomeValue": 135800,
-      "localEconomyScore": 65.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "31105",
+      "population": 3248,
+      "medianHouseholdIncome": 56712,
+      "medianHomeValue": 109400,
+      "localEconomyScore": 63.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "sherman",
@@ -2033,40 +2019,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31163",
-      "population": 2970,
-      "medianHouseholdIncome": 60194,
-      "medianHomeValue": 112500,
-      "localEconomyScore": 64.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "franklin",
-      "county": "Franklin County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31061",
-      "population": 2901,
-      "medianHouseholdIncome": 55625,
-      "medianHomeValue": 95400,
-      "localEconomyScore": 63.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "perkins",
-      "county": "Perkins County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31135",
-      "population": 2860,
-      "medianHouseholdIncome": 61786,
-      "medianHomeValue": 143300,
-      "localEconomyScore": 63.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2967,
+      "medianHouseholdIncome": 63578,
+      "medianHomeValue": 152000,
+      "localEconomyScore": 64,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "brown",
@@ -2075,40 +2033,54 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31017",
-      "population": 2691,
-      "medianHouseholdIncome": 44267,
-      "medianHomeValue": 89700,
-      "localEconomyScore": 59.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2869,
+      "medianHouseholdIncome": 54676,
+      "medianHomeValue": 113900,
+      "localEconomyScore": 62.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "hitchcock",
-      "county": "Hitchcock County",
+      "slug": "harlan",
+      "county": "Harlan County",
       "state": "Nebraska",
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
-      "fips": "31087",
-      "population": 2620,
-      "medianHouseholdIncome": 49456,
-      "medianHomeValue": 85500,
-      "localEconomyScore": 61.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "31083",
+      "population": 2847,
+      "medianHouseholdIncome": 70625,
+      "medianHomeValue": 145800,
+      "localEconomyScore": 67,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "pawnee",
-      "county": "Pawnee County",
+      "slug": "franklin",
+      "county": "Franklin County",
       "state": "Nebraska",
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
-      "fips": "31133",
-      "population": 2553,
-      "medianHouseholdIncome": 55833,
-      "medianHomeValue": 74000,
-      "localEconomyScore": 64.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "31061",
+      "population": 2846,
+      "medianHouseholdIncome": 60195,
+      "medianHomeValue": 95600,
+      "localEconomyScore": 65.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "perkins",
+      "county": "Perkins County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31135",
+      "population": 2821,
+      "medianHouseholdIncome": 72778,
+      "medianHomeValue": 157200,
+      "localEconomyScore": 67.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "frontier",
@@ -2117,12 +2089,40 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31063",
-      "population": 2491,
-      "medianHouseholdIncome": 62928,
-      "medianHomeValue": 124500,
-      "localEconomyScore": 65,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2569,
+      "medianHouseholdIncome": 70132,
+      "medianHomeValue": 149800,
+      "localEconomyScore": 66.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "hitchcock",
+      "county": "Hitchcock County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31087",
+      "population": 2569,
+      "medianHouseholdIncome": 51567,
+      "medianHomeValue": 96700,
+      "localEconomyScore": 62,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "pawnee",
+      "county": "Pawnee County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31133",
+      "population": 2530,
+      "medianHouseholdIncome": 62188,
+      "medianHomeValue": 79400,
+      "localEconomyScore": 66.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "greeley",
@@ -2131,12 +2131,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31077",
-      "population": 2212,
-      "medianHouseholdIncome": 52813,
-      "medianHomeValue": 85300,
-      "localEconomyScore": 63,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2202,
+      "medianHouseholdIncome": 63929,
+      "medianHomeValue": 120000,
+      "localEconomyScore": 65.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "gosper",
@@ -2145,12 +2145,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31073",
-      "population": 1873,
-      "medianHouseholdIncome": 76583,
-      "medianHomeValue": 192100,
-      "localEconomyScore": 67.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2040,
+      "medianHouseholdIncome": 77500,
+      "medianHomeValue": 228500,
+      "localEconomyScore": 66.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "deuel",
@@ -2159,40 +2159,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31049",
-      "population": 1858,
-      "medianHouseholdIncome": 58875,
-      "medianHomeValue": 91900,
-      "localEconomyScore": 64.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "garfield",
-      "county": "Garfield County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31071",
-      "population": 1833,
-      "medianHouseholdIncome": 64957,
-      "medianHomeValue": 123500,
-      "localEconomyScore": 65.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "dundy",
-      "county": "Dundy County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31057",
-      "population": 1825,
-      "medianHouseholdIncome": 58977,
-      "medianHomeValue": 109900,
-      "localEconomyScore": 64,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1847,
+      "medianHouseholdIncome": 70096,
+      "medianHomeValue": 100200,
+      "localEconomyScore": 68.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "garden",
@@ -2201,12 +2173,40 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31069",
-      "population": 1778,
-      "medianHouseholdIncome": 47139,
-      "medianHomeValue": 91700,
-      "localEconomyScore": 60.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1761,
+      "medianHouseholdIncome": 41882,
+      "medianHomeValue": 110400,
+      "localEconomyScore": 56.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "dundy",
+      "county": "Dundy County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31057",
+      "population": 1736,
+      "medianHouseholdIncome": 58922,
+      "medianHomeValue": 143400,
+      "localEconomyScore": 62.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "garfield",
+      "county": "Garfield County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31071",
+      "population": 1718,
+      "medianHouseholdIncome": 62804,
+      "medianHomeValue": 176600,
+      "localEconomyScore": 62.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "boyd",
@@ -2215,12 +2215,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31015",
-      "population": 1767,
-      "medianHouseholdIncome": 57120,
-      "medianHomeValue": 95200,
-      "localEconomyScore": 64,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1688,
+      "medianHouseholdIncome": 67045,
+      "medianHomeValue": 104000,
+      "localEconomyScore": 67.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "rock",
@@ -2229,12 +2229,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31149",
-      "population": 1312,
-      "medianHouseholdIncome": 57566,
-      "medianHomeValue": 87300,
-      "localEconomyScore": 64.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1319,
+      "medianHouseholdIncome": 58125,
+      "medianHomeValue": 117500,
+      "localEconomyScore": 63,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "sioux",
@@ -2243,54 +2243,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31165",
-      "population": 1162,
-      "medianHouseholdIncome": 50833,
-      "medianHomeValue": 157800,
-      "localEconomyScore": 57.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "keya-paha",
-      "county": "Keya Paha County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31103",
-      "population": 987,
-      "medianHouseholdIncome": 63977,
-      "medianHomeValue": 109000,
-      "localEconomyScore": 65.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "hayes",
-      "county": "Hayes County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31085",
-      "population": 919,
-      "medianHouseholdIncome": 59405,
-      "medianHomeValue": 104800,
-      "localEconomyScore": 63.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "logan",
-      "county": "Logan County",
-      "state": "Nebraska",
-      "stateSlug": "nebraska",
-      "stateAbbreviation": "NE",
-      "fips": "31113",
-      "population": 839,
-      "medianHouseholdIncome": 69250,
-      "medianHomeValue": 123600,
-      "localEconomyScore": 66.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1171,
+      "medianHouseholdIncome": 53929,
+      "medianHomeValue": 99300,
+      "localEconomyScore": 62.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wheeler",
@@ -2299,12 +2257,54 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31183",
-      "population": 771,
-      "medianHouseholdIncome": 59167,
-      "medianHomeValue": 101400,
-      "localEconomyScore": 63.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 847,
+      "medianHouseholdIncome": 70250,
+      "medianHomeValue": 146500,
+      "localEconomyScore": 66.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "hayes",
+      "county": "Hayes County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31085",
+      "population": 843,
+      "medianHouseholdIncome": 69250,
+      "medianHomeValue": 128100,
+      "localEconomyScore": 66.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "keya-paha",
+      "county": "Keya Paha County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31103",
+      "population": 822,
+      "medianHouseholdIncome": 64000,
+      "medianHomeValue": 108800,
+      "localEconomyScore": 65.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "logan",
+      "county": "Logan County",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbreviation": "NE",
+      "fips": "31113",
+      "population": 773,
+      "medianHouseholdIncome": 74271,
+      "medianHomeValue": 175000,
+      "localEconomyScore": 66.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "banner",
@@ -2313,12 +2313,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31007",
-      "population": 670,
-      "medianHouseholdIncome": 62375,
-      "medianHomeValue": 174200,
-      "localEconomyScore": 61.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 742,
+      "medianHouseholdIncome": 78839,
+      "medianHomeValue": 205700,
+      "localEconomyScore": 66.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hooker",
@@ -2327,12 +2327,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31091",
-      "population": 659,
-      "medianHouseholdIncome": 43333,
-      "medianHomeValue": 78300,
-      "localEconomyScore": 58.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 647,
+      "medianHouseholdIncome": 49464,
+      "medianHomeValue": 93800,
+      "localEconomyScore": 60.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "grant",
@@ -2341,12 +2341,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31075",
-      "population": 649,
-      "medianHouseholdIncome": 65139,
-      "medianHomeValue": 104200,
-      "localEconomyScore": 65.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 626,
+      "medianHouseholdIncome": 70147,
+      "medianHomeValue": 136700,
+      "localEconomyScore": 66.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "loup",
@@ -2355,12 +2355,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31115",
-      "population": 629,
-      "medianHouseholdIncome": 50000,
-      "medianHomeValue": 116500,
-      "localEconomyScore": 59.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 578,
+      "medianHouseholdIncome": 71667,
+      "medianHomeValue": 182300,
+      "localEconomyScore": 64.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "thomas",
@@ -2369,12 +2369,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31171",
-      "population": 592,
-      "medianHouseholdIncome": 70069,
-      "medianHomeValue": 140600,
-      "localEconomyScore": 66,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 564,
+      "medianHouseholdIncome": 65000,
+      "medianHomeValue": 109200,
+      "localEconomyScore": 65.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "arthur",
@@ -2383,12 +2383,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31005",
-      "population": 485,
-      "medianHouseholdIncome": 66667,
-      "medianHomeValue": 164300,
-      "localEconomyScore": 63.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 484,
+      "medianHouseholdIncome": 76250,
+      "medianHomeValue": 185900,
+      "localEconomyScore": 66.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "mcpherson",
@@ -2397,12 +2397,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31117",
-      "population": 456,
-      "medianHouseholdIncome": 58250,
-      "medianHomeValue": 105300,
-      "localEconomyScore": 63,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 475,
+      "medianHouseholdIncome": 58684,
+      "medianHomeValue": 121600,
+      "localEconomyScore": 62.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "blaine",
@@ -2411,12 +2411,12 @@
       "stateSlug": "nebraska",
       "stateAbbreviation": "NE",
       "fips": "31009",
-      "population": 384,
-      "medianHouseholdIncome": 52083,
-      "medianHomeValue": 85700,
-      "localEconomyScore": 61.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 422,
+      "medianHouseholdIncome": 69583,
+      "medianHomeValue": 116900,
+      "localEconomyScore": 66.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "colleges": [
@@ -2435,7 +2435,7 @@
       "debtToEarningsRatio": 0.32632283117688327,
       "valueScore": 73,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "180832",
@@ -2452,7 +2452,7 @@
       "debtToEarningsRatio": 0.36555891238670696,
       "valueScore": 78,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "180878",
@@ -2469,7 +2469,7 @@
       "debtToEarningsRatio": 0.3526713247229868,
       "valueScore": 66,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "180902",
@@ -2486,7 +2486,7 @@
       "debtToEarningsRatio": 0.20269344898425018,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "180948",
@@ -2503,7 +2503,7 @@
       "debtToEarningsRatio": 0.4015786562273946,
       "valueScore": 78,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "180957",
@@ -2520,7 +2520,7 @@
       "debtToEarningsRatio": 0.422892585283338,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "180984",
@@ -2537,7 +2537,7 @@
       "debtToEarningsRatio": 0.4912715825622436,
       "valueScore": 55,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181002",
@@ -2554,7 +2554,7 @@
       "debtToEarningsRatio": 0.33824464558726036,
       "valueScore": 63,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181020",
@@ -2571,7 +2571,7 @@
       "debtToEarningsRatio": 0.4689023932778153,
       "valueScore": 51,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181127",
@@ -2588,7 +2588,7 @@
       "debtToEarningsRatio": 0.5262850125723642,
       "valueScore": 51,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181145",
@@ -2605,7 +2605,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181190",
@@ -2622,7 +2622,7 @@
       "debtToEarningsRatio": 0.5210142410559222,
       "valueScore": 59,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181215",
@@ -2639,7 +2639,7 @@
       "debtToEarningsRatio": 0.3891827162957789,
       "valueScore": 70,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181297",
@@ -2656,7 +2656,7 @@
       "debtToEarningsRatio": 0.359868451383873,
       "valueScore": 69,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181303",
@@ -2673,7 +2673,7 @@
       "debtToEarningsRatio": 0.2119258246718077,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181312",
@@ -2690,7 +2690,7 @@
       "debtToEarningsRatio": 0.24950697720861728,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181330",
@@ -2707,7 +2707,7 @@
       "debtToEarningsRatio": 0.5010064605179917,
       "valueScore": 46,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181394",
@@ -2724,7 +2724,7 @@
       "debtToEarningsRatio": 0.35244578827283013,
       "valueScore": 84,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181419",
@@ -2741,7 +2741,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 24,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181428",
@@ -2758,7 +2758,7 @@
       "debtToEarningsRatio": 0.19522861270547812,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181446",
@@ -2775,7 +2775,7 @@
       "debtToEarningsRatio": 0.4781491002570694,
       "valueScore": 72,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181464",
@@ -2792,7 +2792,7 @@
       "debtToEarningsRatio": 0.36915288202928614,
       "valueScore": 74,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181491",
@@ -2809,7 +2809,7 @@
       "debtToEarningsRatio": 0.25801003893606045,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181534",
@@ -2826,7 +2826,7 @@
       "debtToEarningsRatio": 0.46472350279365215,
       "valueScore": 82,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181543",
@@ -2843,7 +2843,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181604",
@@ -2860,7 +2860,7 @@
       "debtToEarningsRatio": 0.44628068754830874,
       "valueScore": 74,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181640",
@@ -2877,7 +2877,7 @@
       "debtToEarningsRatio": 0.25342702453634375,
       "valueScore": 94,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181738",
@@ -2894,7 +2894,7 @@
       "debtToEarningsRatio": 0.49050776637296756,
       "valueScore": 54,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181765",
@@ -2911,7 +2911,7 @@
       "debtToEarningsRatio": 0.36915288202928614,
       "valueScore": 85,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181783",
@@ -2928,7 +2928,7 @@
       "debtToEarningsRatio": 0.403611258629846,
       "valueScore": 69,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181817",
@@ -2945,7 +2945,7 @@
       "debtToEarningsRatio": 0.23238400165250844,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "181853",
@@ -2962,7 +2962,7 @@
       "debtToEarningsRatio": 0.4871969181962384,
       "valueScore": 49,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "365693",
@@ -2979,7 +2979,7 @@
       "debtToEarningsRatio": 0.21212797856390953,
       "valueScore": 60,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "407355",
@@ -2996,7 +2996,7 @@
       "debtToEarningsRatio": 0.2371774945601492,
       "valueScore": 52,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "434016",
@@ -3013,7 +3013,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "434432",
@@ -3030,7 +3030,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 14,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "446598",
@@ -3047,7 +3047,7 @@
       "debtToEarningsRatio": 0.5116230729256885,
       "valueScore": 24,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "456287",
@@ -3064,7 +3064,7 @@
       "debtToEarningsRatio": 0.422892585283338,
       "valueScore": 52,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "486859",
@@ -3081,7 +3081,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "499811",
@@ -3098,7 +3098,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "11752001",
@@ -3115,7 +3115,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "federalSpending": [
@@ -3125,7 +3125,7 @@
       "stateAbbreviation": "NE",
       "fiscalYear": 2024,
       "total": 23299174465.42,
-      "perCapita": 11893.772325437392,
+      "perCapita": 11774.949229683827,
       "source": "USAspending.gov"
     }
   ],

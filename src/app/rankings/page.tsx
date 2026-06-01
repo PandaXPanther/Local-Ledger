@@ -4,13 +4,13 @@ import { Hero } from '@/components/Hero';
 
 export const metadata: Metadata = {
   title: 'Economic Rankings',
-  description: 'Rank states and counties by local economy score, income, population growth proxy, college affordability, and federal spending.',
+  description: 'Rank states and counties by local economy score, income, population, college affordability, and federal spending.',
   alternates: { canonical: '/rankings/' },
 };
 
 const RANKINGS = [
   ['Best Local Economies', '/rankings/best-local-economies/', 'State composite scores from income, labor, affordability, population, and fiscal indicators.'],
-  ['Fastest Growing Counties', '/rankings/fastest-growing-counties/', 'Largest counties by current population until growth history is expanded.'],
+  ['Largest Counties by Population', '/rankings/fastest-growing-counties/', 'County population estimates from Census ACS.'],
   ['Highest Income Counties', '/rankings/highest-income-counties/', 'County median household income from Census ACS.'],
   ['Most Affordable College States', '/rankings/most-affordable-college-states/', 'State college value from College Scorecard net price and earnings.'],
   ['Federal Spending Per Capita', '/rankings/federal-spending-per-capita/', 'USAspending awards normalized by state population.'],

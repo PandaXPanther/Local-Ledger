@@ -25,8 +25,8 @@ export default function MethodologyPage() {
           <div className="card p-6 space-y-4">
             {[
               {
-                rule: 'No fabricated data',
-                desc: 'LocalLedger displays only values sourced from official public databases (FRED, BLS, Census, BEA, College Scorecard, USAspending). If data is unavailable, it shows "Data unavailable" - never an estimate or AI-generated value.',
+                rule: 'No fabricated values',
+                desc: 'LocalLedger displays only values sourced from official public databases (FRED, BLS, Census, BEA, College Scorecard, USAspending). If data is unavailable, it shows "Data unavailable" - never an AI-generated, unsourced, or model-imputed number.',
               },
               {
                 rule: 'Every metric cites its source',
@@ -58,7 +58,7 @@ export default function MethodologyPage() {
           <h2 className="text-2xl font-bold text-text-primary mb-4">Local Economy Score (0-100)</h2>
           <MethodologyCallout
             type="info"
-            note="The Local Economy Score is a weighted composite of five dimensions. Each dimension is normalized to a 0-100 sub-score using the formulas below. Missing data reduces the effective weight proportionally - no dimension is fabricated or estimated."
+            note="The Local Economy Score is a weighted composite of five dimensions. Each dimension is normalized to a 0-100 sub-score using the formulas below. Missing data reduces the effective weight proportionally - no dimension is fabricated, AI-generated, or model-imputed."
           />
 
           <div className="mt-6 card overflow-hidden">

@@ -125,11 +125,11 @@ export default function HomePage() {
               Every metric cites its source
             </span>
             <span className="hidden sm:block text-white/40">·</span>
-            <span>No AI-generated data values</span>
+            <span>No AI-generated data</span>
             <span className="hidden sm:block text-white/40">·</span>
             <span>Build fails if citations are missing</span>
             <span className="hidden sm:block text-white/40">·</span>
-            <span>Official public sources only</span>
+            <span>No unsourced or model-imputed numbers</span>
           </div>
         </div>
       </section>

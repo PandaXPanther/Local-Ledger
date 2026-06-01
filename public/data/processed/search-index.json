@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T05:36:01.612Z",
+  "generatedAt": "2026-06-01T06:09:58.945Z",
   "items": [
     {
       "label": "Alabama",
@@ -277,14 +277,14 @@
       "href": "/counties/alabama/tuscaloosa/"
     },
     {
-      "label": "Montgomery County, AL",
-      "type": "County",
-      "href": "/counties/alabama/montgomery/"
-    },
-    {
       "label": "Shelby County, AL",
       "type": "County",
       "href": "/counties/alabama/shelby/"
+    },
+    {
+      "label": "Montgomery County, AL",
+      "type": "County",
+      "href": "/counties/alabama/montgomery/"
     },
     {
       "label": "Lee County, AL",
@@ -302,14 +302,14 @@
       "href": "/counties/alabama/calhoun/"
     },
     {
-      "label": "Houston County, AL",
-      "type": "County",
-      "href": "/counties/alabama/houston/"
-    },
-    {
       "label": "Limestone County, AL",
       "type": "County",
       "href": "/counties/alabama/limestone/"
+    },
+    {
+      "label": "Houston County, AL",
+      "type": "County",
+      "href": "/counties/alabama/houston/"
     },
     {
       "label": "Etowah County, AL",
@@ -357,6 +357,11 @@
       "href": "/counties/alabama/walker/"
     },
     {
+      "label": "Autauga County, AL",
+      "type": "County",
+      "href": "/counties/alabama/autauga/"
+    },
+    {
       "label": "Blount County, AL",
       "type": "County",
       "href": "/counties/alabama/blount/"
@@ -365,11 +370,6 @@
       "label": "Russell County, AL",
       "type": "County",
       "href": "/counties/alabama/russell/"
-    },
-    {
-      "label": "Autauga County, AL",
-      "type": "County",
-      "href": "/counties/alabama/autauga/"
     },
     {
       "label": "Colbert County, AL",
@@ -402,14 +402,14 @@
       "href": "/counties/alabama/tallapoosa/"
     },
     {
-      "label": "Dallas County, AL",
-      "type": "County",
-      "href": "/counties/alabama/dallas/"
-    },
-    {
       "label": "Covington County, AL",
       "type": "County",
       "href": "/counties/alabama/covington/"
+    },
+    {
+      "label": "Dallas County, AL",
+      "type": "County",
+      "href": "/counties/alabama/dallas/"
     },
     {
       "label": "Escambia County, AL",
@@ -467,14 +467,14 @@
       "href": "/counties/alabama/clarke/"
     },
     {
-      "label": "Bibb County, AL",
-      "type": "County",
-      "href": "/counties/alabama/bibb/"
-    },
-    {
       "label": "Randolph County, AL",
       "type": "County",
       "href": "/counties/alabama/randolph/"
+    },
+    {
+      "label": "Bibb County, AL",
+      "type": "County",
+      "href": "/counties/alabama/bibb/"
     },
     {
       "label": "Monroe County, AL",
@@ -482,24 +482,24 @@
       "href": "/counties/alabama/monroe/"
     },
     {
-      "label": "Macon County, AL",
-      "type": "County",
-      "href": "/counties/alabama/macon/"
-    },
-    {
       "label": "Marengo County, AL",
       "type": "County",
       "href": "/counties/alabama/marengo/"
     },
     {
-      "label": "Butler County, AL",
-      "type": "County",
-      "href": "/counties/alabama/butler/"
-    },
-    {
       "label": "Pickens County, AL",
       "type": "County",
       "href": "/counties/alabama/pickens/"
+    },
+    {
+      "label": "Macon County, AL",
+      "type": "County",
+      "href": "/counties/alabama/macon/"
+    },
+    {
+      "label": "Butler County, AL",
+      "type": "County",
+      "href": "/counties/alabama/butler/"
     },
     {
       "label": "Henry County, AL",
@@ -512,14 +512,14 @@
       "href": "/counties/alabama/fayette/"
     },
     {
-      "label": "Washington County, AL",
-      "type": "County",
-      "href": "/counties/alabama/washington/"
-    },
-    {
       "label": "Cleburne County, AL",
       "type": "County",
       "href": "/counties/alabama/cleburne/"
+    },
+    {
+      "label": "Washington County, AL",
+      "type": "County",
+      "href": "/counties/alabama/washington/"
     },
     {
       "label": "Hale County, AL",
@@ -557,14 +557,14 @@
       "href": "/counties/alabama/conecuh/"
     },
     {
-      "label": "Wilcox County, AL",
-      "type": "County",
-      "href": "/counties/alabama/wilcox/"
-    },
-    {
       "label": "Coosa County, AL",
       "type": "County",
       "href": "/counties/alabama/coosa/"
+    },
+    {
+      "label": "Wilcox County, AL",
+      "type": "County",
+      "href": "/counties/alabama/wilcox/"
     },
     {
       "label": "Bullock County, AL",
@@ -652,14 +652,14 @@
       "href": "/counties/alaska/northwest-arctic/"
     },
     {
-      "label": "Chugach Census Area, AK",
-      "type": "County",
-      "href": "/counties/alaska/chugach/"
-    },
-    {
       "label": "Southeast Fairbanks Census Area, AK",
       "type": "County",
       "href": "/counties/alaska/southeast-fairbanks/"
+    },
+    {
+      "label": "Chugach Census Area, AK",
+      "type": "County",
+      "href": "/counties/alaska/chugach/"
     },
     {
       "label": "Prince of Wales-Hyder Census Area, AK",
@@ -667,14 +667,14 @@
       "href": "/counties/alaska/prince-of-wales-hyder/"
     },
     {
-      "label": "Yukon-Koyukuk Census Area, AK",
-      "type": "County",
-      "href": "/counties/alaska/yukon-koyukuk/"
-    },
-    {
       "label": "Aleutians West Census Area, AK",
       "type": "County",
       "href": "/counties/alaska/aleutians-west/"
+    },
+    {
+      "label": "Yukon-Koyukuk Census Area, AK",
+      "type": "County",
+      "href": "/counties/alaska/yukon-koyukuk/"
     },
     {
       "label": "Dillingham Census Area, AK",
@@ -707,14 +707,14 @@
       "href": "/counties/alaska/wrangell-city-and/"
     },
     {
-      "label": "Denali Borough, AK",
-      "type": "County",
-      "href": "/counties/alaska/denali/"
-    },
-    {
       "label": "Haines Borough, AK",
       "type": "County",
       "href": "/counties/alaska/haines/"
+    },
+    {
+      "label": "Denali Borough, AK",
+      "type": "County",
+      "href": "/counties/alaska/denali/"
     },
     {
       "label": "Skagway Municipality, AK",
@@ -887,24 +887,19 @@
       "href": "/counties/arkansas/greene/"
     },
     {
-      "label": "Miller County, AR",
-      "type": "County",
-      "href": "/counties/arkansas/miller/"
-    },
-    {
       "label": "Baxter County, AR",
       "type": "County",
       "href": "/counties/arkansas/baxter/"
     },
     {
+      "label": "Miller County, AR",
+      "type": "County",
+      "href": "/counties/arkansas/miller/"
+    },
+    {
       "label": "Mississippi County, AR",
       "type": "County",
       "href": "/counties/arkansas/mississippi/"
-    },
-    {
-      "label": "Union County, AR",
-      "type": "County",
-      "href": "/counties/arkansas/union/"
     },
     {
       "label": "Independence County, AR",
@@ -915,6 +910,11 @@
       "label": "Boone County, AR",
       "type": "County",
       "href": "/counties/arkansas/boone/"
+    },
+    {
+      "label": "Union County, AR",
+      "type": "County",
+      "href": "/counties/arkansas/union/"
     },
     {
       "label": "Hot Spring County, AR",
@@ -937,14 +937,14 @@
       "href": "/counties/arkansas/cleburne/"
     },
     {
-      "label": "St. Francis County, AR",
-      "type": "County",
-      "href": "/counties/arkansas/st-francis/"
-    },
-    {
       "label": "Poinsett County, AR",
       "type": "County",
       "href": "/counties/arkansas/poinsett/"
+    },
+    {
+      "label": "St. Francis County, AR",
+      "type": "County",
+      "href": "/counties/arkansas/st-francis/"
     },
     {
       "label": "Columbia County, AR",
@@ -957,14 +957,14 @@
       "href": "/counties/arkansas/ouachita/"
     },
     {
-      "label": "Clark County, AR",
-      "type": "County",
-      "href": "/counties/arkansas/clark/"
-    },
-    {
       "label": "Logan County, AR",
       "type": "County",
       "href": "/counties/arkansas/logan/"
+    },
+    {
+      "label": "Clark County, AR",
+      "type": "County",
+      "href": "/counties/arkansas/clark/"
     },
     {
       "label": "Conway County, AR",
@@ -987,14 +987,14 @@
       "href": "/counties/arkansas/polk/"
     },
     {
-      "label": "Ashley County, AR",
-      "type": "County",
-      "href": "/counties/arkansas/ashley/"
-    },
-    {
       "label": "Randolph County, AR",
       "type": "County",
       "href": "/counties/arkansas/randolph/"
+    },
+    {
+      "label": "Ashley County, AR",
+      "type": "County",
+      "href": "/counties/arkansas/ashley/"
     },
     {
       "label": "Grant County, AR",
@@ -1007,9 +1007,9 @@
       "href": "/counties/arkansas/sharp/"
     },
     {
-      "label": "Drew County, AR",
+      "label": "Madison County, AR",
       "type": "County",
-      "href": "/counties/arkansas/drew/"
+      "href": "/counties/arkansas/madison/"
     },
     {
       "label": "Franklin County, AR",
@@ -1017,19 +1017,14 @@
       "href": "/counties/arkansas/franklin/"
     },
     {
-      "label": "Arkansas County, AR",
-      "type": "County",
-      "href": "/counties/arkansas/arkansas/"
-    },
-    {
       "label": "Marion County, AR",
       "type": "County",
       "href": "/counties/arkansas/marion/"
     },
     {
-      "label": "Cross County, AR",
+      "label": "Drew County, AR",
       "type": "County",
-      "href": "/counties/arkansas/cross/"
+      "href": "/counties/arkansas/drew/"
     },
     {
       "label": "Jackson County, AR",
@@ -1037,14 +1032,14 @@
       "href": "/counties/arkansas/jackson/"
     },
     {
-      "label": "Madison County, AR",
+      "label": "Cross County, AR",
       "type": "County",
-      "href": "/counties/arkansas/madison/"
+      "href": "/counties/arkansas/cross/"
     },
     {
-      "label": "Phillips County, AR",
+      "label": "Arkansas County, AR",
       "type": "County",
-      "href": "/counties/arkansas/phillips/"
+      "href": "/counties/arkansas/arkansas/"
     },
     {
       "label": "Lawrence County, AR",
@@ -1052,14 +1047,19 @@
       "href": "/counties/arkansas/lawrence/"
     },
     {
+      "label": "Van Buren County, AR",
+      "type": "County",
+      "href": "/counties/arkansas/van-buren/"
+    },
+    {
       "label": "Sevier County, AR",
       "type": "County",
       "href": "/counties/arkansas/sevier/"
     },
     {
-      "label": "Van Buren County, AR",
+      "label": "Phillips County, AR",
       "type": "County",
-      "href": "/counties/arkansas/van-buren/"
+      "href": "/counties/arkansas/phillips/"
     },
     {
       "label": "Clay County, AR",
@@ -1107,11 +1107,6 @@
       "href": "/counties/arkansas/bradley/"
     },
     {
-      "label": "Chicot County, AR",
-      "type": "County",
-      "href": "/counties/arkansas/chicot/"
-    },
-    {
       "label": "Pike County, AR",
       "type": "County",
       "href": "/counties/arkansas/pike/"
@@ -1127,14 +1122,19 @@
       "href": "/counties/arkansas/scott/"
     },
     {
-      "label": "Lee County, AR",
+      "label": "Chicot County, AR",
       "type": "County",
-      "href": "/counties/arkansas/lee/"
+      "href": "/counties/arkansas/chicot/"
     },
     {
       "label": "Montgomery County, AR",
       "type": "County",
       "href": "/counties/arkansas/montgomery/"
+    },
+    {
+      "label": "Lee County, AR",
+      "type": "County",
+      "href": "/counties/arkansas/lee/"
     },
     {
       "label": "Nevada County, AR",
@@ -1242,14 +1242,14 @@
       "href": "/counties/california/kern/"
     },
     {
-      "label": "San Francisco County, CA",
-      "type": "County",
-      "href": "/counties/california/san-francisco/"
-    },
-    {
       "label": "Ventura County, CA",
       "type": "County",
       "href": "/counties/california/ventura/"
+    },
+    {
+      "label": "San Francisco County, CA",
+      "type": "County",
+      "href": "/counties/california/san-francisco/"
     },
     {
       "label": "San Joaquin County, CA",
@@ -1387,14 +1387,14 @@
       "href": "/counties/california/lake/"
     },
     {
-      "label": "Tehama County, CA",
-      "type": "County",
-      "href": "/counties/california/tehama/"
-    },
-    {
       "label": "San Benito County, CA",
       "type": "County",
       "href": "/counties/california/san-benito/"
+    },
+    {
+      "label": "Tehama County, CA",
+      "type": "County",
+      "href": "/counties/california/tehama/"
     },
     {
       "label": "Tuolumne County, CA",
@@ -1617,14 +1617,14 @@
       "href": "/counties/colorado/park/"
     },
     {
-      "label": "Pitkin County, CO",
-      "type": "County",
-      "href": "/counties/colorado/pitkin/"
-    },
-    {
       "label": "Gunnison County, CO",
       "type": "County",
       "href": "/counties/colorado/gunnison/"
+    },
+    {
+      "label": "Pitkin County, CO",
+      "type": "County",
+      "href": "/counties/colorado/pitkin/"
     },
     {
       "label": "Alamosa County, CO",
@@ -1697,14 +1697,14 @@
       "href": "/counties/colorado/huerfano/"
     },
     {
-      "label": "Rio Blanco County, CO",
-      "type": "County",
-      "href": "/counties/colorado/rio-blanco/"
-    },
-    {
       "label": "Saguache County, CO",
       "type": "County",
       "href": "/counties/colorado/saguache/"
+    },
+    {
+      "label": "Rio Blanco County, CO",
+      "type": "County",
+      "href": "/counties/colorado/rio-blanco/"
     },
     {
       "label": "Gilpin County, CO",
@@ -1727,14 +1727,14 @@
       "href": "/counties/colorado/bent/"
     },
     {
-      "label": "Ouray County, CO",
-      "type": "County",
-      "href": "/counties/colorado/ouray/"
-    },
-    {
       "label": "Custer County, CO",
       "type": "County",
       "href": "/counties/colorado/custer/"
+    },
+    {
+      "label": "Ouray County, CO",
+      "type": "County",
+      "href": "/counties/colorado/ouray/"
     },
     {
       "label": "Washington County, CO",
@@ -1757,14 +1757,14 @@
       "href": "/counties/colorado/baca/"
     },
     {
-      "label": "Sedgwick County, CO",
-      "type": "County",
-      "href": "/counties/colorado/sedgwick/"
-    },
-    {
       "label": "Dolores County, CO",
       "type": "County",
       "href": "/counties/colorado/dolores/"
+    },
+    {
+      "label": "Sedgwick County, CO",
+      "type": "County",
+      "href": "/counties/colorado/sedgwick/"
     },
     {
       "label": "Cheyenne County, CO",
@@ -1772,14 +1772,14 @@
       "href": "/counties/colorado/cheyenne/"
     },
     {
-      "label": "Jackson County, CO",
-      "type": "County",
-      "href": "/counties/colorado/jackson/"
-    },
-    {
       "label": "Kiowa County, CO",
       "type": "County",
       "href": "/counties/colorado/kiowa/"
+    },
+    {
+      "label": "Jackson County, CO",
+      "type": "County",
+      "href": "/counties/colorado/jackson/"
     },
     {
       "label": "Hinsdale County, CO",
@@ -1942,14 +1942,14 @@
       "href": "/counties/florida/lake/"
     },
     {
-      "label": "Collier County, FL",
-      "type": "County",
-      "href": "/counties/florida/collier/"
-    },
-    {
       "label": "Marion County, FL",
       "type": "County",
       "href": "/counties/florida/marion/"
+    },
+    {
+      "label": "Collier County, FL",
+      "type": "County",
+      "href": "/counties/florida/collier/"
     },
     {
       "label": "St. Lucie County, FL",
@@ -1962,6 +1962,11 @@
       "href": "/counties/florida/escambia/"
     },
     {
+      "label": "St. Johns County, FL",
+      "type": "County",
+      "href": "/counties/florida/st-johns/"
+    },
+    {
       "label": "Leon County, FL",
       "type": "County",
       "href": "/counties/florida/leon/"
@@ -1970,11 +1975,6 @@
       "label": "Alachua County, FL",
       "type": "County",
       "href": "/counties/florida/alachua/"
-    },
-    {
-      "label": "St. Johns County, FL",
-      "type": "County",
-      "href": "/counties/florida/st-johns/"
     },
     {
       "label": "Clay County, FL",
@@ -2012,14 +2012,14 @@
       "href": "/counties/florida/indian-river/"
     },
     {
-      "label": "Martin County, FL",
-      "type": "County",
-      "href": "/counties/florida/martin/"
-    },
-    {
       "label": "Citrus County, FL",
       "type": "County",
       "href": "/counties/florida/citrus/"
+    },
+    {
+      "label": "Martin County, FL",
+      "type": "County",
+      "href": "/counties/florida/martin/"
     },
     {
       "label": "Sumter County, FL",
@@ -2042,14 +2042,14 @@
       "href": "/counties/florida/nassau/"
     },
     {
-      "label": "Monroe County, FL",
-      "type": "County",
-      "href": "/counties/florida/monroe/"
-    },
-    {
       "label": "Walton County, FL",
       "type": "County",
       "href": "/counties/florida/walton/"
+    },
+    {
+      "label": "Monroe County, FL",
+      "type": "County",
+      "href": "/counties/florida/monroe/"
     },
     {
       "label": "Putnam County, FL",
@@ -2067,6 +2067,11 @@
       "href": "/counties/florida/jackson/"
     },
     {
+      "label": "Levy County, FL",
+      "type": "County",
+      "href": "/counties/florida/levy/"
+    },
+    {
       "label": "Suwannee County, FL",
       "type": "County",
       "href": "/counties/florida/suwannee/"
@@ -2075,11 +2080,6 @@
       "label": "Gadsden County, FL",
       "type": "County",
       "href": "/counties/florida/gadsden/"
-    },
-    {
-      "label": "Levy County, FL",
-      "type": "County",
-      "href": "/counties/florida/levy/"
     },
     {
       "label": "Hendry County, FL",
@@ -2092,14 +2092,14 @@
       "href": "/counties/florida/okeechobee/"
     },
     {
-      "label": "DeSoto County, FL",
-      "type": "County",
-      "href": "/counties/florida/desoto/"
-    },
-    {
       "label": "Wakulla County, FL",
       "type": "County",
       "href": "/counties/florida/wakulla/"
+    },
+    {
+      "label": "DeSoto County, FL",
+      "type": "County",
+      "href": "/counties/florida/desoto/"
     },
     {
       "label": "Baker County, FL",
@@ -2162,24 +2162,24 @@
       "href": "/counties/florida/jefferson/"
     },
     {
-      "label": "Calhoun County, FL",
-      "type": "County",
-      "href": "/counties/florida/calhoun/"
-    },
-    {
       "label": "Hamilton County, FL",
       "type": "County",
       "href": "/counties/florida/hamilton/"
     },
     {
-      "label": "Franklin County, FL",
+      "label": "Calhoun County, FL",
       "type": "County",
-      "href": "/counties/florida/franklin/"
+      "href": "/counties/florida/calhoun/"
     },
     {
       "label": "Glades County, FL",
       "type": "County",
       "href": "/counties/florida/glades/"
+    },
+    {
+      "label": "Franklin County, FL",
+      "type": "County",
+      "href": "/counties/florida/franklin/"
     },
     {
       "label": "Lafayette County, FL",
@@ -2212,14 +2212,14 @@
       "href": "/counties/georgia/dekalb/"
     },
     {
-      "label": "Clayton County, GA",
-      "type": "County",
-      "href": "/counties/georgia/clayton/"
-    },
-    {
       "label": "Chatham County, GA",
       "type": "County",
       "href": "/counties/georgia/chatham/"
+    },
+    {
+      "label": "Clayton County, GA",
+      "type": "County",
+      "href": "/counties/georgia/clayton/"
     },
     {
       "label": "Cherokee County, GA",
@@ -2237,14 +2237,14 @@
       "href": "/counties/georgia/henry/"
     },
     {
-      "label": "Richmond County, GA",
-      "type": "County",
-      "href": "/counties/georgia/richmond/"
-    },
-    {
       "label": "Hall County, GA",
       "type": "County",
       "href": "/counties/georgia/hall/"
+    },
+    {
+      "label": "Richmond County, GA",
+      "type": "County",
+      "href": "/counties/georgia/richmond/"
     },
     {
       "label": "Muscogee County, GA",
@@ -2317,14 +2317,14 @@
       "href": "/counties/georgia/whitfield/"
     },
     {
-      "label": "Floyd County, GA",
-      "type": "County",
-      "href": "/counties/georgia/floyd/"
-    },
-    {
       "label": "Walton County, GA",
       "type": "County",
       "href": "/counties/georgia/walton/"
+    },
+    {
+      "label": "Floyd County, GA",
+      "type": "County",
+      "href": "/counties/georgia/floyd/"
     },
     {
       "label": "Rockdale County, GA",
@@ -2332,9 +2332,9 @@
       "href": "/counties/georgia/rockdale/"
     },
     {
-      "label": "Dougherty County, GA",
+      "label": "Barrow County, GA",
       "type": "County",
-      "href": "/counties/georgia/dougherty/"
+      "href": "/counties/georgia/barrow/"
     },
     {
       "label": "Glynn County, GA",
@@ -2342,9 +2342,14 @@
       "href": "/counties/georgia/glynn/"
     },
     {
-      "label": "Barrow County, GA",
+      "label": "Jackson County, GA",
       "type": "County",
-      "href": "/counties/georgia/barrow/"
+      "href": "/counties/georgia/jackson/"
+    },
+    {
+      "label": "Dougherty County, GA",
+      "type": "County",
+      "href": "/counties/georgia/dougherty/"
     },
     {
       "label": "Bulloch County, GA",
@@ -2352,14 +2357,19 @@
       "href": "/counties/georgia/bulloch/"
     },
     {
-      "label": "Jackson County, GA",
-      "type": "County",
-      "href": "/counties/georgia/jackson/"
-    },
-    {
       "label": "Troup County, GA",
       "type": "County",
       "href": "/counties/georgia/troup/"
+    },
+    {
+      "label": "Effingham County, GA",
+      "type": "County",
+      "href": "/counties/georgia/effingham/"
+    },
+    {
+      "label": "Spalding County, GA",
+      "type": "County",
+      "href": "/counties/georgia/spalding/"
     },
     {
       "label": "Walker County, GA",
@@ -2372,19 +2382,9 @@
       "href": "/counties/georgia/catoosa/"
     },
     {
-      "label": "Spalding County, GA",
-      "type": "County",
-      "href": "/counties/georgia/spalding/"
-    },
-    {
       "label": "Liberty County, GA",
       "type": "County",
       "href": "/counties/georgia/liberty/"
-    },
-    {
-      "label": "Effingham County, GA",
-      "type": "County",
-      "href": "/counties/georgia/effingham/"
     },
     {
       "label": "Gordon County, GA",
@@ -2402,6 +2402,11 @@
       "href": "/counties/georgia/laurens/"
     },
     {
+      "label": "Bryan County, GA",
+      "type": "County",
+      "href": "/counties/georgia/bryan/"
+    },
+    {
       "label": "Habersham County, GA",
       "type": "County",
       "href": "/counties/georgia/habersham/"
@@ -2417,9 +2422,9 @@
       "href": "/counties/georgia/thomas/"
     },
     {
-      "label": "Bryan County, GA",
+      "label": "Polk County, GA",
       "type": "County",
-      "href": "/counties/georgia/bryan/"
+      "href": "/counties/georgia/polk/"
     },
     {
       "label": "Baldwin County, GA",
@@ -2427,19 +2432,14 @@
       "href": "/counties/georgia/baldwin/"
     },
     {
-      "label": "Coffee County, GA",
-      "type": "County",
-      "href": "/counties/georgia/coffee/"
-    },
-    {
-      "label": "Polk County, GA",
-      "type": "County",
-      "href": "/counties/georgia/polk/"
-    },
-    {
       "label": "Oconee County, GA",
       "type": "County",
       "href": "/counties/georgia/oconee/"
+    },
+    {
+      "label": "Coffee County, GA",
+      "type": "County",
+      "href": "/counties/georgia/coffee/"
     },
     {
       "label": "Tift County, GA",
@@ -2452,14 +2452,14 @@
       "href": "/counties/georgia/murray/"
     },
     {
-      "label": "Ware County, GA",
-      "type": "County",
-      "href": "/counties/georgia/ware/"
-    },
-    {
       "label": "Harris County, GA",
       "type": "County",
       "href": "/counties/georgia/harris/"
+    },
+    {
+      "label": "Ware County, GA",
+      "type": "County",
+      "href": "/counties/georgia/ware/"
     },
     {
       "label": "Pickens County, GA",
@@ -2487,29 +2487,19 @@
       "href": "/counties/georgia/madison/"
     },
     {
-      "label": "Wayne County, GA",
-      "type": "County",
-      "href": "/counties/georgia/wayne/"
-    },
-    {
       "label": "Haralson County, GA",
       "type": "County",
       "href": "/counties/georgia/haralson/"
     },
     {
-      "label": "Sumter County, GA",
+      "label": "Wayne County, GA",
       "type": "County",
-      "href": "/counties/georgia/sumter/"
+      "href": "/counties/georgia/wayne/"
     },
     {
-      "label": "Decatur County, GA",
+      "label": "Dawson County, GA",
       "type": "County",
-      "href": "/counties/georgia/decatur/"
-    },
-    {
-      "label": "Jones County, GA",
-      "type": "County",
-      "href": "/counties/georgia/jones/"
+      "href": "/counties/georgia/dawson/"
     },
     {
       "label": "Monroe County, GA",
@@ -2517,9 +2507,24 @@
       "href": "/counties/georgia/monroe/"
     },
     {
+      "label": "Decatur County, GA",
+      "type": "County",
+      "href": "/counties/georgia/decatur/"
+    },
+    {
+      "label": "Sumter County, GA",
+      "type": "County",
+      "href": "/counties/georgia/sumter/"
+    },
+    {
       "label": "White County, GA",
       "type": "County",
       "href": "/counties/georgia/white/"
+    },
+    {
+      "label": "Jones County, GA",
+      "type": "County",
+      "href": "/counties/georgia/jones/"
     },
     {
       "label": "Peach County, GA",
@@ -2530,11 +2535,6 @@
       "label": "Upson County, GA",
       "type": "County",
       "href": "/counties/georgia/upson/"
-    },
-    {
-      "label": "Dawson County, GA",
-      "type": "County",
-      "href": "/counties/georgia/dawson/"
     },
     {
       "label": "Toombs County, GA",
@@ -2552,14 +2552,19 @@
       "href": "/counties/georgia/hart/"
     },
     {
-      "label": "Grady County, GA",
-      "type": "County",
-      "href": "/counties/georgia/grady/"
-    },
-    {
       "label": "Butts County, GA",
       "type": "County",
       "href": "/counties/georgia/butts/"
+    },
+    {
+      "label": "Union County, GA",
+      "type": "County",
+      "href": "/counties/georgia/union/"
+    },
+    {
+      "label": "Grady County, GA",
+      "type": "County",
+      "href": "/counties/georgia/grady/"
     },
     {
       "label": "Fannin County, GA",
@@ -2572,24 +2577,19 @@
       "href": "/counties/georgia/chattooga/"
     },
     {
-      "label": "Union County, GA",
-      "type": "County",
-      "href": "/counties/georgia/union/"
-    },
-    {
       "label": "Burke County, GA",
       "type": "County",
       "href": "/counties/georgia/burke/"
     },
     {
-      "label": "Tattnall County, GA",
-      "type": "County",
-      "href": "/counties/georgia/tattnall/"
-    },
-    {
       "label": "Franklin County, GA",
       "type": "County",
       "href": "/counties/georgia/franklin/"
+    },
+    {
+      "label": "Tattnall County, GA",
+      "type": "County",
+      "href": "/counties/georgia/tattnall/"
     },
     {
       "label": "Emanuel County, GA",
@@ -2607,14 +2607,14 @@
       "href": "/counties/georgia/mcduffie/"
     },
     {
+      "label": "Morgan County, GA",
+      "type": "County",
+      "href": "/counties/georgia/morgan/"
+    },
+    {
       "label": "Mitchell County, GA",
       "type": "County",
       "href": "/counties/georgia/mitchell/"
-    },
-    {
-      "label": "Worth County, GA",
-      "type": "County",
-      "href": "/counties/georgia/worth/"
     },
     {
       "label": "Meriwether County, GA",
@@ -2622,24 +2622,9 @@
       "href": "/counties/georgia/meriwether/"
     },
     {
-      "label": "Crisp County, GA",
+      "label": "Worth County, GA",
       "type": "County",
-      "href": "/counties/georgia/crisp/"
-    },
-    {
-      "label": "Morgan County, GA",
-      "type": "County",
-      "href": "/counties/georgia/morgan/"
-    },
-    {
-      "label": "Dodge County, GA",
-      "type": "County",
-      "href": "/counties/georgia/dodge/"
-    },
-    {
-      "label": "Washington County, GA",
-      "type": "County",
-      "href": "/counties/georgia/washington/"
+      "href": "/counties/georgia/worth/"
     },
     {
       "label": "Pierce County, GA",
@@ -2647,9 +2632,9 @@
       "href": "/counties/georgia/pierce/"
     },
     {
-      "label": "Elbert County, GA",
+      "label": "Greene County, GA",
       "type": "County",
-      "href": "/counties/georgia/elbert/"
+      "href": "/counties/georgia/greene/"
     },
     {
       "label": "Pike County, GA",
@@ -2657,9 +2642,24 @@
       "href": "/counties/georgia/pike/"
     },
     {
-      "label": "Greene County, GA",
+      "label": "Elbert County, GA",
       "type": "County",
-      "href": "/counties/georgia/greene/"
+      "href": "/counties/georgia/elbert/"
+    },
+    {
+      "label": "Washington County, GA",
+      "type": "County",
+      "href": "/counties/georgia/washington/"
+    },
+    {
+      "label": "Dodge County, GA",
+      "type": "County",
+      "href": "/counties/georgia/dodge/"
+    },
+    {
+      "label": "Crisp County, GA",
+      "type": "County",
+      "href": "/counties/georgia/crisp/"
     },
     {
       "label": "Lamar County, GA",
@@ -2667,14 +2667,19 @@
       "href": "/counties/georgia/lamar/"
     },
     {
+      "label": "Banks County, GA",
+      "type": "County",
+      "href": "/counties/georgia/banks/"
+    },
+    {
       "label": "Appling County, GA",
       "type": "County",
       "href": "/counties/georgia/appling/"
     },
     {
-      "label": "Banks County, GA",
+      "label": "Long County, GA",
       "type": "County",
-      "href": "/counties/georgia/banks/"
+      "href": "/counties/georgia/long/"
     },
     {
       "label": "Berrien County, GA",
@@ -2692,19 +2697,14 @@
       "href": "/counties/georgia/cook/"
     },
     {
-      "label": "Ben Hill County, GA",
-      "type": "County",
-      "href": "/counties/georgia/ben-hill/"
-    },
-    {
       "label": "Rabun County, GA",
       "type": "County",
       "href": "/counties/georgia/rabun/"
     },
     {
-      "label": "Long County, GA",
+      "label": "Ben Hill County, GA",
       "type": "County",
-      "href": "/counties/georgia/long/"
+      "href": "/counties/georgia/ben-hill/"
     },
     {
       "label": "Brooks County, GA",
@@ -2717,9 +2717,9 @@
       "href": "/counties/georgia/dade/"
     },
     {
-      "label": "Jefferson County, GA",
+      "label": "Jasper County, GA",
       "type": "County",
-      "href": "/counties/georgia/jefferson/"
+      "href": "/counties/georgia/jasper/"
     },
     {
       "label": "Oglethorpe County, GA",
@@ -2727,9 +2727,9 @@
       "href": "/counties/georgia/oglethorpe/"
     },
     {
-      "label": "Jasper County, GA",
+      "label": "Jefferson County, GA",
       "type": "County",
-      "href": "/counties/georgia/jasper/"
+      "href": "/counties/georgia/jefferson/"
     },
     {
       "label": "Jeff Davis County, GA",
@@ -2742,19 +2742,14 @@
       "href": "/counties/georgia/screven/"
     },
     {
-      "label": "Telfair County, GA",
+      "label": "Towns County, GA",
       "type": "County",
-      "href": "/counties/georgia/telfair/"
+      "href": "/counties/georgia/towns/"
     },
     {
       "label": "Charlton County, GA",
       "type": "County",
       "href": "/counties/georgia/charlton/"
-    },
-    {
-      "label": "Towns County, GA",
-      "type": "County",
-      "href": "/counties/georgia/towns/"
     },
     {
       "label": "Bleckley County, GA",
@@ -2772,14 +2767,14 @@
       "href": "/counties/georgia/macon/"
     },
     {
+      "label": "Telfair County, GA",
+      "type": "County",
+      "href": "/counties/georgia/telfair/"
+    },
+    {
       "label": "Heard County, GA",
       "type": "County",
       "href": "/counties/georgia/heard/"
-    },
-    {
-      "label": "Dooly County, GA",
-      "type": "County",
-      "href": "/counties/georgia/dooly/"
     },
     {
       "label": "McIntosh County, GA",
@@ -2795,6 +2790,11 @@
       "label": "Candler County, GA",
       "type": "County",
       "href": "/counties/georgia/candler/"
+    },
+    {
+      "label": "Dooly County, GA",
+      "type": "County",
+      "href": "/counties/georgia/dooly/"
     },
     {
       "label": "Evans County, GA",
@@ -2827,11 +2827,6 @@
       "href": "/counties/georgia/irwin/"
     },
     {
-      "label": "Chattahoochee County, GA",
-      "type": "County",
-      "href": "/counties/georgia/chattahoochee/"
-    },
-    {
       "label": "Johnson County, GA",
       "type": "County",
       "href": "/counties/georgia/johnson/"
@@ -2842,19 +2837,19 @@
       "href": "/counties/georgia/seminole/"
     },
     {
-      "label": "Terrell County, GA",
-      "type": "County",
-      "href": "/counties/georgia/terrell/"
-    },
-    {
       "label": "Turner County, GA",
       "type": "County",
       "href": "/counties/georgia/turner/"
     },
     {
-      "label": "Wilkinson County, GA",
+      "label": "Chattahoochee County, GA",
       "type": "County",
-      "href": "/counties/georgia/wilkinson/"
+      "href": "/counties/georgia/chattahoochee/"
+    },
+    {
+      "label": "Terrell County, GA",
+      "type": "County",
+      "href": "/counties/georgia/terrell/"
     },
     {
       "label": "Wilcox County, GA",
@@ -2862,14 +2857,14 @@
       "href": "/counties/georgia/wilcox/"
     },
     {
+      "label": "Wilkinson County, GA",
+      "type": "County",
+      "href": "/counties/georgia/wilkinson/"
+    },
+    {
       "label": "Jenkins County, GA",
       "type": "County",
       "href": "/counties/georgia/jenkins/"
-    },
-    {
-      "label": "Montgomery County, GA",
-      "type": "County",
-      "href": "/counties/georgia/montgomery/"
     },
     {
       "label": "Hancock County, GA",
@@ -2877,9 +2872,19 @@
       "href": "/counties/georgia/hancock/"
     },
     {
+      "label": "Montgomery County, GA",
+      "type": "County",
+      "href": "/counties/georgia/montgomery/"
+    },
+    {
       "label": "Atkinson County, GA",
       "type": "County",
       "href": "/counties/georgia/atkinson/"
+    },
+    {
+      "label": "Lincoln County, GA",
+      "type": "County",
+      "href": "/counties/georgia/lincoln/"
     },
     {
       "label": "Twiggs County, GA",
@@ -2892,19 +2897,14 @@
       "href": "/counties/georgia/taylor/"
     },
     {
-      "label": "Lincoln County, GA",
+      "label": "Marion County, GA",
       "type": "County",
-      "href": "/counties/georgia/lincoln/"
+      "href": "/counties/georgia/marion/"
     },
     {
       "label": "Wheeler County, GA",
       "type": "County",
       "href": "/counties/georgia/wheeler/"
-    },
-    {
-      "label": "Marion County, GA",
-      "type": "County",
-      "href": "/counties/georgia/marion/"
     },
     {
       "label": "Clinch County, GA",
@@ -2962,14 +2962,14 @@
       "href": "/counties/georgia/glascock/"
     },
     {
-      "label": "Baker County, GA",
-      "type": "County",
-      "href": "/counties/georgia/baker/"
-    },
-    {
       "label": "Clay County, GA",
       "type": "County",
       "href": "/counties/georgia/clay/"
+    },
+    {
+      "label": "Baker County, GA",
+      "type": "County",
+      "href": "/counties/georgia/baker/"
     },
     {
       "label": "Webster County, GA",
@@ -3047,14 +3047,14 @@
       "href": "/counties/idaho/madison/"
     },
     {
-      "label": "Bingham County, ID",
-      "type": "County",
-      "href": "/counties/idaho/bingham/"
-    },
-    {
       "label": "Bonner County, ID",
       "type": "County",
       "href": "/counties/idaho/bonner/"
+    },
+    {
+      "label": "Bingham County, ID",
+      "type": "County",
+      "href": "/counties/idaho/bingham/"
     },
     {
       "label": "Nez Perce County, ID",
@@ -3142,14 +3142,14 @@
       "href": "/counties/idaho/owyhee/"
     },
     {
-      "label": "Valley County, ID",
-      "type": "County",
-      "href": "/counties/idaho/valley/"
-    },
-    {
       "label": "Teton County, ID",
       "type": "County",
       "href": "/counties/idaho/teton/"
+    },
+    {
+      "label": "Valley County, ID",
+      "type": "County",
+      "href": "/counties/idaho/valley/"
     },
     {
       "label": "Washington County, ID",
@@ -3167,6 +3167,11 @@
       "href": "/counties/idaho/clearwater/"
     },
     {
+      "label": "Boise County, ID",
+      "type": "County",
+      "href": "/counties/idaho/boise/"
+    },
+    {
       "label": "Lemhi County, ID",
       "type": "County",
       "href": "/counties/idaho/lemhi/"
@@ -3175,11 +3180,6 @@
       "label": "Power County, ID",
       "type": "County",
       "href": "/counties/idaho/power/"
-    },
-    {
-      "label": "Boise County, ID",
-      "type": "County",
-      "href": "/counties/idaho/boise/"
     },
     {
       "label": "Caribou County, ID",
@@ -3357,14 +3357,14 @@
       "href": "/counties/illinois/boone/"
     },
     {
-      "label": "Jackson County, IL",
-      "type": "County",
-      "href": "/counties/illinois/jackson/"
-    },
-    {
       "label": "Grundy County, IL",
       "type": "County",
       "href": "/counties/illinois/grundy/"
+    },
+    {
+      "label": "Jackson County, IL",
+      "type": "County",
+      "href": "/counties/illinois/jackson/"
     },
     {
       "label": "Ogle County, IL",
@@ -3412,14 +3412,14 @@
       "href": "/counties/illinois/marion/"
     },
     {
-      "label": "Jefferson County, IL",
-      "type": "County",
-      "href": "/counties/illinois/jefferson/"
-    },
-    {
       "label": "Clinton County, IL",
       "type": "County",
       "href": "/counties/illinois/clinton/"
+    },
+    {
+      "label": "Jefferson County, IL",
+      "type": "County",
+      "href": "/counties/illinois/jefferson/"
     },
     {
       "label": "Livingston County, IL",
@@ -3447,6 +3447,11 @@
       "href": "/counties/illinois/christian/"
     },
     {
+      "label": "Morgan County, IL",
+      "type": "County",
+      "href": "/counties/illinois/morgan/"
+    },
+    {
       "label": "Fulton County, IL",
       "type": "County",
       "href": "/counties/illinois/fulton/"
@@ -3455,11 +3460,6 @@
       "label": "Bureau County, IL",
       "type": "County",
       "href": "/counties/illinois/bureau/"
-    },
-    {
-      "label": "Morgan County, IL",
-      "type": "County",
-      "href": "/counties/illinois/morgan/"
     },
     {
       "label": "Randolph County, IL",
@@ -3537,16 +3537,6 @@
       "href": "/counties/illinois/union/"
     },
     {
-      "label": "Edgar County, IL",
-      "type": "County",
-      "href": "/counties/illinois/edgar/"
-    },
-    {
-      "label": "Warren County, IL",
-      "type": "County",
-      "href": "/counties/illinois/warren/"
-    },
-    {
       "label": "Bond County, IL",
       "type": "County",
       "href": "/counties/illinois/bond/"
@@ -3555,6 +3545,16 @@
       "label": "Piatt County, IL",
       "type": "County",
       "href": "/counties/illinois/piatt/"
+    },
+    {
+      "label": "Edgar County, IL",
+      "type": "County",
+      "href": "/counties/illinois/edgar/"
+    },
+    {
+      "label": "Warren County, IL",
+      "type": "County",
+      "href": "/counties/illinois/warren/"
     },
     {
       "label": "Wayne County, IL",
@@ -3567,14 +3567,14 @@
       "href": "/counties/illinois/richland/"
     },
     {
-      "label": "Mercer County, IL",
-      "type": "County",
-      "href": "/counties/illinois/mercer/"
-    },
-    {
       "label": "Carroll County, IL",
       "type": "County",
       "href": "/counties/illinois/carroll/"
+    },
+    {
+      "label": "Mercer County, IL",
+      "type": "County",
+      "href": "/counties/illinois/mercer/"
     },
     {
       "label": "De Witt County, IL",
@@ -3607,14 +3607,14 @@
       "href": "/counties/illinois/massac/"
     },
     {
-      "label": "White County, IL",
-      "type": "County",
-      "href": "/counties/illinois/white/"
-    },
-    {
       "label": "Washington County, IL",
       "type": "County",
       "href": "/counties/illinois/washington/"
+    },
+    {
+      "label": "White County, IL",
+      "type": "County",
+      "href": "/counties/illinois/white/"
     },
     {
       "label": "Ford County, IL",
@@ -3632,14 +3632,14 @@
       "href": "/counties/illinois/clay/"
     },
     {
-      "label": "Mason County, IL",
-      "type": "County",
-      "href": "/counties/illinois/mason/"
-    },
-    {
       "label": "Cass County, IL",
       "type": "County",
       "href": "/counties/illinois/cass/"
+    },
+    {
+      "label": "Mason County, IL",
+      "type": "County",
+      "href": "/counties/illinois/mason/"
     },
     {
       "label": "Menard County, IL",
@@ -3682,14 +3682,14 @@
       "href": "/counties/illinois/schuyler/"
     },
     {
-      "label": "Henderson County, IL",
-      "type": "County",
-      "href": "/counties/illinois/henderson/"
-    },
-    {
       "label": "Brown County, IL",
       "type": "County",
       "href": "/counties/illinois/brown/"
+    },
+    {
+      "label": "Henderson County, IL",
+      "type": "County",
+      "href": "/counties/illinois/henderson/"
     },
     {
       "label": "Edwards County, IL",
@@ -3707,24 +3707,24 @@
       "href": "/counties/illinois/stark/"
     },
     {
-      "label": "Alexander County, IL",
-      "type": "County",
-      "href": "/counties/illinois/alexander/"
-    },
-    {
       "label": "Pulaski County, IL",
       "type": "County",
       "href": "/counties/illinois/pulaski/"
     },
     {
-      "label": "Gallatin County, IL",
-      "type": "County",
-      "href": "/counties/illinois/gallatin/"
-    },
-    {
       "label": "Scott County, IL",
       "type": "County",
       "href": "/counties/illinois/scott/"
+    },
+    {
+      "label": "Alexander County, IL",
+      "type": "County",
+      "href": "/counties/illinois/alexander/"
+    },
+    {
+      "label": "Gallatin County, IL",
+      "type": "County",
+      "href": "/counties/illinois/gallatin/"
     },
     {
       "label": "Calhoun County, IL",
@@ -3777,14 +3777,14 @@
       "href": "/counties/indiana/tippecanoe/"
     },
     {
-      "label": "Vanderburgh County, IN",
-      "type": "County",
-      "href": "/counties/indiana/vanderburgh/"
-    },
-    {
       "label": "Hendricks County, IN",
       "type": "County",
       "href": "/counties/indiana/hendricks/"
+    },
+    {
+      "label": "Vanderburgh County, IN",
+      "type": "County",
+      "href": "/counties/indiana/vanderburgh/"
     },
     {
       "label": "Porter County, IN",
@@ -3812,19 +3812,24 @@
       "href": "/counties/indiana/clark/"
     },
     {
-      "label": "LaPorte County, IN",
-      "type": "County",
-      "href": "/counties/indiana/laporte/"
-    },
-    {
       "label": "Delaware County, IN",
       "type": "County",
       "href": "/counties/indiana/delaware/"
     },
     {
+      "label": "LaPorte County, IN",
+      "type": "County",
+      "href": "/counties/indiana/laporte/"
+    },
+    {
       "label": "Vigo County, IN",
       "type": "County",
       "href": "/counties/indiana/vigo/"
+    },
+    {
+      "label": "Hancock County, IN",
+      "type": "County",
+      "href": "/counties/indiana/hancock/"
     },
     {
       "label": "Howard County, IN",
@@ -3837,24 +3842,14 @@
       "href": "/counties/indiana/bartholomew/"
     },
     {
-      "label": "Kosciusko County, IN",
-      "type": "County",
-      "href": "/counties/indiana/kosciusko/"
-    },
-    {
       "label": "Floyd County, IN",
       "type": "County",
       "href": "/counties/indiana/floyd/"
     },
     {
-      "label": "Hancock County, IN",
+      "label": "Kosciusko County, IN",
       "type": "County",
-      "href": "/counties/indiana/hancock/"
-    },
-    {
-      "label": "Morgan County, IN",
-      "type": "County",
-      "href": "/counties/indiana/morgan/"
+      "href": "/counties/indiana/kosciusko/"
     },
     {
       "label": "Boone County, IN",
@@ -3862,14 +3857,19 @@
       "href": "/counties/indiana/boone/"
     },
     {
-      "label": "Grant County, IN",
+      "label": "Morgan County, IN",
       "type": "County",
-      "href": "/counties/indiana/grant/"
+      "href": "/counties/indiana/morgan/"
     },
     {
       "label": "Wayne County, IN",
       "type": "County",
       "href": "/counties/indiana/wayne/"
+    },
+    {
+      "label": "Grant County, IN",
+      "type": "County",
+      "href": "/counties/indiana/grant/"
     },
     {
       "label": "Warrick County, IN",
@@ -3902,24 +3902,24 @@
       "href": "/counties/indiana/marshall/"
     },
     {
-      "label": "Lawrence County, IN",
-      "type": "County",
-      "href": "/counties/indiana/lawrence/"
-    },
-    {
       "label": "Shelby County, IN",
       "type": "County",
       "href": "/counties/indiana/shelby/"
     },
     {
-      "label": "Dubois County, IN",
+      "label": "Lawrence County, IN",
       "type": "County",
-      "href": "/counties/indiana/dubois/"
+      "href": "/counties/indiana/lawrence/"
     },
     {
       "label": "DeKalb County, IN",
       "type": "County",
       "href": "/counties/indiana/dekalb/"
+    },
+    {
+      "label": "Dubois County, IN",
+      "type": "County",
+      "href": "/counties/indiana/dubois/"
     },
     {
       "label": "LaGrange County, IN",
@@ -3952,6 +3952,11 @@
       "href": "/counties/indiana/huntington/"
     },
     {
+      "label": "Adams County, IN",
+      "type": "County",
+      "href": "/counties/indiana/adams/"
+    },
+    {
       "label": "Knox County, IN",
       "type": "County",
       "href": "/counties/indiana/knox/"
@@ -3960,11 +3965,6 @@
       "label": "Miami County, IN",
       "type": "County",
       "href": "/counties/indiana/miami/"
-    },
-    {
-      "label": "Adams County, IN",
-      "type": "County",
-      "href": "/counties/indiana/adams/"
     },
     {
       "label": "Steuben County, IN",
@@ -3982,19 +3982,9 @@
       "href": "/counties/indiana/daviess/"
     },
     {
-      "label": "Jefferson County, IN",
-      "type": "County",
-      "href": "/counties/indiana/jefferson/"
-    },
-    {
       "label": "Jasper County, IN",
       "type": "County",
       "href": "/counties/indiana/jasper/"
-    },
-    {
-      "label": "Clinton County, IN",
-      "type": "County",
-      "href": "/counties/indiana/clinton/"
     },
     {
       "label": "Gibson County, IN",
@@ -4002,14 +3992,24 @@
       "href": "/counties/indiana/gibson/"
     },
     {
-      "label": "Wabash County, IN",
+      "label": "Jefferson County, IN",
       "type": "County",
-      "href": "/counties/indiana/wabash/"
+      "href": "/counties/indiana/jefferson/"
+    },
+    {
+      "label": "Clinton County, IN",
+      "type": "County",
+      "href": "/counties/indiana/clinton/"
     },
     {
       "label": "Greene County, IN",
       "type": "County",
       "href": "/counties/indiana/greene/"
+    },
+    {
+      "label": "Wabash County, IN",
+      "type": "County",
+      "href": "/counties/indiana/wabash/"
     },
     {
       "label": "Ripley County, IN",
@@ -4052,24 +4052,24 @@
       "href": "/counties/indiana/white/"
     },
     {
-      "label": "Randolph County, IN",
-      "type": "County",
-      "href": "/counties/indiana/randolph/"
-    },
-    {
       "label": "Scott County, IN",
       "type": "County",
       "href": "/counties/indiana/scott/"
     },
     {
-      "label": "Fayette County, IN",
+      "label": "Randolph County, IN",
       "type": "County",
-      "href": "/counties/indiana/fayette/"
+      "href": "/counties/indiana/randolph/"
     },
     {
       "label": "Starke County, IN",
       "type": "County",
       "href": "/counties/indiana/starke/"
+    },
+    {
+      "label": "Fayette County, IN",
+      "type": "County",
+      "href": "/counties/indiana/fayette/"
     },
     {
       "label": "Franklin County, IN",
@@ -4087,9 +4087,9 @@
       "href": "/counties/indiana/sullivan/"
     },
     {
-      "label": "Jay County, IN",
+      "label": "Carroll County, IN",
       "type": "County",
-      "href": "/counties/indiana/jay/"
+      "href": "/counties/indiana/carroll/"
     },
     {
       "label": "Fulton County, IN",
@@ -4097,9 +4097,9 @@
       "href": "/counties/indiana/fulton/"
     },
     {
-      "label": "Carroll County, IN",
+      "label": "Jay County, IN",
       "type": "County",
-      "href": "/counties/indiana/carroll/"
+      "href": "/counties/indiana/jay/"
     },
     {
       "label": "Spencer County, IN",
@@ -4227,24 +4227,24 @@
       "href": "/counties/iowa/black-hawk/"
     },
     {
-      "label": "Woodbury County, IA",
-      "type": "County",
-      "href": "/counties/iowa/woodbury/"
-    },
-    {
       "label": "Dallas County, IA",
       "type": "County",
       "href": "/counties/iowa/dallas/"
     },
     {
-      "label": "Dubuque County, IA",
+      "label": "Woodbury County, IA",
       "type": "County",
-      "href": "/counties/iowa/dubuque/"
+      "href": "/counties/iowa/woodbury/"
     },
     {
       "label": "Story County, IA",
       "type": "County",
       "href": "/counties/iowa/story/"
+    },
+    {
+      "label": "Dubuque County, IA",
+      "type": "County",
+      "href": "/counties/iowa/dubuque/"
     },
     {
       "label": "Pottawattamie County, IA",
@@ -4317,14 +4317,14 @@
       "href": "/counties/iowa/boone/"
     },
     {
-      "label": "Benton County, IA",
-      "type": "County",
-      "href": "/counties/iowa/benton/"
-    },
-    {
       "label": "Plymouth County, IA",
       "type": "County",
       "href": "/counties/iowa/plymouth/"
+    },
+    {
+      "label": "Benton County, IA",
+      "type": "County",
+      "href": "/counties/iowa/benton/"
     },
     {
       "label": "Bremer County, IA",
@@ -4347,11 +4347,6 @@
       "href": "/counties/iowa/jones/"
     },
     {
-      "label": "Carroll County, IA",
-      "type": "County",
-      "href": "/counties/iowa/carroll/"
-    },
-    {
       "label": "Buena Vista County, IA",
       "type": "County",
       "href": "/counties/iowa/buena-vista/"
@@ -4360,6 +4355,11 @@
       "label": "Buchanan County, IA",
       "type": "County",
       "href": "/counties/iowa/buchanan/"
+    },
+    {
+      "label": "Carroll County, IA",
+      "type": "County",
+      "href": "/counties/iowa/carroll/"
     },
     {
       "label": "Henry County, IA",
@@ -4372,14 +4372,14 @@
       "href": "/counties/iowa/winneshiek/"
     },
     {
-      "label": "Fayette County, IA",
-      "type": "County",
-      "href": "/counties/iowa/fayette/"
-    },
-    {
       "label": "Jackson County, IA",
       "type": "County",
       "href": "/counties/iowa/jackson/"
+    },
+    {
+      "label": "Fayette County, IA",
+      "type": "County",
+      "href": "/counties/iowa/fayette/"
     },
     {
       "label": "Poweshiek County, IA",
@@ -4407,6 +4407,11 @@
       "href": "/counties/iowa/clayton/"
     },
     {
+      "label": "Madison County, IA",
+      "type": "County",
+      "href": "/counties/iowa/madison/"
+    },
+    {
       "label": "Tama County, IA",
       "type": "County",
       "href": "/counties/iowa/tama/"
@@ -4417,24 +4422,19 @@
       "href": "/counties/iowa/hardin/"
     },
     {
-      "label": "Madison County, IA",
-      "type": "County",
-      "href": "/counties/iowa/madison/"
-    },
-    {
       "label": "Iowa County, IA",
       "type": "County",
       "href": "/counties/iowa/iowa/"
     },
     {
-      "label": "Crawford County, IA",
-      "type": "County",
-      "href": "/counties/iowa/crawford/"
-    },
-    {
       "label": "Clay County, IA",
       "type": "County",
       "href": "/counties/iowa/clay/"
+    },
+    {
+      "label": "Crawford County, IA",
+      "type": "County",
+      "href": "/counties/iowa/crawford/"
     },
     {
       "label": "Jefferson County, IA",
@@ -4457,11 +4457,6 @@
       "href": "/counties/iowa/hamilton/"
     },
     {
-      "label": "Kossuth County, IA",
-      "type": "County",
-      "href": "/counties/iowa/kossuth/"
-    },
-    {
       "label": "Harrison County, IA",
       "type": "County",
       "href": "/counties/iowa/harrison/"
@@ -4470,6 +4465,11 @@
       "label": "Mills County, IA",
       "type": "County",
       "href": "/counties/iowa/mills/"
+    },
+    {
+      "label": "Kossuth County, IA",
+      "type": "County",
+      "href": "/counties/iowa/kossuth/"
     },
     {
       "label": "Butler County, IA",
@@ -4507,14 +4507,14 @@
       "href": "/counties/iowa/appanoose/"
     },
     {
-      "label": "Union County, IA",
-      "type": "County",
-      "href": "/counties/iowa/union/"
-    },
-    {
       "label": "Lyon County, IA",
       "type": "County",
       "href": "/counties/iowa/lyon/"
+    },
+    {
+      "label": "Union County, IA",
+      "type": "County",
+      "href": "/counties/iowa/union/"
     },
     {
       "label": "Chickasaw County, IA",
@@ -4532,6 +4532,11 @@
       "href": "/counties/iowa/cherokee/"
     },
     {
+      "label": "Guthrie County, IA",
+      "type": "County",
+      "href": "/counties/iowa/guthrie/"
+    },
+    {
       "label": "Louisa County, IA",
       "type": "County",
       "href": "/counties/iowa/louisa/"
@@ -4547,11 +4552,6 @@
       "href": "/counties/iowa/winnebago/"
     },
     {
-      "label": "Guthrie County, IA",
-      "type": "County",
-      "href": "/counties/iowa/guthrie/"
-    },
-    {
       "label": "Mitchell County, IA",
       "type": "County",
       "href": "/counties/iowa/mitchell/"
@@ -4562,14 +4562,14 @@
       "href": "/counties/iowa/montgomery/"
     },
     {
-      "label": "Keokuk County, IA",
-      "type": "County",
-      "href": "/counties/iowa/keokuk/"
-    },
-    {
       "label": "Franklin County, IA",
       "type": "County",
       "href": "/counties/iowa/franklin/"
+    },
+    {
+      "label": "Keokuk County, IA",
+      "type": "County",
+      "href": "/counties/iowa/keokuk/"
     },
     {
       "label": "Calhoun County, IA",
@@ -4612,6 +4612,11 @@
       "href": "/counties/iowa/palo-alto/"
     },
     {
+      "label": "Lucas County, IA",
+      "type": "County",
+      "href": "/counties/iowa/lucas/"
+    },
+    {
       "label": "Greene County, IA",
       "type": "County",
       "href": "/counties/iowa/greene/"
@@ -4620,11 +4625,6 @@
       "label": "Monona County, IA",
       "type": "County",
       "href": "/counties/iowa/monona/"
-    },
-    {
-      "label": "Lucas County, IA",
-      "type": "County",
-      "href": "/counties/iowa/lucas/"
     },
     {
       "label": "Decatur County, IA",
@@ -4662,14 +4662,14 @@
       "href": "/counties/iowa/ida/"
     },
     {
-      "label": "Fremont County, IA",
-      "type": "County",
-      "href": "/counties/iowa/fremont/"
-    },
-    {
       "label": "Wayne County, IA",
       "type": "County",
       "href": "/counties/iowa/wayne/"
+    },
+    {
+      "label": "Fremont County, IA",
+      "type": "County",
+      "href": "/counties/iowa/fremont/"
     },
     {
       "label": "Osceola County, IA",
@@ -4762,14 +4762,14 @@
       "href": "/counties/kansas/geary/"
     },
     {
-      "label": "Cowley County, KS",
-      "type": "County",
-      "href": "/counties/kansas/cowley/"
-    },
-    {
       "label": "Miami County, KS",
       "type": "County",
       "href": "/counties/kansas/miami/"
+    },
+    {
+      "label": "Cowley County, KS",
+      "type": "County",
+      "href": "/counties/kansas/cowley/"
     },
     {
       "label": "Ford County, KS",
@@ -4802,14 +4802,14 @@
       "href": "/counties/kansas/ellis/"
     },
     {
-      "label": "Franklin County, KS",
-      "type": "County",
-      "href": "/counties/kansas/franklin/"
-    },
-    {
       "label": "Pottawatomie County, KS",
       "type": "County",
       "href": "/counties/kansas/pottawatomie/"
+    },
+    {
+      "label": "Franklin County, KS",
+      "type": "County",
+      "href": "/counties/kansas/franklin/"
     },
     {
       "label": "Barton County, KS",
@@ -4852,14 +4852,14 @@
       "href": "/counties/kansas/atchison/"
     },
     {
-      "label": "Neosho County, KS",
-      "type": "County",
-      "href": "/counties/kansas/neosho/"
-    },
-    {
       "label": "Osage County, KS",
       "type": "County",
       "href": "/counties/kansas/osage/"
+    },
+    {
+      "label": "Neosho County, KS",
+      "type": "County",
+      "href": "/counties/kansas/neosho/"
     },
     {
       "label": "Bourbon County, KS",
@@ -4897,14 +4897,14 @@
       "href": "/counties/kansas/linn/"
     },
     {
-      "label": "Brown County, KS",
-      "type": "County",
-      "href": "/counties/kansas/brown/"
-    },
-    {
       "label": "Rice County, KS",
       "type": "County",
       "href": "/counties/kansas/rice/"
+    },
+    {
+      "label": "Brown County, KS",
+      "type": "County",
+      "href": "/counties/kansas/brown/"
     },
     {
       "label": "Pratt County, KS",
@@ -4947,14 +4947,14 @@
       "href": "/counties/kansas/doniphan/"
     },
     {
-      "label": "Kingman County, KS",
-      "type": "County",
-      "href": "/counties/kansas/kingman/"
-    },
-    {
       "label": "Grant County, KS",
       "type": "County",
       "href": "/counties/kansas/grant/"
+    },
+    {
+      "label": "Kingman County, KS",
+      "type": "County",
+      "href": "/counties/kansas/kingman/"
     },
     {
       "label": "Wabaunsee County, KS",
@@ -4987,14 +4987,14 @@
       "href": "/counties/kansas/sherman/"
     },
     {
-      "label": "Mitchell County, KS",
-      "type": "County",
-      "href": "/counties/kansas/mitchell/"
-    },
-    {
       "label": "Ottawa County, KS",
       "type": "County",
       "href": "/counties/kansas/ottawa/"
+    },
+    {
+      "label": "Mitchell County, KS",
+      "type": "County",
+      "href": "/counties/kansas/mitchell/"
     },
     {
       "label": "Gray County, KS",
@@ -5097,14 +5097,19 @@
       "href": "/counties/kansas/rush/"
     },
     {
+      "label": "Lincoln County, KS",
+      "type": "County",
+      "href": "/counties/kansas/lincoln/"
+    },
+    {
       "label": "Jewell County, KS",
       "type": "County",
       "href": "/counties/kansas/jewell/"
     },
     {
-      "label": "Lincoln County, KS",
+      "label": "Gove County, KS",
       "type": "County",
-      "href": "/counties/kansas/lincoln/"
+      "href": "/counties/kansas/gove/"
     },
     {
       "label": "Edwards County, KS",
@@ -5122,19 +5127,9 @@
       "href": "/counties/kansas/decatur/"
     },
     {
-      "label": "Gove County, KS",
-      "type": "County",
-      "href": "/counties/kansas/gove/"
-    },
-    {
       "label": "Logan County, KS",
       "type": "County",
       "href": "/counties/kansas/logan/"
-    },
-    {
-      "label": "Morton County, KS",
-      "type": "County",
-      "href": "/counties/kansas/morton/"
     },
     {
       "label": "Ness County, KS",
@@ -5145,6 +5140,11 @@
       "label": "Cheyenne County, KS",
       "type": "County",
       "href": "/counties/kansas/cheyenne/"
+    },
+    {
+      "label": "Morton County, KS",
+      "type": "County",
+      "href": "/counties/kansas/morton/"
     },
     {
       "label": "Chase County, KS",
@@ -5237,14 +5237,14 @@
       "href": "/counties/kentucky/kenton/"
     },
     {
-      "label": "Boone County, KY",
-      "type": "County",
-      "href": "/counties/kentucky/boone/"
-    },
-    {
       "label": "Warren County, KY",
       "type": "County",
       "href": "/counties/kentucky/warren/"
+    },
+    {
+      "label": "Boone County, KY",
+      "type": "County",
+      "href": "/counties/kentucky/boone/"
     },
     {
       "label": "Hardin County, KY",
@@ -5322,14 +5322,14 @@
       "href": "/metros/columbus-city-oh/"
     },
     {
-      "label": "Indianapolis city (balance), Indiana",
-      "type": "Metro",
-      "href": "/metros/indianapolis-city-balance-in/"
-    },
-    {
       "label": "Charlotte city, North Carolina",
       "type": "Metro",
       "href": "/metros/charlotte-city-nc/"
+    },
+    {
+      "label": "Indianapolis city (balance), Indiana",
+      "type": "Metro",
+      "href": "/metros/indianapolis-city-balance-in/"
     },
     {
       "label": "San Francisco city, California",
@@ -5347,14 +5347,14 @@
       "href": "/metros/denver-city-co/"
     },
     {
-      "label": "Nashville-Davidson metropolitan government (balance), Tennessee",
-      "type": "Metro",
-      "href": "/metros/nashville-davidson-metropolitan-government-balance-tn/"
-    },
-    {
       "label": "Oklahoma City city, Oklahoma",
       "type": "Metro",
       "href": "/metros/oklahoma-city-city-ok/"
+    },
+    {
+      "label": "Nashville-Davidson metropolitan government (balance), Tennessee",
+      "type": "Metro",
+      "href": "/metros/nashville-davidson-metropolitan-government-balance-tn/"
     },
     {
       "label": "El Paso city, Texas",
@@ -5367,14 +5367,14 @@
       "href": "/metros/boston-city-ma/"
     },
     {
-      "label": "Portland city, Oregon",
-      "type": "Metro",
-      "href": "/metros/portland-city-or/"
-    },
-    {
       "label": "Las Vegas city, Nevada",
       "type": "Metro",
       "href": "/metros/las-vegas-city-nv/"
+    },
+    {
+      "label": "Portland city, Oregon",
+      "type": "Metro",
+      "href": "/metros/portland-city-or/"
     },
     {
       "label": "Detroit city, Michigan",
@@ -5382,14 +5382,14 @@
       "href": "/metros/detroit-city-mi/"
     },
     {
-      "label": "Memphis city, Tennessee",
-      "type": "Metro",
-      "href": "/metros/memphis-city-tn/"
-    },
-    {
       "label": "Louisville/Jefferson County metro government (balance), Kentucky",
       "type": "Metro",
       "href": "/metros/louisville-jefferson-county-metro-government-balance-ky/"
+    },
+    {
+      "label": "Memphis city, Tennessee",
+      "type": "Metro",
+      "href": "/metros/memphis-city-tn/"
     },
     {
       "label": "Baltimore city, Maryland",
@@ -5407,14 +5407,14 @@
       "href": "/metros/albuquerque-city-nm/"
     },
     {
-      "label": "Fresno city, California",
-      "type": "Metro",
-      "href": "/metros/fresno-city-ca/"
-    },
-    {
       "label": "Tucson city, Arizona",
       "type": "Metro",
       "href": "/metros/tucson-city-az/"
+    },
+    {
+      "label": "Fresno city, California",
+      "type": "Metro",
+      "href": "/metros/fresno-city-ca/"
     },
     {
       "label": "Sacramento city, California",
@@ -5422,14 +5422,14 @@
       "href": "/metros/sacramento-city-ca/"
     },
     {
-      "label": "Kansas City city, Missouri",
-      "type": "Metro",
-      "href": "/metros/kansas-city-city-mo/"
-    },
-    {
       "label": "Mesa city, Arizona",
       "type": "Metro",
       "href": "/metros/mesa-city-az/"
+    },
+    {
+      "label": "Kansas City city, Missouri",
+      "type": "Metro",
+      "href": "/metros/kansas-city-city-mo/"
     },
     {
       "label": "Atlanta city, Georgia",
@@ -5452,9 +5452,9 @@
       "href": "/metros/raleigh-city-nc/"
     },
     {
-      "label": "Long Beach city, California",
+      "label": "Miami city, Florida",
       "type": "Metro",
-      "href": "/metros/long-beach-city-ca/"
+      "href": "/metros/miami-city-fl/"
     },
     {
       "label": "Virginia Beach city, Virginia",
@@ -5462,9 +5462,9 @@
       "href": "/metros/virginia-beach-city-va/"
     },
     {
-      "label": "Miami city, Florida",
+      "label": "Long Beach city, California",
       "type": "Metro",
-      "href": "/metros/miami-city-fl/"
+      "href": "/metros/long-beach-city-ca/"
     },
     {
       "label": "Oakland city, California",
@@ -5487,6 +5487,11 @@
       "href": "/metros/bakersfield-city-ca/"
     },
     {
+      "label": "Tampa city, Florida",
+      "type": "Metro",
+      "href": "/metros/tampa-city-fl/"
+    },
+    {
       "label": "Wichita city, Kansas",
       "type": "Metro",
       "href": "/metros/wichita-city-ks/"
@@ -5495,11 +5500,6 @@
       "label": "Arlington city, Texas",
       "type": "Metro",
       "href": "/metros/arlington-city-tx/"
-    },
-    {
-      "label": "Tampa city, Florida",
-      "type": "Metro",
-      "href": "/metros/tampa-city-fl/"
     },
     {
       "label": "Aurora city, Colorado",
@@ -5527,6 +5527,11 @@
       "href": "/metros/anaheim-city-ca/"
     },
     {
+      "label": "Henderson city, Nevada",
+      "type": "Metro",
+      "href": "/metros/henderson-city-nv/"
+    },
+    {
       "label": "Lexington-Fayette urban county, Kentucky",
       "type": "Metro",
       "href": "/metros/lexington-fayette-urban-county-ky/"
@@ -5537,14 +5542,9 @@
       "href": "/metros/stockton-city-ca/"
     },
     {
-      "label": "Henderson city, Nevada",
+      "label": "Orlando city, Florida",
       "type": "Metro",
-      "href": "/metros/henderson-city-nv/"
-    },
-    {
-      "label": "Corpus Christi city, Texas",
-      "type": "Metro",
-      "href": "/metros/corpus-christi-city-tx/"
+      "href": "/metros/orlando-city-fl/"
     },
     {
       "label": "Riverside city, California",
@@ -5552,29 +5552,14 @@
       "href": "/metros/riverside-city-ca/"
     },
     {
+      "label": "Corpus Christi city, Texas",
+      "type": "Metro",
+      "href": "/metros/corpus-christi-city-tx/"
+    },
+    {
       "label": "Santa Ana city, California",
       "type": "Metro",
       "href": "/metros/santa-ana-city-ca/"
-    },
-    {
-      "label": "Cincinnati city, Ohio",
-      "type": "Metro",
-      "href": "/metros/cincinnati-city-oh/"
-    },
-    {
-      "label": "St. Paul city, Minnesota",
-      "type": "Metro",
-      "href": "/metros/st-paul-city-mn/"
-    },
-    {
-      "label": "Orlando city, Florida",
-      "type": "Metro",
-      "href": "/metros/orlando-city-fl/"
-    },
-    {
-      "label": "Newark city, New Jersey",
-      "type": "Metro",
-      "href": "/metros/newark-city-nj/"
     },
     {
       "label": "Irvine city, California",
@@ -5582,24 +5567,29 @@
       "href": "/metros/irvine-city-ca/"
     },
     {
+      "label": "Cincinnati city, Ohio",
+      "type": "Metro",
+      "href": "/metros/cincinnati-city-oh/"
+    },
+    {
+      "label": "Newark city, New Jersey",
+      "type": "Metro",
+      "href": "/metros/newark-city-nj/"
+    },
+    {
+      "label": "St. Paul city, Minnesota",
+      "type": "Metro",
+      "href": "/metros/st-paul-city-mn/"
+    },
+    {
       "label": "Pittsburgh city, Pennsylvania",
       "type": "Metro",
       "href": "/metros/pittsburgh-city-pa/"
     },
     {
-      "label": "St. Louis city, Missouri",
-      "type": "Metro",
-      "href": "/metros/st-louis-city-mo/"
-    },
-    {
       "label": "Greensboro city, North Carolina",
       "type": "Metro",
       "href": "/metros/greensboro-city-nc/"
-    },
-    {
-      "label": "Anchorage municipality, Alaska",
-      "type": "Metro",
-      "href": "/metros/anchorage-municipality-ak/"
     },
     {
       "label": "Lincoln city, Nebraska",
@@ -5612,14 +5602,44 @@
       "href": "/metros/jersey-city-city-nj/"
     },
     {
+      "label": "Durham city, North Carolina",
+      "type": "Metro",
+      "href": "/metros/durham-city-nc/"
+    },
+    {
       "label": "Plano city, Texas",
       "type": "Metro",
       "href": "/metros/plano-city-tx/"
     },
     {
-      "label": "Durham city, North Carolina",
+      "label": "Anchorage municipality, Alaska",
       "type": "Metro",
-      "href": "/metros/durham-city-nc/"
+      "href": "/metros/anchorage-municipality-ak/"
+    },
+    {
+      "label": "St. Louis city, Missouri",
+      "type": "Metro",
+      "href": "/metros/st-louis-city-mo/"
+    },
+    {
+      "label": "Gilbert town, Arizona",
+      "type": "Metro",
+      "href": "/metros/gilbert-town-az/"
+    },
+    {
+      "label": "Chandler city, Arizona",
+      "type": "Metro",
+      "href": "/metros/chandler-city-az/"
+    },
+    {
+      "label": "North Las Vegas city, Nevada",
+      "type": "Metro",
+      "href": "/metros/north-las-vegas-city-nv/"
+    },
+    {
+      "label": "Madison city, Wisconsin",
+      "type": "Metro",
+      "href": "/metros/madison-city-wi/"
     },
     {
       "label": "Buffalo city, New York",
@@ -5632,26 +5652,6 @@
       "href": "/metros/chula-vista-city-ca/"
     },
     {
-      "label": "Chandler city, Arizona",
-      "type": "Metro",
-      "href": "/metros/chandler-city-az/"
-    },
-    {
-      "label": "Toledo city, Ohio",
-      "type": "Metro",
-      "href": "/metros/toledo-city-oh/"
-    },
-    {
-      "label": "Madison city, Wisconsin",
-      "type": "Metro",
-      "href": "/metros/madison-city-wi/"
-    },
-    {
-      "label": "Gilbert town, Arizona",
-      "type": "Metro",
-      "href": "/metros/gilbert-town-az/"
-    },
-    {
       "label": "Reno city, Nevada",
       "type": "Metro",
       "href": "/metros/reno-city-nv/"
@@ -5662,19 +5662,19 @@
       "href": "/metros/fort-wayne-city-in/"
     },
     {
-      "label": "North Las Vegas city, Nevada",
+      "label": "Toledo city, Ohio",
       "type": "Metro",
-      "href": "/metros/north-las-vegas-city-nv/"
-    },
-    {
-      "label": "St. Petersburg city, Florida",
-      "type": "Metro",
-      "href": "/metros/st-petersburg-city-fl/"
+      "href": "/metros/toledo-city-oh/"
     },
     {
       "label": "Lubbock city, Texas",
       "type": "Metro",
       "href": "/metros/lubbock-city-tx/"
+    },
+    {
+      "label": "St. Petersburg city, Florida",
+      "type": "Metro",
+      "href": "/metros/st-petersburg-city-fl/"
     },
     {
       "label": "Laredo city, Texas",
@@ -5687,9 +5687,9 @@
       "href": "/metros/irving-city-tx/"
     },
     {
-      "label": "Winston-Salem city, North Carolina",
+      "label": "Glendale city, Arizona",
       "type": "Metro",
-      "href": "/metros/winston-salem-city-nc/"
+      "href": "/metros/glendale-city-az/"
     },
     {
       "label": "Chesapeake city, Virginia",
@@ -5697,9 +5697,9 @@
       "href": "/metros/chesapeake-city-va/"
     },
     {
-      "label": "Glendale city, Arizona",
+      "label": "Winston-Salem city, North Carolina",
       "type": "Metro",
-      "href": "/metros/glendale-city-az/"
+      "href": "/metros/winston-salem-city-nc/"
     },
     {
       "label": "Garland city, Texas",
@@ -5712,14 +5712,9 @@
       "href": "/metros/scottsdale-city-az/"
     },
     {
-      "label": "Norfolk city, Virginia",
+      "label": "Enterprise CDP, Nevada",
       "type": "Metro",
-      "href": "/metros/norfolk-city-va/"
-    },
-    {
-      "label": "Arlington CDP, Virginia",
-      "type": "Metro",
-      "href": "/metros/arlington-cdp-va/"
+      "href": "/metros/enterprise-cdp-nv/"
     },
     {
       "label": "Boise City city, Idaho",
@@ -5727,74 +5722,14 @@
       "href": "/metros/boise-city-city-id/"
     },
     {
-      "label": "Fremont city, California",
+      "label": "Arlington CDP, Virginia",
       "type": "Metro",
-      "href": "/metros/fremont-city-ca/"
+      "href": "/metros/arlington-cdp-va/"
     },
     {
-      "label": "Spokane city, Washington",
+      "label": "Norfolk city, Virginia",
       "type": "Metro",
-      "href": "/metros/spokane-city-wa/"
-    },
-    {
-      "label": "Richmond city, Virginia",
-      "type": "Metro",
-      "href": "/metros/richmond-city-va/"
-    },
-    {
-      "label": "Santa Clarita city, California",
-      "type": "Metro",
-      "href": "/metros/santa-clarita-city-ca/"
-    },
-    {
-      "label": "Baton Rouge city, Louisiana",
-      "type": "Metro",
-      "href": "/metros/baton-rouge-city-la/"
-    },
-    {
-      "label": "Enterprise CDP, Nevada",
-      "type": "Metro",
-      "href": "/metros/enterprise-cdp-nv/"
-    },
-    {
-      "label": "Hialeah city, Florida",
-      "type": "Metro",
-      "href": "/metros/hialeah-city-fl/"
-    },
-    {
-      "label": "San Bernardino city, California",
-      "type": "Metro",
-      "href": "/metros/san-bernardino-city-ca/"
-    },
-    {
-      "label": "Spring Valley CDP, Nevada",
-      "type": "Metro",
-      "href": "/metros/spring-valley-cdp-nv/"
-    },
-    {
-      "label": "Tacoma city, Washington",
-      "type": "Metro",
-      "href": "/metros/tacoma-city-wa/"
-    },
-    {
-      "label": "Modesto city, California",
-      "type": "Metro",
-      "href": "/metros/modesto-city-ca/"
-    },
-    {
-      "label": "Huntsville city, Alabama",
-      "type": "Metro",
-      "href": "/metros/huntsville-city-al/"
-    },
-    {
-      "label": "Des Moines city, Iowa",
-      "type": "Metro",
-      "href": "/metros/des-moines-city-ia/"
-    },
-    {
-      "label": "Rochester city, New York",
-      "type": "Metro",
-      "href": "/metros/rochester-city-ny/"
+      "href": "/metros/norfolk-city-va/"
     },
     {
       "label": "Port St. Lucie city, Florida",
@@ -5802,44 +5737,49 @@
       "href": "/metros/port-st-lucie-city-fl/"
     },
     {
-      "label": "Yonkers city, New York",
+      "label": "Spokane city, Washington",
       "type": "Metro",
-      "href": "/metros/yonkers-city-ny/"
+      "href": "/metros/spokane-city-wa/"
     },
     {
-      "label": "Moreno Valley city, California",
+      "label": "Santa Clarita city, California",
       "type": "Metro",
-      "href": "/metros/moreno-valley-city-ca/"
+      "href": "/metros/santa-clarita-city-ca/"
     },
     {
-      "label": "Fontana city, California",
+      "label": "Richmond city, Virginia",
       "type": "Metro",
-      "href": "/metros/fontana-city-ca/"
+      "href": "/metros/richmond-city-va/"
     },
     {
-      "label": "Fayetteville city, North Carolina",
+      "label": "Fremont city, California",
       "type": "Metro",
-      "href": "/metros/fayetteville-city-nc/"
+      "href": "/metros/fremont-city-ca/"
     },
     {
-      "label": "Columbus city, Georgia",
+      "label": "Hialeah city, Florida",
       "type": "Metro",
-      "href": "/metros/columbus-city-ga/"
+      "href": "/metros/hialeah-city-fl/"
     },
     {
-      "label": "Worcester city, Massachusetts",
+      "label": "Huntsville city, Alabama",
       "type": "Metro",
-      "href": "/metros/worcester-city-ma/"
+      "href": "/metros/huntsville-city-al/"
     },
     {
-      "label": "Oxnard city, California",
+      "label": "Baton Rouge city, Louisiana",
       "type": "Metro",
-      "href": "/metros/oxnard-city-ca/"
+      "href": "/metros/baton-rouge-city-la/"
     },
     {
-      "label": "Little Rock city, Arkansas",
+      "label": "Tacoma city, Washington",
       "type": "Metro",
-      "href": "/metros/little-rock-city-ar/"
+      "href": "/metros/tacoma-city-wa/"
+    },
+    {
+      "label": "San Bernardino city, California",
+      "type": "Metro",
+      "href": "/metros/san-bernardino-city-ca/"
     },
     {
       "label": "Frisco city, Texas",
@@ -5847,9 +5787,69 @@
       "href": "/metros/frisco-city-tx/"
     },
     {
-      "label": "Augusta-Richmond County consolidated government (balance), Georgia",
+      "label": "Modesto city, California",
       "type": "Metro",
-      "href": "/metros/augusta-richmond-county-consolidated-government-balance-ga/"
+      "href": "/metros/modesto-city-ca/"
+    },
+    {
+      "label": "Spring Valley CDP, Nevada",
+      "type": "Metro",
+      "href": "/metros/spring-valley-cdp-nv/"
+    },
+    {
+      "label": "Cape Coral city, Florida",
+      "type": "Metro",
+      "href": "/metros/cape-coral-city-fl/"
+    },
+    {
+      "label": "Fontana city, California",
+      "type": "Metro",
+      "href": "/metros/fontana-city-ca/"
+    },
+    {
+      "label": "Des Moines city, Iowa",
+      "type": "Metro",
+      "href": "/metros/des-moines-city-ia/"
+    },
+    {
+      "label": "Moreno Valley city, California",
+      "type": "Metro",
+      "href": "/metros/moreno-valley-city-ca/"
+    },
+    {
+      "label": "Fayetteville city, North Carolina",
+      "type": "Metro",
+      "href": "/metros/fayetteville-city-nc/"
+    },
+    {
+      "label": "McKinney city, Texas",
+      "type": "Metro",
+      "href": "/metros/mckinney-city-tx/"
+    },
+    {
+      "label": "Yonkers city, New York",
+      "type": "Metro",
+      "href": "/metros/yonkers-city-ny/"
+    },
+    {
+      "label": "Rochester city, New York",
+      "type": "Metro",
+      "href": "/metros/rochester-city-ny/"
+    },
+    {
+      "label": "Salt Lake City city, Utah",
+      "type": "Metro",
+      "href": "/metros/salt-lake-city-city-ut/"
+    },
+    {
+      "label": "Worcester city, Massachusetts",
+      "type": "Metro",
+      "href": "/metros/worcester-city-ma/"
+    },
+    {
+      "label": "Columbus city, Georgia",
+      "type": "Metro",
+      "href": "/metros/columbus-city-ga/"
     }
   ]
 }

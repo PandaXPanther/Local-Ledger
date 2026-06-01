@@ -1,12 +1,12 @@
 {
   "_meta": {
-    "generatedAt": "2026-06-01T05:36:01.612Z",
+    "generatedAt": "2026-06-01T06:09:58.945Z",
     "description": "Federal spending by state",
     "source": {
       "name": "USAspending.gov",
       "url": "https://www.usaspending.gov/",
       "dataset": "USAspending API v2",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   },
   "states": [
@@ -16,7 +16,7 @@
       "stateAbbreviation": "AL",
       "fiscalYear": 2024,
       "total": 66415550937.13,
-      "perCapita": 13208.897318730444,
+      "perCapita": 13056.532347677346,
       "source": "USAspending.gov"
     },
     {
@@ -25,7 +25,7 @@
       "stateAbbreviation": "AK",
       "fiscalYear": 2024,
       "total": 16650600305.75,
-      "perCapita": 22659.39637782535,
+      "perCapita": 22632.138796951498,
       "source": "USAspending.gov"
     },
     {
@@ -34,7 +34,7 @@
       "stateAbbreviation": "AZ",
       "fiscalYear": 2024,
       "total": 98789805286.16,
-      "perCapita": 13773.831715785855,
+      "perCapita": 13388.26049388264,
       "source": "USAspending.gov"
     },
     {
@@ -43,7 +43,7 @@
       "stateAbbreviation": "AR",
       "fiscalYear": 2024,
       "total": 31748805294.81,
-      "perCapita": 10517.484790419221,
+      "perCapita": 10411.523249989916,
       "source": "USAspending.gov"
     },
     {
@@ -52,7 +52,7 @@
       "stateAbbreviation": "CA",
       "fiscalYear": 2024,
       "total": 444891788075.63,
-      "perCapita": 11304.263960569624,
+      "perCapita": 11324.038967417702,
       "source": "USAspending.gov"
     },
     {
@@ -61,7 +61,7 @@
       "stateAbbreviation": "CO",
       "fiscalYear": 2024,
       "total": 63512934291.97,
-      "perCapita": 11005.934073492537,
+      "perCapita": 10834.337530224631,
       "source": "USAspending.gov"
     },
     {
@@ -70,7 +70,7 @@
       "stateAbbreviation": "CT",
       "fiscalYear": 2024,
       "total": 120682966941.54,
-      "perCapita": 33417.99319792198,
+      "perCapita": 33296.37207078588,
       "source": "USAspending.gov"
     },
     {
@@ -79,7 +79,7 @@
       "stateAbbreviation": "DE",
       "fiscalYear": 2024,
       "total": 11181570130.68,
-      "perCapita": 11253.196727852783,
+      "perCapita": 10949.538461149776,
       "source": "USAspending.gov"
     },
     {
@@ -88,7 +88,7 @@
       "stateAbbreviation": "FL",
       "fiscalYear": 2024,
       "total": 287030182351.15,
-      "perCapita": 13267.225847678497,
+      "perCapita": 12804.657226648089,
       "source": "USAspending.gov"
     },
     {
@@ -97,7 +97,7 @@
       "stateAbbreviation": "GA",
       "fiscalYear": 2024,
       "total": 93944056042.48,
-      "perCapita": 8761.537823417962,
+      "perCapita": 8586.88859038608,
       "source": "USAspending.gov"
     },
     {
@@ -106,7 +106,7 @@
       "stateAbbreviation": "HI",
       "fiscalYear": 2024,
       "total": 22019338429.94,
-      "perCapita": 15179.58458939093,
+      "perCapita": 15235.818693804122,
       "source": "USAspending.gov"
     },
     {
@@ -115,7 +115,7 @@
       "stateAbbreviation": "ID",
       "fiscalYear": 2024,
       "total": 21431117191.93,
-      "perCapita": 11558.71482848635,
+      "perCapita": 11079.738521425743,
       "source": "USAspending.gov"
     },
     {
@@ -124,7 +124,7 @@
       "stateAbbreviation": "IL",
       "fiscalYear": 2024,
       "total": 127770193043.39,
-      "perCapita": 10015.195062296818,
+      "perCapita": 10064.767713782448,
       "source": "USAspending.gov"
     },
     {
@@ -133,7 +133,7 @@
       "stateAbbreviation": "IN",
       "fiscalYear": 2024,
       "total": 191875165418.09,
-      "perCapita": 28281.805402493042,
+      "perCapita": 28006.586036682136,
       "source": "USAspending.gov"
     },
     {
@@ -142,7 +142,7 @@
       "stateAbbreviation": "IA",
       "fiscalYear": 2024,
       "total": 32343193497.09,
-      "perCapita": 10142.633078994968,
+      "perCapita": 10074.170060083969,
       "source": "USAspending.gov"
     },
     {
@@ -151,7 +151,7 @@
       "stateAbbreviation": "KS",
       "fiscalYear": 2024,
       "total": 27853165737.42,
-      "perCapita": 9487.025110823788,
+      "perCapita": 9450.730893598222,
       "source": "USAspending.gov"
     },
     {
@@ -160,7 +160,7 @@
       "stateAbbreviation": "KY",
       "fiscalYear": 2024,
       "total": 163001547970.46,
-      "perCapita": 36198.95645183863,
+      "perCapita": 35944.404451079026,
       "source": "USAspending.gov"
     },
     {
@@ -169,7 +169,7 @@
       "stateAbbreviation": "LA",
       "fiscalYear": 2024,
       "total": 56313558645.86,
-      "perCapita": 12135.114843352485,
+      "perCapita": 12210.328458081063,
       "source": "USAspending.gov"
     },
     {
@@ -178,7 +178,7 @@
       "stateAbbreviation": "ME",
       "fiscalYear": 2024,
       "total": 21045892160.78,
-      "perCapita": 15396.252647889569,
+      "perCapita": 15164.745900057427,
       "source": "USAspending.gov"
     },
     {
@@ -187,7 +187,7 @@
       "stateAbbreviation": "MD",
       "fiscalYear": 2024,
       "total": 114663546060.01,
-      "perCapita": 18609.055260175468,
+      "perCapita": 18476.207351229314,
       "source": "USAspending.gov"
     },
     {
@@ -196,7 +196,7 @@
       "stateAbbreviation": "MA",
       "fiscalYear": 2024,
       "total": 102058779888.59,
-      "perCapita": 14612.798434265604,
+      "perCapita": 14488.638348217277,
       "source": "USAspending.gov"
     },
     {
@@ -205,7 +205,7 @@
       "stateAbbreviation": "MI",
       "fiscalYear": 2024,
       "total": 119442133961.83,
-      "perCapita": 11875.429719703505,
+      "perCapita": 11852.05066500684,
       "source": "USAspending.gov"
     },
     {
@@ -214,7 +214,7 @@
       "stateAbbreviation": "MN",
       "fiscalYear": 2024,
       "total": 211573432363.49,
-      "perCapita": 37148.82965851268,
+      "perCapita": 36863.04727434272,
       "source": "USAspending.gov"
     },
     {
@@ -223,7 +223,7 @@
       "stateAbbreviation": "MS",
       "fiscalYear": 2024,
       "total": 37159728162.56,
-      "perCapita": 12558.858474743192,
+      "perCapita": 12610.286744462343,
       "source": "USAspending.gov"
     },
     {
@@ -232,7 +232,7 @@
       "stateAbbreviation": "MO",
       "fiscalYear": 2024,
       "total": 92403112059.78,
-      "perCapita": 15014.100765235144,
+      "perCapita": 14923.431495161192,
       "source": "USAspending.gov"
     },
     {
@@ -241,7 +241,7 @@
       "stateAbbreviation": "MT",
       "fiscalYear": 2024,
       "total": 14493797967.01,
-      "perCapita": 13274.653765212852,
+      "perCapita": 12977.099466824846,
       "source": "USAspending.gov"
     },
     {
@@ -250,7 +250,7 @@
       "stateAbbreviation": "NE",
       "fiscalYear": 2024,
       "total": 23299174465.42,
-      "perCapita": 11893.772325437392,
+      "perCapita": 11774.949229683827,
       "source": "USAspending.gov"
     },
     {
@@ -259,7 +259,7 @@
       "stateAbbreviation": "NV",
       "fiscalYear": 2024,
       "total": 31365257662.37,
-      "perCapita": 10102.127649510421,
+      "perCapita": 9849.004419492861,
       "source": "USAspending.gov"
     },
     {
@@ -268,7 +268,7 @@
       "stateAbbreviation": "NH",
       "fiscalYear": 2024,
       "total": 16198294834.1,
-      "perCapita": 11741.21297620342,
+      "perCapita": 11612.779728332716,
       "source": "USAspending.gov"
     },
     {
@@ -277,7 +277,7 @@
       "stateAbbreviation": "NJ",
       "fiscalYear": 2024,
       "total": 88365799839.06,
-      "perCapita": 9554.027239198176,
+      "perCapita": 9457.149631275639,
       "source": "USAspending.gov"
     },
     {
@@ -286,7 +286,7 @@
       "stateAbbreviation": "NM",
       "fiscalYear": 2024,
       "total": 40206146144.08,
-      "perCapita": 19032.828572183276,
+      "perCapita": 18962.962856234608,
       "source": "USAspending.gov"
     },
     {
@@ -295,7 +295,7 @@
       "stateAbbreviation": "NY",
       "fiscalYear": 2024,
       "total": 253183746523.91,
-      "perCapita": 12662.746191012484,
+      "perCapita": 12753.328571713317,
       "source": "USAspending.gov"
     },
     {
@@ -304,7 +304,7 @@
       "stateAbbreviation": "NC",
       "fiscalYear": 2024,
       "total": 109181097814.87,
-      "perCapita": 10427.78092356756,
+      "perCapita": 10174.928904342278,
       "source": "USAspending.gov"
     },
     {
@@ -313,7 +313,7 @@
       "stateAbbreviation": "ND",
       "fiscalYear": 2024,
       "total": 90205716086.06,
-      "perCapita": 116113.70194659622,
+      "perCapita": 114935.02006910954,
       "source": "USAspending.gov"
     },
     {
@@ -322,7 +322,7 @@
       "stateAbbreviation": "OH",
       "fiscalYear": 2024,
       "total": 116500344607.79,
-      "perCapita": 9894.13851802125,
+      "perCapita": 9864.30604285516,
       "source": "USAspending.gov"
     },
     {
@@ -331,7 +331,7 @@
       "stateAbbreviation": "OK",
       "fiscalYear": 2024,
       "total": 46660168064.98,
-      "perCapita": 11751.71976328908,
+      "perCapita": 11582.131329125456,
       "source": "USAspending.gov"
     },
     {
@@ -340,7 +340,7 @@
       "stateAbbreviation": "OR",
       "fiscalYear": 2024,
       "total": 54365489083.51,
-      "perCapita": 12854.263794951688,
+      "perCapita": 12778.971519711971,
       "source": "USAspending.gov"
     },
     {
@@ -349,7 +349,7 @@
       "stateAbbreviation": "PA",
       "fiscalYear": 2024,
       "total": 266758295174.65,
-      "perCapita": 20536.917660772695,
+      "perCapita": 20490.49022518022,
       "source": "USAspending.gov"
     },
     {
@@ -358,7 +358,7 @@
       "stateAbbreviation": "RI",
       "fiscalYear": 2024,
       "total": 14490465131.34,
-      "perCapita": 13242.371607347499,
+      "perCapita": 13151.617335017849,
       "source": "USAspending.gov"
     },
     {
@@ -367,7 +367,7 @@
       "stateAbbreviation": "SC",
       "fiscalYear": 2024,
       "total": 130336097862.67,
-      "perCapita": 25343.658132841378,
+      "perCapita": 24609.24486075837,
       "source": "USAspending.gov"
     },
     {
@@ -376,7 +376,7 @@
       "stateAbbreviation": "SD",
       "fiscalYear": 2024,
       "total": 10978311349.62,
-      "perCapita": 12330.443076503187,
+      "perCapita": 12098.27264490406,
       "source": "USAspending.gov"
     },
     {
@@ -385,7 +385,7 @@
       "stateAbbreviation": "TN",
       "fiscalYear": 2024,
       "total": 106997426229.11,
-      "perCapita": 15453.632243971928,
+      "perCapita": 15141.75303392273,
       "source": "USAspending.gov"
     },
     {
@@ -394,7 +394,7 @@
       "stateAbbreviation": "TX",
       "fiscalYear": 2024,
       "total": 271597660276.76,
-      "perCapita": 9287.504153142278,
+      "perCapita": 8996.748564176785,
       "source": "USAspending.gov"
     },
     {
@@ -403,7 +403,7 @@
       "stateAbbreviation": "UT",
       "fiscalYear": 2024,
       "total": 30489400706.38,
-      "perCapita": 9284.7667773552,
+      "perCapita": 8987.743444369078,
       "source": "USAspending.gov"
     },
     {
@@ -412,7 +412,7 @@
       "stateAbbreviation": "VT",
       "fiscalYear": 2024,
       "total": 8694117507.39,
-      "perCapita": 13504.040762251947,
+      "perCapita": 13435.38385888865,
       "source": "USAspending.gov"
     },
     {
@@ -421,7 +421,7 @@
       "stateAbbreviation": "VA",
       "fiscalYear": 2024,
       "total": 189070935512,
-      "perCapita": 21922.51079649617,
+      "perCapita": 21719.384631431665,
       "source": "USAspending.gov"
     },
     {
@@ -430,7 +430,7 @@
       "stateAbbreviation": "WA",
       "fiscalYear": 2024,
       "total": 85203062348.29,
-      "perCapita": 11081.813011569542,
+      "perCapita": 10900.946499295813,
       "source": "USAspending.gov"
     },
     {
@@ -439,7 +439,7 @@
       "stateAbbreviation": "WV",
       "fiscalYear": 2024,
       "total": 23937261206.39,
-      "perCapita": 13350.642374561272,
+      "perCapita": 13460.202784449606,
       "source": "USAspending.gov"
     },
     {
@@ -448,7 +448,7 @@
       "stateAbbreviation": "WI",
       "fiscalYear": 2024,
       "total": 111517090916.69,
-      "perCapita": 18958.63043386509,
+      "perCapita": 18853.67780007581,
       "source": "USAspending.gov"
     },
     {
@@ -457,7 +457,7 @@
       "stateAbbreviation": "WY",
       "fiscalYear": 2024,
       "total": 6535730581.97,
-      "perCapita": 11308.881509614503,
+      "perCapita": 11222.122679151851,
       "source": "USAspending.gov"
     }
   ],

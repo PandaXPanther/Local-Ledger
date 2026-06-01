@@ -1,49 +1,49 @@
 {
   "_meta": {
     "description": "Virginia state economic dashboard data",
-    "generatedAt": "2026-06-01T05:36:01.612Z",
+    "generatedAt": "2026-06-01T06:09:58.945Z",
     "sourceAttemptLog": [
       {
         "source": "BEA",
         "id": "state-gdp",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-states",
+        "id": "acs-states-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-counties",
+        "id": "acs-counties-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-places",
+        "id": "acs-places-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "UNRATE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DENV708URN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -51,7 +51,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -59,7 +59,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -67,1617 +67,1617 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AK-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AK",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AZ-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AZ",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AR-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AR",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "COURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "COPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CORGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CO-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CO",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CT-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CT",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-DE-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-DE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-FL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-FL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-GA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-GA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-HI-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-HI",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-ID-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-ID",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IN-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KSURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KSPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KSRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-KS-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-KS",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KYURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KYPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KYRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-KY-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-KY",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "LAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "LAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "LARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-LA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-LA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-ME-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-ME",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MDURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MDPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MDRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MD-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MD",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MIURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MIPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MIRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MI-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MI",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MNURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MNPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MNRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MN-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MSURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MSPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MSRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MS-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MS",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MOURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MOPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MORGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MO-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MO",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MTURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MTPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "MTRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-MT-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-MT",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NE-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NVURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NVPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NVRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NV-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NV",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NHURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NHPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NHRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NH-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NH",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NJURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NJPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NJRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NJ-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NJ",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NMURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NMPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NMRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NM-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NM",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NYURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NYPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NYRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NY-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NY",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NCURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NCPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NCRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-NC-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-NC",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NDURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NDPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "NDRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-ND-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-ND",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "OHURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "OHPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "OHRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-OH-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-OH",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "OKURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "OKPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "OKRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-OK-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-OK",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ORURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ORPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ORRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-OR-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-OR",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "PAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "PAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "PARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-PA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-PA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "RIURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "RIPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "RIRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-RI-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-RI",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "SCURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "SCPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "SCRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-SC-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-SC",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "SDURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "SDPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "SDRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-SD-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-SD",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "TNURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "TNPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "TNRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-TN-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-TN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "TXURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "TXPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "TXRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-TX-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-TX",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "UTURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "UTPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "UTRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-UT-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-UT",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "VTURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "VTPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "VTRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-VT-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-VT",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "VAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "VAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "VARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-VA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-VA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       }
     ]
   },
@@ -1687,40 +1687,40 @@
     "abbreviation": "VA",
     "fips": "51",
     "population": {
-      "value": 8624511,
+      "value": 8705170,
       "unit": "persons",
       "geography": "Virginia",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B01003_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHouseholdIncome": {
-      "value": 87249,
+      "value": 93170,
       "unit": "USD",
       "geography": "Virginia",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B19013_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHomeValue": {
-      "value": 339800,
+      "value": 383700,
       "unit": "USD",
       "geography": "Virginia",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B25077_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -1734,7 +1734,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/VAURN",
       "sourceDataset": "FRED Series VAURN",
       "sourceSeriesId": "VAURN",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -1748,33 +1748,33 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/VARGSP",
       "sourceDataset": "FRED Series VARGSP",
       "sourceSeriesId": "VARGSP",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "federalSpendingPerCapita": {
-      "value": 21922.51079649617,
+      "value": 21719.384631431665,
       "unit": "USD per person",
       "geography": "Virginia",
       "date": "FY2024",
       "sourceName": "USAspending.gov",
       "sourceUrl": "https://api.usaspending.gov/",
       "sourceDataset": "USAspending API v2 spending_by_geography",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "localEconomyScore": {
-      "value": 70.3,
+      "value": 71.3,
       "unit": "score",
       "geography": "Virginia",
       "date": "2026-06-01",
       "sourceName": "LocalLedger methodology",
       "sourceUrl": "https://local-ledger.net/methodology/",
       "sourceDataset": "Composite score from Census, FRED, and USAspending",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "weighted score",
       "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
       "availability": "available"
@@ -1788,12 +1788,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51059",
-      "population": 1145354,
-      "medianHouseholdIncome": 145165,
-      "medianHomeValue": 666900,
-      "localEconomyScore": 76.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1147837,
+      "medianHouseholdIncome": 153637,
+      "medianHomeValue": 732800,
+      "localEconomyScore": 76.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "prince-william",
@@ -1802,12 +1802,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51153",
-      "population": 481114,
-      "medianHouseholdIncome": 123193,
-      "medianHomeValue": 472000,
-      "localEconomyScore": 78.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 488880,
+      "medianHouseholdIncome": 131402,
+      "medianHomeValue": 530100,
+      "localEconomyScore": 77.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "virginia-beach-city",
@@ -1816,12 +1816,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51810",
-      "population": 457900,
-      "medianHouseholdIncome": 87544,
-      "medianHomeValue": 343700,
-      "localEconomyScore": 68.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 456349,
+      "medianHouseholdIncome": 92968,
+      "medianHomeValue": 382500,
+      "localEconomyScore": 69.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "loudoun",
@@ -1830,12 +1830,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51107",
-      "population": 420773,
-      "medianHouseholdIncome": 170463,
-      "medianHomeValue": 657000,
-      "localEconomyScore": 78.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 432998,
+      "medianHouseholdIncome": 181765,
+      "medianHomeValue": 743800,
+      "localEconomyScore": 77.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "chesterfield",
@@ -1844,12 +1844,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51041",
-      "population": 366019,
-      "medianHouseholdIncome": 95757,
-      "medianHomeValue": 306500,
-      "localEconomyScore": 73.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 377869,
+      "medianHouseholdIncome": 101931,
+      "medianHomeValue": 366000,
+      "localEconomyScore": 73.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "henrico",
@@ -1858,12 +1858,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51087",
-      "population": 333120,
-      "medianHouseholdIncome": 82424,
-      "medianHomeValue": 309700,
-      "localEconomyScore": 67.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 335744,
+      "medianHouseholdIncome": 88783,
+      "medianHomeValue": 359200,
+      "localEconomyScore": 68.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "chesapeake-city",
@@ -1872,26 +1872,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51550",
-      "population": 249377,
-      "medianHouseholdIncome": 92703,
-      "medianHomeValue": 339500,
-      "localEconomyScore": 70.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "norfolk-city",
-      "county": "Norfolk city",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51710",
-      "population": 236973,
-      "medianHouseholdIncome": 60998,
-      "medianHomeValue": 254200,
-      "localEconomyScore": 59.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 252583,
+      "medianHouseholdIncome": 95373,
+      "medianHomeValue": 378400,
+      "localEconomyScore": 70.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "arlington",
@@ -1900,12 +1886,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51013",
-      "population": 235845,
-      "medianHouseholdIncome": 137387,
-      "medianHomeValue": 833300,
-      "localEconomyScore": 71.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 236254,
+      "medianHouseholdIncome": 142114,
+      "medianHomeValue": 895000,
+      "localEconomyScore": 70.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "norfolk-city",
+      "county": "Norfolk city",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51710",
+      "population": 233596,
+      "medianHouseholdIncome": 66109,
+      "medianHomeValue": 289900,
+      "localEconomyScore": 60.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "richmond-city",
@@ -1914,12 +1914,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51760",
-      "population": 227171,
-      "medianHouseholdIncome": 59606,
-      "medianHomeValue": 308300,
-      "localEconomyScore": 56.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 229359,
+      "medianHouseholdIncome": 64587,
+      "medianHomeValue": 353000,
+      "localEconomyScore": 57,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "newport-news-city",
@@ -1928,12 +1928,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51700",
-      "population": 185118,
-      "medianHouseholdIncome": 63355,
-      "medianHomeValue": 233400,
-      "localEconomyScore": 61.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 184216,
+      "medianHouseholdIncome": 69634,
+      "medianHomeValue": 260600,
+      "localEconomyScore": 63.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "stafford",
@@ -1942,12 +1942,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51179",
-      "population": 157606,
-      "medianHouseholdIncome": 128036,
-      "medianHomeValue": 431900,
-      "localEconomyScore": 79.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 163466,
+      "medianHouseholdIncome": 137807,
+      "medianHomeValue": 485100,
+      "localEconomyScore": 78.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "alexandria-city",
@@ -1956,12 +1956,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51510",
-      "population": 157594,
-      "medianHouseholdIncome": 113179,
-      "medianHomeValue": 655700,
-      "localEconomyScore": 69.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 156976,
+      "medianHouseholdIncome": 119681,
+      "medianHomeValue": 735100,
+      "localEconomyScore": 70.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "spotsylvania",
@@ -1970,12 +1970,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51177",
-      "population": 141097,
-      "medianHouseholdIncome": 105068,
-      "medianHomeValue": 349900,
-      "localEconomyScore": 74.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 146603,
+      "medianHouseholdIncome": 112738,
+      "medianHomeValue": 404900,
+      "localEconomyScore": 76.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hampton-city",
@@ -1984,12 +1984,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51650",
-      "population": 137217,
-      "medianHouseholdIncome": 64430,
-      "medianHomeValue": 219800,
-      "localEconomyScore": 62.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 137557,
+      "medianHouseholdIncome": 69621,
+      "medianHomeValue": 245700,
+      "localEconomyScore": 63.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "albemarle",
@@ -1998,12 +1998,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51003",
-      "population": 112513,
-      "medianHouseholdIncome": 97708,
-      "medianHomeValue": 450200,
-      "localEconomyScore": 68.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 114919,
+      "medianHouseholdIncome": 104392,
+      "medianHomeValue": 495400,
+      "localEconomyScore": 70.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hanover",
@@ -2012,12 +2012,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51085",
-      "population": 110513,
-      "medianHouseholdIncome": 104678,
-      "medianHomeValue": 347900,
-      "localEconomyScore": 74.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 112879,
+      "medianHouseholdIncome": 112805,
+      "medianHomeValue": 400400,
+      "localEconomyScore": 76.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "montgomery",
@@ -2026,54 +2026,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51121",
-      "population": 99373,
-      "medianHouseholdIncome": 65270,
-      "medianHomeValue": 269300,
-      "localEconomyScore": 60.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "roanoke-city",
-      "county": "Roanoke city",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51770",
-      "population": 99213,
-      "medianHouseholdIncome": 51523,
-      "medianHomeValue": 162000,
-      "localEconomyScore": 59.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "portsmouth-city",
-      "county": "Portsmouth city",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51740",
-      "population": 97384,
-      "medianHouseholdIncome": 57154,
-      "medianHomeValue": 213300,
-      "localEconomyScore": 59.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "roanoke",
-      "county": "Roanoke County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51161",
-      "population": 96653,
-      "medianHouseholdIncome": 80872,
-      "medianHomeValue": 245800,
-      "localEconomyScore": 68.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 99101,
+      "medianHouseholdIncome": 72715,
+      "medianHomeValue": 304600,
+      "localEconomyScore": 62.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "suffolk-city",
@@ -2082,12 +2040,54 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51800",
-      "population": 94856,
-      "medianHouseholdIncome": 87758,
-      "medianHomeValue": 314400,
-      "localEconomyScore": 68.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 98796,
+      "medianHouseholdIncome": 92666,
+      "medianHomeValue": 347400,
+      "localEconomyScore": 69.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "roanoke-city",
+      "county": "Roanoke city",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51770",
+      "population": 98355,
+      "medianHouseholdIncome": 55378,
+      "medianHomeValue": 190500,
+      "localEconomyScore": 59.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "portsmouth-city",
+      "county": "Portsmouth city",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51740",
+      "population": 97190,
+      "medianHouseholdIncome": 60491,
+      "medianHomeValue": 246900,
+      "localEconomyScore": 59.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "roanoke",
+      "county": "Roanoke County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51161",
+      "population": 97023,
+      "medianHouseholdIncome": 83709,
+      "medianHomeValue": 286000,
+      "localEconomyScore": 68.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "frederick",
@@ -2096,12 +2096,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51069",
-      "population": 92007,
-      "medianHouseholdIncome": 92443,
-      "medianHomeValue": 333600,
-      "localEconomyScore": 70.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 95008,
+      "medianHouseholdIncome": 97606,
+      "medianHomeValue": 386000,
+      "localEconomyScore": 70.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "rockingham",
@@ -2110,40 +2110,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51165",
-      "population": 83905,
-      "medianHouseholdIncome": 73232,
-      "medianHomeValue": 266900,
-      "localEconomyScore": 64.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "bedford",
-      "county": "Bedford County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51019",
-      "population": 79761,
-      "medianHouseholdIncome": 74773,
-      "medianHomeValue": 263900,
-      "localEconomyScore": 65.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "lynchburg-city",
-      "county": "Lynchburg city",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51680",
-      "population": 79166,
-      "medianHouseholdIncome": 56243,
-      "medianHomeValue": 196000,
-      "localEconomyScore": 59.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 85600,
+      "medianHouseholdIncome": 80693,
+      "medianHomeValue": 313000,
+      "localEconomyScore": 65.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "james-city",
@@ -2152,12 +2124,40 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51095",
-      "population": 78818,
-      "medianHouseholdIncome": 100711,
-      "medianHomeValue": 396800,
-      "localEconomyScore": 71.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 81013,
+      "medianHouseholdIncome": 109985,
+      "medianHomeValue": 447200,
+      "localEconomyScore": 73.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "bedford",
+      "county": "Bedford County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51019",
+      "population": 80894,
+      "medianHouseholdIncome": 78937,
+      "medianHomeValue": 297400,
+      "localEconomyScore": 65.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "lynchburg-city",
+      "county": "Lynchburg city",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51680",
+      "population": 79497,
+      "medianHouseholdIncome": 57947,
+      "medianHomeValue": 229800,
+      "localEconomyScore": 58.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "augusta",
@@ -2166,12 +2166,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51015",
-      "population": 77433,
-      "medianHouseholdIncome": 76124,
-      "medianHomeValue": 267100,
-      "localEconomyScore": 65.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 78033,
+      "medianHouseholdIncome": 82049,
+      "medianHomeValue": 306100,
+      "localEconomyScore": 66.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "fauquier",
@@ -2180,12 +2180,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51061",
-      "population": 73290,
-      "medianHouseholdIncome": 122785,
-      "medianHomeValue": 501200,
-      "localEconomyScore": 76.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 74577,
+      "medianHouseholdIncome": 130189,
+      "medianHomeValue": 573700,
+      "localEconomyScore": 75.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "york",
@@ -2194,12 +2194,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51199",
-      "population": 70238,
-      "medianHouseholdIncome": 105154,
-      "medianHomeValue": 387200,
-      "localEconomyScore": 73.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 71005,
+      "medianHouseholdIncome": 109956,
+      "medianHomeValue": 433200,
+      "localEconomyScore": 74,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pittsylvania",
@@ -2208,12 +2208,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51143",
-      "population": 60541,
-      "medianHouseholdIncome": 52619,
-      "medianHomeValue": 144100,
-      "localEconomyScore": 60.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 59856,
+      "medianHouseholdIncome": 54085,
+      "medianHomeValue": 161400,
+      "localEconomyScore": 60.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "campbell",
@@ -2222,12 +2222,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51031",
-      "population": 55518,
-      "medianHouseholdIncome": 59022,
-      "medianHomeValue": 183100,
-      "localEconomyScore": 61.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 55312,
+      "medianHouseholdIncome": 66165,
+      "medianHomeValue": 211600,
+      "localEconomyScore": 63.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "franklin",
@@ -2236,26 +2236,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51067",
-      "population": 54838,
-      "medianHouseholdIncome": 66275,
-      "medianHomeValue": 207700,
-      "localEconomyScore": 63.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "washington",
-      "county": "Washington County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51191",
-      "population": 53985,
-      "medianHouseholdIncome": 59116,
-      "medianHomeValue": 181000,
-      "localEconomyScore": 61.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 55130,
+      "medianHouseholdIncome": 68849,
+      "medianHomeValue": 240400,
+      "localEconomyScore": 63.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "culpeper",
@@ -2264,12 +2250,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51047",
-      "population": 52822,
-      "medianHouseholdIncome": 92359,
-      "medianHomeValue": 369600,
-      "localEconomyScore": 68.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 54397,
+      "medianHouseholdIncome": 100049,
+      "medianHomeValue": 409200,
+      "localEconomyScore": 70.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "washington",
+      "county": "Washington County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51191",
+      "population": 53926,
+      "medianHouseholdIncome": 64552,
+      "medianHomeValue": 214000,
+      "localEconomyScore": 62.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "harrisonburg-city",
@@ -2278,12 +2278,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51660",
-      "population": 51784,
-      "medianHouseholdIncome": 56050,
-      "medianHomeValue": 263700,
-      "localEconomyScore": 55.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 51392,
+      "medianHouseholdIncome": 62254,
+      "medianHomeValue": 299100,
+      "localEconomyScore": 57.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "henry",
@@ -2292,12 +2292,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51089",
-      "population": 50760,
-      "medianHouseholdIncome": 43694,
-      "medianHomeValue": 111800,
-      "localEconomyScore": 58.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 49980,
+      "medianHouseholdIncome": 50760,
+      "medianHomeValue": 134800,
+      "localEconomyScore": 60.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "charlottesville-city",
@@ -2306,12 +2306,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51540",
-      "population": 46289,
-      "medianHouseholdIncome": 67177,
-      "medianHomeValue": 398400,
-      "localEconomyScore": 55.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 45437,
+      "medianHouseholdIncome": 74824,
+      "medianHomeValue": 486700,
+      "localEconomyScore": 55.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "shenandoah",
@@ -2320,12 +2320,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51171",
-      "population": 44337,
-      "medianHouseholdIncome": 62149,
-      "medianHomeValue": 247600,
-      "localEconomyScore": 59.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 44925,
+      "medianHouseholdIncome": 67191,
+      "medianHomeValue": 294900,
+      "localEconomyScore": 59.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "prince-george",
@@ -2334,12 +2334,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51149",
-      "population": 42634,
-      "medianHouseholdIncome": 80318,
-      "medianHomeValue": 252300,
-      "localEconomyScore": 67.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 43146,
+      "medianHouseholdIncome": 84897,
+      "medianHomeValue": 293400,
+      "localEconomyScore": 67.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "manassas-city",
@@ -2348,12 +2348,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51683",
-      "population": 42620,
-      "medianHouseholdIncome": 110559,
-      "medianHomeValue": 393900,
-      "localEconomyScore": 75,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 42976,
+      "medianHouseholdIncome": 113590,
+      "medianHomeValue": 449900,
+      "localEconomyScore": 74.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "danville-city",
@@ -2362,12 +2362,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51590",
-      "population": 42507,
-      "medianHouseholdIncome": 41484,
-      "medianHomeValue": 102000,
-      "localEconomyScore": 58.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 42214,
+      "medianHouseholdIncome": 44423,
+      "medianHomeValue": 119100,
+      "localEconomyScore": 58.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "warren",
@@ -2376,54 +2376,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51187",
-      "population": 40800,
-      "medianHouseholdIncome": 79313,
-      "medianHomeValue": 293400,
-      "localEconomyScore": 65.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "tazewell",
-      "county": "Tazewell County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51185",
-      "population": 40392,
-      "medianHouseholdIncome": 46508,
-      "medianHomeValue": 112200,
-      "localEconomyScore": 59.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "isle-of-wight",
-      "county": "Isle of Wight County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51093",
-      "population": 38898,
-      "medianHouseholdIncome": 91680,
-      "medianHomeValue": 327600,
-      "localEconomyScore": 69.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "gloucester",
-      "county": "Gloucester County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51073",
-      "population": 38875,
-      "medianHouseholdIncome": 83750,
-      "medianHomeValue": 274500,
-      "localEconomyScore": 68,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 41531,
+      "medianHouseholdIncome": 84682,
+      "medianHomeValue": 348400,
+      "localEconomyScore": 65.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "louisa",
@@ -2432,12 +2390,54 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51109",
-      "population": 38106,
-      "medianHouseholdIncome": 76594,
-      "medianHomeValue": 266700,
-      "localEconomyScore": 65.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 39980,
+      "medianHouseholdIncome": 86689,
+      "medianHomeValue": 315300,
+      "localEconomyScore": 67.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "isle-of-wight",
+      "county": "Isle of Wight County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51093",
+      "population": 39974,
+      "medianHouseholdIncome": 95241,
+      "medianHomeValue": 356500,
+      "localEconomyScore": 70,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "tazewell",
+      "county": "Tazewell County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51185",
+      "population": 39624,
+      "medianHouseholdIncome": 47313,
+      "medianHomeValue": 118300,
+      "localEconomyScore": 59.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "gloucester",
+      "county": "Gloucester County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51073",
+      "population": 39526,
+      "medianHouseholdIncome": 84306,
+      "medianHomeValue": 331000,
+      "localEconomyScore": 66.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "orange",
@@ -2446,12 +2446,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51137",
-      "population": 36593,
-      "medianHouseholdIncome": 87309,
-      "medianHomeValue": 316000,
-      "localEconomyScore": 68,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 37822,
+      "medianHouseholdIncome": 94008,
+      "medianHomeValue": 364200,
+      "localEconomyScore": 69.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wise",
@@ -2460,40 +2460,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51195",
-      "population": 36105,
-      "medianHouseholdIncome": 47541,
-      "medianHomeValue": 108000,
-      "localEconomyScore": 60.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "halifax",
-      "county": "Halifax County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51083",
-      "population": 34013,
-      "medianHouseholdIncome": 49145,
-      "medianHomeValue": 133200,
-      "localEconomyScore": 59.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "pulaski",
-      "county": "Pulaski County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51155",
-      "population": 33841,
-      "medianHouseholdIncome": 59740,
-      "medianHomeValue": 181700,
-      "localEconomyScore": 61.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 35448,
+      "medianHouseholdIncome": 52943,
+      "medianHomeValue": 118600,
+      "localEconomyScore": 62,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "botetourt",
@@ -2502,26 +2474,40 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51023",
-      "population": 33734,
-      "medianHouseholdIncome": 77680,
-      "medianHomeValue": 264200,
-      "localEconomyScore": 65.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 34004,
+      "medianHouseholdIncome": 81213,
+      "medianHomeValue": 289200,
+      "localEconomyScore": 66.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "accomack",
-      "county": "Accomack County",
+      "slug": "pulaski",
+      "county": "Pulaski County",
       "state": "Virginia",
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
-      "fips": "51001",
-      "population": 33367,
-      "medianHouseholdIncome": 52694,
-      "medianHomeValue": 184500,
-      "localEconomyScore": 58.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "51155",
+      "population": 33687,
+      "medianHouseholdIncome": 62028,
+      "medianHomeValue": 191700,
+      "localEconomyScore": 62.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "halifax",
+      "county": "Halifax County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51083",
+      "population": 33639,
+      "medianHouseholdIncome": 52013,
+      "medianHomeValue": 155700,
+      "localEconomyScore": 59.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "petersburg-city",
@@ -2530,26 +2516,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51730",
-      "population": 33261,
-      "medianHouseholdIncome": 46930,
-      "medianHomeValue": 147200,
-      "localEconomyScore": 57.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 33537,
+      "medianHouseholdIncome": 50698,
+      "medianHomeValue": 189000,
+      "localEconomyScore": 56.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "amherst",
-      "county": "Amherst County",
+      "slug": "accomack",
+      "county": "Accomack County",
       "state": "Virginia",
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
-      "fips": "51009",
-      "population": 31426,
-      "medianHouseholdIncome": 64454,
-      "medianHomeValue": 181600,
-      "localEconomyScore": 63.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "51001",
+      "population": 33335,
+      "medianHouseholdIncome": 58993,
+      "medianHomeValue": 204300,
+      "localEconomyScore": 60.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "caroline",
@@ -2558,12 +2544,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51033",
-      "population": 31181,
-      "medianHouseholdIncome": 83562,
-      "medianHomeValue": 253300,
-      "localEconomyScore": 68.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 32098,
+      "medianHouseholdIncome": 87407,
+      "medianHomeValue": 307700,
+      "localEconomyScore": 68.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "powhatan",
@@ -2572,12 +2558,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51145",
-      "population": 30503,
-      "medianHouseholdIncome": 108089,
-      "medianHomeValue": 356500,
-      "localEconomyScore": 74.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 31555,
+      "medianHouseholdIncome": 110537,
+      "medianHomeValue": 416000,
+      "localEconomyScore": 74.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "amherst",
+      "county": "Amherst County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51009",
+      "population": 31485,
+      "medianHouseholdIncome": 68724,
+      "medianHomeValue": 212400,
+      "localEconomyScore": 64,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "mecklenburg",
@@ -2586,12 +2586,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51117",
-      "population": 30367,
-      "medianHouseholdIncome": 51265,
-      "medianHomeValue": 157800,
-      "localEconomyScore": 58.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 30516,
+      "medianHouseholdIncome": 57045,
+      "medianHomeValue": 192600,
+      "localEconomyScore": 59.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "smyth",
@@ -2600,12 +2600,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51173",
-      "population": 29799,
-      "medianHouseholdIncome": 45061,
-      "medianHomeValue": 120600,
-      "localEconomyScore": 58.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 29420,
+      "medianHouseholdIncome": 49883,
+      "medianHomeValue": 139600,
+      "localEconomyScore": 59.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "carroll",
@@ -2614,26 +2614,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51035",
-      "population": 29126,
-      "medianHouseholdIncome": 49113,
-      "medianHomeValue": 139200,
-      "localEconomyScore": 59,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "wythe",
-      "county": "Wythe County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51197",
-      "population": 28275,
-      "medianHouseholdIncome": 53921,
-      "medianHomeValue": 157100,
-      "localEconomyScore": 60.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 29157,
+      "medianHouseholdIncome": 54484,
+      "medianHomeValue": 156500,
+      "localEconomyScore": 60.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "fredericksburg-city",
@@ -2642,26 +2628,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51630",
-      "population": 28258,
-      "medianHouseholdIncome": 83445,
-      "medianHomeValue": 438400,
-      "localEconomyScore": 61.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "winchester-city",
-      "county": "Winchester city",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51840",
-      "population": 28103,
-      "medianHouseholdIncome": 62495,
-      "medianHomeValue": 299900,
-      "localEconomyScore": 57,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 28873,
+      "medianHouseholdIncome": 86071,
+      "medianHomeValue": 483700,
+      "localEconomyScore": 61.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dinwiddie",
@@ -2670,12 +2642,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51053",
-      "population": 28057,
-      "medianHouseholdIncome": 77225,
-      "medianHomeValue": 223800,
-      "localEconomyScore": 67,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 28191,
+      "medianHouseholdIncome": 83704,
+      "medianHomeValue": 257800,
+      "localEconomyScore": 68.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "wythe",
+      "county": "Wythe County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51197",
+      "population": 28188,
+      "medianHouseholdIncome": 57745,
+      "medianHomeValue": 171200,
+      "localEconomyScore": 61.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "fluvanna",
@@ -2684,12 +2670,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51065",
-      "population": 27442,
-      "medianHouseholdIncome": 90766,
-      "medianHomeValue": 270900,
-      "localEconomyScore": 70.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 28092,
+      "medianHouseholdIncome": 96768,
+      "medianHomeValue": 314100,
+      "localEconomyScore": 71.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "winchester-city",
+      "county": "Winchester city",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51840",
+      "population": 27913,
+      "medianHouseholdIncome": 63974,
+      "medianHomeValue": 343000,
+      "localEconomyScore": 55.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "king-george",
@@ -2698,54 +2698,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51099",
-      "population": 26985,
-      "medianHouseholdIncome": 103264,
-      "medianHomeValue": 372300,
-      "localEconomyScore": 72.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "russell",
-      "county": "Russell County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51167",
-      "population": 25763,
-      "medianHouseholdIncome": 44088,
-      "medianHomeValue": 112000,
-      "localEconomyScore": 58.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "staunton-city",
-      "county": "Staunton city",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51790",
-      "population": 25581,
-      "medianHouseholdIncome": 59731,
-      "medianHomeValue": 219500,
-      "localEconomyScore": 59.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "salem-city",
-      "county": "Salem city",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51775",
-      "population": 25372,
-      "medianHouseholdIncome": 68402,
-      "medianHomeValue": 231900,
-      "localEconomyScore": 62.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 27896,
+      "medianHouseholdIncome": 116884,
+      "medianHomeValue": 428300,
+      "localEconomyScore": 76.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "goochland",
@@ -2754,40 +2712,54 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51075",
-      "population": 24906,
-      "medianHouseholdIncome": 105600,
-      "medianHomeValue": 433600,
-      "localEconomyScore": 71.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 26410,
+      "medianHouseholdIncome": 118931,
+      "medianHomeValue": 500600,
+      "localEconomyScore": 75.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "fairfax-city",
-      "county": "Fairfax city",
+      "slug": "staunton-city",
+      "county": "Staunton city",
       "state": "Virginia",
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
-      "fips": "51600",
-      "population": 24242,
-      "medianHouseholdIncome": 128708,
-      "medianHomeValue": 649600,
-      "localEconomyScore": 72.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "51790",
+      "population": 25948,
+      "medianHouseholdIncome": 65581,
+      "medianHomeValue": 259200,
+      "localEconomyScore": 60.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "page",
-      "county": "Page County",
+      "slug": "salem-city",
+      "county": "Salem city",
       "state": "Virginia",
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
-      "fips": "51139",
-      "population": 23753,
-      "medianHouseholdIncome": 56760,
-      "medianHomeValue": 198000,
-      "localEconomyScore": 59.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "51775",
+      "population": 25618,
+      "medianHouseholdIncome": 66725,
+      "medianHomeValue": 258600,
+      "localEconomyScore": 60.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "russell",
+      "county": "Russell County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51167",
+      "population": 25538,
+      "medianHouseholdIncome": 50012,
+      "medianHomeValue": 120600,
+      "localEconomyScore": 60.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "new-kent",
@@ -2796,12 +2768,40 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51127",
-      "population": 23296,
-      "medianHouseholdIncome": 113120,
-      "medianHomeValue": 354200,
-      "localEconomyScore": 76.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 25105,
+      "medianHouseholdIncome": 123314,
+      "medianHomeValue": 393600,
+      "localEconomyScore": 78.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "fairfax-city",
+      "county": "Fairfax city",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51600",
+      "population": 25026,
+      "medianHouseholdIncome": 132348,
+      "medianHomeValue": 722600,
+      "localEconomyScore": 71.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "page",
+      "county": "Page County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51139",
+      "population": 23727,
+      "medianHouseholdIncome": 57037,
+      "medianHomeValue": 233200,
+      "localEconomyScore": 57.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hopewell-city",
@@ -2810,26 +2810,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51670",
-      "population": 23046,
-      "medianHouseholdIncome": 50661,
-      "medianHomeValue": 151600,
-      "localEconomyScore": 58.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "rockbridge",
-      "county": "Rockbridge County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51163",
-      "population": 22673,
-      "medianHouseholdIncome": 61903,
-      "medianHomeValue": 232100,
-      "localEconomyScore": 59.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 22959,
+      "medianHouseholdIncome": 54729,
+      "medianHomeValue": 181600,
+      "localEconomyScore": 59,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "waynesboro-city",
@@ -2838,26 +2824,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51820",
-      "population": 22341,
-      "medianHouseholdIncome": 52519,
-      "medianHomeValue": 226700,
-      "localEconomyScore": 55.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 22841,
+      "medianHouseholdIncome": 59994,
+      "medianHomeValue": 245500,
+      "localEconomyScore": 58.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "lee",
-      "county": "Lee County",
+      "slug": "rockbridge",
+      "county": "Rockbridge County",
       "state": "Virginia",
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
-      "fips": "51105",
-      "population": 22287,
-      "medianHouseholdIncome": 41619,
-      "medianHomeValue": 95800,
-      "localEconomyScore": 58.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "51163",
+      "population": 22531,
+      "medianHouseholdIncome": 65469,
+      "medianHomeValue": 248800,
+      "localEconomyScore": 60.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "prince-edward",
@@ -2866,12 +2852,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51147",
-      "population": 21922,
-      "medianHouseholdIncome": 57304,
-      "medianHomeValue": 193400,
-      "localEconomyScore": 59.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 21996,
+      "medianHouseholdIncome": 56315,
+      "medianHomeValue": 216600,
+      "localEconomyScore": 57.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "lee",
+      "county": "Lee County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51105",
+      "population": 21900,
+      "medianHouseholdIncome": 41827,
+      "medianHomeValue": 98900,
+      "localEconomyScore": 58.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "scott",
@@ -2880,12 +2880,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51169",
-      "population": 21536,
-      "medianHouseholdIncome": 44535,
-      "medianHomeValue": 122300,
-      "localEconomyScore": 57.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 21479,
+      "medianHouseholdIncome": 46349,
+      "medianHomeValue": 143000,
+      "localEconomyScore": 57.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "greene",
@@ -2894,12 +2894,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51079",
-      "population": 20631,
-      "medianHouseholdIncome": 81338,
-      "medianHomeValue": 287800,
-      "localEconomyScore": 66.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 21155,
+      "medianHouseholdIncome": 89808,
+      "medianHomeValue": 343300,
+      "localEconomyScore": 67.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "buchanan",
@@ -2908,12 +2908,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51027",
-      "population": 20246,
-      "medianHouseholdIncome": 39591,
-      "medianHomeValue": 84900,
-      "localEconomyScore": 58.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 19415,
+      "medianHouseholdIncome": 42886,
+      "medianHomeValue": 94900,
+      "localEconomyScore": 58.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "westmoreland",
@@ -2922,40 +2922,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51193",
-      "population": 18480,
-      "medianHouseholdIncome": 56647,
-      "medianHomeValue": 244000,
-      "localEconomyScore": 56.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "colonial-heights-city",
-      "county": "Colonial Heights city",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51570",
-      "population": 18158,
-      "medianHouseholdIncome": 72216,
-      "medianHomeValue": 221400,
-      "localEconomyScore": 64.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "southampton",
-      "county": "Southampton County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51175",
-      "population": 18003,
-      "medianHouseholdIncome": 67813,
-      "medianHomeValue": 199700,
-      "localEconomyScore": 63.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 18826,
+      "medianHouseholdIncome": 63398,
+      "medianHomeValue": 269600,
+      "localEconomyScore": 58.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "king-william",
@@ -2964,12 +2936,40 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51101",
-      "population": 17845,
-      "medianHouseholdIncome": 79398,
-      "medianHomeValue": 252200,
-      "localEconomyScore": 66.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 18593,
+      "medianHouseholdIncome": 86056,
+      "medianHomeValue": 315700,
+      "localEconomyScore": 67,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "colonial-heights-city",
+      "county": "Colonial Heights city",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51570",
+      "population": 18352,
+      "medianHouseholdIncome": 76505,
+      "medianHomeValue": 246600,
+      "localEconomyScore": 65.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "southampton",
+      "county": "Southampton County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51175",
+      "population": 17964,
+      "medianHouseholdIncome": 70795,
+      "medianHomeValue": 216200,
+      "localEconomyScore": 64.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "patrick",
@@ -2978,40 +2978,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51141",
-      "population": 17660,
-      "medianHouseholdIncome": 49180,
-      "medianHomeValue": 137200,
-      "localEconomyScore": 58.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "manassas-park-city",
-      "county": "Manassas Park city",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51685",
-      "population": 17123,
-      "medianHouseholdIncome": 91673,
-      "medianHomeValue": 370700,
-      "localEconomyScore": 67.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "bristol-city",
-      "county": "Bristol city",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51520",
-      "population": 17036,
-      "medianHouseholdIncome": 45250,
-      "medianHomeValue": 154900,
-      "localEconomyScore": 55.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 17512,
+      "medianHouseholdIncome": 53038,
+      "medianHomeValue": 153400,
+      "localEconomyScore": 59.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "buckingham",
@@ -3020,26 +2992,40 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51029",
-      "population": 16869,
-      "medianHouseholdIncome": 59894,
-      "medianHomeValue": 160800,
-      "localEconomyScore": 62.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 16976,
+      "medianHouseholdIncome": 60828,
+      "medianHomeValue": 173400,
+      "localEconomyScore": 62,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "giles",
-      "county": "Giles County",
+      "slug": "bristol-city",
+      "county": "Bristol city",
       "state": "Virginia",
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
-      "fips": "51071",
-      "population": 16711,
-      "medianHouseholdIncome": 61987,
-      "medianHomeValue": 141900,
-      "localEconomyScore": 64,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "51520",
+      "population": 16849,
+      "medianHouseholdIncome": 50404,
+      "medianHomeValue": 184100,
+      "localEconomyScore": 56.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "manassas-park-city",
+      "county": "Manassas Park city",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51685",
+      "population": 16798,
+      "medianHouseholdIncome": 103250,
+      "medianHomeValue": 395900,
+      "localEconomyScore": 71.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "radford-city",
@@ -3048,12 +3034,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51750",
-      "population": 16379,
-      "medianHouseholdIncome": 51039,
-      "medianHomeValue": 204700,
-      "localEconomyScore": 55.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 16726,
+      "medianHouseholdIncome": 57348,
+      "medianHomeValue": 220700,
+      "localEconomyScore": 58,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "appomattox",
@@ -3062,12 +3048,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51011",
-      "population": 16253,
-      "medianHouseholdIncome": 60041,
-      "medianHomeValue": 178000,
-      "localEconomyScore": 61.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 16610,
+      "medianHouseholdIncome": 62853,
+      "medianHomeValue": 207600,
+      "localEconomyScore": 61.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "giles",
+      "county": "Giles County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51071",
+      "population": 16557,
+      "medianHouseholdIncome": 65691,
+      "medianHomeValue": 151100,
+      "localEconomyScore": 65.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "brunswick",
@@ -3076,40 +3076,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51025",
-      "population": 15965,
-      "medianHouseholdIncome": 52678,
-      "medianHomeValue": 127000,
-      "localEconomyScore": 60.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "nottoway",
-      "county": "Nottoway County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51135",
-      "population": 15638,
-      "medianHouseholdIncome": 62366,
-      "medianHomeValue": 169500,
-      "localEconomyScore": 62.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "floyd",
-      "county": "Floyd County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51063",
-      "population": 15532,
-      "medianHouseholdIncome": 57146,
-      "medianHomeValue": 205400,
-      "localEconomyScore": 58.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 15841,
+      "medianHouseholdIncome": 53084,
+      "medianHomeValue": 142700,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "williamsburg-city",
@@ -3118,12 +3090,40 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51830",
-      "population": 15486,
-      "medianHouseholdIncome": 66815,
-      "medianHomeValue": 385600,
-      "localEconomyScore": 55,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 15798,
+      "medianHouseholdIncome": 75604,
+      "medianHomeValue": 428100,
+      "localEconomyScore": 57.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "nottoway",
+      "county": "Nottoway County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51135",
+      "population": 15597,
+      "medianHouseholdIncome": 63261,
+      "medianHomeValue": 167500,
+      "localEconomyScore": 63.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "floyd",
+      "county": "Floyd County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51063",
+      "population": 15593,
+      "medianHouseholdIncome": 62191,
+      "medianHomeValue": 225400,
+      "localEconomyScore": 60.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "grayson",
@@ -3132,26 +3132,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51077",
-      "population": 15356,
-      "medianHouseholdIncome": 43348,
-      "medianHomeValue": 129100,
-      "localEconomyScore": 56.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "alleghany",
-      "county": "Alleghany County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51005",
-      "population": 15159,
-      "medianHouseholdIncome": 52546,
-      "medianHomeValue": 123600,
-      "localEconomyScore": 61,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 15287,
+      "medianHouseholdIncome": 47730,
+      "medianHomeValue": 150100,
+      "localEconomyScore": 57.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clarke",
@@ -3160,12 +3146,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51043",
-      "population": 14882,
-      "medianHouseholdIncome": 107475,
-      "medianHomeValue": 496600,
-      "localEconomyScore": 70.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 15216,
+      "medianHouseholdIncome": 117111,
+      "medianHomeValue": 550100,
+      "localEconomyScore": 72.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "alleghany",
+      "county": "Alleghany County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51005",
+      "population": 14859,
+      "medianHouseholdIncome": 56188,
+      "medianHomeValue": 125800,
+      "localEconomyScore": 62.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "nelson",
@@ -3174,12 +3174,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51125",
-      "population": 14773,
-      "medianHouseholdIncome": 64028,
-      "medianHomeValue": 275100,
-      "localEconomyScore": 58.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14732,
+      "medianHouseholdIncome": 72589,
+      "medianHomeValue": 321700,
+      "localEconomyScore": 60.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "falls-church-city",
@@ -3188,26 +3188,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51610",
-      "population": 14576,
-      "medianHouseholdIncome": 164536,
-      "medianHomeValue": 938500,
-      "localEconomyScore": 70.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "dickenson",
-      "county": "Dickenson County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51051",
-      "population": 14089,
-      "medianHouseholdIncome": 40143,
-      "medianHomeValue": 89200,
-      "localEconomyScore": 57.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14710,
+      "medianHouseholdIncome": 143262,
+      "medianHomeValue": 1055600,
+      "localEconomyScore": 65.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "madison",
@@ -3216,12 +3202,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51113",
-      "population": 13828,
-      "medianHouseholdIncome": 74586,
-      "medianHomeValue": 311500,
-      "localEconomyScore": 61.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14044,
+      "medianHouseholdIncome": 84323,
+      "medianHomeValue": 370300,
+      "localEconomyScore": 64.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "dickenson",
+      "county": "Dickenson County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51051",
+      "population": 13733,
+      "medianHouseholdIncome": 47254,
+      "medianHomeValue": 102700,
+      "localEconomyScore": 60,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "martinsville-city",
@@ -3230,12 +3230,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51690",
-      "population": 13539,
-      "medianHouseholdIncome": 39127,
-      "medianHomeValue": 82800,
-      "localEconomyScore": 57.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 13658,
+      "medianHouseholdIncome": 46727,
+      "medianHomeValue": 98400,
+      "localEconomyScore": 60,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "amelia",
@@ -3244,12 +3244,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51007",
-      "population": 13309,
-      "medianHouseholdIncome": 63438,
-      "medianHomeValue": 233700,
-      "localEconomyScore": 60.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 13462,
+      "medianHouseholdIncome": 76717,
+      "medianHomeValue": 282400,
+      "localEconomyScore": 64,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "poquoson-city",
@@ -3258,26 +3258,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51735",
-      "population": 12479,
-      "medianHouseholdIncome": 114503,
-      "medianHomeValue": 406700,
-      "localEconomyScore": 75.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "northampton",
-      "county": "Northampton County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51131",
-      "population": 12132,
-      "medianHouseholdIncome": 54693,
-      "medianHomeValue": 246300,
-      "localEconomyScore": 55.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 12639,
+      "medianHouseholdIncome": 120972,
+      "medianHomeValue": 400300,
+      "localEconomyScore": 77.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "northumberland",
@@ -3286,12 +3272,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51133",
-      "population": 12007,
-      "medianHouseholdIncome": 64655,
-      "medianHomeValue": 303700,
-      "localEconomyScore": 57.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 12188,
+      "medianHouseholdIncome": 66480,
+      "medianHomeValue": 346800,
+      "localEconomyScore": 56.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "northampton",
+      "county": "Northampton County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51131",
+      "population": 12059,
+      "medianHouseholdIncome": 61632,
+      "medianHomeValue": 316200,
+      "localEconomyScore": 55.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lunenburg",
@@ -3300,12 +3300,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51111",
-      "population": 11988,
-      "medianHouseholdIncome": 54438,
-      "medianHomeValue": 139700,
-      "localEconomyScore": 60.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 12016,
+      "medianHouseholdIncome": 54842,
+      "medianHomeValue": 150100,
+      "localEconomyScore": 60.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "charlotte",
@@ -3314,12 +3314,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51037",
-      "population": 11563,
-      "medianHouseholdIncome": 51548,
-      "medianHomeValue": 137000,
-      "localEconomyScore": 59.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11422,
+      "medianHouseholdIncome": 58000,
+      "medianHomeValue": 144100,
+      "localEconomyScore": 62,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "greensville",
@@ -3328,12 +3328,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51081",
-      "population": 11373,
-      "medianHouseholdIncome": 51823,
-      "medianHomeValue": 146600,
-      "localEconomyScore": 59.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11275,
+      "medianHouseholdIncome": 54668,
+      "medianHomeValue": 159400,
+      "localEconomyScore": 59.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lancaster",
@@ -3342,26 +3342,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51103",
-      "population": 10866,
-      "medianHouseholdIncome": 62674,
-      "medianHomeValue": 292300,
-      "localEconomyScore": 56.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "sussex",
-      "county": "Sussex County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51183",
-      "population": 10866,
-      "medianHouseholdIncome": 59195,
-      "medianHomeValue": 151000,
-      "localEconomyScore": 62.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10936,
+      "medianHouseholdIncome": 69713,
+      "medianHomeValue": 327000,
+      "localEconomyScore": 58.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "middlesex",
@@ -3370,12 +3356,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51119",
-      "population": 10738,
-      "medianHouseholdIncome": 69389,
-      "medianHomeValue": 288900,
-      "localEconomyScore": 60.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10847,
+      "medianHouseholdIncome": 75060,
+      "medianHomeValue": 352200,
+      "localEconomyScore": 60.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "sussex",
+      "county": "Sussex County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51183",
+      "population": 10765,
+      "medianHouseholdIncome": 63530,
+      "medianHomeValue": 183800,
+      "localEconomyScore": 62.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "essex",
@@ -3384,12 +3384,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51057",
-      "population": 10602,
-      "medianHouseholdIncome": 52335,
-      "medianHomeValue": 217000,
-      "localEconomyScore": 55.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10623,
+      "medianHouseholdIncome": 56520,
+      "medianHomeValue": 238100,
+      "localEconomyScore": 56.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cumberland",
@@ -3398,12 +3398,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51049",
-      "population": 9697,
-      "medianHouseholdIncome": 56497,
-      "medianHomeValue": 208600,
-      "localEconomyScore": 57.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9818,
+      "medianHouseholdIncome": 55325,
+      "medianHomeValue": 239300,
+      "localEconomyScore": 55.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "richmond",
@@ -3412,12 +3412,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51159",
-      "population": 8968,
-      "medianHouseholdIncome": 62708,
-      "medianHomeValue": 218600,
-      "localEconomyScore": 60.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9095,
+      "medianHouseholdIncome": 66304,
+      "medianHomeValue": 231500,
+      "localEconomyScore": 61.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "mathews",
@@ -3426,12 +3426,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51115",
-      "population": 8537,
-      "medianHouseholdIncome": 79054,
-      "medianHomeValue": 355900,
-      "localEconomyScore": 61.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8540,
+      "medianHouseholdIncome": 75880,
+      "medianHomeValue": 360900,
+      "localEconomyScore": 60.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "franklin-city",
@@ -3440,26 +3440,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51620",
-      "population": 8194,
-      "medianHouseholdIncome": 57537,
-      "medianHomeValue": 197900,
-      "localEconomyScore": 58.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "rappahannock",
-      "county": "Rappahannock County",
-      "state": "Virginia",
-      "stateSlug": "virginia",
-      "stateAbbreviation": "VA",
-      "fips": "51157",
-      "population": 7422,
-      "medianHouseholdIncome": 98663,
-      "medianHomeValue": 509500,
-      "localEconomyScore": 65.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8250,
+      "medianHouseholdIncome": 63245,
+      "medianHomeValue": 256600,
+      "localEconomyScore": 58.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lexington-city",
@@ -3468,26 +3454,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51678",
-      "population": 7346,
-      "medianHouseholdIncome": 93651,
-      "medianHomeValue": 224700,
-      "localEconomyScore": 72.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7525,
+      "medianHouseholdIncome": 84517,
+      "medianHomeValue": 275200,
+      "localEconomyScore": 67.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "charles-city",
-      "county": "Charles City County",
+      "slug": "rappahannock",
+      "county": "Rappahannock County",
       "state": "Virginia",
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
-      "fips": "51036",
-      "population": 6760,
-      "medianHouseholdIncome": 65573,
-      "medianHomeValue": 198800,
-      "localEconomyScore": 62.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "51157",
+      "population": 7427,
+      "medianHouseholdIncome": 83380,
+      "medianHomeValue": 506400,
+      "localEconomyScore": 58.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "galax-city",
@@ -3496,12 +3482,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51640",
-      "population": 6687,
-      "medianHouseholdIncome": 44612,
-      "medianHomeValue": 109300,
-      "localEconomyScore": 57.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6726,
+      "medianHouseholdIncome": 38675,
+      "medianHomeValue": 141300,
+      "localEconomyScore": 52.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "king-and-queen",
@@ -3510,12 +3496,26 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51097",
-      "population": 6681,
-      "medianHouseholdIncome": 70147,
-      "medianHomeValue": 212500,
-      "localEconomyScore": 63.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6695,
+      "medianHouseholdIncome": 70469,
+      "medianHomeValue": 231600,
+      "localEconomyScore": 62.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "charles-city",
+      "county": "Charles City County",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbreviation": "VA",
+      "fips": "51036",
+      "population": 6627,
+      "medianHouseholdIncome": 75417,
+      "medianHomeValue": 241400,
+      "localEconomyScore": 64.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "buena-vista-city",
@@ -3524,12 +3524,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51530",
-      "population": 6639,
-      "medianHouseholdIncome": 48783,
-      "medianHomeValue": 148800,
-      "localEconomyScore": 57.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6593,
+      "medianHouseholdIncome": 57833,
+      "medianHomeValue": 156200,
+      "localEconomyScore": 61,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "surry",
@@ -3538,12 +3538,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51181",
-      "population": 6546,
-      "medianHouseholdIncome": 68655,
-      "medianHomeValue": 231400,
-      "localEconomyScore": 62.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6549,
+      "medianHouseholdIncome": 78041,
+      "medianHomeValue": 238800,
+      "localEconomyScore": 65.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "bland",
@@ -3552,12 +3552,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51021",
-      "population": 6241,
-      "medianHouseholdIncome": 59901,
-      "medianHomeValue": 132500,
-      "localEconomyScore": 63,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6199,
+      "medianHouseholdIncome": 61216,
+      "medianHomeValue": 152100,
+      "localEconomyScore": 62.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "covington-city",
@@ -3566,12 +3566,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51580",
-      "population": 5722,
-      "medianHouseholdIncome": 45737,
-      "medianHomeValue": 80100,
-      "localEconomyScore": 60.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5680,
+      "medianHouseholdIncome": 41944,
+      "medianHomeValue": 83500,
+      "localEconomyScore": 58.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "emporia-city",
@@ -3580,12 +3580,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51595",
-      "population": 5680,
-      "medianHouseholdIncome": 41442,
-      "medianHomeValue": 129400,
-      "localEconomyScore": 54.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5547,
+      "medianHouseholdIncome": 51899,
+      "medianHomeValue": 148500,
+      "localEconomyScore": 58.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "craig",
@@ -3594,12 +3594,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51045",
-      "population": 4898,
-      "medianHouseholdIncome": 66286,
-      "medianHomeValue": 184700,
-      "localEconomyScore": 63,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4856,
+      "medianHouseholdIncome": 69057,
+      "medianHomeValue": 189000,
+      "localEconomyScore": 64,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "bath",
@@ -3608,12 +3608,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51017",
-      "population": 4177,
-      "medianHouseholdIncome": 55699,
-      "medianHomeValue": 184900,
-      "localEconomyScore": 58.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4100,
+      "medianHouseholdIncome": 56184,
+      "medianHomeValue": 206700,
+      "localEconomyScore": 57.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "norton-city",
@@ -3622,12 +3622,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51720",
-      "population": 3668,
-      "medianHouseholdIncome": 36974,
-      "medianHomeValue": 104200,
-      "localEconomyScore": 54.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3577,
+      "medianHouseholdIncome": 41495,
+      "medianHomeValue": 110000,
+      "localEconomyScore": 56,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "highland",
@@ -3636,12 +3636,12 @@
       "stateSlug": "virginia",
       "stateAbbreviation": "VA",
       "fips": "51091",
-      "population": 2247,
-      "medianHouseholdIncome": 57070,
-      "medianHomeValue": 182500,
-      "localEconomyScore": 58.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2296,
+      "medianHouseholdIncome": 65625,
+      "medianHomeValue": 200000,
+      "localEconomyScore": 61.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "colleges": [
@@ -3660,7 +3660,7 @@
       "debtToEarningsRatio": 0.5116823645730343,
       "valueScore": 30,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231411",
@@ -3677,7 +3677,7 @@
       "debtToEarningsRatio": 0.3209399680635277,
       "valueScore": 70,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231420",
@@ -3694,7 +3694,7 @@
       "debtToEarningsRatio": 0.4852861246991226,
       "valueScore": 52,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231536",
@@ -3711,7 +3711,7 @@
       "debtToEarningsRatio": 0.24409061063690085,
       "valueScore": 64,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231554",
@@ -3728,7 +3728,7 @@
       "debtToEarningsRatio": 0.4469690772251309,
       "valueScore": 40,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231581",
@@ -3745,7 +3745,7 @@
       "debtToEarningsRatio": 0.4864086206574,
       "valueScore": 67,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231624",
@@ -3762,7 +3762,7 @@
       "debtToEarningsRatio": 0.2517349299224384,
       "valueScore": 92,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231651",
@@ -3779,7 +3779,7 @@
       "debtToEarningsRatio": 0.5513506224998876,
       "valueScore": 54,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231688",
@@ -3796,7 +3796,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231697",
@@ -3813,7 +3813,7 @@
       "debtToEarningsRatio": 0.235482021459579,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231712",
@@ -3830,7 +3830,7 @@
       "debtToEarningsRatio": 0.41316167842800244,
       "valueScore": 66,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231785",
@@ -3847,7 +3847,7 @@
       "debtToEarningsRatio": 0.6616617538688283,
       "valueScore": 55,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231873",
@@ -3864,7 +3864,7 @@
       "debtToEarningsRatio": 0.2677514361531508,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231882",
@@ -3881,7 +3881,7 @@
       "debtToEarningsRatio": 0.2842344618494189,
       "valueScore": 95,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "231970",
@@ -3898,7 +3898,7 @@
       "debtToEarningsRatio": 0.43704701897512477,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232016",
@@ -3915,7 +3915,7 @@
       "debtToEarningsRatio": 0.5688391824141921,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232025",
@@ -3932,7 +3932,7 @@
       "debtToEarningsRatio": 0.5557032816292076,
       "valueScore": 59,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232043",
@@ -3949,7 +3949,7 @@
       "debtToEarningsRatio": 0.4522225664765168,
       "valueScore": 55,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232052",
@@ -3966,7 +3966,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232089",
@@ -3983,7 +3983,7 @@
       "debtToEarningsRatio": 0.6095358497381254,
       "valueScore": 47,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232186",
@@ -4000,7 +4000,7 @@
       "debtToEarningsRatio": 0.2554261687384567,
       "valueScore": 94,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232195",
@@ -4017,7 +4017,7 @@
       "debtToEarningsRatio": 0.2118857834729089,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232256",
@@ -4034,7 +4034,7 @@
       "debtToEarningsRatio": 0.384387936132466,
       "valueScore": 70,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232265",
@@ -4051,7 +4051,7 @@
       "debtToEarningsRatio": 0.43006136006355755,
       "valueScore": 56,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232308",
@@ -4068,7 +4068,7 @@
       "debtToEarningsRatio": 0.6737367436057392,
       "valueScore": 51,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232414",
@@ -4085,7 +4085,7 @@
       "debtToEarningsRatio": 0.2656277669559058,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232423",
@@ -4102,7 +4102,7 @@
       "debtToEarningsRatio": 0.28723160934328273,
       "valueScore": 74,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232450",
@@ -4119,7 +4119,7 @@
       "debtToEarningsRatio": 0.2304538728379788,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232557",
@@ -4136,7 +4136,7 @@
       "debtToEarningsRatio": 0.5467163546292371,
       "valueScore": 44,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232566",
@@ -4153,7 +4153,7 @@
       "debtToEarningsRatio": 0.47758228742812386,
       "valueScore": 65,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232575",
@@ -4170,7 +4170,7 @@
       "debtToEarningsRatio": 0.23780487804878048,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232609",
@@ -4187,7 +4187,7 @@
       "debtToEarningsRatio": 0.47889322454771194,
       "valueScore": 61,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232618",
@@ -4204,7 +4204,7 @@
       "debtToEarningsRatio": 0.253650909816706,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232672",
@@ -4221,7 +4221,7 @@
       "debtToEarningsRatio": 0.5984198798028226,
       "valueScore": 73,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232681",
@@ -4238,7 +4238,7 @@
       "debtToEarningsRatio": 0.33821127480903435,
       "valueScore": 70,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232706",
@@ -4255,7 +4255,7 @@
       "debtToEarningsRatio": 0.3702825996800758,
       "valueScore": 56,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232724",
@@ -4272,7 +4272,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232788",
@@ -4289,7 +4289,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 79,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232797",
@@ -4306,7 +4306,7 @@
       "debtToEarningsRatio": 0.485930982176716,
       "valueScore": 34,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232867",
@@ -4323,7 +4323,7 @@
       "debtToEarningsRatio": 0.22485946283572766,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232885",
@@ -4340,7 +4340,7 @@
       "debtToEarningsRatio": 0.24993253748988062,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232919",
@@ -4357,7 +4357,7 @@
       "debtToEarningsRatio": 0.30009160691158354,
       "valueScore": 40,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232937",
@@ -4374,7 +4374,7 @@
       "debtToEarningsRatio": 0.649263421842117,
       "valueScore": 62,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232946",
@@ -4391,7 +4391,7 @@
       "debtToEarningsRatio": 0.20538865134342849,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "232982",
@@ -4408,7 +4408,7 @@
       "debtToEarningsRatio": 0.43704701897512477,
       "valueScore": 79,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233019",
@@ -4425,7 +4425,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233037",
@@ -4442,7 +4442,7 @@
       "debtToEarningsRatio": 0.19094668479920068,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233082",
@@ -4459,7 +4459,7 @@
       "debtToEarningsRatio": 0.1927430652843934,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233116",
@@ -4476,7 +4476,7 @@
       "debtToEarningsRatio": 0.21471338829996073,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233277",
@@ -4493,7 +4493,7 @@
       "debtToEarningsRatio": 0.44660302573549937,
       "valueScore": 79,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233286",
@@ -4510,7 +4510,7 @@
       "debtToEarningsRatio": 0.5553606921547994,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233295",
@@ -4527,7 +4527,7 @@
       "debtToEarningsRatio": 0.4619490829455242,
       "valueScore": 56,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233301",
@@ -4544,7 +4544,7 @@
       "debtToEarningsRatio": 0.504596603568687,
       "valueScore": 73,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233310",
@@ -4561,7 +4561,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233329",
@@ -4578,7 +4578,7 @@
       "debtToEarningsRatio": 0.2900409110337669,
       "valueScore": 32,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233338",
@@ -4595,7 +4595,7 @@
       "debtToEarningsRatio": 0.26536717166843576,
       "valueScore": 61,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233356",
@@ -4612,7 +4612,7 @@
       "debtToEarningsRatio": 0.34409328174098214,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233374",
@@ -4629,7 +4629,7 @@
       "debtToEarningsRatio": 0.2756701409855864,
       "valueScore": 65,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233408",
@@ -4646,7 +4646,7 @@
       "debtToEarningsRatio": 0.22380130766436615,
       "valueScore": 57,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233426",
@@ -4663,7 +4663,7 @@
       "debtToEarningsRatio": 0.4651403173290609,
       "valueScore": 59,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233480",
@@ -4680,7 +4680,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233541",
@@ -4697,7 +4697,7 @@
       "debtToEarningsRatio": 0.42784043263224547,
       "valueScore": 52,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233611",
@@ -4714,7 +4714,7 @@
       "debtToEarningsRatio": 0.484460621575137,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233639",
@@ -4731,7 +4731,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233648",
@@ -4748,7 +4748,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233666",
@@ -4765,7 +4765,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 59,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233684",
@@ -4782,7 +4782,7 @@
       "debtToEarningsRatio": 1.0131946522997106,
       "valueScore": 44,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233718",
@@ -4799,7 +4799,7 @@
       "debtToEarningsRatio": 0.5198005506035462,
       "valueScore": 65,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233754",
@@ -4816,7 +4816,7 @@
       "debtToEarningsRatio": 0.2500263185598484,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233772",
@@ -4833,7 +4833,7 @@
       "debtToEarningsRatio": 0.26076299251610213,
       "valueScore": 66,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233842",
@@ -4850,7 +4850,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233897",
@@ -4867,7 +4867,7 @@
       "debtToEarningsRatio": 0.3695532266960838,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233903",
@@ -4884,7 +4884,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233921",
@@ -4901,7 +4901,7 @@
       "debtToEarningsRatio": 0.2631643369482729,
       "valueScore": 80,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "233949",
@@ -4918,7 +4918,7 @@
       "debtToEarningsRatio": 0.283600175316472,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "234030",
@@ -4935,7 +4935,7 @@
       "debtToEarningsRatio": 0.3698733828791632,
       "valueScore": 61,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "234076",
@@ -4952,7 +4952,7 @@
       "debtToEarningsRatio": 0.20146667741155613,
       "valueScore": 96,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "234085",
@@ -4969,7 +4969,7 @@
       "debtToEarningsRatio": 0.2972249867517998,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "234119",
@@ -4986,7 +4986,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 29,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "234137",
@@ -5003,7 +5003,7 @@
       "debtToEarningsRatio": 0.8539935202141147,
       "valueScore": 32,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "234155",
@@ -5020,7 +5020,7 @@
       "debtToEarningsRatio": 0.581867685484048,
       "valueScore": 62,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "234164",
@@ -5037,7 +5037,7 @@
       "debtToEarningsRatio": 0.7576747224036577,
       "valueScore": 62,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "234173",
@@ -5054,7 +5054,7 @@
       "debtToEarningsRatio": 0.5392019810680193,
       "valueScore": 57,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "234207",
@@ -5071,7 +5071,7 @@
       "debtToEarningsRatio": 0.20567450690855396,
       "valueScore": 95,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "234377",
@@ -5088,7 +5088,7 @@
       "debtToEarningsRatio": 0.21863976911640381,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "248934",
@@ -5105,7 +5105,7 @@
       "debtToEarningsRatio": 0.4668861031351402,
       "valueScore": 44,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "377449",
@@ -5122,7 +5122,7 @@
       "debtToEarningsRatio": 0.5688391824141921,
       "valueScore": 37,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "377458",
@@ -5139,7 +5139,7 @@
       "debtToEarningsRatio": 0.5688391824141921,
       "valueScore": 32,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "377485",
@@ -5156,7 +5156,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "382957",
@@ -5173,7 +5173,7 @@
       "debtToEarningsRatio": 0.2900409110337669,
       "valueScore": 35,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "420024",
@@ -5190,7 +5190,7 @@
       "debtToEarningsRatio": 0.5688391824141921,
       "valueScore": 34,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "427973",
@@ -5207,7 +5207,7 @@
       "debtToEarningsRatio": 0.6649989812781564,
       "valueScore": 48,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "430306",
@@ -5224,7 +5224,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 43,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "431266",
@@ -5241,7 +5241,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "432348",
@@ -5258,7 +5258,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "437097",
@@ -5275,7 +5275,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "437769",
@@ -5292,7 +5292,7 @@
       "debtToEarningsRatio": 0.6088514548238897,
       "valueScore": 39,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "441858",
@@ -5309,7 +5309,7 @@
       "debtToEarningsRatio": 0.2814711559082136,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "441876",
@@ -5326,7 +5326,7 @@
       "debtToEarningsRatio": 0.5170416942422237,
       "valueScore": 41,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "442639",
@@ -5343,7 +5343,7 @@
       "debtToEarningsRatio": 0.2508223448986013,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "federalSpending": [
@@ -5353,7 +5353,7 @@
       "stateAbbreviation": "VA",
       "fiscalYear": 2024,
       "total": 189070935512,
-      "perCapita": 21922.51079649617,
+      "perCapita": 21719.384631431665,
       "source": "USAspending.gov"
     }
   ],

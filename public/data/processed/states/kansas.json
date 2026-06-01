@@ -1,49 +1,49 @@
 {
   "_meta": {
     "description": "Kansas state economic dashboard data",
-    "generatedAt": "2026-06-01T05:36:01.612Z",
+    "generatedAt": "2026-06-01T06:09:58.945Z",
     "sourceAttemptLog": [
       {
         "source": "BEA",
         "id": "state-gdp",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-states",
+        "id": "acs-states-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-counties",
+        "id": "acs-counties-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-places",
+        "id": "acs-places-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "UNRATE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DENV708URN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -51,7 +51,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -59,7 +59,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -67,567 +67,567 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AK-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AK",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AZ-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AZ",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AR-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AR",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "COURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "COPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CORGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CO-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CO",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CT-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CT",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-DE-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-DE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-FL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-FL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-GA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-GA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-HI-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-HI",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-ID-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-ID",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IN-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KSURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KSPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "KSRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-KS-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-KS",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       }
     ]
   },
@@ -637,40 +637,40 @@
     "abbreviation": "KS",
     "fips": "20",
     "population": {
-      "value": 2935922,
+      "value": 2947197,
       "unit": "persons",
       "geography": "Kansas",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B01003_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHouseholdIncome": {
-      "value": 69747,
+      "value": 74275,
       "unit": "USD",
       "geography": "Kansas",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B19013_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHomeValue": {
-      "value": 189300,
+      "value": 217200,
       "unit": "USD",
       "geography": "Kansas",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B25077_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -684,7 +684,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/KSURN",
       "sourceDataset": "FRED Series KSURN",
       "sourceSeriesId": "KSURN",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -698,33 +698,33 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/KSRGSP",
       "sourceDataset": "FRED Series KSRGSP",
       "sourceSeriesId": "KSRGSP",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "federalSpendingPerCapita": {
-      "value": 9487.025110823788,
+      "value": 9450.730893598222,
       "unit": "USD per person",
       "geography": "Kansas",
       "date": "FY2024",
       "sourceName": "USAspending.gov",
       "sourceUrl": "https://api.usaspending.gov/",
       "sourceDataset": "USAspending API v2 spending_by_geography",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "localEconomyScore": {
-      "value": 66.8,
+      "value": 67.5,
       "unit": "score",
       "geography": "Kansas",
       "date": "2026-06-01",
       "sourceName": "LocalLedger methodology",
       "sourceUrl": "https://local-ledger.net/methodology/",
       "sourceDataset": "Composite score from Census, FRED, and USAspending",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "weighted score",
       "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
       "availability": "available"
@@ -738,12 +738,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20091",
-      "population": 610742,
-      "medianHouseholdIncome": 103644,
-      "medianHomeValue": 343300,
-      "localEconomyScore": 73.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 620631,
+      "medianHouseholdIncome": 109208,
+      "medianHomeValue": 391200,
+      "localEconomyScore": 74.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "sedgwick",
@@ -752,12 +752,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20173",
-      "population": 522700,
-      "medianHouseholdIncome": 65372,
-      "medianHomeValue": 175700,
-      "localEconomyScore": 64.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 528226,
+      "medianHouseholdIncome": 69365,
+      "medianHomeValue": 203300,
+      "localEconomyScore": 64.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "shawnee",
@@ -766,12 +766,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20177",
-      "population": 178625,
-      "medianHouseholdIncome": 63463,
-      "medianHomeValue": 159900,
-      "localEconomyScore": 63.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 178025,
+      "medianHouseholdIncome": 67104,
+      "medianHomeValue": 180900,
+      "localEconomyScore": 64.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wyandotte",
@@ -780,12 +780,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20209",
-      "population": 167989,
-      "medianHouseholdIncome": 57771,
-      "medianHomeValue": 139800,
-      "localEconomyScore": 62.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 167654,
+      "medianHouseholdIncome": 63631,
+      "medianHomeValue": 172300,
+      "localEconomyScore": 63.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "douglas",
@@ -794,12 +794,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20045",
-      "population": 119094,
-      "medianHouseholdIncome": 66153,
-      "medianHomeValue": 259500,
-      "localEconomyScore": 60.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 120302,
+      "medianHouseholdIncome": 69746,
+      "medianHomeValue": 309400,
+      "localEconomyScore": 59.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "leavenworth",
@@ -808,12 +808,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20103",
-      "population": 82050,
-      "medianHouseholdIncome": 84307,
-      "medianHomeValue": 240800,
-      "localEconomyScore": 68.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 83123,
+      "medianHouseholdIncome": 89218,
+      "medianHomeValue": 282900,
+      "localEconomyScore": 68.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "riley",
@@ -822,12 +822,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20161",
-      "population": 72105,
-      "medianHouseholdIncome": 56327,
-      "medianHomeValue": 231000,
-      "localEconomyScore": 56.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 71946,
+      "medianHouseholdIncome": 61098,
+      "medianHomeValue": 237100,
+      "localEconomyScore": 58.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "butler",
@@ -836,12 +836,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20015",
-      "population": 67618,
-      "medianHouseholdIncome": 77724,
-      "medianHomeValue": 181700,
-      "localEconomyScore": 67.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 68287,
+      "medianHouseholdIncome": 81610,
+      "medianHomeValue": 217600,
+      "localEconomyScore": 68,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "reno",
@@ -850,12 +850,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20155",
-      "population": 61881,
-      "medianHouseholdIncome": 57390,
-      "medianHomeValue": 119200,
-      "localEconomyScore": 62.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 61553,
+      "medianHouseholdIncome": 60645,
+      "medianHomeValue": 132500,
+      "localEconomyScore": 63.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "saline",
@@ -864,12 +864,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20169",
-      "population": 54160,
-      "medianHouseholdIncome": 59887,
-      "medianHomeValue": 161900,
-      "localEconomyScore": 61.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 53668,
+      "medianHouseholdIncome": 65422,
+      "medianHomeValue": 179600,
+      "localEconomyScore": 62.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "crawford",
@@ -878,12 +878,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20037",
-      "population": 39012,
-      "medianHouseholdIncome": 49779,
-      "medianHomeValue": 114100,
-      "localEconomyScore": 59.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 39008,
+      "medianHouseholdIncome": 52844,
+      "medianHomeValue": 132600,
+      "localEconomyScore": 59.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "finney",
@@ -892,12 +892,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20055",
-      "population": 38187,
-      "medianHouseholdIncome": 68481,
-      "medianHomeValue": 183900,
-      "localEconomyScore": 63.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 38084,
+      "medianHouseholdIncome": 73009,
+      "medianHomeValue": 201400,
+      "localEconomyScore": 64.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "geary",
@@ -906,26 +906,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20061",
-      "population": 36247,
-      "medianHouseholdIncome": 57992,
-      "medianHomeValue": 162400,
+      "population": 35815,
+      "medianHouseholdIncome": 59317,
+      "medianHomeValue": 172700,
       "localEconomyScore": 60.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "cowley",
-      "county": "Cowley County",
-      "state": "Kansas",
-      "stateSlug": "kansas",
-      "stateAbbreviation": "KS",
-      "fips": "20035",
-      "population": 34661,
-      "medianHouseholdIncome": 55726,
-      "medianHomeValue": 104000,
-      "localEconomyScore": 62.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "miami",
@@ -934,12 +920,26 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20121",
-      "population": 34312,
-      "medianHouseholdIncome": 85564,
-      "medianHomeValue": 253100,
-      "localEconomyScore": 67.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 34938,
+      "medianHouseholdIncome": 89000,
+      "medianHomeValue": 287700,
+      "localEconomyScore": 68,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "cowley",
+      "county": "Cowley County",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbreviation": "KS",
+      "fips": "20035",
+      "population": 34411,
+      "medianHouseholdIncome": 57878,
+      "medianHomeValue": 120900,
+      "localEconomyScore": 62.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "ford",
@@ -948,12 +948,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20057",
-      "population": 34212,
-      "medianHouseholdIncome": 67997,
-      "medianHomeValue": 121500,
-      "localEconomyScore": 66.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 34074,
+      "medianHouseholdIncome": 70781,
+      "medianHomeValue": 151100,
+      "localEconomyScore": 65.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "harvey",
@@ -962,12 +962,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20079",
-      "population": 33959,
-      "medianHouseholdIncome": 70685,
-      "medianHomeValue": 160100,
-      "localEconomyScore": 65.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 33756,
+      "medianHouseholdIncome": 74368,
+      "medianHomeValue": 180300,
+      "localEconomyScore": 66.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lyon",
@@ -976,12 +976,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20111",
-      "population": 32182,
-      "medianHouseholdIncome": 56415,
-      "medianHomeValue": 136100,
-      "localEconomyScore": 60.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 32186,
+      "medianHouseholdIncome": 59912,
+      "medianHomeValue": 150600,
+      "localEconomyScore": 61.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "montgomery",
@@ -990,12 +990,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20125",
-      "population": 31448,
-      "medianHouseholdIncome": 51513,
-      "medianHomeValue": 90200,
-      "localEconomyScore": 61.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 30940,
+      "medianHouseholdIncome": 55697,
+      "medianHomeValue": 101700,
+      "localEconomyScore": 62.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "mcpherson",
@@ -1004,12 +1004,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20113",
-      "population": 30085,
-      "medianHouseholdIncome": 71250,
-      "medianHomeValue": 180900,
-      "localEconomyScore": 64.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 30205,
+      "medianHouseholdIncome": 78851,
+      "medianHomeValue": 211200,
+      "localEconomyScore": 66.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "ellis",
@@ -1018,26 +1018,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20051",
-      "population": 28921,
-      "medianHouseholdIncome": 59665,
-      "medianHomeValue": 199100,
-      "localEconomyScore": 59,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "franklin",
-      "county": "Franklin County",
-      "state": "Kansas",
-      "stateSlug": "kansas",
-      "stateAbbreviation": "KS",
-      "fips": "20059",
-      "population": 25968,
-      "medianHouseholdIncome": 68217,
-      "medianHomeValue": 175500,
-      "localEconomyScore": 63.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 28920,
+      "medianHouseholdIncome": 63084,
+      "medianHomeValue": 216300,
+      "localEconomyScore": 59.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pottawatomie",
@@ -1046,12 +1032,26 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20149",
-      "population": 25482,
-      "medianHouseholdIncome": 85241,
-      "medianHomeValue": 221600,
-      "localEconomyScore": 68.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 26204,
+      "medianHouseholdIncome": 92325,
+      "medianHomeValue": 245900,
+      "localEconomyScore": 70.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "franklin",
+      "county": "Franklin County",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbreviation": "KS",
+      "fips": "20059",
+      "population": 26106,
+      "medianHouseholdIncome": 77207,
+      "medianHomeValue": 198700,
+      "localEconomyScore": 66.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "barton",
@@ -1060,12 +1060,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20009",
-      "population": 25477,
-      "medianHouseholdIncome": 54634,
-      "medianHomeValue": 113200,
-      "localEconomyScore": 61.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 25097,
+      "medianHouseholdIncome": 58851,
+      "medianHomeValue": 126400,
+      "localEconomyScore": 62.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "sumner",
@@ -1074,12 +1074,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20191",
-      "population": 22517,
-      "medianHouseholdIncome": 59397,
-      "medianHomeValue": 116400,
-      "localEconomyScore": 62.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 22353,
+      "medianHouseholdIncome": 63951,
+      "medianHomeValue": 135100,
+      "localEconomyScore": 63.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "seward",
@@ -1088,12 +1088,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20175",
-      "population": 21942,
-      "medianHouseholdIncome": 57131,
-      "medianHomeValue": 126000,
-      "localEconomyScore": 61.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 21486,
+      "medianHouseholdIncome": 63827,
+      "medianHomeValue": 136500,
+      "localEconomyScore": 63.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "labette",
@@ -1102,12 +1102,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20099",
-      "population": 20096,
-      "medianHouseholdIncome": 56143,
+      "population": 19869,
+      "medianHouseholdIncome": 56325,
       "medianHomeValue": 94600,
       "localEconomyScore": 62.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cherokee",
@@ -1116,12 +1116,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20021",
-      "population": 19380,
-      "medianHouseholdIncome": 53382,
-      "medianHomeValue": 91800,
-      "localEconomyScore": 61.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 19151,
+      "medianHouseholdIncome": 57668,
+      "medianHomeValue": 100100,
+      "localEconomyScore": 62.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dickinson",
@@ -1130,12 +1130,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20041",
-      "population": 18492,
-      "medianHouseholdIncome": 62971,
-      "medianHomeValue": 137000,
-      "localEconomyScore": 63.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 18445,
+      "medianHouseholdIncome": 68417,
+      "medianHomeValue": 146800,
+      "localEconomyScore": 64.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jefferson",
@@ -1144,12 +1144,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20087",
-      "population": 18387,
-      "medianHouseholdIncome": 74562,
-      "medianHomeValue": 193000,
-      "localEconomyScore": 65.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 18349,
+      "medianHouseholdIncome": 81278,
+      "medianHomeValue": 216900,
+      "localEconomyScore": 67,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "atchison",
@@ -1158,26 +1158,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20005",
-      "population": 16309,
-      "medianHouseholdIncome": 55281,
-      "medianHomeValue": 123400,
-      "localEconomyScore": 60.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "neosho",
-      "county": "Neosho County",
-      "state": "Kansas",
-      "stateSlug": "kansas",
-      "stateAbbreviation": "KS",
-      "fips": "20133",
-      "population": 15826,
-      "medianHouseholdIncome": 54894,
-      "medianHomeValue": 99400,
-      "localEconomyScore": 61.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 16208,
+      "medianHouseholdIncome": 61112,
+      "medianHomeValue": 145700,
+      "localEconomyScore": 61.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "osage",
@@ -1186,12 +1172,26 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20139",
-      "population": 15787,
-      "medianHouseholdIncome": 66155,
-      "medianHomeValue": 138400,
-      "localEconomyScore": 64.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 15744,
+      "medianHouseholdIncome": 74467,
+      "medianHomeValue": 156800,
+      "localEconomyScore": 66.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "neosho",
+      "county": "Neosho County",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbreviation": "KS",
+      "fips": "20133",
+      "population": 15656,
+      "medianHouseholdIncome": 56618,
+      "medianHomeValue": 111300,
+      "localEconomyScore": 61.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "bourbon",
@@ -1200,12 +1200,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20011",
-      "population": 14405,
-      "medianHouseholdIncome": 55826,
-      "medianHomeValue": 95600,
-      "localEconomyScore": 62.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14394,
+      "medianHouseholdIncome": 59238,
+      "medianHomeValue": 113800,
+      "localEconomyScore": 62.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jackson",
@@ -1214,12 +1214,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20085",
-      "population": 13274,
-      "medianHouseholdIncome": 70385,
-      "medianHomeValue": 169100,
-      "localEconomyScore": 64.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 13341,
+      "medianHouseholdIncome": 75215,
+      "medianHomeValue": 207300,
+      "localEconomyScore": 64.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "allen",
@@ -1228,12 +1228,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20001",
-      "population": 12554,
-      "medianHouseholdIncome": 55059,
-      "medianHomeValue": 95700,
-      "localEconomyScore": 61.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 12483,
+      "medianHouseholdIncome": 60689,
+      "medianHomeValue": 107600,
+      "localEconomyScore": 63.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "marion",
@@ -1242,12 +1242,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20115",
-      "population": 11867,
-      "medianHouseholdIncome": 60011,
-      "medianHomeValue": 114700,
-      "localEconomyScore": 62.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11754,
+      "medianHouseholdIncome": 64695,
+      "medianHomeValue": 124200,
+      "localEconomyScore": 64.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "nemaha",
@@ -1256,12 +1256,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20131",
-      "population": 10219,
-      "medianHouseholdIncome": 72788,
-      "medianHomeValue": 174500,
+      "population": 10160,
+      "medianHouseholdIncome": 77348,
+      "medianHomeValue": 217200,
       "localEconomyScore": 65,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "marshall",
@@ -1270,12 +1270,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20117",
-      "population": 10014,
-      "medianHouseholdIncome": 64306,
-      "medianHomeValue": 112300,
-      "localEconomyScore": 64.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9993,
+      "medianHouseholdIncome": 68419,
+      "medianHomeValue": 127700,
+      "localEconomyScore": 65.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "linn",
@@ -1284,26 +1284,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20107",
-      "population": 9696,
-      "medianHouseholdIncome": 56697,
-      "medianHomeValue": 148200,
-      "localEconomyScore": 59.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "brown",
-      "county": "Brown County",
-      "state": "Kansas",
-      "stateSlug": "kansas",
-      "stateAbbreviation": "KS",
-      "fips": "20013",
-      "population": 9486,
-      "medianHouseholdIncome": 55876,
-      "medianHomeValue": 108700,
-      "localEconomyScore": 61.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9767,
+      "medianHouseholdIncome": 59069,
+      "medianHomeValue": 173600,
+      "localEconomyScore": 59.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "rice",
@@ -1312,12 +1298,26 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20159",
-      "population": 9441,
-      "medianHouseholdIncome": 58523,
-      "medianHomeValue": 87700,
-      "localEconomyScore": 63.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9350,
+      "medianHouseholdIncome": 63925,
+      "medianHomeValue": 104600,
+      "localEconomyScore": 64.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "brown",
+      "county": "Brown County",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbreviation": "KS",
+      "fips": "20013",
+      "population": 9343,
+      "medianHouseholdIncome": 62233,
+      "medianHomeValue": 118100,
+      "localEconomyScore": 63.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pratt",
@@ -1326,12 +1326,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20151",
-      "population": 9175,
-      "medianHouseholdIncome": 61685,
-      "medianHomeValue": 111100,
-      "localEconomyScore": 63.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9127,
+      "medianHouseholdIncome": 66022,
+      "medianHomeValue": 114600,
+      "localEconomyScore": 64.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cloud",
@@ -1340,12 +1340,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20029",
-      "population": 9008,
-      "medianHouseholdIncome": 51197,
-      "medianHomeValue": 91100,
-      "localEconomyScore": 60.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8898,
+      "medianHouseholdIncome": 58770,
+      "medianHomeValue": 100000,
+      "localEconomyScore": 62.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wilson",
@@ -1354,12 +1354,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20205",
-      "population": 8667,
-      "medianHouseholdIncome": 55439,
-      "medianHomeValue": 91700,
-      "localEconomyScore": 62,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8505,
+      "medianHouseholdIncome": 60677,
+      "medianHomeValue": 93500,
+      "localEconomyScore": 63.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "coffey",
@@ -1368,12 +1368,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20031",
-      "population": 8334,
-      "medianHouseholdIncome": 67645,
-      "medianHomeValue": 131200,
-      "localEconomyScore": 64.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8308,
+      "medianHouseholdIncome": 70346,
+      "medianHomeValue": 157400,
+      "localEconomyScore": 64.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clay",
@@ -1382,12 +1382,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20027",
-      "population": 8088,
-      "medianHouseholdIncome": 57765,
-      "medianHomeValue": 136600,
-      "localEconomyScore": 60.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8048,
+      "medianHouseholdIncome": 66176,
+      "medianHomeValue": 155900,
+      "localEconomyScore": 63,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "thomas",
@@ -1396,12 +1396,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20193",
-      "population": 7907,
-      "medianHouseholdIncome": 72417,
-      "medianHomeValue": 165300,
-      "localEconomyScore": 65,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7885,
+      "medianHouseholdIncome": 71325,
+      "medianHomeValue": 172700,
+      "localEconomyScore": 64.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "anderson",
@@ -1410,12 +1410,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20003",
-      "population": 7799,
-      "medianHouseholdIncome": 67651,
-      "medianHomeValue": 141700,
-      "localEconomyScore": 64.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7834,
+      "medianHouseholdIncome": 70614,
+      "medianHomeValue": 171400,
+      "localEconomyScore": 64.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "doniphan",
@@ -1424,26 +1424,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20043",
-      "population": 7501,
-      "medianHouseholdIncome": 66358,
-      "medianHomeValue": 116400,
-      "localEconomyScore": 64.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "kingman",
-      "county": "Kingman County",
-      "state": "Kansas",
-      "stateSlug": "kansas",
-      "stateAbbreviation": "KS",
-      "fips": "20095",
-      "population": 7369,
-      "medianHouseholdIncome": 59640,
-      "medianHomeValue": 97500,
-      "localEconomyScore": 63.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7503,
+      "medianHouseholdIncome": 74028,
+      "medianHomeValue": 135200,
+      "localEconomyScore": 66.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "grant",
@@ -1452,12 +1438,26 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20067",
-      "population": 7336,
-      "medianHouseholdIncome": 84808,
-      "medianHomeValue": 147800,
-      "localEconomyScore": 70.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7229,
+      "medianHouseholdIncome": 66476,
+      "medianHomeValue": 110300,
+      "localEconomyScore": 65.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "kingman",
+      "county": "Kingman County",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbreviation": "KS",
+      "fips": "20095",
+      "population": 7186,
+      "medianHouseholdIncome": 59842,
+      "medianHomeValue": 111100,
+      "localEconomyScore": 62.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wabaunsee",
@@ -1466,12 +1466,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20197",
-      "population": 6922,
-      "medianHouseholdIncome": 70000,
-      "medianHomeValue": 169600,
-      "localEconomyScore": 63.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7009,
+      "medianHouseholdIncome": 76908,
+      "medianHomeValue": 177300,
+      "localEconomyScore": 66.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "russell",
@@ -1480,12 +1480,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20167",
-      "population": 6702,
-      "medianHouseholdIncome": 49929,
-      "medianHomeValue": 103500,
-      "localEconomyScore": 59,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6679,
+      "medianHouseholdIncome": 62392,
+      "medianHomeValue": 119000,
+      "localEconomyScore": 63.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "ellsworth",
@@ -1494,12 +1494,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20053",
-      "population": 6374,
-      "medianHouseholdIncome": 59844,
-      "medianHomeValue": 109400,
-      "localEconomyScore": 62.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6360,
+      "medianHouseholdIncome": 65560,
+      "medianHomeValue": 114900,
+      "localEconomyScore": 64.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pawnee",
@@ -1508,12 +1508,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20145",
-      "population": 6288,
-      "medianHouseholdIncome": 54141,
-      "medianHomeValue": 93800,
-      "localEconomyScore": 61.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6144,
+      "medianHouseholdIncome": 63517,
+      "medianHomeValue": 93000,
+      "localEconomyScore": 64.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "greenwood",
@@ -1522,12 +1522,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20073",
-      "population": 6001,
-      "medianHouseholdIncome": 51812,
-      "medianHomeValue": 64900,
-      "localEconomyScore": 61.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5919,
+      "medianHouseholdIncome": 60042,
+      "medianHomeValue": 88700,
+      "localEconomyScore": 63.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "sherman",
@@ -1536,26 +1536,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20181",
-      "population": 5940,
-      "medianHouseholdIncome": 61404,
-      "medianHomeValue": 123900,
-      "localEconomyScore": 62.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "mitchell",
-      "county": "Mitchell County",
-      "state": "Kansas",
-      "stateSlug": "kansas",
-      "stateAbbreviation": "KS",
-      "fips": "20123",
-      "population": 5829,
-      "medianHouseholdIncome": 63008,
-      "medianHomeValue": 100700,
-      "localEconomyScore": 64.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5858,
+      "medianHouseholdIncome": 61750,
+      "medianHomeValue": 136700,
+      "localEconomyScore": 61.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "ottawa",
@@ -1564,12 +1550,26 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20143",
-      "population": 5768,
-      "medianHouseholdIncome": 74551,
-      "medianHomeValue": 157800,
-      "localEconomyScore": 65.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5819,
+      "medianHouseholdIncome": 74018,
+      "medianHomeValue": 166000,
+      "localEconomyScore": 65.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "mitchell",
+      "county": "Mitchell County",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbreviation": "KS",
+      "fips": "20123",
+      "population": 5779,
+      "medianHouseholdIncome": 64246,
+      "medianHomeValue": 133800,
+      "localEconomyScore": 63,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "gray",
@@ -1578,12 +1578,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20069",
-      "population": 5719,
-      "medianHouseholdIncome": 74500,
-      "medianHomeValue": 162400,
-      "localEconomyScore": 65.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5701,
+      "medianHouseholdIncome": 79122,
+      "medianHomeValue": 206000,
+      "localEconomyScore": 65.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "washington",
@@ -1592,12 +1592,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20201",
-      "population": 5529,
-      "medianHouseholdIncome": 59432,
-      "medianHomeValue": 106100,
-      "localEconomyScore": 62.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5533,
+      "medianHouseholdIncome": 65482,
+      "medianHomeValue": 117100,
+      "localEconomyScore": 64.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "harper",
@@ -1606,12 +1606,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20077",
-      "population": 5457,
-      "medianHouseholdIncome": 53032,
-      "medianHomeValue": 81000,
+      "population": 5400,
+      "medianHouseholdIncome": 53488,
+      "medianHomeValue": 83800,
       "localEconomyScore": 61.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "norton",
@@ -1620,12 +1620,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20137",
-      "population": 5431,
-      "medianHouseholdIncome": 52710,
-      "medianHomeValue": 109800,
-      "localEconomyScore": 59.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5359,
+      "medianHouseholdIncome": 54050,
+      "medianHomeValue": 101500,
+      "localEconomyScore": 60.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "morris",
@@ -1634,12 +1634,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20127",
-      "population": 5385,
-      "medianHouseholdIncome": 52866,
-      "medianHomeValue": 111700,
-      "localEconomyScore": 59.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5340,
+      "medianHouseholdIncome": 58686,
+      "medianHomeValue": 129600,
+      "localEconomyScore": 61,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "stevens",
@@ -1648,12 +1648,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20189",
-      "population": 5275,
-      "medianHouseholdIncome": 67950,
-      "medianHomeValue": 133800,
-      "localEconomyScore": 64.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5162,
+      "medianHouseholdIncome": 64178,
+      "medianHomeValue": 129300,
+      "localEconomyScore": 63.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "scott",
@@ -1662,12 +1662,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20171",
-      "population": 5128,
-      "medianHouseholdIncome": 53365,
-      "medianHomeValue": 166100,
-      "localEconomyScore": 56.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5027,
+      "medianHouseholdIncome": 68839,
+      "medianHomeValue": 160000,
+      "localEconomyScore": 63.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "phillips",
@@ -1676,12 +1676,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20147",
-      "population": 4960,
-      "medianHouseholdIncome": 57611,
-      "medianHomeValue": 95400,
-      "localEconomyScore": 62.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4813,
+      "medianHouseholdIncome": 62123,
+      "medianHomeValue": 96500,
+      "localEconomyScore": 63.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "rooks",
@@ -1690,12 +1690,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20163",
-      "population": 4925,
-      "medianHouseholdIncome": 60821,
-      "medianHomeValue": 88200,
-      "localEconomyScore": 63.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4813,
+      "medianHouseholdIncome": 62500,
+      "medianHomeValue": 89000,
+      "localEconomyScore": 64.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "republic",
@@ -1704,12 +1704,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20157",
-      "population": 4686,
-      "medianHouseholdIncome": 54531,
-      "medianHomeValue": 71000,
-      "localEconomyScore": 62.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4646,
+      "medianHouseholdIncome": 56833,
+      "medianHomeValue": 75600,
+      "localEconomyScore": 63,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "barber",
@@ -1718,12 +1718,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20007",
-      "population": 4081,
-      "medianHouseholdIncome": 53774,
-      "medianHomeValue": 83300,
-      "localEconomyScore": 61.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4069,
+      "medianHouseholdIncome": 61926,
+      "medianHomeValue": 97000,
+      "localEconomyScore": 63.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "stafford",
@@ -1732,12 +1732,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20185",
-      "population": 4054,
-      "medianHouseholdIncome": 60000,
-      "medianHomeValue": 96100,
-      "localEconomyScore": 63,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3978,
+      "medianHouseholdIncome": 64226,
+      "medianHomeValue": 97600,
+      "localEconomyScore": 64.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "meade",
@@ -1746,12 +1746,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20119",
-      "population": 4019,
-      "medianHouseholdIncome": 74063,
-      "medianHomeValue": 137500,
-      "localEconomyScore": 66.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3903,
+      "medianHouseholdIncome": 71852,
+      "medianHomeValue": 148900,
+      "localEconomyScore": 65,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "kearny",
@@ -1760,12 +1760,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20093",
-      "population": 3964,
-      "medianHouseholdIncome": 68750,
-      "medianHomeValue": 143200,
-      "localEconomyScore": 64.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3864,
+      "medianHouseholdIncome": 89135,
+      "medianHomeValue": 200900,
+      "localEconomyScore": 69.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "haskell",
@@ -1774,12 +1774,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20081",
-      "population": 3735,
-      "medianHouseholdIncome": 66458,
-      "medianHomeValue": 132500,
-      "localEconomyScore": 63.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3641,
+      "medianHouseholdIncome": 66162,
+      "medianHomeValue": 165100,
+      "localEconomyScore": 62.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "smith",
@@ -1788,12 +1788,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20183",
-      "population": 3561,
-      "medianHouseholdIncome": 50943,
-      "medianHomeValue": 83900,
-      "localEconomyScore": 60.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3552,
+      "medianHouseholdIncome": 59135,
+      "medianHomeValue": 94100,
+      "localEconomyScore": 62.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "osborne",
@@ -1802,12 +1802,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20141",
-      "population": 3493,
-      "medianHouseholdIncome": 58750,
-      "medianHomeValue": 80600,
-      "localEconomyScore": 63.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3452,
+      "medianHouseholdIncome": 63011,
+      "medianHomeValue": 86400,
+      "localEconomyScore": 64.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "chautauqua",
@@ -1816,12 +1816,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20019",
-      "population": 3389,
-      "medianHouseholdIncome": 51210,
-      "medianHomeValue": 58400,
-      "localEconomyScore": 61.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3370,
+      "medianHouseholdIncome": 56438,
+      "medianHomeValue": 65500,
+      "localEconomyScore": 63.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "woodson",
@@ -1830,12 +1830,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20207",
-      "population": 3134,
-      "medianHouseholdIncome": 50670,
-      "medianHomeValue": 85300,
-      "localEconomyScore": 59.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3109,
+      "medianHouseholdIncome": 50326,
+      "medianHomeValue": 81200,
+      "localEconomyScore": 60,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "rush",
@@ -1844,26 +1844,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20165",
-      "population": 2939,
-      "medianHouseholdIncome": 53523,
-      "medianHomeValue": 74900,
-      "localEconomyScore": 61.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "jewell",
-      "county": "Jewell County",
-      "state": "Kansas",
-      "stateSlug": "kansas",
-      "stateAbbreviation": "KS",
-      "fips": "20089",
-      "population": 2929,
-      "medianHouseholdIncome": 47109,
-      "medianHomeValue": 58400,
-      "localEconomyScore": 60.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2947,
+      "medianHouseholdIncome": 59970,
+      "medianHomeValue": 83600,
+      "localEconomyScore": 63.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lincoln",
@@ -1872,54 +1858,26 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20105",
-      "population": 2929,
-      "medianHouseholdIncome": 52540,
-      "medianHomeValue": 94100,
-      "localEconomyScore": 60.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "edwards",
-      "county": "Edwards County",
-      "state": "Kansas",
-      "stateSlug": "kansas",
-      "stateAbbreviation": "KS",
-      "fips": "20047",
-      "population": 2849,
-      "medianHouseholdIncome": 52750,
-      "medianHomeValue": 65500,
+      "population": 2923,
+      "medianHouseholdIncome": 57500,
+      "medianHomeValue": 96900,
       "localEconomyScore": 61.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "trego",
-      "county": "Trego County",
+      "slug": "jewell",
+      "county": "Jewell County",
       "state": "Kansas",
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
-      "fips": "20195",
-      "population": 2798,
-      "medianHouseholdIncome": 77500,
-      "medianHomeValue": 114900,
-      "localEconomyScore": 68.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "decatur",
-      "county": "Decatur County",
-      "state": "Kansas",
-      "stateSlug": "kansas",
-      "stateAbbreviation": "KS",
-      "fips": "20039",
-      "population": 2771,
-      "medianHouseholdIncome": 49412,
-      "medianHomeValue": 76100,
-      "localEconomyScore": 59.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "20089",
+      "population": 2916,
+      "medianHouseholdIncome": 52634,
+      "medianHomeValue": 64600,
+      "localEconomyScore": 61.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "gove",
@@ -1928,12 +1886,54 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20063",
-      "population": 2758,
-      "medianHouseholdIncome": 59417,
-      "medianHomeValue": 112800,
-      "localEconomyScore": 61.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2799,
+      "medianHouseholdIncome": 66029,
+      "medianHomeValue": 118400,
+      "localEconomyScore": 63.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "edwards",
+      "county": "Edwards County",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbreviation": "KS",
+      "fips": "20047",
+      "population": 2779,
+      "medianHouseholdIncome": 52692,
+      "medianHomeValue": 70900,
+      "localEconomyScore": 61.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "trego",
+      "county": "Trego County",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbreviation": "KS",
+      "fips": "20195",
+      "population": 2777,
+      "medianHouseholdIncome": 81528,
+      "medianHomeValue": 120900,
+      "localEconomyScore": 69.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "decatur",
+      "county": "Decatur County",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbreviation": "KS",
+      "fips": "20039",
+      "population": 2726,
+      "medianHouseholdIncome": 53870,
+      "medianHomeValue": 89500,
+      "localEconomyScore": 60.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "logan",
@@ -1942,26 +1942,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20109",
-      "population": 2752,
-      "medianHouseholdIncome": 70382,
-      "medianHomeValue": 116100,
-      "localEconomyScore": 65.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "morton",
-      "county": "Morton County",
-      "state": "Kansas",
-      "stateSlug": "kansas",
-      "stateAbbreviation": "KS",
-      "fips": "20129",
-      "population": 2688,
-      "medianHouseholdIncome": 57943,
-      "medianHomeValue": 96000,
-      "localEconomyScore": 62,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2707,
+      "medianHouseholdIncome": 75662,
+      "medianHomeValue": 117900,
+      "localEconomyScore": 67.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "ness",
@@ -1970,12 +1956,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20135",
-      "population": 2677,
-      "medianHouseholdIncome": 64907,
-      "medianHomeValue": 80400,
-      "localEconomyScore": 65.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2653,
+      "medianHouseholdIncome": 68616,
+      "medianHomeValue": 89700,
+      "localEconomyScore": 66.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cheyenne",
@@ -1984,12 +1970,26 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20023",
-      "population": 2619,
-      "medianHouseholdIncome": 52730,
-      "medianHomeValue": 114700,
-      "localEconomyScore": 58.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2628,
+      "medianHouseholdIncome": 55429,
+      "medianHomeValue": 125900,
+      "localEconomyScore": 59.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "morton",
+      "county": "Morton County",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbreviation": "KS",
+      "fips": "20129",
+      "population": 2611,
+      "medianHouseholdIncome": 66447,
+      "medianHomeValue": 96100,
+      "localEconomyScore": 65.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "chase",
@@ -1998,12 +1998,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20017",
-      "population": 2570,
-      "medianHouseholdIncome": 52481,
-      "medianHomeValue": 108300,
-      "localEconomyScore": 59.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2561,
+      "medianHouseholdIncome": 56484,
+      "medianHomeValue": 109700,
+      "localEconomyScore": 60.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "rawlins",
@@ -2012,12 +2012,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20153",
-      "population": 2544,
-      "medianHouseholdIncome": 61827,
-      "medianHomeValue": 108500,
-      "localEconomyScore": 62.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2516,
+      "medianHouseholdIncome": 67742,
+      "medianHomeValue": 103800,
+      "localEconomyScore": 65.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hamilton",
@@ -2026,12 +2026,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20075",
-      "population": 2520,
-      "medianHouseholdIncome": 58750,
-      "medianHomeValue": 116800,
-      "localEconomyScore": 61.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2471,
+      "medianHouseholdIncome": 70250,
+      "medianHomeValue": 115800,
+      "localEconomyScore": 65.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "elk",
@@ -2041,11 +2041,11 @@
       "stateAbbreviation": "KS",
       "fips": "20049",
       "population": 2453,
-      "medianHouseholdIncome": 50000,
-      "medianHomeValue": 57100,
-      "localEconomyScore": 61.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "medianHouseholdIncome": 64609,
+      "medianHomeValue": 68500,
+      "localEconomyScore": 65.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "sheridan",
@@ -2054,12 +2054,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20179",
-      "population": 2450,
-      "medianHouseholdIncome": 66719,
-      "medianHomeValue": 134900,
-      "localEconomyScore": 63.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2426,
+      "medianHouseholdIncome": 73750,
+      "medianHomeValue": 167200,
+      "localEconomyScore": 64.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "kiowa",
@@ -2068,12 +2068,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20097",
-      "population": 2445,
-      "medianHouseholdIncome": 70347,
-      "medianHomeValue": 121600,
-      "localEconomyScore": 65.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2422,
+      "medianHouseholdIncome": 75539,
+      "medianHomeValue": 155300,
+      "localEconomyScore": 65.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "graham",
@@ -2082,12 +2082,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20065",
-      "population": 2430,
-      "medianHouseholdIncome": 47071,
-      "medianHomeValue": 87400,
-      "localEconomyScore": 58.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2389,
+      "medianHouseholdIncome": 50650,
+      "medianHomeValue": 89900,
+      "localEconomyScore": 59.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wichita",
@@ -2096,12 +2096,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20203",
-      "population": 2131,
-      "medianHouseholdIncome": 69551,
-      "medianHomeValue": 96700,
-      "localEconomyScore": 66,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2091,
+      "medianHouseholdIncome": 79063,
+      "medianHomeValue": 99300,
+      "localEconomyScore": 69.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "stanton",
@@ -2110,12 +2110,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20187",
-      "population": 2060,
-      "medianHouseholdIncome": 66000,
-      "medianHomeValue": 74000,
-      "localEconomyScore": 65.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2038,
+      "medianHouseholdIncome": 71700,
+      "medianHomeValue": 67800,
+      "localEconomyScore": 67.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clark",
@@ -2124,12 +2124,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20025",
-      "population": 1977,
-      "medianHouseholdIncome": 58287,
-      "medianHomeValue": 78500,
-      "localEconomyScore": 62.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1974,
+      "medianHouseholdIncome": 63043,
+      "medianHomeValue": 87600,
+      "localEconomyScore": 64.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "comanche",
@@ -2138,12 +2138,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20033",
-      "population": 1825,
-      "medianHouseholdIncome": 49754,
-      "medianHomeValue": 63800,
-      "localEconomyScore": 60.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1729,
+      "medianHouseholdIncome": 54545,
+      "medianHomeValue": 69600,
+      "localEconomyScore": 61.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hodgeman",
@@ -2152,12 +2152,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20083",
-      "population": 1770,
-      "medianHouseholdIncome": 63125,
-      "medianHomeValue": 86100,
-      "localEconomyScore": 64.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1652,
+      "medianHouseholdIncome": 59955,
+      "medianHomeValue": 101600,
+      "localEconomyScore": 62.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lane",
@@ -2166,12 +2166,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20101",
-      "population": 1528,
-      "medianHouseholdIncome": 52222,
-      "medianHomeValue": 82300,
-      "localEconomyScore": 60.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1461,
+      "medianHouseholdIncome": 54526,
+      "medianHomeValue": 127100,
+      "localEconomyScore": 58.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wallace",
@@ -2180,12 +2180,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20199",
-      "population": 1489,
-      "medianHouseholdIncome": 57708,
-      "medianHomeValue": 96200,
-      "localEconomyScore": 61.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1417,
+      "medianHouseholdIncome": 63207,
+      "medianHomeValue": 105000,
+      "localEconomyScore": 63.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "greeley",
@@ -2194,12 +2194,12 @@
       "stateSlug": "kansas",
       "stateAbbreviation": "KS",
       "fips": "20071",
-      "population": 1279,
-      "medianHouseholdIncome": 69948,
-      "medianHomeValue": 115700,
-      "localEconomyScore": 65,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1304,
+      "medianHouseholdIncome": 80565,
+      "medianHomeValue": 115200,
+      "localEconomyScore": 68.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "colleges": [
@@ -2218,7 +2218,7 @@
       "debtToEarningsRatio": 0.17359394892533514,
       "valueScore": 93,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154688",
@@ -2235,7 +2235,7 @@
       "debtToEarningsRatio": 0.39151201941899616,
       "valueScore": 60,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154697",
@@ -2252,7 +2252,7 @@
       "debtToEarningsRatio": 0.23501038883941822,
       "valueScore": 83,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154712",
@@ -2269,7 +2269,7 @@
       "debtToEarningsRatio": 0.4626046074283028,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154721",
@@ -2286,7 +2286,7 @@
       "debtToEarningsRatio": 0.4678633235400652,
       "valueScore": 40,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154749",
@@ -2303,7 +2303,7 @@
       "debtToEarningsRatio": 0.4809812016513688,
       "valueScore": 38,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154800",
@@ -2320,7 +2320,7 @@
       "debtToEarningsRatio": 0.2548172596223851,
       "valueScore": 55,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154855",
@@ -2337,7 +2337,7 @@
       "debtToEarningsRatio": 0.6071781955563551,
       "valueScore": 76,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154907",
@@ -2354,7 +2354,7 @@
       "debtToEarningsRatio": 0.20058671614472331,
       "valueScore": 74,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154925",
@@ -2371,7 +2371,7 @@
       "debtToEarningsRatio": 0.22989842819043296,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154934",
@@ -2388,7 +2388,7 @@
       "debtToEarningsRatio": 0.212657260856072,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154952",
@@ -2405,7 +2405,7 @@
       "debtToEarningsRatio": 0.21207221058770512,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154998",
@@ -2422,7 +2422,7 @@
       "debtToEarningsRatio": 0.19371739274000044,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155007",
@@ -2439,7 +2439,7 @@
       "debtToEarningsRatio": 0.33156936861262776,
       "valueScore": 66,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155025",
@@ -2456,7 +2456,7 @@
       "debtToEarningsRatio": 0.4096552593432911,
       "valueScore": 67,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155052",
@@ -2473,7 +2473,7 @@
       "debtToEarningsRatio": 0.14093645627247006,
       "valueScore": 70,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155061",
@@ -2490,7 +2490,7 @@
       "debtToEarningsRatio": 0.4292020928711576,
       "valueScore": 82,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155070",
@@ -2507,7 +2507,7 @@
       "debtToEarningsRatio": 0.7426763856415899,
       "valueScore": 33,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155089",
@@ -2524,7 +2524,7 @@
       "debtToEarningsRatio": 0.47972674764454165,
       "valueScore": 47,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155098",
@@ -2541,7 +2541,7 @@
       "debtToEarningsRatio": 0.2552871308413726,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155104",
@@ -2558,7 +2558,7 @@
       "debtToEarningsRatio": 0.15586034912718205,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155140",
@@ -2575,7 +2575,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155159",
@@ -2592,7 +2592,7 @@
       "debtToEarningsRatio": 0.4146845479082321,
       "valueScore": 48,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155177",
@@ -2609,7 +2609,7 @@
       "debtToEarningsRatio": 0.2526581745446889,
       "valueScore": 47,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155186",
@@ -2626,7 +2626,7 @@
       "debtToEarningsRatio": 0.20045530503015185,
       "valueScore": 81,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155195",
@@ -2643,7 +2643,7 @@
       "debtToEarningsRatio": 0.22482171612606394,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155201",
@@ -2660,7 +2660,7 @@
       "debtToEarningsRatio": 0.17500930139377807,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155210",
@@ -2677,7 +2677,7 @@
       "debtToEarningsRatio": 0.19278648071033555,
       "valueScore": 65,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155292",
@@ -2694,7 +2694,7 @@
       "debtToEarningsRatio": 0.21554112023532296,
       "valueScore": 54,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155308",
@@ -2711,7 +2711,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155317",
@@ -2728,7 +2728,7 @@
       "debtToEarningsRatio": 0.3390104124626685,
       "valueScore": 79,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155335",
@@ -2745,7 +2745,7 @@
       "debtToEarningsRatio": 0.37791827910103376,
       "valueScore": 63,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155353",
@@ -2762,7 +2762,7 @@
       "debtToEarningsRatio": 0.6104719417703687,
       "valueScore": 38,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155399",
@@ -2779,7 +2779,7 @@
       "debtToEarningsRatio": 0.3711012538856484,
       "valueScore": 71,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155414",
@@ -2796,7 +2796,7 @@
       "debtToEarningsRatio": 0.4545276822020644,
       "valueScore": 51,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155423",
@@ -2813,7 +2813,7 @@
       "debtToEarningsRatio": 0.36418612126813193,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155450",
@@ -2830,7 +2830,7 @@
       "debtToEarningsRatio": 0.2776455656036808,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155487",
@@ -2847,7 +2847,7 @@
       "debtToEarningsRatio": 0.18317137127872898,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155496",
@@ -2864,7 +2864,7 @@
       "debtToEarningsRatio": 0.49631600491199346,
       "valueScore": 49,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155511",
@@ -2881,7 +2881,7 @@
       "debtToEarningsRatio": 0.48464019660548346,
       "valueScore": 46,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155520",
@@ -2898,7 +2898,7 @@
       "debtToEarningsRatio": 0.23820110525312838,
       "valueScore": 48,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155566",
@@ -2915,7 +2915,7 @@
       "debtToEarningsRatio": 0.1849192881695166,
       "valueScore": 90,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155593",
@@ -2932,7 +2932,7 @@
       "debtToEarningsRatio": 0.2130923968632799,
       "valueScore": 87,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155618",
@@ -2949,7 +2949,7 @@
       "debtToEarningsRatio": 0.3107520198881293,
       "valueScore": 72,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155627",
@@ -2966,7 +2966,7 @@
       "debtToEarningsRatio": 0.38702476958525345,
       "valueScore": 43,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155636",
@@ -2983,7 +2983,7 @@
       "debtToEarningsRatio": 0.38702476958525345,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155681",
@@ -3000,7 +3000,7 @@
       "debtToEarningsRatio": 0.37503707072105025,
       "valueScore": 72,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155715",
@@ -3017,7 +3017,7 @@
       "debtToEarningsRatio": 0.12526015570800894,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155812",
@@ -3034,7 +3034,7 @@
       "debtToEarningsRatio": 0.37015617907637477,
       "valueScore": 59,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155830",
@@ -3051,7 +3051,7 @@
       "debtToEarningsRatio": 0.16597510373443983,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155858",
@@ -3068,7 +3068,7 @@
       "debtToEarningsRatio": 0.15683435878875618,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155900",
@@ -3085,7 +3085,7 @@
       "debtToEarningsRatio": 0.4492685907342846,
       "valueScore": 42,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155937",
@@ -3102,7 +3102,7 @@
       "debtToEarningsRatio": 0.5371242856519652,
       "valueScore": 45,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "155973",
@@ -3119,7 +3119,7 @@
       "debtToEarningsRatio": 0.44187724296126385,
       "valueScore": 56,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "156082",
@@ -3136,7 +3136,7 @@
       "debtToEarningsRatio": 0.36418612126813193,
       "valueScore": 72,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "156107",
@@ -3153,7 +3153,7 @@
       "debtToEarningsRatio": 0.2456113136327206,
       "valueScore": 89,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "156125",
@@ -3170,7 +3170,7 @@
       "debtToEarningsRatio": 0.39781106885042306,
       "valueScore": 83,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "156134",
@@ -3187,7 +3187,7 @@
       "debtToEarningsRatio": 0.3812204920676813,
       "valueScore": 45,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "177038",
@@ -3204,7 +3204,7 @@
       "debtToEarningsRatio": 0.23898745793820741,
       "valueScore": 26,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "179317",
@@ -3221,7 +3221,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "408066",
@@ -3238,7 +3238,7 @@
       "debtToEarningsRatio": 0.31163439292618766,
       "valueScore": 49,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "417503",
@@ -3255,7 +3255,7 @@
       "debtToEarningsRatio": 0.2977547105946068,
       "valueScore": 44,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "451237",
@@ -3272,7 +3272,7 @@
       "debtToEarningsRatio": 0.35957726907043075,
       "valueScore": 44,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "454582",
@@ -3289,7 +3289,7 @@
       "debtToEarningsRatio": 0.38702476958525345,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "457581",
@@ -3306,7 +3306,7 @@
       "debtToEarningsRatio": 0.28422302026903645,
       "valueScore": 62,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "470047",
@@ -3323,7 +3323,7 @@
       "debtToEarningsRatio": 0.2653239049566004,
       "valueScore": 58,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "476902",
@@ -3340,7 +3340,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "476984",
@@ -3357,7 +3357,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "478917",
@@ -3374,7 +3374,7 @@
       "debtToEarningsRatio": 0.4146845479082321,
       "valueScore": 51,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "478953",
@@ -3391,7 +3391,7 @@
       "debtToEarningsRatio": 0.3138801887166475,
       "valueScore": 35,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "480657",
@@ -3408,7 +3408,7 @@
       "debtToEarningsRatio": 0.5347748208802456,
       "valueScore": 41,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "494898",
@@ -3425,7 +3425,7 @@
       "debtToEarningsRatio": 0.2653239049566004,
       "valueScore": 78,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "497693",
@@ -3442,7 +3442,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "498766",
@@ -3459,7 +3459,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "498845",
@@ -3476,7 +3476,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "499291",
@@ -3493,7 +3493,7 @@
       "debtToEarningsRatio": 0.3930709173715029,
       "valueScore": 37,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "15468801",
@@ -3510,7 +3510,7 @@
       "debtToEarningsRatio": 0.39151201941899616,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "15492501",
@@ -3527,7 +3527,7 @@
       "debtToEarningsRatio": 0.22989842819043296,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "15492502",
@@ -3544,7 +3544,7 @@
       "debtToEarningsRatio": 0.22989842819043296,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "48065701",
@@ -3561,7 +3561,7 @@
       "debtToEarningsRatio": 0.5347748208802456,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "federalSpending": [
@@ -3571,7 +3571,7 @@
       "stateAbbreviation": "KS",
       "fiscalYear": 2024,
       "total": 27853165737.42,
-      "perCapita": 9487.025110823788,
+      "perCapita": 9450.730893598222,
       "source": "USAspending.gov"
     }
   ],

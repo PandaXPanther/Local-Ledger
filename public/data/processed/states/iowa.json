@@ -1,49 +1,49 @@
 {
   "_meta": {
     "description": "Iowa state economic dashboard data",
-    "generatedAt": "2026-06-01T05:36:01.612Z",
+    "generatedAt": "2026-06-01T06:09:58.945Z",
     "sourceAttemptLog": [
       {
         "source": "BEA",
         "id": "state-gdp",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-states",
+        "id": "acs-states-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-counties",
+        "id": "acs-counties-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-places",
+        "id": "acs-places-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "UNRATE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DENV708URN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -51,7 +51,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -59,7 +59,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -67,532 +67,532 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AK-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AK",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AZRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AZ-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AZ",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ARRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AR-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AR",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "COURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "COPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CORGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CO-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CO",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "CTRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-CT-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-CT",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DEURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DEPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DERGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-DE-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-DE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "FLRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-FL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-FL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "GARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-GA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-GA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "HIRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-HI-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-HI",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IDRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-ID-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-ID",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ILRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "INRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IN-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IAURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IAPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "IARGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-IA-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-IA",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       }
     ]
   },
@@ -602,40 +602,40 @@
     "abbreviation": "IA",
     "fips": "19",
     "population": {
-      "value": 3188836,
+      "value": 3210507,
       "unit": "persons",
       "geography": "Iowa",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B01003_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHouseholdIncome": {
-      "value": 70571,
+      "value": 75059,
       "unit": "USD",
       "geography": "Iowa",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B19013_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHomeValue": {
-      "value": 181600,
+      "value": 208000,
       "unit": "USD",
       "geography": "Iowa",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B25077_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -649,7 +649,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/IAURN",
       "sourceDataset": "FRED Series IAURN",
       "sourceSeriesId": "IAURN",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -663,33 +663,33 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/IARGSP",
       "sourceDataset": "FRED Series IARGSP",
       "sourceSeriesId": "IARGSP",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "federalSpendingPerCapita": {
-      "value": 10142.633078994968,
+      "value": 10074.170060083969,
       "unit": "USD per person",
       "geography": "Iowa",
       "date": "FY2024",
       "sourceName": "USAspending.gov",
       "sourceUrl": "https://api.usaspending.gov/",
       "sourceDataset": "USAspending API v2 spending_by_geography",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "localEconomyScore": {
-      "value": 69.7,
+      "value": 70.4,
       "unit": "score",
       "geography": "Iowa",
       "date": "2026-06-01",
       "sourceName": "LocalLedger methodology",
       "sourceUrl": "https://local-ledger.net/methodology/",
       "sourceDataset": "Composite score from Census, FRED, and USAspending",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "weighted score",
       "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
       "availability": "available"
@@ -703,12 +703,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19153",
-      "population": 493378,
-      "medianHouseholdIncome": 78827,
-      "medianHomeValue": 232000,
-      "localEconomyScore": 69.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 503175,
+      "medianHouseholdIncome": 83576,
+      "medianHomeValue": 262100,
+      "localEconomyScore": 70.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "linn",
@@ -717,12 +717,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19113",
-      "population": 229308,
-      "medianHouseholdIncome": 75457,
-      "medianHomeValue": 188800,
-      "localEconomyScore": 69.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 230004,
+      "medianHouseholdIncome": 77649,
+      "medianHomeValue": 214300,
+      "localEconomyScore": 69.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "scott",
@@ -731,12 +731,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19163",
-      "population": 174315,
-      "medianHouseholdIncome": 72792,
-      "medianHomeValue": 198000,
-      "localEconomyScore": 68.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 174608,
+      "medianHouseholdIncome": 78277,
+      "medianHomeValue": 222000,
+      "localEconomyScore": 69.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "johnson",
@@ -745,12 +745,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19103",
-      "population": 153360,
-      "medianHouseholdIncome": 72977,
-      "medianHomeValue": 277800,
-      "localEconomyScore": 64.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 156639,
+      "medianHouseholdIncome": 74935,
+      "medianHomeValue": 308600,
+      "localEconomyScore": 64.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "black-hawk",
@@ -759,26 +759,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19013",
-      "population": 131041,
-      "medianHouseholdIncome": 62329,
-      "medianHomeValue": 172500,
-      "localEconomyScore": 64.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "woodbury",
-      "county": "Woodbury County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19193",
-      "population": 105526,
-      "medianHouseholdIncome": 68399,
-      "medianHomeValue": 158000,
-      "localEconomyScore": 67.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 131049,
+      "medianHouseholdIncome": 66417,
+      "medianHomeValue": 188900,
+      "localEconomyScore": 65.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dallas",
@@ -787,26 +773,26 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19049",
-      "population": 100367,
-      "medianHouseholdIncome": 99533,
-      "medianHomeValue": 314900,
-      "localEconomyScore": 74.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 107968,
+      "medianHouseholdIncome": 102379,
+      "medianHomeValue": 355600,
+      "localEconomyScore": 74.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
-      "slug": "dubuque",
-      "county": "Dubuque County",
+      "slug": "woodbury",
+      "county": "Woodbury County",
       "state": "Iowa",
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
-      "fips": "19061",
-      "population": 98812,
-      "medianHouseholdIncome": 73495,
-      "medianHomeValue": 210300,
-      "localEconomyScore": 67.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "fips": "19193",
+      "population": 106247,
+      "medianHouseholdIncome": 73658,
+      "medianHomeValue": 183200,
+      "localEconomyScore": 68.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "story",
@@ -815,12 +801,26 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19169",
-      "population": 98573,
-      "medianHouseholdIncome": 66197,
-      "medianHomeValue": 229100,
-      "localEconomyScore": 63.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 100466,
+      "medianHouseholdIncome": 69685,
+      "medianHomeValue": 258700,
+      "localEconomyScore": 63.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "dubuque",
+      "county": "Dubuque County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19061",
+      "population": 99030,
+      "medianHouseholdIncome": 77630,
+      "medianHomeValue": 237300,
+      "localEconomyScore": 68.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pottawattamie",
@@ -829,12 +829,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19155",
-      "population": 93543,
-      "medianHouseholdIncome": 68718,
-      "medianHomeValue": 169400,
-      "localEconomyScore": 67.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 93424,
+      "medianHouseholdIncome": 73602,
+      "medianHomeValue": 195700,
+      "localEconomyScore": 68.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "warren",
@@ -843,12 +843,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19181",
-      "population": 52709,
-      "medianHouseholdIncome": 89741,
-      "medianHomeValue": 234300,
-      "localEconomyScore": 72.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 54409,
+      "medianHouseholdIncome": 94588,
+      "medianHomeValue": 269600,
+      "localEconomyScore": 73.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clinton",
@@ -857,12 +857,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19045",
-      "population": 46488,
-      "medianHouseholdIncome": 61080,
-      "medianHomeValue": 144900,
-      "localEconomyScore": 64.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 46268,
+      "medianHouseholdIncome": 66981,
+      "medianHomeValue": 160600,
+      "localEconomyScore": 66.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cerro-gordo",
@@ -871,12 +871,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19033",
-      "population": 42979,
-      "medianHouseholdIncome": 63149,
-      "medianHomeValue": 145200,
-      "localEconomyScore": 65.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 42632,
+      "medianHouseholdIncome": 68189,
+      "medianHomeValue": 166400,
+      "localEconomyScore": 66.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "muscatine",
@@ -885,12 +885,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19139",
-      "population": 42968,
-      "medianHouseholdIncome": 67427,
-      "medianHomeValue": 159000,
-      "localEconomyScore": 66.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 42559,
+      "medianHouseholdIncome": 69396,
+      "medianHomeValue": 182100,
+      "localEconomyScore": 66.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "marshall",
@@ -899,12 +899,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19127",
-      "population": 40049,
-      "medianHouseholdIncome": 70828,
-      "medianHomeValue": 125900,
+      "population": 40114,
+      "medianHouseholdIncome": 73315,
+      "medianHomeValue": 145500,
       "localEconomyScore": 69.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "des-moines",
@@ -913,12 +913,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19057",
-      "population": 38824,
-      "medianHouseholdIncome": 58084,
-      "medianHomeValue": 135300,
-      "localEconomyScore": 64,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 38487,
+      "medianHouseholdIncome": 62928,
+      "medianHomeValue": 136500,
+      "localEconomyScore": 65.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jasper",
@@ -927,12 +927,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19099",
-      "population": 37808,
-      "medianHouseholdIncome": 67784,
-      "medianHomeValue": 163800,
-      "localEconomyScore": 66.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 37954,
+      "medianHouseholdIncome": 71311,
+      "medianHomeValue": 186300,
+      "localEconomyScore": 66.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "webster",
@@ -941,12 +941,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19187",
-      "population": 36986,
-      "medianHouseholdIncome": 65335,
-      "medianHomeValue": 130400,
-      "localEconomyScore": 67.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 36886,
+      "medianHouseholdIncome": 68975,
+      "medianHomeValue": 153800,
+      "localEconomyScore": 67.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "sioux",
@@ -955,12 +955,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19167",
-      "population": 35815,
-      "medianHouseholdIncome": 81914,
-      "medianHomeValue": 220700,
-      "localEconomyScore": 69.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 36212,
+      "medianHouseholdIncome": 86098,
+      "medianHomeValue": 250100,
+      "localEconomyScore": 70.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wapello",
@@ -969,12 +969,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19179",
-      "population": 35292,
-      "medianHouseholdIncome": 56209,
-      "medianHomeValue": 105800,
-      "localEconomyScore": 64.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 35362,
+      "medianHouseholdIncome": 64766,
+      "medianHomeValue": 125100,
+      "localEconomyScore": 67,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "marion",
@@ -983,12 +983,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19125",
-      "population": 33487,
-      "medianHouseholdIncome": 74193,
-      "medianHomeValue": 192300,
-      "localEconomyScore": 67.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 33642,
+      "medianHouseholdIncome": 78680,
+      "medianHomeValue": 233000,
+      "localEconomyScore": 68,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lee",
@@ -997,12 +997,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19111",
-      "population": 33442,
-      "medianHouseholdIncome": 58094,
-      "medianHomeValue": 121000,
-      "localEconomyScore": 64.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 32893,
+      "medianHouseholdIncome": 62382,
+      "medianHomeValue": 141400,
+      "localEconomyScore": 65.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "boone",
@@ -1011,26 +1011,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19015",
-      "population": 26700,
-      "medianHouseholdIncome": 75759,
-      "medianHomeValue": 171600,
-      "localEconomyScore": 69.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "benton",
-      "county": "Benton County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19011",
-      "population": 25652,
-      "medianHouseholdIncome": 79444,
-      "medianHomeValue": 189000,
-      "localEconomyScore": 69.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 26668,
+      "medianHouseholdIncome": 83531,
+      "medianHomeValue": 212400,
+      "localEconomyScore": 70.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "plymouth",
@@ -1039,12 +1025,26 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19149",
-      "population": 25621,
-      "medianHouseholdIncome": 79963,
-      "medianHomeValue": 199800,
-      "localEconomyScore": 69.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 25747,
+      "medianHouseholdIncome": 83251,
+      "medianHomeValue": 228900,
+      "localEconomyScore": 69.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "benton",
+      "county": "Benton County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19011",
+      "population": 25724,
+      "medianHouseholdIncome": 86962,
+      "medianHomeValue": 208200,
+      "localEconomyScore": 71.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "bremer",
@@ -1053,12 +1053,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19017",
-      "population": 25012,
-      "medianHouseholdIncome": 84727,
-      "medianHomeValue": 202600,
-      "localEconomyScore": 71.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 25204,
+      "medianHouseholdIncome": 86784,
+      "medianHomeValue": 219600,
+      "localEconomyScore": 71.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "washington",
@@ -1067,12 +1067,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19183",
-      "population": 22534,
-      "medianHouseholdIncome": 71122,
-      "medianHomeValue": 182400,
-      "localEconomyScore": 66.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 22561,
+      "medianHouseholdIncome": 75647,
+      "medianHomeValue": 203900,
+      "localEconomyScore": 67.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "mahaska",
@@ -1081,12 +1081,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19123",
-      "population": 22059,
-      "medianHouseholdIncome": 65200,
-      "medianHomeValue": 135100,
-      "localEconomyScore": 66.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 22021,
+      "medianHouseholdIncome": 70940,
+      "medianHomeValue": 157800,
+      "localEconomyScore": 67.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jones",
@@ -1095,26 +1095,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19105",
-      "population": 20733,
-      "medianHouseholdIncome": 68781,
-      "medianHomeValue": 165200,
-      "localEconomyScore": 66.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "carroll",
-      "county": "Carroll County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19027",
-      "population": 20728,
-      "medianHouseholdIncome": 68041,
-      "medianHomeValue": 162000,
-      "localEconomyScore": 66.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 20896,
+      "medianHouseholdIncome": 73531,
+      "medianHomeValue": 184800,
+      "localEconomyScore": 67.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "buena-vista",
@@ -1123,12 +1109,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19021",
-      "population": 20687,
-      "medianHouseholdIncome": 62662,
-      "medianHomeValue": 138100,
-      "localEconomyScore": 65.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 20753,
+      "medianHouseholdIncome": 71719,
+      "medianHomeValue": 159500,
+      "localEconomyScore": 67.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "buchanan",
@@ -1137,12 +1123,26 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19019",
-      "population": 20631,
-      "medianHouseholdIncome": 73493,
-      "medianHomeValue": 166200,
-      "localEconomyScore": 68.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 20694,
+      "medianHouseholdIncome": 78236,
+      "medianHomeValue": 176000,
+      "localEconomyScore": 69.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "carroll",
+      "county": "Carroll County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19027",
+      "population": 20594,
+      "medianHouseholdIncome": 72930,
+      "medianHomeValue": 176000,
+      "localEconomyScore": 67.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "henry",
@@ -1151,12 +1151,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19087",
-      "population": 20436,
-      "medianHouseholdIncome": 62365,
-      "medianHomeValue": 145200,
-      "localEconomyScore": 64.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 20004,
+      "medianHouseholdIncome": 67436,
+      "medianHomeValue": 164300,
+      "localEconomyScore": 65.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "winneshiek",
@@ -1165,26 +1165,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19191",
-      "population": 20050,
-      "medianHouseholdIncome": 67770,
-      "medianHomeValue": 225400,
-      "localEconomyScore": 63.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "fayette",
-      "county": "Fayette County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19065",
-      "population": 19519,
-      "medianHouseholdIncome": 56043,
-      "medianHomeValue": 123000,
-      "localEconomyScore": 63.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 19873,
+      "medianHouseholdIncome": 79066,
+      "medianHomeValue": 259200,
+      "localEconomyScore": 66.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jackson",
@@ -1193,12 +1179,26 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19097",
-      "population": 19470,
-      "medianHouseholdIncome": 69709,
-      "medianHomeValue": 162100,
-      "localEconomyScore": 66.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 19390,
+      "medianHouseholdIncome": 74186,
+      "medianHomeValue": 175000,
+      "localEconomyScore": 68.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "fayette",
+      "county": "Fayette County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19065",
+      "population": 19288,
+      "medianHouseholdIncome": 60165,
+      "medianHomeValue": 136800,
+      "localEconomyScore": 64.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "poweshiek",
@@ -1207,12 +1207,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19157",
-      "population": 18608,
-      "medianHouseholdIncome": 61192,
-      "medianHomeValue": 173600,
-      "localEconomyScore": 62.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 18545,
+      "medianHouseholdIncome": 67391,
+      "medianHomeValue": 209300,
+      "localEconomyScore": 63.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cedar",
@@ -1221,12 +1221,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19031",
-      "population": 18479,
-      "medianHouseholdIncome": 76959,
-      "medianHomeValue": 180700,
-      "localEconomyScore": 68.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 18349,
+      "medianHouseholdIncome": 80602,
+      "medianHomeValue": 211300,
+      "localEconomyScore": 69.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dickinson",
@@ -1235,12 +1235,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19059",
-      "population": 17692,
-      "medianHouseholdIncome": 72446,
-      "medianHomeValue": 236100,
-      "localEconomyScore": 64.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 17990,
+      "medianHouseholdIncome": 75432,
+      "medianHomeValue": 270700,
+      "localEconomyScore": 64.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "delaware",
@@ -1249,12 +1249,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19055",
-      "population": 17523,
-      "medianHouseholdIncome": 75896,
-      "medianHomeValue": 154600,
-      "localEconomyScore": 69.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 17558,
+      "medianHouseholdIncome": 74989,
+      "medianHomeValue": 177900,
+      "localEconomyScore": 68.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clayton",
@@ -1263,40 +1263,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19043",
-      "population": 17123,
-      "medianHouseholdIncome": 60441,
-      "medianHomeValue": 149500,
-      "localEconomyScore": 63.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "tama",
-      "county": "Tama County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19171",
-      "population": 17017,
-      "medianHouseholdIncome": 65483,
-      "medianHomeValue": 129400,
-      "localEconomyScore": 66.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "hardin",
-      "county": "Hardin County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19083",
-      "population": 16861,
-      "medianHouseholdIncome": 64656,
-      "medianHomeValue": 109300,
-      "localEconomyScore": 67.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 17013,
+      "medianHouseholdIncome": 67242,
+      "medianHomeValue": 168500,
+      "localEconomyScore": 65.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "madison",
@@ -1305,12 +1277,40 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19121",
-      "population": 16609,
-      "medianHouseholdIncome": 88110,
-      "medianHomeValue": 230500,
-      "localEconomyScore": 71.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 16926,
+      "medianHouseholdIncome": 90855,
+      "medianHomeValue": 245100,
+      "localEconomyScore": 71.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "tama",
+      "county": "Tama County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19171",
+      "population": 16868,
+      "medianHouseholdIncome": 70781,
+      "medianHomeValue": 148600,
+      "localEconomyScore": 67.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "hardin",
+      "county": "Hardin County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19083",
+      "population": 16639,
+      "medianHouseholdIncome": 65069,
+      "medianHomeValue": 122500,
+      "localEconomyScore": 66.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "iowa",
@@ -1319,26 +1319,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19095",
-      "population": 16575,
-      "medianHouseholdIncome": 69787,
-      "medianHomeValue": 175600,
-      "localEconomyScore": 66.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "crawford",
-      "county": "Crawford County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19047",
-      "population": 16450,
-      "medianHouseholdIncome": 61188,
-      "medianHomeValue": 118400,
-      "localEconomyScore": 65.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 16507,
+      "medianHouseholdIncome": 71223,
+      "medianHomeValue": 193900,
+      "localEconomyScore": 66,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clay",
@@ -1347,12 +1333,26 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19041",
-      "population": 16423,
-      "medianHouseholdIncome": 61756,
-      "medianHomeValue": 151400,
-      "localEconomyScore": 64.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 16461,
+      "medianHouseholdIncome": 65428,
+      "medianHomeValue": 178600,
+      "localEconomyScore": 64.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "crawford",
+      "county": "Crawford County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19047",
+      "population": 16277,
+      "medianHouseholdIncome": 67027,
+      "medianHomeValue": 153700,
+      "localEconomyScore": 66.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jefferson",
@@ -1361,12 +1361,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19101",
-      "population": 15785,
-      "medianHouseholdIncome": 52210,
-      "medianHomeValue": 141500,
-      "localEconomyScore": 60.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 15705,
+      "medianHouseholdIncome": 61620,
+      "medianHomeValue": 163400,
+      "localEconomyScore": 63.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "floyd",
@@ -1375,12 +1375,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19067",
-      "population": 15601,
-      "medianHouseholdIncome": 62356,
-      "medianHomeValue": 128800,
-      "localEconomyScore": 65.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 15328,
+      "medianHouseholdIncome": 68557,
+      "medianHomeValue": 143500,
+      "localEconomyScore": 67.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "page",
@@ -1389,12 +1389,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19145",
-      "population": 15225,
-      "medianHouseholdIncome": 58264,
-      "medianHomeValue": 112400,
-      "localEconomyScore": 64.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 15131,
+      "medianHouseholdIncome": 57953,
+      "medianHomeValue": 125300,
+      "localEconomyScore": 63.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hamilton",
@@ -1403,26 +1403,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19079",
-      "population": 14979,
-      "medianHouseholdIncome": 66685,
-      "medianHomeValue": 116000,
-      "localEconomyScore": 67.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "kossuth",
-      "county": "Kossuth County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19109",
-      "population": 14718,
-      "medianHouseholdIncome": 62553,
-      "medianHomeValue": 118800,
-      "localEconomyScore": 65.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14886,
+      "medianHouseholdIncome": 72432,
+      "medianHomeValue": 156400,
+      "localEconomyScore": 68,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "harrison",
@@ -1431,12 +1417,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19085",
-      "population": 14623,
-      "medianHouseholdIncome": 75830,
-      "medianHomeValue": 152000,
-      "localEconomyScore": 69.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14632,
+      "medianHouseholdIncome": 79535,
+      "medianHomeValue": 176000,
+      "localEconomyScore": 69.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "mills",
@@ -1445,12 +1431,26 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19129",
-      "population": 14605,
-      "medianHouseholdIncome": 81907,
-      "medianHomeValue": 225500,
-      "localEconomyScore": 69,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14568,
+      "medianHouseholdIncome": 90753,
+      "medianHomeValue": 237800,
+      "localEconomyScore": 72,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "kossuth",
+      "county": "Kossuth County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19109",
+      "population": 14516,
+      "medianHouseholdIncome": 67697,
+      "medianHomeValue": 148300,
+      "localEconomyScore": 66.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "butler",
@@ -1459,12 +1459,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19023",
-      "population": 14376,
-      "medianHouseholdIncome": 65743,
-      "medianHomeValue": 146300,
-      "localEconomyScore": 65.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14268,
+      "medianHouseholdIncome": 73715,
+      "medianHomeValue": 165400,
+      "localEconomyScore": 68.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "o-brien",
@@ -1473,12 +1473,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19141",
-      "population": 14138,
-      "medianHouseholdIncome": 65076,
-      "medianHomeValue": 141900,
-      "localEconomyScore": 65.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14126,
+      "medianHouseholdIncome": 68356,
+      "medianHomeValue": 173100,
+      "localEconomyScore": 65.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "allamakee",
@@ -1487,12 +1487,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19005",
-      "population": 14046,
-      "medianHouseholdIncome": 64049,
-      "medianHomeValue": 156900,
-      "localEconomyScore": 64.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14092,
+      "medianHouseholdIncome": 70694,
+      "medianHomeValue": 172300,
+      "localEconomyScore": 66.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cass",
@@ -1501,12 +1501,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19029",
-      "population": 13116,
-      "medianHouseholdIncome": 60815,
-      "medianHomeValue": 127400,
-      "localEconomyScore": 64.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 13096,
+      "medianHouseholdIncome": 63013,
+      "medianHomeValue": 150300,
+      "localEconomyScore": 64.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wright",
@@ -1515,12 +1515,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19197",
-      "population": 12897,
-      "medianHouseholdIncome": 58240,
-      "medianHomeValue": 105400,
-      "localEconomyScore": 64.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 12791,
+      "medianHouseholdIncome": 67190,
+      "medianHomeValue": 119600,
+      "localEconomyScore": 67.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "grundy",
@@ -1529,12 +1529,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19075",
-      "population": 12351,
-      "medianHouseholdIncome": 80701,
-      "medianHomeValue": 166300,
-      "localEconomyScore": 70.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 12384,
+      "medianHouseholdIncome": 87205,
+      "medianHomeValue": 198800,
+      "localEconomyScore": 71.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "appanoose",
@@ -1543,26 +1543,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19007",
-      "population": 12279,
-      "medianHouseholdIncome": 50684,
-      "medianHomeValue": 113900,
-      "localEconomyScore": 61.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "union",
-      "county": "Union County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19175",
-      "population": 12107,
-      "medianHouseholdIncome": 56495,
-      "medianHomeValue": 113800,
-      "localEconomyScore": 63.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 12184,
+      "medianHouseholdIncome": 54934,
+      "medianHomeValue": 124200,
+      "localEconomyScore": 62.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lyon",
@@ -1571,12 +1557,26 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19119",
-      "population": 12023,
-      "medianHouseholdIncome": 73735,
-      "medianHomeValue": 190800,
-      "localEconomyScore": 67,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 12162,
+      "medianHouseholdIncome": 76746,
+      "medianHomeValue": 230000,
+      "localEconomyScore": 66.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "union",
+      "county": "Union County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19175",
+      "population": 11993,
+      "medianHouseholdIncome": 57772,
+      "medianHomeValue": 122000,
+      "localEconomyScore": 63.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "chickasaw",
@@ -1585,12 +1585,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19037",
-      "population": 11957,
-      "medianHouseholdIncome": 72734,
-      "medianHomeValue": 151700,
-      "localEconomyScore": 68.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11807,
+      "medianHouseholdIncome": 75675,
+      "medianHomeValue": 182600,
+      "localEconomyScore": 68,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "shelby",
@@ -1599,12 +1599,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19165",
-      "population": 11737,
-      "medianHouseholdIncome": 70295,
-      "medianHomeValue": 152900,
-      "localEconomyScore": 67.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11778,
+      "medianHouseholdIncome": 72738,
+      "medianHomeValue": 164000,
+      "localEconomyScore": 67.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cherokee",
@@ -1613,54 +1613,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19035",
-      "population": 11601,
-      "medianHouseholdIncome": 63638,
-      "medianHomeValue": 145300,
-      "localEconomyScore": 64.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "louisa",
-      "county": "Louisa County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19115",
-      "population": 10823,
-      "medianHouseholdIncome": 72500,
-      "medianHomeValue": 125500,
-      "localEconomyScore": 69.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "hancock",
-      "county": "Hancock County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19081",
-      "population": 10790,
-      "medianHouseholdIncome": 67865,
-      "medianHomeValue": 116000,
-      "localEconomyScore": 67.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "winnebago",
-      "county": "Winnebago County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19189",
-      "population": 10704,
-      "medianHouseholdIncome": 62853,
-      "medianHomeValue": 121700,
-      "localEconomyScore": 65.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11600,
+      "medianHouseholdIncome": 71269,
+      "medianHomeValue": 158700,
+      "localEconomyScore": 67.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "guthrie",
@@ -1669,12 +1627,54 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19077",
-      "population": 10619,
-      "medianHouseholdIncome": 75795,
-      "medianHomeValue": 153100,
-      "localEconomyScore": 69.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10688,
+      "medianHouseholdIncome": 77711,
+      "medianHomeValue": 180100,
+      "localEconomyScore": 68.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "louisa",
+      "county": "Louisa County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19115",
+      "population": 10678,
+      "medianHouseholdIncome": 77354,
+      "medianHomeValue": 150100,
+      "localEconomyScore": 69.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "hancock",
+      "county": "Hancock County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19081",
+      "population": 10671,
+      "medianHouseholdIncome": 70601,
+      "medianHomeValue": 141400,
+      "localEconomyScore": 67.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "winnebago",
+      "county": "Winnebago County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19189",
+      "population": 10583,
+      "medianHouseholdIncome": 67642,
+      "medianHomeValue": 135000,
+      "localEconomyScore": 66.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "mitchell",
@@ -1683,12 +1683,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19131",
-      "population": 10537,
-      "medianHouseholdIncome": 66056,
-      "medianHomeValue": 149200,
-      "localEconomyScore": 65.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10575,
+      "medianHouseholdIncome": 71365,
+      "medianHomeValue": 175100,
+      "localEconomyScore": 66.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "montgomery",
@@ -1697,26 +1697,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19137",
-      "population": 10285,
-      "medianHouseholdIncome": 61261,
-      "medianHomeValue": 99300,
-      "localEconomyScore": 66.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "keokuk",
-      "county": "Keokuk County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19107",
-      "population": 10026,
-      "medianHouseholdIncome": 60016,
-      "medianHomeValue": 105500,
-      "localEconomyScore": 65.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10214,
+      "medianHouseholdIncome": 63666,
+      "medianHomeValue": 121400,
+      "localEconomyScore": 66,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "franklin",
@@ -1725,12 +1711,26 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19069",
-      "population": 10015,
-      "medianHouseholdIncome": 62214,
-      "medianHomeValue": 108200,
-      "localEconomyScore": 66.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9956,
+      "medianHouseholdIncome": 59894,
+      "medianHomeValue": 124100,
+      "localEconomyScore": 64.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "keokuk",
+      "county": "Keokuk County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19107",
+      "population": 9924,
+      "medianHouseholdIncome": 62329,
+      "medianHomeValue": 118700,
+      "localEconomyScore": 65.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "calhoun",
@@ -1739,12 +1739,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19025",
-      "population": 9893,
-      "medianHouseholdIncome": 65614,
-      "medianHomeValue": 104900,
-      "localEconomyScore": 67.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9803,
+      "medianHouseholdIncome": 64964,
+      "medianHomeValue": 118800,
+      "localEconomyScore": 66.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "sac",
@@ -1753,12 +1753,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19161",
-      "population": 9778,
-      "medianHouseholdIncome": 68778,
-      "medianHomeValue": 119500,
-      "localEconomyScore": 68,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9689,
+      "medianHouseholdIncome": 73838,
+      "medianHomeValue": 141400,
+      "localEconomyScore": 68.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clarke",
@@ -1767,12 +1767,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19039",
-      "population": 9737,
-      "medianHouseholdIncome": 63120,
-      "medianHomeValue": 127200,
-      "localEconomyScore": 65.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9662,
+      "medianHouseholdIncome": 71641,
+      "medianHomeValue": 161100,
+      "localEconomyScore": 67.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "humboldt",
@@ -1781,12 +1781,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19091",
-      "population": 9606,
-      "medianHouseholdIncome": 66617,
-      "medianHomeValue": 134300,
-      "localEconomyScore": 66.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9591,
+      "medianHouseholdIncome": 71946,
+      "medianHomeValue": 155800,
+      "localEconomyScore": 67.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "howard",
@@ -1795,12 +1795,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19089",
-      "population": 9479,
-      "medianHouseholdIncome": 63947,
-      "medianHomeValue": 125100,
-      "localEconomyScore": 65.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9445,
+      "medianHouseholdIncome": 67446,
+      "medianHomeValue": 147800,
+      "localEconomyScore": 66.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "emmet",
@@ -1809,12 +1809,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19063",
-      "population": 9349,
-      "medianHouseholdIncome": 64461,
-      "medianHomeValue": 102700,
-      "localEconomyScore": 67.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9262,
+      "medianHouseholdIncome": 63730,
+      "medianHomeValue": 114100,
+      "localEconomyScore": 66.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "davis",
@@ -1823,12 +1823,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19051",
-      "population": 9093,
-      "medianHouseholdIncome": 77176,
-      "medianHomeValue": 140300,
-      "localEconomyScore": 70.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9157,
+      "medianHouseholdIncome": 77194,
+      "medianHomeValue": 161900,
+      "localEconomyScore": 69.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "palo-alto",
@@ -1837,40 +1837,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19147",
-      "population": 8938,
-      "medianHouseholdIncome": 67306,
-      "medianHomeValue": 117000,
-      "localEconomyScore": 67.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "greene",
-      "county": "Greene County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19073",
-      "population": 8801,
-      "medianHouseholdIncome": 56884,
-      "medianHomeValue": 119100,
-      "localEconomyScore": 63.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "monona",
-      "county": "Monona County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19133",
-      "population": 8671,
-      "medianHouseholdIncome": 59897,
-      "medianHomeValue": 108700,
-      "localEconomyScore": 65.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8863,
+      "medianHouseholdIncome": 72781,
+      "medianHomeValue": 123200,
+      "localEconomyScore": 69.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lucas",
@@ -1879,12 +1851,40 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19117",
-      "population": 8666,
-      "medianHouseholdIncome": 63405,
-      "medianHomeValue": 111000,
-      "localEconomyScore": 66.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8716,
+      "medianHouseholdIncome": 61793,
+      "medianHomeValue": 120200,
+      "localEconomyScore": 65.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "greene",
+      "county": "Greene County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19073",
+      "population": 8688,
+      "medianHouseholdIncome": 63409,
+      "medianHomeValue": 155400,
+      "localEconomyScore": 64.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "monona",
+      "county": "Monona County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19133",
+      "population": 8557,
+      "medianHouseholdIncome": 68377,
+      "medianHomeValue": 142900,
+      "localEconomyScore": 66.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "decatur",
@@ -1893,12 +1893,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19053",
-      "population": 7684,
-      "medianHouseholdIncome": 56068,
-      "medianHomeValue": 97000,
-      "localEconomyScore": 64.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7759,
+      "medianHouseholdIncome": 59044,
+      "medianHomeValue": 113900,
+      "localEconomyScore": 64.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "monroe",
@@ -1907,12 +1907,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19135",
-      "population": 7574,
-      "medianHouseholdIncome": 76324,
-      "medianHomeValue": 128000,
-      "localEconomyScore": 70.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7513,
+      "medianHouseholdIncome": 70996,
+      "medianHomeValue": 156300,
+      "localEconomyScore": 67,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "adair",
@@ -1921,12 +1921,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19001",
-      "population": 7479,
-      "medianHouseholdIncome": 63172,
-      "medianHomeValue": 131600,
-      "localEconomyScore": 65.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7460,
+      "medianHouseholdIncome": 68092,
+      "medianHomeValue": 160400,
+      "localEconomyScore": 65.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "worth",
@@ -1935,12 +1935,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19195",
-      "population": 7417,
-      "medianHouseholdIncome": 69897,
-      "medianHomeValue": 130600,
-      "localEconomyScore": 67.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7350,
+      "medianHouseholdIncome": 78008,
+      "medianHomeValue": 145800,
+      "localEconomyScore": 70.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "van-buren",
@@ -1949,12 +1949,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19177",
-      "population": 7207,
-      "medianHouseholdIncome": 58417,
-      "medianHomeValue": 107700,
-      "localEconomyScore": 64.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7241,
+      "medianHouseholdIncome": 61161,
+      "medianHomeValue": 114600,
+      "localEconomyScore": 65.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pocahontas",
@@ -1963,12 +1963,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19151",
-      "population": 7061,
-      "medianHouseholdIncome": 61434,
-      "medianHomeValue": 90400,
-      "localEconomyScore": 66.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7046,
+      "medianHouseholdIncome": 61875,
+      "medianHomeValue": 98100,
+      "localEconomyScore": 66.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "ida",
@@ -1977,26 +1977,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19093",
-      "population": 6969,
-      "medianHouseholdIncome": 63125,
-      "medianHomeValue": 108000,
-      "localEconomyScore": 66.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "fremont",
-      "county": "Fremont County",
-      "state": "Iowa",
-      "stateSlug": "iowa",
-      "stateAbbreviation": "IA",
-      "fips": "19071",
-      "population": 6639,
-      "medianHouseholdIncome": 69375,
-      "medianHomeValue": 140400,
-      "localEconomyScore": 67,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6911,
+      "medianHouseholdIncome": 63073,
+      "medianHomeValue": 108900,
+      "localEconomyScore": 66.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wayne",
@@ -2005,12 +1991,26 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19185",
-      "population": 6484,
-      "medianHouseholdIncome": 58257,
-      "medianHomeValue": 98700,
-      "localEconomyScore": 64.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6532,
+      "medianHouseholdIncome": 61964,
+      "medianHomeValue": 111300,
+      "localEconomyScore": 65.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "fremont",
+      "county": "Fremont County",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbreviation": "IA",
+      "fips": "19071",
+      "population": 6514,
+      "medianHouseholdIncome": 71621,
+      "medianHomeValue": 154400,
+      "localEconomyScore": 67.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "osceola",
@@ -2019,12 +2019,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19143",
-      "population": 6149,
-      "medianHouseholdIncome": 67561,
-      "medianHomeValue": 114800,
-      "localEconomyScore": 67.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 6100,
+      "medianHouseholdIncome": 69239,
+      "medianHomeValue": 122600,
+      "localEconomyScore": 67.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "taylor",
@@ -2033,12 +2033,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19173",
-      "population": 5916,
-      "medianHouseholdIncome": 65926,
-      "medianHomeValue": 104500,
+      "population": 5868,
+      "medianHouseholdIncome": 67740,
+      "medianHomeValue": 117200,
       "localEconomyScore": 67.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "audubon",
@@ -2047,12 +2047,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19009",
-      "population": 5651,
-      "medianHouseholdIncome": 54973,
-      "medianHomeValue": 99900,
-      "localEconomyScore": 63.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5599,
+      "medianHouseholdIncome": 58229,
+      "medianHomeValue": 121900,
+      "localEconomyScore": 63.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "ringgold",
@@ -2061,12 +2061,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19159",
-      "population": 4690,
-      "medianHouseholdIncome": 67898,
-      "medianHomeValue": 143100,
-      "localEconomyScore": 66.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4645,
+      "medianHouseholdIncome": 73346,
+      "medianHomeValue": 156200,
+      "localEconomyScore": 67.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "adams",
@@ -2075,12 +2075,12 @@
       "stateSlug": "iowa",
       "stateAbbreviation": "IA",
       "fips": "19003",
-      "population": 3680,
-      "medianHouseholdIncome": 64750,
-      "medianHomeValue": 109400,
-      "localEconomyScore": 66.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3622,
+      "medianHouseholdIncome": 71875,
+      "medianHomeValue": 131600,
+      "localEconomyScore": 67.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "colleges": [
@@ -2099,7 +2099,7 @@
       "debtToEarningsRatio": 0.26311727312274596,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "152992",
@@ -2116,7 +2116,7 @@
       "debtToEarningsRatio": 0.4268012849931161,
       "valueScore": 53,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153001",
@@ -2133,7 +2133,7 @@
       "debtToEarningsRatio": 0.5085849133371307,
       "valueScore": 61,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153074",
@@ -2150,7 +2150,7 @@
       "debtToEarningsRatio": 0.2688742659024977,
       "valueScore": 51,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153083",
@@ -2167,7 +2167,7 @@
       "debtToEarningsRatio": 0.25932371105879143,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153108",
@@ -2184,7 +2184,7 @@
       "debtToEarningsRatio": 0.49678737780068855,
       "valueScore": 59,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153126",
@@ -2201,7 +2201,7 @@
       "debtToEarningsRatio": 0.4822911401545238,
       "valueScore": 55,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153144",
@@ -2218,7 +2218,7 @@
       "debtToEarningsRatio": 0.4726477024070022,
       "valueScore": 70,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153162",
@@ -2235,7 +2235,7 @@
       "debtToEarningsRatio": 0.5050505050505051,
       "valueScore": 57,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153214",
@@ -2252,7 +2252,7 @@
       "debtToEarningsRatio": 0.2681749475839875,
       "valueScore": 75,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153241",
@@ -2269,7 +2269,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153250",
@@ -2286,7 +2286,7 @@
       "debtToEarningsRatio": 0.40906409939306304,
       "valueScore": 54,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153269",
@@ -2303,7 +2303,7 @@
       "debtToEarningsRatio": 0.31988428533678254,
       "valueScore": 63,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153278",
@@ -2320,7 +2320,7 @@
       "debtToEarningsRatio": 0.5030279351435827,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153296",
@@ -2337,7 +2337,7 @@
       "debtToEarningsRatio": 0.24653616685567772,
       "valueScore": 74,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153302",
@@ -2354,7 +2354,7 @@
       "debtToEarningsRatio": 0.3694494616593559,
       "valueScore": 79,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153311",
@@ -2371,7 +2371,7 @@
       "debtToEarningsRatio": 0.32613927291346645,
       "valueScore": 60,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153320",
@@ -2388,7 +2388,7 @@
       "debtToEarningsRatio": 0.31908979089790895,
       "valueScore": 61,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153366",
@@ -2405,7 +2405,7 @@
       "debtToEarningsRatio": 0.44787905660775745,
       "valueScore": 56,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153375",
@@ -2422,7 +2422,7 @@
       "debtToEarningsRatio": 0.4259427532939573,
       "valueScore": 57,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153384",
@@ -2439,7 +2439,7 @@
       "debtToEarningsRatio": 0.2785293649530479,
       "valueScore": 86,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153427",
@@ -2456,7 +2456,7 @@
       "debtToEarningsRatio": 0.2567012537829658,
       "valueScore": 45,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153445",
@@ -2473,7 +2473,7 @@
       "debtToEarningsRatio": 0.2800532101099209,
       "valueScore": 89,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153463",
@@ -2490,7 +2490,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 61,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153472",
@@ -2507,7 +2507,7 @@
       "debtToEarningsRatio": 0.25921445676055993,
       "valueScore": 78,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153524",
@@ -2524,7 +2524,7 @@
       "debtToEarningsRatio": 0.26161822765542503,
       "valueScore": 92,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153533",
@@ -2541,7 +2541,7 @@
       "debtToEarningsRatio": 0.2783706040642108,
       "valueScore": 65,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153542",
@@ -2558,7 +2558,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153597",
@@ -2575,7 +2575,7 @@
       "debtToEarningsRatio": 0.24543657714219277,
       "valueScore": 57,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153603",
@@ -2592,7 +2592,7 @@
       "debtToEarningsRatio": 0.3607894487741773,
       "valueScore": 80,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153630",
@@ -2609,7 +2609,7 @@
       "debtToEarningsRatio": 0.2578225410698011,
       "valueScore": 63,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153658",
@@ -2626,7 +2626,7 @@
       "debtToEarningsRatio": 0.3474259596677064,
       "valueScore": 70,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153737",
@@ -2643,7 +2643,7 @@
       "debtToEarningsRatio": 0.29256875365710944,
       "valueScore": 86,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153746",
@@ -2660,7 +2660,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 40,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153764",
@@ -2677,7 +2677,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 51,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153773",
@@ -2694,7 +2694,7 @@
       "debtToEarningsRatio": 0.2521467035366031,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153782",
@@ -2711,7 +2711,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 32,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153825",
@@ -2728,7 +2728,7 @@
       "debtToEarningsRatio": 0.4460532862118067,
       "valueScore": 68,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153834",
@@ -2745,7 +2745,7 @@
       "debtToEarningsRatio": 0.45112781954887216,
       "valueScore": 65,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153861",
@@ -2762,7 +2762,7 @@
       "debtToEarningsRatio": 0.8856366820342375,
       "valueScore": 42,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153922",
@@ -2779,7 +2779,7 @@
       "debtToEarningsRatio": 0.23165081687393319,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "153977",
@@ -2796,7 +2796,7 @@
       "debtToEarningsRatio": 0.23692836713050744,
       "valueScore": 56,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154004",
@@ -2813,7 +2813,7 @@
       "debtToEarningsRatio": 0.4690236782354849,
       "valueScore": 45,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154013",
@@ -2830,7 +2830,7 @@
       "debtToEarningsRatio": 0.38986954447496996,
       "valueScore": 68,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154059",
@@ -2847,7 +2847,7 @@
       "debtToEarningsRatio": 0.21858174957434082,
       "valueScore": 93,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154095",
@@ -2864,7 +2864,7 @@
       "debtToEarningsRatio": 0.3568697102053392,
       "valueScore": 80,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154101",
@@ -2881,7 +2881,7 @@
       "debtToEarningsRatio": 0.4668286414200233,
       "valueScore": 51,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154110",
@@ -2898,7 +2898,7 @@
       "debtToEarningsRatio": 0.2905146952016656,
       "valueScore": 78,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154129",
@@ -2915,7 +2915,7 @@
       "debtToEarningsRatio": 0.18709626595241846,
       "valueScore": 76,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154156",
@@ -2932,7 +2932,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154174",
@@ -2949,7 +2949,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154208",
@@ -2966,7 +2966,7 @@
       "debtToEarningsRatio": 0.18601978933929142,
       "valueScore": 45,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154235",
@@ -2983,7 +2983,7 @@
       "debtToEarningsRatio": 0.4199492701281685,
       "valueScore": 59,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154262",
@@ -3000,7 +3000,7 @@
       "debtToEarningsRatio": 0.2457686825160159,
       "valueScore": 55,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154332",
@@ -3017,7 +3017,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 44,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154350",
@@ -3034,7 +3034,7 @@
       "debtToEarningsRatio": 0.43864088807909035,
       "valueScore": 65,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154378",
@@ -3051,7 +3051,7 @@
       "debtToEarningsRatio": 0.32536196518626975,
       "valueScore": 65,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154396",
@@ -3068,7 +3068,7 @@
       "debtToEarningsRatio": 0.27349298512297837,
       "valueScore": 87,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154448",
@@ -3085,7 +3085,7 @@
       "debtToEarningsRatio": 0.28219218773206595,
       "valueScore": 46,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154457",
@@ -3102,7 +3102,7 @@
       "debtToEarningsRatio": 0.5023261048998274,
       "valueScore": 43,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154466",
@@ -3119,7 +3119,7 @@
       "debtToEarningsRatio": 0.5432589774626779,
       "valueScore": 41,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154493",
@@ -3136,7 +3136,7 @@
       "debtToEarningsRatio": 0.4737899404919835,
       "valueScore": 55,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154518",
@@ -3153,7 +3153,7 @@
       "debtToEarningsRatio": 0.3665005374767908,
       "valueScore": 53,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154527",
@@ -3170,7 +3170,7 @@
       "debtToEarningsRatio": 0.4804184978914966,
       "valueScore": 47,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154536",
@@ -3187,7 +3187,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154545",
@@ -3204,7 +3204,7 @@
       "debtToEarningsRatio": 0.5965163445478406,
       "valueScore": 45,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154572",
@@ -3221,7 +3221,7 @@
       "debtToEarningsRatio": 0.2717861290242878,
       "valueScore": 94,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "154590",
@@ -3238,7 +3238,7 @@
       "debtToEarningsRatio": 0.4580472453817231,
       "valueScore": 47,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "366571",
@@ -3255,7 +3255,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "373085",
@@ -3272,7 +3272,7 @@
       "debtToEarningsRatio": 0.31774700648872833,
       "valueScore": 42,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "381486",
@@ -3289,7 +3289,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 78,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "451194",
@@ -3306,7 +3306,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 34,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "475015",
@@ -3323,7 +3323,7 @@
       "debtToEarningsRatio": 0.23416915753348833,
       "valueScore": 58,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "495378",
@@ -3340,7 +3340,7 @@
       "debtToEarningsRatio": 0.18601978933929142,
       "valueScore": 44,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "496690",
@@ -3357,7 +3357,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "federalSpending": [
@@ -3367,7 +3367,7 @@
       "stateAbbreviation": "IA",
       "fiscalYear": 2024,
       "total": 32343193497.09,
-      "perCapita": 10142.633078994968,
+      "perCapita": 10074.170060083969,
       "source": "USAspending.gov"
     }
   ],

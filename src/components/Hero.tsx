@@ -60,7 +60,7 @@ export function Hero({
   primaryCta,
   secondaryCta,
   tag,
-  pulseTitle = 'Colorado pulse',
+  pulseTitle = 'Data integrity snapshot',
   pulseStatus = 'Official sources',
   sourceCards = DEFAULT_SOURCE_CARDS,
   validationItems = DEFAULT_VALIDATION_ITEMS,

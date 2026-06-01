@@ -1,49 +1,49 @@
 {
   "_meta": {
     "description": "Alabama state economic dashboard data",
-    "generatedAt": "2026-06-01T05:36:01.612Z",
+    "generatedAt": "2026-06-01T06:09:58.945Z",
     "sourceAttemptLog": [
       {
         "source": "BEA",
         "id": "state-gdp",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-states",
+        "id": "acs-states-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-counties",
+        "id": "acs-counties-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-places",
+        "id": "acs-places-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "UNRATE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DENV708URN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -51,7 +51,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -59,7 +59,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -67,42 +67,42 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       }
     ]
   },
@@ -112,40 +112,40 @@
     "abbreviation": "AL",
     "fips": "01",
     "population": {
-      "value": 5028092,
+      "value": 5086768,
       "unit": "persons",
       "geography": "Alabama",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B01003_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHouseholdIncome": {
-      "value": 59609,
+      "value": 63999,
       "unit": "USD",
       "geography": "Alabama",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B19013_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHomeValue": {
-      "value": 179400,
+      "value": 209900,
       "unit": "USD",
       "geography": "Alabama",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B25077_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -159,7 +159,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/ALURN",
       "sourceDataset": "FRED Series ALURN",
       "sourceSeriesId": "ALURN",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -173,33 +173,33 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/ALRGSP",
       "sourceDataset": "FRED Series ALRGSP",
       "sourceSeriesId": "ALRGSP",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "federalSpendingPerCapita": {
-      "value": 13208.897318730444,
+      "value": 13056.532347677346,
       "unit": "USD per person",
       "geography": "Alabama",
       "date": "FY2024",
       "sourceName": "USAspending.gov",
       "sourceUrl": "https://api.usaspending.gov/",
       "sourceDataset": "USAspending API v2 spending_by_geography",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "localEconomyScore": {
-      "value": 66.3,
+      "value": 66.7,
       "unit": "score",
       "geography": "Alabama",
       "date": "2026-06-01",
       "sourceName": "LocalLedger methodology",
       "sourceUrl": "https://local-ledger.net/methodology/",
       "sourceDataset": "Composite score from Census, FRED, and USAspending",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "weighted score",
       "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
       "availability": "available"
@@ -213,12 +213,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01073",
-      "population": 672265,
-      "medianHouseholdIncome": 63595,
-      "medianHomeValue": 208900,
-      "localEconomyScore": 65.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 667755,
+      "medianHouseholdIncome": 66388,
+      "medianHomeValue": 240000,
+      "localEconomyScore": 65.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "mobile",
@@ -227,12 +227,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01097",
-      "population": 413878,
-      "medianHouseholdIncome": 55352,
-      "medianHomeValue": 164600,
-      "localEconomyScore": 63.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 412590,
+      "medianHouseholdIncome": 58880,
+      "medianHomeValue": 190700,
+      "localEconomyScore": 63.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "madison",
@@ -241,12 +241,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01089",
-      "population": 389781,
-      "medianHouseholdIncome": 78058,
-      "medianHomeValue": 242900,
-      "localEconomyScore": 69.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 405718,
+      "medianHouseholdIncome": 86499,
+      "medianHomeValue": 299200,
+      "localEconomyScore": 71.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "baldwin",
@@ -255,12 +255,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01003",
-      "population": 233420,
-      "medianHouseholdIncome": 71039,
-      "medianHomeValue": 266000,
-      "localEconomyScore": 65.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 246989,
+      "medianHouseholdIncome": 78775,
+      "medianHomeValue": 316900,
+      "localEconomyScore": 66.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "tuscaloosa",
@@ -269,26 +269,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01125",
-      "population": 231558,
-      "medianHouseholdIncome": 61645,
-      "medianHomeValue": 218800,
-      "localEconomyScore": 63.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "montgomery",
-      "county": "Montgomery County",
-      "state": "Alabama",
-      "stateSlug": "alabama",
-      "stateAbbreviation": "AL",
-      "fips": "01101",
-      "population": 228132,
-      "medianHouseholdIncome": 56707,
-      "medianHomeValue": 151300,
-      "localEconomyScore": 64.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 237552,
+      "medianHouseholdIncome": 66231,
+      "medianHomeValue": 248700,
+      "localEconomyScore": 64,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "shelby",
@@ -297,12 +283,26 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01117",
-      "population": 223916,
-      "medianHouseholdIncome": 90618,
-      "medianHomeValue": 276500,
-      "localEconomyScore": 73.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 230211,
+      "medianHouseholdIncome": 97961,
+      "medianHomeValue": 326100,
+      "localEconomyScore": 74.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "montgomery",
+      "county": "Montgomery County",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbreviation": "AL",
+      "fips": "01101",
+      "population": 226718,
+      "medianHouseholdIncome": 59386,
+      "medianHomeValue": 171900,
+      "localEconomyScore": 64.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lee",
@@ -311,12 +311,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01081",
-      "population": 175126,
-      "medianHouseholdIncome": 59288,
-      "medianHomeValue": 224400,
-      "localEconomyScore": 61.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 181134,
+      "medianHouseholdIncome": 65824,
+      "medianHomeValue": 262200,
+      "localEconomyScore": 63,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "morgan",
@@ -325,12 +325,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01103",
-      "population": 123102,
-      "medianHouseholdIncome": 61588,
-      "medianHomeValue": 174800,
-      "localEconomyScore": 65,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 124471,
+      "medianHouseholdIncome": 68845,
+      "medianHomeValue": 212000,
+      "localEconomyScore": 66.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "calhoun",
@@ -339,26 +339,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01015",
-      "population": 116162,
-      "medianHouseholdIncome": 54339,
-      "medianHomeValue": 140500,
-      "localEconomyScore": 63.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "houston",
-      "county": "Houston County",
-      "state": "Alabama",
-      "stateSlug": "alabama",
-      "stateAbbreviation": "AL",
-      "fips": "01069",
-      "population": 107040,
-      "medianHouseholdIncome": 55064,
-      "medianHomeValue": 164900,
-      "localEconomyScore": 62.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 116090,
+      "medianHouseholdIncome": 55029,
+      "medianHomeValue": 156600,
+      "localEconomyScore": 63,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "limestone",
@@ -367,12 +353,26 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01083",
-      "population": 104199,
-      "medianHouseholdIncome": 80146,
-      "medianHomeValue": 229400,
-      "localEconomyScore": 70.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 111233,
+      "medianHouseholdIncome": 83629,
+      "medianHomeValue": 281000,
+      "localEconomyScore": 69.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "houston",
+      "county": "Houston County",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbreviation": "AL",
+      "fips": "01069",
+      "population": 108140,
+      "medianHouseholdIncome": 58626,
+      "medianHomeValue": 183300,
+      "localEconomyScore": 63.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "etowah",
@@ -381,12 +381,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01055",
-      "population": 103348,
-      "medianHouseholdIncome": 52177,
-      "medianHomeValue": 148400,
+      "population": 103105,
+      "medianHouseholdIncome": 54563,
+      "medianHomeValue": 167100,
       "localEconomyScore": 62.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "marshall",
@@ -395,12 +395,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01095",
-      "population": 97923,
-      "medianHouseholdIncome": 58272,
-      "medianHomeValue": 165600,
+      "population": 99748,
+      "medianHouseholdIncome": 62571,
+      "medianHomeValue": 201500,
       "localEconomyScore": 63.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lauderdale",
@@ -409,12 +409,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01077",
-      "population": 94329,
-      "medianHouseholdIncome": 56081,
-      "medianHomeValue": 174800,
-      "localEconomyScore": 62.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 95830,
+      "medianHouseholdIncome": 62649,
+      "medianHomeValue": 200300,
+      "localEconomyScore": 64,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "st-clair",
@@ -423,12 +423,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01115",
-      "population": 91719,
-      "medianHouseholdIncome": 73218,
-      "medianHomeValue": 202000,
-      "localEconomyScore": 68.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 94166,
+      "medianHouseholdIncome": 77463,
+      "medianHomeValue": 226300,
+      "localEconomyScore": 69.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cullman",
@@ -437,12 +437,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01043",
-      "population": 88284,
-      "medianHouseholdIncome": 58119,
-      "medianHomeValue": 166000,
-      "localEconomyScore": 63.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 90566,
+      "medianHouseholdIncome": 62656,
+      "medianHomeValue": 199100,
+      "localEconomyScore": 64,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "elmore",
@@ -451,12 +451,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01051",
-      "population": 87694,
-      "medianHouseholdIncome": 73258,
-      "medianHomeValue": 200400,
-      "localEconomyScore": 68.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 89526,
+      "medianHouseholdIncome": 78243,
+      "medianHomeValue": 223900,
+      "localEconomyScore": 69.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "talladega",
@@ -465,12 +465,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01121",
-      "population": 81105,
-      "medianHouseholdIncome": 52457,
-      "medianHomeValue": 131900,
-      "localEconomyScore": 63,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 81021,
+      "medianHouseholdIncome": 57776,
+      "medianHomeValue": 149200,
+      "localEconomyScore": 64.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dekalb",
@@ -479,12 +479,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01049",
-      "population": 71680,
-      "medianHouseholdIncome": 47920,
-      "medianHomeValue": 129000,
+      "population": 72269,
+      "medianHouseholdIncome": 51204,
+      "medianHomeValue": 152700,
       "localEconomyScore": 61.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "walker",
@@ -493,40 +493,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01127",
-      "population": 64978,
-      "medianHouseholdIncome": 52987,
-      "medianHomeValue": 124100,
-      "localEconomyScore": 63.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "blount",
-      "county": "Blount County",
-      "state": "Alabama",
-      "stateSlug": "alabama",
-      "stateAbbreviation": "AL",
-      "fips": "01009",
-      "population": 59077,
-      "medianHouseholdIncome": 57440,
-      "medianHomeValue": 159800,
-      "localEconomyScore": 63.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "russell",
-      "county": "Russell County",
-      "state": "Alabama",
-      "stateSlug": "alabama",
-      "stateAbbreviation": "AL",
-      "fips": "01113",
-      "population": 58849,
-      "medianHouseholdIncome": 47420,
-      "medianHomeValue": 141900,
-      "localEconomyScore": 59.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 64841,
+      "medianHouseholdIncome": 56509,
+      "medianHomeValue": 135900,
+      "localEconomyScore": 64.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "autauga",
@@ -535,12 +507,40 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01001",
-      "population": 58761,
-      "medianHouseholdIncome": 68315,
-      "medianHomeValue": 191800,
-      "localEconomyScore": 66.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 59947,
+      "medianHouseholdIncome": 72481,
+      "medianHomeValue": 207200,
+      "localEconomyScore": 67.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "blount",
+      "county": "Blount County",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbreviation": "AL",
+      "fips": "01009",
+      "population": 59518,
+      "medianHouseholdIncome": 64190,
+      "medianHomeValue": 175200,
+      "localEconomyScore": 65.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "russell",
+      "county": "Russell County",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbreviation": "AL",
+      "fips": "01113",
+      "population": 58811,
+      "medianHouseholdIncome": 51197,
+      "medianHomeValue": 165700,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "colbert",
@@ -549,12 +549,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01033",
-      "population": 57270,
-      "medianHouseholdIncome": 56149,
-      "medianHomeValue": 148500,
-      "localEconomyScore": 63.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 58022,
+      "medianHouseholdIncome": 60628,
+      "medianHomeValue": 171000,
+      "localEconomyScore": 64.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "coffee",
@@ -563,12 +563,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01031",
-      "population": 53559,
-      "medianHouseholdIncome": 62199,
-      "medianHomeValue": 162200,
-      "localEconomyScore": 65.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 54920,
+      "medianHouseholdIncome": 68353,
+      "medianHomeValue": 188600,
+      "localEconomyScore": 66.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "jackson",
@@ -577,12 +577,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01071",
-      "population": 52618,
-      "medianHouseholdIncome": 46748,
-      "medianHomeValue": 126900,
-      "localEconomyScore": 60.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 53053,
+      "medianHouseholdIncome": 51908,
+      "medianHomeValue": 159500,
+      "localEconomyScore": 60.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dale",
@@ -591,12 +591,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01045",
-      "population": 49455,
-      "medianHouseholdIncome": 52813,
-      "medianHomeValue": 123800,
-      "localEconomyScore": 63.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 49599,
+      "medianHouseholdIncome": 54963,
+      "medianHomeValue": 143500,
+      "localEconomyScore": 63.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "chilton",
@@ -605,12 +605,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01021",
-      "population": 45140,
-      "medianHouseholdIncome": 62471,
-      "medianHomeValue": 136000,
+      "population": 45992,
+      "medianHouseholdIncome": 65603,
+      "medianHomeValue": 161300,
       "localEconomyScore": 66.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "tallapoosa",
@@ -619,26 +619,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01123",
-      "population": 41251,
-      "medianHouseholdIncome": 53282,
-      "medianHomeValue": 127100,
-      "localEconomyScore": 63.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "dallas",
-      "county": "Dallas County",
-      "state": "Alabama",
-      "stateSlug": "alabama",
-      "stateAbbreviation": "AL",
-      "fips": "01047",
-      "population": 38326,
-      "medianHouseholdIncome": 37180,
-      "medianHomeValue": 91600,
-      "localEconomyScore": 58.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 40938,
+      "medianHouseholdIncome": 59356,
+      "medianHomeValue": 158500,
+      "localEconomyScore": 64.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "covington",
@@ -647,12 +633,26 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01039",
-      "population": 37542,
-      "medianHouseholdIncome": 48772,
-      "medianHomeValue": 124300,
+      "population": 37628,
+      "medianHouseholdIncome": 52456,
+      "medianHomeValue": 152100,
       "localEconomyScore": 61.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "dallas",
+      "county": "Dallas County",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbreviation": "AL",
+      "fips": "01047",
+      "population": 36858,
+      "medianHouseholdIncome": 35627,
+      "medianHomeValue": 94600,
+      "localEconomyScore": 57.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "escambia",
@@ -661,12 +661,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01053",
-      "population": 36755,
-      "medianHouseholdIncome": 41153,
-      "medianHomeValue": 122000,
-      "localEconomyScore": 57.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 36629,
+      "medianHouseholdIncome": 48225,
+      "medianHomeValue": 136500,
+      "localEconomyScore": 60.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "chambers",
@@ -675,12 +675,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01017",
-      "population": 34612,
-      "medianHouseholdIncome": 48805,
-      "medianHomeValue": 116900,
-      "localEconomyScore": 61.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 34192,
+      "medianHouseholdIncome": 49656,
+      "medianHomeValue": 135800,
+      "localEconomyScore": 60.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lawrence",
@@ -689,12 +689,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01079",
-      "population": 33116,
-      "medianHouseholdIncome": 54786,
-      "medianHomeValue": 134200,
-      "localEconomyScore": 63.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 33276,
+      "medianHouseholdIncome": 66071,
+      "medianHomeValue": 172300,
+      "localEconomyScore": 66.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pike",
@@ -703,12 +703,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01109",
-      "population": 32997,
-      "medianHouseholdIncome": 42616,
-      "medianHomeValue": 144500,
-      "localEconomyScore": 56.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 32987,
+      "medianHouseholdIncome": 48677,
+      "medianHomeValue": 157600,
+      "localEconomyScore": 59.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "franklin",
@@ -717,12 +717,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01059",
-      "population": 32011,
-      "medianHouseholdIncome": 47359,
-      "medianHomeValue": 121600,
-      "localEconomyScore": 60.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 31966,
+      "medianHouseholdIncome": 53338,
+      "medianHomeValue": 136000,
+      "localEconomyScore": 62.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "marion",
@@ -731,12 +731,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01093",
-      "population": 29203,
-      "medianHouseholdIncome": 49743,
-      "medianHomeValue": 104300,
+      "population": 29184,
+      "medianHouseholdIncome": 50088,
+      "medianHomeValue": 106600,
       "localEconomyScore": 62.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "geneva",
@@ -745,12 +745,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01061",
-      "population": 26647,
-      "medianHouseholdIncome": 47608,
-      "medianHomeValue": 120700,
-      "localEconomyScore": 60.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 26887,
+      "medianHouseholdIncome": 52771,
+      "medianHomeValue": 130700,
+      "localEconomyScore": 62.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cherokee",
@@ -759,12 +759,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01019",
-      "population": 25069,
-      "medianHouseholdIncome": 46621,
-      "medianHomeValue": 158700,
-      "localEconomyScore": 57.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 25443,
+      "medianHouseholdIncome": 53863,
+      "medianHomeValue": 179700,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "barbour",
@@ -773,12 +773,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01005",
-      "population": 24877,
-      "medianHouseholdIncome": 39712,
-      "medianHomeValue": 102700,
-      "localEconomyScore": 58.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 24643,
+      "medianHouseholdIncome": 46042,
+      "medianHomeValue": 112900,
+      "localEconomyScore": 60.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "winston",
@@ -787,12 +787,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01133",
-      "population": 23655,
-      "medianHouseholdIncome": 49494,
-      "medianHomeValue": 111600,
-      "localEconomyScore": 62.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 23682,
+      "medianHouseholdIncome": 57256,
+      "medianHomeValue": 118900,
+      "localEconomyScore": 64.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clarke",
@@ -801,26 +801,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01025",
-      "population": 23058,
-      "medianHouseholdIncome": 47549,
-      "medianHomeValue": 126200,
-      "localEconomyScore": 60.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "bibb",
-      "county": "Bibb County",
-      "state": "Alabama",
-      "stateSlug": "alabama",
-      "stateAbbreviation": "AL",
-      "fips": "01007",
-      "population": 22251,
-      "medianHouseholdIncome": 50669,
-      "medianHomeValue": 120100,
-      "localEconomyScore": 62.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 22543,
+      "medianHouseholdIncome": 49249,
+      "medianHomeValue": 121700,
+      "localEconomyScore": 61.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "randolph",
@@ -829,12 +815,26 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01111",
-      "population": 22179,
-      "medianHouseholdIncome": 49879,
-      "medianHomeValue": 155000,
-      "localEconomyScore": 59.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 22510,
+      "medianHouseholdIncome": 52338,
+      "medianHomeValue": 181600,
+      "localEconomyScore": 59.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "bibb",
+      "county": "Bibb County",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbreviation": "AL",
+      "fips": "01007",
+      "population": 22130,
+      "medianHouseholdIncome": 52541,
+      "medianHomeValue": 145700,
+      "localEconomyScore": 61.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "monroe",
@@ -843,26 +843,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01099",
-      "population": 19816,
-      "medianHouseholdIncome": 39965,
-      "medianHomeValue": 109300,
-      "localEconomyScore": 57.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "macon",
-      "county": "Macon County",
-      "state": "Alabama",
-      "stateSlug": "alabama",
-      "stateAbbreviation": "AL",
-      "fips": "01087",
-      "population": 19198,
-      "medianHouseholdIncome": 41206,
-      "medianHomeValue": 93900,
-      "localEconomyScore": 59.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 19388,
+      "medianHouseholdIncome": 42292,
+      "medianHomeValue": 120600,
+      "localEconomyScore": 58.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "marengo",
@@ -871,26 +857,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01091",
-      "population": 19180,
-      "medianHouseholdIncome": 42975,
-      "medianHomeValue": 98600,
-      "localEconomyScore": 60,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "butler",
-      "county": "Butler County",
-      "state": "Alabama",
-      "stateSlug": "alabama",
-      "stateAbbreviation": "AL",
-      "fips": "01013",
-      "population": 18981,
-      "medianHouseholdIncome": 44429,
-      "medianHomeValue": 94800,
-      "localEconomyScore": 60.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 18851,
+      "medianHouseholdIncome": 43825,
+      "medianHomeValue": 107400,
+      "localEconomyScore": 59.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "pickens",
@@ -899,12 +871,40 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01107",
-      "population": 18925,
-      "medianHouseholdIncome": 45339,
-      "medianHomeValue": 119800,
-      "localEconomyScore": 59.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 18721,
+      "medianHouseholdIncome": 46274,
+      "medianHomeValue": 123900,
+      "localEconomyScore": 59.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "macon",
+      "county": "Macon County",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbreviation": "AL",
+      "fips": "01087",
+      "population": 18691,
+      "medianHouseholdIncome": 43707,
+      "medianHomeValue": 102000,
+      "localEconomyScore": 60,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "butler",
+      "county": "Butler County",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbreviation": "AL",
+      "fips": "01013",
+      "population": 18630,
+      "medianHouseholdIncome": 44755,
+      "medianHomeValue": 99800,
+      "localEconomyScore": 60.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "henry",
@@ -913,12 +913,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01067",
-      "population": 17282,
-      "medianHouseholdIncome": 58395,
-      "medianHomeValue": 132400,
-      "localEconomyScore": 64.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 17647,
+      "medianHouseholdIncome": 59931,
+      "medianHomeValue": 161000,
+      "localEconomyScore": 63.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "fayette",
@@ -927,26 +927,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01057",
-      "population": 16297,
-      "medianHouseholdIncome": 45650,
-      "medianHomeValue": 112700,
-      "localEconomyScore": 60.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "washington",
-      "county": "Washington County",
-      "state": "Alabama",
-      "stateSlug": "alabama",
-      "stateAbbreviation": "AL",
-      "fips": "01129",
-      "population": 15434,
-      "medianHouseholdIncome": 51184,
-      "medianHomeValue": 138100,
+      "population": 16053,
+      "medianHouseholdIncome": 49488,
+      "medianHomeValue": 125900,
       "localEconomyScore": 61,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "cleburne",
@@ -955,12 +941,26 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01029",
-      "population": 15144,
-      "medianHouseholdIncome": 51553,
-      "medianHomeValue": 131900,
-      "localEconomyScore": 61.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 15426,
+      "medianHouseholdIncome": 55345,
+      "medianHomeValue": 165600,
+      "localEconomyScore": 61.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "washington",
+      "county": "Washington County",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbreviation": "AL",
+      "fips": "01129",
+      "population": 15143,
+      "medianHouseholdIncome": 61042,
+      "medianHomeValue": 159700,
+      "localEconomyScore": 64.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hale",
@@ -969,12 +969,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01065",
-      "population": 14742,
-      "medianHouseholdIncome": 35851,
-      "medianHomeValue": 109400,
-      "localEconomyScore": 55.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14829,
+      "medianHouseholdIncome": 39250,
+      "medianHomeValue": 127600,
+      "localEconomyScore": 55.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "clay",
@@ -983,12 +983,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01027",
-      "population": 14209,
-      "medianHouseholdIncome": 48074,
-      "medianHomeValue": 144100,
-      "localEconomyScore": 59.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 14192,
+      "medianHouseholdIncome": 55250,
+      "medianHomeValue": 156700,
+      "localEconomyScore": 61.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lamar",
@@ -997,12 +997,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01075",
-      "population": 13885,
-      "medianHouseholdIncome": 49565,
-      "medianHomeValue": 108200,
-      "localEconomyScore": 62,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 13693,
+      "medianHouseholdIncome": 50000,
+      "medianHomeValue": 114000,
+      "localEconomyScore": 61.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "crenshaw",
@@ -1011,12 +1011,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01041",
-      "population": 13205,
-      "medianHouseholdIncome": 48557,
-      "medianHomeValue": 100400,
-      "localEconomyScore": 62,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 13122,
+      "medianHouseholdIncome": 48560,
+      "medianHomeValue": 114000,
+      "localEconomyScore": 61.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "choctaw",
@@ -1025,12 +1025,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01023",
-      "population": 12669,
-      "medianHouseholdIncome": 43299,
-      "medianHomeValue": 101600,
-      "localEconomyScore": 59.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 12380,
+      "medianHouseholdIncome": 47813,
+      "medianHomeValue": 123400,
+      "localEconomyScore": 60.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "sumter",
@@ -1039,12 +1039,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01119",
-      "population": 12196,
-      "medianHouseholdIncome": 31726,
-      "medianHomeValue": 88000,
-      "localEconomyScore": 55,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11878,
+      "medianHouseholdIncome": 33310,
+      "medianHomeValue": 82600,
+      "localEconomyScore": 56.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "conecuh",
@@ -1053,26 +1053,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01035",
-      "population": 11576,
-      "medianHouseholdIncome": 39888,
-      "medianHomeValue": 98800,
-      "localEconomyScore": 58.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "wilcox",
-      "county": "Wilcox County",
-      "state": "Alabama",
-      "stateSlug": "alabama",
-      "stateAbbreviation": "AL",
-      "fips": "01131",
-      "population": 10441,
-      "medianHouseholdIncome": 38208,
-      "medianHomeValue": 83200,
-      "localEconomyScore": 58.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 11275,
+      "medianHouseholdIncome": 41327,
+      "medianHomeValue": 105300,
+      "localEconomyScore": 58.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "coosa",
@@ -1081,12 +1067,26 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01037",
-      "population": 10329,
-      "medianHouseholdIncome": 52279,
-      "medianHomeValue": 109500,
-      "localEconomyScore": 62.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10300,
+      "medianHouseholdIncome": 57355,
+      "medianHomeValue": 115500,
+      "localEconomyScore": 64.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "wilcox",
+      "county": "Wilcox County",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbreviation": "AL",
+      "fips": "01131",
+      "population": 10172,
+      "medianHouseholdIncome": 40640,
+      "medianHomeValue": 98800,
+      "localEconomyScore": 58.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "bullock",
@@ -1095,12 +1095,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01011",
-      "population": 10328,
-      "medianHouseholdIncome": 36136,
-      "medianHomeValue": 87700,
-      "localEconomyScore": 57.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10058,
+      "medianHouseholdIncome": 31310,
+      "medianHomeValue": 81700,
+      "localEconomyScore": 55.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lowndes",
@@ -1109,12 +1109,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01085",
-      "population": 10153,
-      "medianHouseholdIncome": 33125,
-      "medianHomeValue": 83400,
-      "localEconomyScore": 56,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9833,
+      "medianHouseholdIncome": 37052,
+      "medianHomeValue": 86300,
+      "localEconomyScore": 57.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "perry",
@@ -1123,12 +1123,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01105",
-      "population": 8479,
-      "medianHouseholdIncome": 32332,
-      "medianHomeValue": 81700,
-      "localEconomyScore": 55.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8031,
+      "medianHouseholdIncome": 37654,
+      "medianHomeValue": 86400,
+      "localEconomyScore": 57.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "greene",
@@ -1137,12 +1137,12 @@
       "stateSlug": "alabama",
       "stateAbbreviation": "AL",
       "fips": "01063",
-      "population": 7706,
-      "medianHouseholdIncome": 32796,
-      "medianHomeValue": 88800,
-      "localEconomyScore": 55.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7424,
+      "medianHouseholdIncome": 29200,
+      "medianHomeValue": 81200,
+      "localEconomyScore": 53.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "colleges": [
@@ -1161,7 +1161,7 @@
       "debtToEarningsRatio": 0.7630205769420104,
       "valueScore": 48,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "100663",
@@ -1178,7 +1178,7 @@
       "debtToEarningsRatio": 0.4091668042788206,
       "valueScore": 68,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "100690",
@@ -1195,7 +1195,7 @@
       "debtToEarningsRatio": 0.8556125568166716,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "100706",
@@ -1212,7 +1212,7 @@
       "debtToEarningsRatio": 0.33521135881619635,
       "valueScore": 75,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "100724",
@@ -1229,7 +1229,7 @@
       "debtToEarningsRatio": 0.8984986377601298,
       "valueScore": 38,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "100751",
@@ -1246,7 +1246,7 @@
       "debtToEarningsRatio": 0.3841542696003107,
       "valueScore": 66,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "100760",
@@ -1263,7 +1263,7 @@
       "debtToEarningsRatio": 0.2914701844445771,
       "valueScore": 45,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "100812",
@@ -1280,7 +1280,7 @@
       "debtToEarningsRatio": 0.3590595349392318,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "100830",
@@ -1297,7 +1297,7 @@
       "debtToEarningsRatio": 0.5631772206077809,
       "valueScore": 69,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "100858",
@@ -1314,7 +1314,7 @@
       "debtToEarningsRatio": 0.32141053308232703,
       "valueScore": 68,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101028",
@@ -1331,7 +1331,7 @@
       "debtToEarningsRatio": 0.28816071134529886,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101116",
@@ -1348,7 +1348,7 @@
       "debtToEarningsRatio": 0.7589262368902705,
       "valueScore": 25,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101143",
@@ -1365,7 +1365,7 @@
       "debtToEarningsRatio": 0.17614864230010335,
       "valueScore": 70,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101161",
@@ -1382,7 +1382,7 @@
       "debtToEarningsRatio": 0.31524044248294836,
       "valueScore": 53,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101189",
@@ -1399,7 +1399,7 @@
       "debtToEarningsRatio": 0.5292588075568954,
       "valueScore": 45,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101240",
@@ -1416,7 +1416,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101277",
@@ -1433,7 +1433,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101286",
@@ -1450,7 +1450,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101295",
@@ -1467,7 +1467,7 @@
       "debtToEarningsRatio": 0.27609055770292656,
       "valueScore": 67,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101301",
@@ -1484,7 +1484,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 71,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101365",
@@ -1501,7 +1501,7 @@
       "debtToEarningsRatio": 0.5825137500338671,
       "valueScore": 41,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101435",
@@ -1518,7 +1518,7 @@
       "debtToEarningsRatio": 0.5443438640349993,
       "valueScore": 51,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101453",
@@ -1535,7 +1535,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101462",
@@ -1552,7 +1552,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 88,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101471",
@@ -1569,7 +1569,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101480",
@@ -1586,7 +1586,7 @@
       "debtToEarningsRatio": 0.4905272466010832,
       "valueScore": 70,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101505",
@@ -1603,7 +1603,7 @@
       "debtToEarningsRatio": 0.2379478867359218,
       "valueScore": 87,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101514",
@@ -1620,7 +1620,7 @@
       "debtToEarningsRatio": 0.31420192710515293,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101569",
@@ -1637,7 +1637,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 98,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101587",
@@ -1654,7 +1654,7 @@
       "debtToEarningsRatio": 0.5639356122264424,
       "valueScore": 72,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101602",
@@ -1671,7 +1671,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101648",
@@ -1688,7 +1688,7 @@
       "debtToEarningsRatio": 0.15508684863523572,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101675",
@@ -1705,7 +1705,7 @@
       "debtToEarningsRatio": 0.9567842584362645,
       "valueScore": 46,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101693",
@@ -1722,7 +1722,7 @@
       "debtToEarningsRatio": 0.6076448602416822,
       "valueScore": 49,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101709",
@@ -1739,7 +1739,7 @@
       "debtToEarningsRatio": 0.5586982331168378,
       "valueScore": 57,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101736",
@@ -1756,7 +1756,7 @@
       "debtToEarningsRatio": 0.2956131015726617,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101879",
@@ -1773,7 +1773,7 @@
       "debtToEarningsRatio": 0.4861169217218981,
       "valueScore": 81,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101897",
@@ -1790,7 +1790,7 @@
       "debtToEarningsRatio": 0.17472001833128062,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101912",
@@ -1807,7 +1807,7 @@
       "debtToEarningsRatio": 0.6354735454716626,
       "valueScore": 42,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "101994",
@@ -1824,7 +1824,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102030",
@@ -1841,7 +1841,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102049",
@@ -1858,7 +1858,7 @@
       "debtToEarningsRatio": 0.3335100651627358,
       "valueScore": 52,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102058",
@@ -1875,7 +1875,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102067",
@@ -1892,7 +1892,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102076",
@@ -1909,7 +1909,7 @@
       "debtToEarningsRatio": 0.25185392472366025,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102094",
@@ -1926,7 +1926,7 @@
       "debtToEarningsRatio": 0.5048502399805586,
       "valueScore": 64,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102234",
@@ -1943,7 +1943,7 @@
       "debtToEarningsRatio": 0.5242718446601942,
       "valueScore": 59,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102270",
@@ -1960,7 +1960,7 @@
       "debtToEarningsRatio": 0.820614889472347,
       "valueScore": 50,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102298",
@@ -1977,7 +1977,7 @@
       "debtToEarningsRatio": 0.884296751372987,
       "valueScore": 48,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102313",
@@ -1994,7 +1994,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 74,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102368",
@@ -2011,7 +2011,7 @@
       "debtToEarningsRatio": 0.5943607056250297,
       "valueScore": 58,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102377",
@@ -2028,7 +2028,7 @@
       "debtToEarningsRatio": 0.543905239620475,
       "valueScore": 40,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102395",
@@ -2045,7 +2045,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 41,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102429",
@@ -2062,7 +2062,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "251260",
@@ -2079,7 +2079,7 @@
       "debtToEarningsRatio": 0.30057108506161706,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "366535",
@@ -2096,7 +2096,7 @@
       "debtToEarningsRatio": 0.42333088774761557,
       "valueScore": 33,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "371052",
@@ -2113,7 +2113,7 @@
       "debtToEarningsRatio": 0.3564460453249287,
       "valueScore": 37,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "417008",
@@ -2130,7 +2130,7 @@
       "debtToEarningsRatio": 0.6479736098020735,
       "valueScore": 36,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "444440",
@@ -2147,7 +2147,7 @@
       "debtToEarningsRatio": 0.37055932600046804,
       "valueScore": 46,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "449348",
@@ -2164,7 +2164,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "450377",
@@ -2181,7 +2181,7 @@
       "debtToEarningsRatio": 1.0131946522997106,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "450933",
@@ -2198,7 +2198,7 @@
       "debtToEarningsRatio": 0.33586740957597505,
       "valueScore": 87,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "454652",
@@ -2215,7 +2215,7 @@
       "debtToEarningsRatio": 0.4035375713054541,
       "valueScore": 39,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "455460",
@@ -2232,7 +2232,7 @@
       "debtToEarningsRatio": 0.2900409110337669,
       "valueScore": 46,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "455488",
@@ -2249,7 +2249,7 @@
       "debtToEarningsRatio": 0.3564460453249287,
       "valueScore": 33,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "455628",
@@ -2266,7 +2266,7 @@
       "debtToEarningsRatio": 0.37541811105029493,
       "valueScore": 32,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "455707",
@@ -2283,7 +2283,7 @@
       "debtToEarningsRatio": 0.36378135145911256,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "476805",
@@ -2300,7 +2300,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "480976",
@@ -2317,7 +2317,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "483975",
@@ -2334,7 +2334,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "486707",
@@ -2351,7 +2351,7 @@
       "debtToEarningsRatio": 0.31603459747172324,
       "valueScore": 42,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "487816",
@@ -2368,7 +2368,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "488916",
@@ -2385,7 +2385,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "491695",
@@ -2402,7 +2402,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "491905",
@@ -2419,7 +2419,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "10236801",
@@ -2436,7 +2436,7 @@
       "debtToEarningsRatio": 0.5943607056250297,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "10236802",
@@ -2453,7 +2453,7 @@
       "debtToEarningsRatio": 0.5943607056250297,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "10236803",
@@ -2470,7 +2470,7 @@
       "debtToEarningsRatio": 0.5943607056250297,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "10236808",
@@ -2487,7 +2487,7 @@
       "debtToEarningsRatio": 0.5943607056250297,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "17706501",
@@ -2504,7 +2504,7 @@
       "debtToEarningsRatio": 0.5262241614879457,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "23155402",
@@ -2521,7 +2521,7 @@
       "debtToEarningsRatio": 0.4469690772251309,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "45519617",
@@ -2538,7 +2538,7 @@
       "debtToEarningsRatio": 0.31776294884016526,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "48891601",
@@ -2555,7 +2555,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "federalSpending": [
@@ -2565,7 +2565,7 @@
       "stateAbbreviation": "AL",
       "fiscalYear": 2024,
       "total": 66415550937.13,
-      "perCapita": 13208.897318730444,
+      "perCapita": 13056.532347677346,
       "source": "USAspending.gov"
     }
   ],

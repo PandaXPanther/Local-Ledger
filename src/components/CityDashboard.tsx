@@ -11,14 +11,14 @@ interface CityDashboardProps {
 }
 
 export function CityDashboard({ snapshot, description }: CityDashboardProps) {
-  const { city, unemploymentRate, coloradoUnemploymentRate, usUnemploymentRate, medianHouseholdIncome, medianHomeValue, localEconomyScore, generatedAt } = snapshot;
+  const { city, unemploymentRate, coloradoUnemploymentRate, usUnemploymentRate, population, medianHouseholdIncome, medianHomeValue, medianRent, generatedAt } = snapshot;
 
   const coVal = coloradoUnemploymentRate?.value;
   const usVal = usUnemploymentRate?.value;
   const cityVal = unemploymentRate?.value;
 
   const comparisonRows = [
-    { label: city, value: cityVal, highlight: true },
+    { label: `${city} metro proxy`, value: cityVal, highlight: true },
     { label: 'Colorado', value: coVal, highlight: false },
     { label: 'United States', value: usVal, highlight: false },
   ];
@@ -38,22 +38,23 @@ export function CityDashboard({ snapshot, description }: CityDashboardProps) {
       {/* KPIs */}
       <section aria-label={`${city} key indicators`} className="mb-8">
         <h2 className="text-xl font-bold text-text-primary mb-4">Key Indicators</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           <KpiCard
-            label="Unemployment Rate (MSA)"
+            label={`Metro-area unemployment (proxy for ${city})`}
             dataPoint={unemploymentRate}
             highlight
             comparison={coVal !== null && coVal !== undefined ? { label: 'CO avg', value: coVal, unit: 'percent' } : undefined}
           />
-          <KpiCard label="Median Household Income" dataPoint={medianHouseholdIncome} />
-          <KpiCard label="Median Home Value" dataPoint={medianHomeValue} />
-          <KpiCard label="Local Economy Score" dataPoint={localEconomyScore} />
+          <KpiCard label="Population" dataPoint={population} />
+          <KpiCard label="Median household income" dataPoint={medianHouseholdIncome} />
+          <KpiCard label="Median home value" dataPoint={medianHomeValue} />
+          <KpiCard label="Median rent" dataPoint={medianRent} />
         </div>
       </section>
 
       {/* Unemployment comparison */}
       <section aria-label="Unemployment rate comparison" className="mb-8">
-        <h2 className="text-xl font-bold text-text-primary mb-4">Unemployment Rate - City vs. State vs. US</h2>
+        <h2 className="text-xl font-bold text-text-primary mb-4">Unemployment Rate - Metro Proxy vs. State vs. US</h2>
         <div className="card overflow-hidden">
           <table className="w-full text-sm" aria-label="Unemployment rate comparison">
             <thead className="bg-gray-50 border-b border-border">
@@ -83,7 +84,7 @@ export function CityDashboard({ snapshot, description }: CityDashboardProps) {
             <SourceBadge
               name="Federal Reserve Economic Data (FRED)"
               url="https://fred.stlouisfed.org/"
-              dataset="Metropolitan Statistical Area unemployment series"
+              dataset={unemploymentRate?.sourceDataset ?? 'Metropolitan Statistical Area unemployment series'}
             />
           </div>
         </div>
@@ -92,14 +93,19 @@ export function CityDashboard({ snapshot, description }: CityDashboardProps) {
       <MethodologyCallout
         type="disclaimer"
         title="Data notes"
-        note={`${city} unemployment data uses the Metropolitan Statistical Area (MSA) series from FRED where available, which may include surrounding counties. Income and housing use Census ACS place data.`}
+        note={`${city} unemployment data uses the Metropolitan Statistical Area series from FRED where available, sourced from BLS LAUS, which may include surrounding counties. Population, income, home value, and rent use Census ACS place data.`}
       />
 
       <div className="mt-6 source-strip flex-wrap gap-3">
         <SourceBadge
           name="Federal Reserve Economic Data (FRED)"
           url="https://fred.stlouisfed.org/"
-          dataset="MSA unemployment series"
+          dataset={unemploymentRate?.sourceDataset ?? 'MSA unemployment series'}
+        />
+        <SourceBadge
+          name="U.S. Census Bureau"
+          url={medianHouseholdIncome?.sourceUrl ?? 'https://api.census.gov/data/2024/acs/acs5'}
+          dataset={medianHouseholdIncome?.sourceDataset ?? 'ACS place data'}
         />
         {generatedAt && <LastUpdated timestamp={generatedAt} />}
       </div>

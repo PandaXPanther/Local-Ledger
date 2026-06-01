@@ -1,49 +1,49 @@
 {
   "_meta": {
     "description": "Alaska state economic dashboard data",
-    "generatedAt": "2026-06-01T05:36:01.612Z",
+    "generatedAt": "2026-06-01T06:09:58.945Z",
     "sourceAttemptLog": [
       {
         "source": "BEA",
         "id": "state-gdp",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-states",
+        "id": "acs-states-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-counties",
+        "id": "acs-counties-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "Census",
-        "id": "acs-places",
+        "id": "acs-places-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "UNRATE",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "DENV708URN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -51,7 +51,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -59,7 +59,7 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
@@ -67,77 +67,77 @@
         "ok": false,
         "status": 400,
         "message": "{\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}",
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "ALRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AL-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AL",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKURN",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKPOP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "FRED",
         "id": "AKRGSP",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "USAspending",
         "id": "state-AK-2024",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       },
       {
         "source": "College Scorecard",
         "id": "scorecard-AK",
         "ok": true,
         "status": 200,
-        "retrievedAt": "2026-06-01T05:36:01.612Z"
+        "retrievedAt": "2026-06-01T06:09:58.945Z"
       }
     ]
   },
@@ -147,40 +147,40 @@
     "abbreviation": "AK",
     "fips": "02",
     "population": {
-      "value": 734821,
+      "value": 735706,
       "unit": "persons",
       "geography": "Alaska",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B01003_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B01003_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHouseholdIncome": {
-      "value": 86370,
+      "value": 92788,
       "unit": "USD",
       "geography": "Alaska",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B19013_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B19013_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "medianHomeValue": {
-      "value": 318000,
+      "value": 352900,
       "unit": "USD",
       "geography": "Alaska",
-      "date": "2022",
+      "date": "2024",
       "sourceName": "U.S. Census Bureau",
-      "sourceUrl": "https://api.census.gov/data/2022/acs/acs5",
-      "sourceDataset": "ACS 2022 5-Year B25077_001E",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "sourceUrl": "https://api.census.gov/data/2024/acs/acs5",
+      "sourceDataset": "ACS 2024 5-Year B25077_001E",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -194,7 +194,7 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/AKURN",
       "sourceDataset": "FRED Series AKURN",
       "sourceSeriesId": "AKURN",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
@@ -208,33 +208,33 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/AKRGSP",
       "sourceDataset": "FRED Series AKRGSP",
       "sourceSeriesId": "AKRGSP",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "federalSpendingPerCapita": {
-      "value": 22659.39637782535,
+      "value": 22632.138796951498,
       "unit": "USD per person",
       "geography": "Alaska",
       "date": "FY2024",
       "sourceName": "USAspending.gov",
       "sourceUrl": "https://api.usaspending.gov/",
       "sourceDataset": "USAspending API v2 spending_by_geography",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "latest official observation",
       "methodologyNote": "Pulled from the cited official public source.",
       "availability": "available"
     },
     "localEconomyScore": {
-      "value": 65.7,
+      "value": 67.2,
       "unit": "score",
       "geography": "Alaska",
       "date": "2026-06-01",
       "sourceName": "LocalLedger methodology",
       "sourceUrl": "https://local-ledger.net/methodology/",
       "sourceDataset": "Composite score from Census, FRED, and USAspending",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z",
       "transformation": "weighted score",
       "methodologyNote": "Weighted score using income, affordability, labor market, population scale, and federal spending per capita.",
       "availability": "available"
@@ -248,12 +248,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02020",
-      "population": 290674,
-      "medianHouseholdIncome": 95731,
-      "medianHomeValue": 363800,
-      "localEconomyScore": 67.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 288976,
+      "medianHouseholdIncome": 103284,
+      "medianHomeValue": 395900,
+      "localEconomyScore": 69.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "matanuska-susitna",
@@ -262,12 +262,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02170",
-      "population": 108661,
-      "medianHouseholdIncome": 86435,
-      "medianHomeValue": 296900,
-      "localEconomyScore": 65.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 112988,
+      "medianHouseholdIncome": 94031,
+      "medianHomeValue": 346600,
+      "localEconomyScore": 66.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "fairbanks-north-star",
@@ -276,12 +276,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02090",
-      "population": 96299,
-      "medianHouseholdIncome": 81655,
-      "medianHomeValue": 276800,
-      "localEconomyScore": 63.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 95460,
+      "medianHouseholdIncome": 88267,
+      "medianHomeValue": 298200,
+      "localEconomyScore": 65.8,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "kenai-peninsula",
@@ -290,12 +290,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02122",
-      "population": 59235,
-      "medianHouseholdIncome": 76272,
-      "medianHomeValue": 280900,
-      "localEconomyScore": 61.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 60413,
+      "medianHouseholdIncome": 80538,
+      "medianHomeValue": 323200,
+      "localEconomyScore": 61.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "juneau-city-and",
@@ -304,12 +304,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02110",
-      "population": 32108,
-      "medianHouseholdIncome": 95711,
-      "medianHomeValue": 404600,
-      "localEconomyScore": 64.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 31794,
+      "medianHouseholdIncome": 101661,
+      "medianHomeValue": 449300,
+      "localEconomyScore": 65.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "bethel",
@@ -318,12 +318,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02050",
-      "population": 18538,
-      "medianHouseholdIncome": 64094,
-      "medianHomeValue": 120600,
-      "localEconomyScore": 62.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 18394,
+      "medianHouseholdIncome": 73996,
+      "medianHomeValue": 168100,
+      "localEconomyScore": 63.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "ketchikan-gateway",
@@ -332,12 +332,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02130",
-      "population": 13910,
-      "medianHouseholdIncome": 82763,
-      "medianHomeValue": 361000,
-      "localEconomyScore": 60,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 13768,
+      "medianHouseholdIncome": 92885,
+      "medianHomeValue": 393300,
+      "localEconomyScore": 63.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "kodiak-island",
@@ -346,12 +346,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02150",
-      "population": 13065,
-      "medianHouseholdIncome": 91138,
-      "medianHomeValue": 355000,
-      "localEconomyScore": 63.8,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 12771,
+      "medianHouseholdIncome": 86250,
+      "medianHomeValue": 412300,
+      "localEconomyScore": 59.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "north-slope",
@@ -360,12 +360,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02185",
-      "population": 10924,
-      "medianHouseholdIncome": 83472,
-      "medianHomeValue": 193800,
-      "localEconomyScore": 66.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 10810,
+      "medianHouseholdIncome": 95694,
+      "medianHomeValue": 218300,
+      "localEconomyScore": 69.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "nome",
@@ -374,12 +374,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02180",
-      "population": 10018,
-      "medianHouseholdIncome": 70121,
-      "medianHomeValue": 181300,
-      "localEconomyScore": 61.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 9866,
+      "medianHouseholdIncome": 78681,
+      "medianHomeValue": 211200,
+      "localEconomyScore": 63.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "sitka-city-and",
@@ -388,12 +388,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02220",
-      "population": 8462,
-      "medianHouseholdIncome": 95261,
-      "medianHomeValue": 424700,
-      "localEconomyScore": 63.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8368,
+      "medianHouseholdIncome": 101727,
+      "medianHomeValue": 450300,
+      "localEconomyScore": 65,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "kusilvak",
@@ -402,12 +402,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02158",
-      "population": 8372,
-      "medianHouseholdIncome": 42663,
-      "medianHomeValue": 82200,
-      "localEconomyScore": 55.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 8176,
+      "medianHouseholdIncome": 51471,
+      "medianHomeValue": 84300,
+      "localEconomyScore": 58.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "northwest-arctic",
@@ -416,26 +416,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02188",
-      "population": 7682,
-      "medianHouseholdIncome": 77647,
-      "medianHomeValue": 147200,
-      "localEconomyScore": 65.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "chugach",
-      "county": "Chugach Census Area",
-      "state": "Alaska",
-      "stateSlug": "alaska",
-      "stateAbbreviation": "AK",
-      "fips": "02063",
-      "population": 7000,
-      "medianHouseholdIncome": 83068,
-      "medianHomeValue": 287900,
-      "localEconomyScore": 62.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7441,
+      "medianHouseholdIncome": 84018,
+      "medianHomeValue": 199100,
+      "localEconomyScore": 66,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "southeast-fairbanks",
@@ -444,12 +430,26 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02240",
-      "population": 6888,
-      "medianHouseholdIncome": 75378,
-      "medianHomeValue": 222200,
-      "localEconomyScore": 61.6,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 7068,
+      "medianHouseholdIncome": 73882,
+      "medianHomeValue": 282000,
+      "localEconomyScore": 58.6,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "chugach",
+      "county": "Chugach Census Area",
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbreviation": "AK",
+      "fips": "02063",
+      "population": 6862,
+      "medianHouseholdIncome": 90509,
+      "medianHomeValue": 346200,
+      "localEconomyScore": 63.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "prince-of-wales-hyder",
@@ -458,26 +458,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02198",
-      "population": 5799,
-      "medianHouseholdIncome": 61779,
-      "medianHomeValue": 220800,
-      "localEconomyScore": 55.7,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "yukon-koyukuk",
-      "county": "Yukon-Koyukuk Census Area",
-      "state": "Alaska",
-      "stateSlug": "alaska",
-      "stateAbbreviation": "AK",
-      "fips": "02290",
-      "population": 5355,
-      "medianHouseholdIncome": 47826,
-      "medianHomeValue": 86600,
-      "localEconomyScore": 56.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5715,
+      "medianHouseholdIncome": 61156,
+      "medianHomeValue": 225300,
+      "localEconomyScore": 55.2,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "aleutians-west",
@@ -486,12 +472,26 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02016",
-      "population": 5219,
-      "medianHouseholdIncome": 100662,
-      "medianHomeValue": 377100,
-      "localEconomyScore": 66.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 5235,
+      "medianHouseholdIncome": 135500,
+      "medianHomeValue": 434700,
+      "localEconomyScore": 73.7,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "yukon-koyukuk",
+      "county": "Yukon-Koyukuk Census Area",
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbreviation": "AK",
+      "fips": "02290",
+      "population": 5195,
+      "medianHouseholdIncome": 55741,
+      "medianHomeValue": 98500,
+      "localEconomyScore": 59.3,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "dillingham",
@@ -500,12 +500,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02070",
-      "population": 4854,
-      "medianHouseholdIncome": 69412,
-      "medianHomeValue": 167700,
-      "localEconomyScore": 61.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 4724,
+      "medianHouseholdIncome": 78533,
+      "medianHomeValue": 159000,
+      "localEconomyScore": 65.1,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "aleutians-east",
@@ -514,12 +514,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02013",
-      "population": 3407,
-      "medianHouseholdIncome": 79961,
-      "medianHomeValue": 164100,
-      "localEconomyScore": 65.2,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3491,
+      "medianHouseholdIncome": 65365,
+      "medianHomeValue": 135500,
+      "localEconomyScore": 60.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "petersburg",
@@ -528,12 +528,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02195",
-      "population": 3374,
-      "medianHouseholdIncome": 77826,
-      "medianHomeValue": 279800,
-      "localEconomyScore": 60,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 3409,
+      "medianHouseholdIncome": 75125,
+      "medianHomeValue": 315100,
+      "localEconomyScore": 57.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "copper-river",
@@ -542,12 +542,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02066",
-      "population": 2614,
-      "medianHouseholdIncome": 70606,
-      "medianHomeValue": 235100,
-      "localEconomyScore": 58.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2626,
+      "medianHouseholdIncome": 79250,
+      "medianHomeValue": 292800,
+      "localEconomyScore": 59.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "hoonah-angoon",
@@ -556,12 +556,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02105",
-      "population": 2329,
-      "medianHouseholdIncome": 62344,
-      "medianHomeValue": 243800,
-      "localEconomyScore": 54.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2311,
+      "medianHouseholdIncome": 61406,
+      "medianHomeValue": 262800,
+      "localEconomyScore": 52.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "wrangell-city-and",
@@ -570,26 +570,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02275",
-      "population": 2134,
-      "medianHouseholdIncome": 61000,
-      "medianHomeValue": 273800,
-      "localEconomyScore": 52.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
-    },
-    {
-      "slug": "denali",
-      "county": "Denali Borough",
-      "state": "Alaska",
-      "stateSlug": "alaska",
-      "stateAbbreviation": "AK",
-      "fips": "02068",
-      "population": 2101,
-      "medianHouseholdIncome": 87292,
-      "medianHomeValue": 227000,
-      "localEconomyScore": 65.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2088,
+      "medianHouseholdIncome": 63750,
+      "medianHomeValue": 296400,
+      "localEconomyScore": 52.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "haines",
@@ -598,12 +584,26 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02100",
-      "population": 2079,
-      "medianHouseholdIncome": 68276,
-      "medianHomeValue": 289200,
-      "localEconomyScore": 54.9,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 2086,
+      "medianHouseholdIncome": 86927,
+      "medianHomeValue": 293300,
+      "localEconomyScore": 63,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
+    },
+    {
+      "slug": "denali",
+      "county": "Denali Borough",
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbreviation": "AK",
+      "fips": "02068",
+      "population": 1969,
+      "medianHouseholdIncome": 80781,
+      "medianHomeValue": 275000,
+      "localEconomyScore": 61,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "skagway",
@@ -612,12 +612,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02230",
-      "population": 1303,
-      "medianHouseholdIncome": 79583,
-      "medianHomeValue": 434300,
-      "localEconomyScore": 54.3,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1244,
+      "medianHouseholdIncome": 81136,
+      "medianHomeValue": 435400,
+      "localEconomyScore": 55,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "lake-and-peninsula",
@@ -626,12 +626,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02164",
-      "population": 999,
-      "medianHouseholdIncome": 61607,
-      "medianHomeValue": 167000,
-      "localEconomyScore": 57.1,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 1013,
+      "medianHouseholdIncome": 65625,
+      "medianHomeValue": 237500,
+      "localEconomyScore": 55.5,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "bristol-bay",
@@ -640,12 +640,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02060",
-      "population": 854,
-      "medianHouseholdIncome": 94167,
-      "medianHomeValue": 253400,
-      "localEconomyScore": 66.5,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 918,
+      "medianHouseholdIncome": 95625,
+      "medianHomeValue": 245800,
+      "localEconomyScore": 67.4,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "slug": "yakutat-city-and",
@@ -654,12 +654,12 @@
       "stateSlug": "alaska",
       "stateAbbreviation": "AK",
       "fips": "02282",
-      "population": 564,
-      "medianHouseholdIncome": 76875,
-      "medianHomeValue": 152100,
-      "localEconomyScore": 63.4,
-      "source": "U.S. Census Bureau ACS 2022 5-Year",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "population": 527,
+      "medianHouseholdIncome": 85000,
+      "medianHomeValue": 219400,
+      "localEconomyScore": 63.9,
+      "source": "U.S. Census Bureau ACS 2024 5-Year",
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "colleges": [
@@ -678,7 +678,7 @@
       "debtToEarningsRatio": 0.3896204044649226,
       "valueScore": 68,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102580",
@@ -695,7 +695,7 @@
       "debtToEarningsRatio": null,
       "valueScore": null,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102614",
@@ -712,7 +712,7 @@
       "debtToEarningsRatio": 0.4152375885073466,
       "valueScore": 89,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102632",
@@ -729,7 +729,7 @@
       "debtToEarningsRatio": 0.3942444559051057,
       "valueScore": 78,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102669",
@@ -746,7 +746,7 @@
       "debtToEarningsRatio": 0.4330121059129185,
       "valueScore": 57,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102711",
@@ -763,7 +763,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 96,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "102845",
@@ -780,7 +780,7 @@
       "debtToEarningsRatio": 0.3992789544840018,
       "valueScore": 33,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "103501",
@@ -797,7 +797,7 @@
       "debtToEarningsRatio": 0.21402460252988278,
       "valueScore": 47,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "434584",
@@ -814,7 +814,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 100,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     },
     {
       "unitId": "442523",
@@ -831,7 +831,7 @@
       "debtToEarningsRatio": null,
       "valueScore": 69,
       "source": "College Scorecard",
-      "lastFetchedAt": "2026-06-01T05:36:01.612Z"
+      "lastFetchedAt": "2026-06-01T06:09:58.945Z"
     }
   ],
   "federalSpending": [
@@ -841,7 +841,7 @@
       "stateAbbreviation": "AK",
       "fiscalYear": 2024,
       "total": 16650600305.75,
-      "perCapita": 22659.39637782535,
+      "perCapita": 22632.138796951498,
       "source": "USAspending.gov"
     }
   ],

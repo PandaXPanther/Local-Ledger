@@ -17,6 +17,7 @@ const FRED_API_KEY = process.env.FRED_API_KEY ?? '';
 const CENSUS_API_KEY = process.env.CENSUS_API_KEY ?? '';
 const COLLEGE_SCORECARD_API_KEY = process.env.COLLEGE_SCORECARD_API_KEY ?? '';
 const BEA_API_KEY = process.env.BEA_API_KEY ?? '';
+const ACS_YEARS = [2024, 2023, 2022] as const;
 
 type SourceName = 'FRED' | 'Census' | 'College Scorecard' | 'USAspending' | 'BEA';
 
@@ -81,6 +82,7 @@ function sleep(ms: number): Promise<void> {
 function numberOrNull(value: unknown): number | null {
   if (value === null || value === undefined || value === '' || value === '.') return null;
   const parsed = Number(value);
+  if (parsed <= -666666666) return null;
   return Number.isFinite(parsed) ? parsed : null;
 }
 
@@ -200,14 +202,39 @@ async function fetchFred(seriesId: string, geography: string, unit: string) {
   });
 }
 
-async function fetchCensus(pathPart: string, id: string): Promise<string[][] | null> {
+interface AcsFetchResult {
+  rows: string[][] | null;
+  year: number;
+  sourceUrl: string;
+}
+
+async function fetchCensus(pathPart: string, id: string, years: readonly number[] = ACS_YEARS): Promise<AcsFetchResult> {
+  const fallbackYear = years[years.length - 1] ?? 2022;
   if (!CENSUS_API_KEY) {
     counts.Census.unavailable += 1;
-    return null;
+    return {
+      rows: null,
+      year: fallbackYear,
+      sourceUrl: `https://api.census.gov/data/${fallbackYear}/acs/acs5`,
+    };
   }
   const sep = pathPart.includes('?') ? '&' : '?';
-  const url = `https://api.census.gov/data/2022/acs/acs5${pathPart}${sep}key=${CENSUS_API_KEY}`;
-  return await fetchJson('Census', id, url) as string[][] | null;
+  for (const year of years) {
+    const sourceUrl = `https://api.census.gov/data/${year}/acs/acs5`;
+    const url = `${sourceUrl}${pathPart}${sep}key=${CENSUS_API_KEY}`;
+    const rows = await fetchJson('Census', `${id}-${year}`, url) as string[][] | null;
+    if (rows && rows.length >= 2) {
+      console.log(`ACS ${id}: using ${year} 5-Year`);
+      return { rows, year, sourceUrl };
+    }
+    console.log(`ACS ${id}: ${year} unavailable, trying fallback`);
+  }
+  counts.Census.unavailable += 1;
+  return {
+    rows: null,
+    year: fallbackYear,
+    sourceUrl: `https://api.census.gov/data/${fallbackYear}/acs/acs5`,
+  };
 }
 
 function parseCensusRows(rows: string[][] | null): Array<Record<string, string>> {
@@ -217,18 +244,36 @@ function parseCensusRows(rows: string[][] | null): Array<Record<string, string>>
 }
 
 async function fetchStateAcs() {
-  const rows = await fetchCensus('?get=NAME,B01003_001E,B19013_001E,B25077_001E&for=state:*', 'acs-states');
-  return parseCensusRows(rows);
+  const result = await fetchCensus('?get=NAME,B01003_001E,B19013_001E,B25077_001E,B25064_001E&for=state:*', 'acs-states');
+  return { ...result, records: parseCensusRows(result.rows) };
 }
 
 async function fetchCountyAcs() {
-  const rows = await fetchCensus('?get=NAME,B01003_001E,B19013_001E,B25077_001E&for=county:*&in=state:*', 'acs-counties');
-  return parseCensusRows(rows);
+  const result = await fetchCensus('?get=NAME,B01003_001E,B19013_001E,B25077_001E,B25064_001E&for=county:*&in=state:*', 'acs-counties');
+  return { ...result, records: parseCensusRows(result.rows) };
 }
 
 async function fetchPlaceAcs() {
-  const rows = await fetchCensus('?get=NAME,B01003_001E,B19013_001E,B25077_001E&for=place:*&in=state:*', 'acs-places');
-  return parseCensusRows(rows);
+  const result = await fetchCensus('?get=NAME,B01003_001E,B19013_001E,B25077_001E,B25064_001E&for=place:*&in=state:*', 'acs-places');
+  return { ...result, records: parseCensusRows(result.rows) };
+}
+
+function acsDataset(year: number, variable: string): string {
+  return `ACS ${year} 5-Year ${variable}`;
+}
+
+function acsSourceLabel(year: number): string {
+  return `U.S. Census Bureau ACS ${year} 5-Year`;
+}
+
+function metroProxy(point: ReturnType<typeof dataPoint>, city: string, msaLabel: string) {
+  return {
+    ...point,
+    geography: `${msaLabel} (metro-area proxy for ${city}, Colorado)`,
+    sourceName: 'Federal Reserve Economic Data (FRED), sourced from BLS LAUS',
+    sourceDataset: `${msaLabel} - BLS LAUS via FRED Series ${point.sourceSeriesId ?? 'unknown'}`,
+    methodologyNote: `Metro-area unemployment is used as a proxy for ${city} because city-level unemployment is not published in this build.`,
+  };
 }
 
 async function fetchCollegeScorecard(state: string) {
@@ -306,12 +351,15 @@ async function main() {
   console.log(`Timestamp: ${NOW}`);
   console.log(`Keys: FRED=${Boolean(FRED_API_KEY)} Census=${Boolean(CENSUS_API_KEY)} Scorecard=${Boolean(COLLEGE_SCORECARD_API_KEY)} BEA=${Boolean(BEA_API_KEY)}`);
 
-  const [stateRows, countyRows, placeRows, beaRows] = await Promise.all([
+  const [stateAcs, countyAcs, placeAcs, beaRows] = await Promise.all([
     fetchStateAcs(),
     fetchCountyAcs(),
     fetchPlaceAcs(),
     fetchBeaStateGdp(),
   ]);
+  const stateRows = stateAcs.records;
+  const countyRows = countyAcs.records;
+  const placeRows = placeAcs.records;
 
   const gdpByState = new Map<string, Record<string, string>>();
   for (const row of beaRows) {
@@ -332,7 +380,7 @@ async function main() {
     geography: 'United States',
     date: 'unavailable',
     sourceName: 'U.S. Census Bureau',
-    sourceUrl: 'https://api.census.gov/data/2022/acs/acs5',
+    sourceUrl: stateAcs.sourceUrl,
     sourceDataset: 'ACS 5-Year Estimates',
     unavailableReason: 'National ACS value is not part of this build query.',
   });
@@ -368,28 +416,28 @@ async function main() {
         value: populationValue,
         unit: 'persons',
         geography: state.name,
-        date: '2022',
+        date: String(stateAcs.year),
         sourceName: 'U.S. Census Bureau',
-        sourceUrl: 'https://api.census.gov/data/2022/acs/acs5',
-        sourceDataset: 'ACS 2022 5-Year B01003_001E',
+        sourceUrl: stateAcs.sourceUrl,
+        sourceDataset: acsDataset(stateAcs.year, 'B01003_001E'),
       }),
       medianHouseholdIncome: dataPoint({
         value: income,
         unit: 'USD',
         geography: state.name,
-        date: '2022',
+        date: String(stateAcs.year),
         sourceName: 'U.S. Census Bureau',
-        sourceUrl: 'https://api.census.gov/data/2022/acs/acs5',
-        sourceDataset: 'ACS 2022 5-Year B19013_001E',
+        sourceUrl: stateAcs.sourceUrl,
+        sourceDataset: acsDataset(stateAcs.year, 'B19013_001E'),
       }),
       medianHomeValue: dataPoint({
         value: home,
         unit: 'USD',
         geography: state.name,
-        date: '2022',
+        date: String(stateAcs.year),
         sourceName: 'U.S. Census Bureau',
-        sourceUrl: 'https://api.census.gov/data/2022/acs/acs5',
-        sourceDataset: 'ACS 2022 5-Year B25077_001E',
+        sourceUrl: stateAcs.sourceUrl,
+        sourceDataset: acsDataset(stateAcs.year, 'B25077_001E'),
       }),
       unemploymentRate: unemployment,
       gdp: gdpValue === fredGdp.value ? fredGdp : dataPoint({
@@ -452,7 +500,7 @@ async function main() {
           medianHouseholdIncome: medianIncome,
           medianHomeValue: medianHome,
           localEconomyScore: scoreFromMetrics(population, medianIncome, medianHome, unemployment.value, spendingPerCapita),
-          source: 'U.S. Census Bureau ACS 2022 5-Year',
+          source: acsSourceLabel(countyAcs.year),
           lastFetchedAt: NOW,
         };
       })
@@ -528,7 +576,11 @@ async function main() {
         population: numberOrNull(row.B01003_001E),
         medianHouseholdIncome: numberOrNull(row.B19013_001E),
         medianHomeValue: numberOrNull(row.B25077_001E),
-        source: 'U.S. Census Bureau ACS 2022 5-Year',
+        medianRent: numberOrNull(row.B25064_001E),
+        placeFips: row.place,
+        source: acsSourceLabel(placeAcs.year),
+        sourceUrl: placeAcs.sourceUrl,
+        acsYear: placeAcs.year,
         lastFetchedAt: NOW,
       };
     })
@@ -543,12 +595,21 @@ async function main() {
     population: place.population,
     medianHouseholdIncome: place.medianHouseholdIncome,
     medianHomeValue: place.medianHomeValue,
+    medianRent: place.medianRent,
     source: place.source,
     lastFetchedAt: NOW,
   }));
 
   const colorado = allStates.find(state => state.slug === 'colorado');
   const coloradoStateFile = JSON.parse(fs.readFileSync(path.join(STATE_DIR, 'colorado.json'), 'utf-8')) as Record<string, unknown>;
+
+  const coloradoCityConfig = {
+    denver: { city: 'Denver', placeFips: '20000', unemploymentRate: metroProxy(coloradoMsaFred.denver, 'Denver', 'Denver-Aurora-Lakewood MSA') },
+    boulder: { city: 'Boulder', placeFips: '07850', unemploymentRate: metroProxy(coloradoMsaFred.boulder, 'Boulder', 'Boulder MSA') },
+    coloradoSprings: { city: 'Colorado Springs', placeFips: '16000', unemploymentRate: metroProxy(coloradoMsaFred.coloradoSprings, 'Colorado Springs', 'Colorado Springs MSA') },
+    fortCollins: { city: 'Fort Collins', placeFips: '27425', unemploymentRate: metroProxy(coloradoMsaFred.fortCollins, 'Fort Collins', 'Fort Collins MSA') },
+    aurora: { city: 'Aurora', placeFips: '04000', unemploymentRate: metroProxy(coloradoMsaFred.denver, 'Aurora', 'Denver-Aurora-Lakewood MSA') },
+  };
 
   writeJson(path.join(PROCESSED_DIR, 'states.json'), { _meta: { generatedAt: NOW, description: 'All state dashboard index', sourceAttemptLog }, states: allStates });
   writeJson(path.join(PUBLIC_DIR, 'states.json'), { _meta: { generatedAt: NOW, description: 'All state dashboard index', sourceAttemptLog }, states: allStates });
@@ -557,11 +618,11 @@ async function main() {
   const cityFile = {
     _meta: { generatedAt: NOW, description: 'Place ACS data for search and city pages' },
     cities: places,
-    denver: { city: 'Denver', state: 'Colorado', unemploymentRate: coloradoMsaFred.denver },
-    boulder: { city: 'Boulder', state: 'Colorado', unemploymentRate: coloradoMsaFred.boulder },
-    coloradoSprings: { city: 'Colorado Springs', state: 'Colorado', unemploymentRate: coloradoMsaFred.coloradoSprings },
-    fortCollins: { city: 'Fort Collins', state: 'Colorado', unemploymentRate: coloradoMsaFred.fortCollins },
-    aurora: { city: 'Aurora', state: 'Colorado', unemploymentRate: coloradoMsaFred.denver },
+    denver: { state: 'Colorado', ...coloradoCityConfig.denver },
+    boulder: { state: 'Colorado', ...coloradoCityConfig.boulder },
+    coloradoSprings: { state: 'Colorado', ...coloradoCityConfig.coloradoSprings },
+    fortCollins: { state: 'Colorado', ...coloradoCityConfig.fortCollins },
+    aurora: { state: 'Colorado', ...coloradoCityConfig.aurora },
   };
   writeJson(path.join(PROCESSED_DIR, 'cities.json'), cityFile);
   writeJson(path.join(PUBLIC_DIR, 'cities.json'), cityFile);

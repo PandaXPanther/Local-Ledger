@@ -68,6 +68,7 @@ export default function StatePage({ params }: Props) {
         tag={state.abbreviation}
         headline={`${state.name} economic dashboard`}
         subheadline="Official public data with source metadata, raw response caching, and validation on every build."
+        pulseTitle={`${state.name} pulse`}
       />
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <MetricGrid

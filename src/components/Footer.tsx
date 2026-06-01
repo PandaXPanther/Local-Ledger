@@ -18,7 +18,7 @@ export function Footer() {
               Public economic intelligence, built on official data only.
             </p>
             <p className="text-xs mt-3 text-gray-500">
-              No fabricated data. No estimates. No hallucinations.
+              No fabricated values. No AI-generated data. No unsourced or model-imputed numbers.
             </p>
             <a
               href="https://buymeacoffee.com/sarast1"

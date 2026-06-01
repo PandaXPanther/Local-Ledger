@@ -35,7 +35,7 @@ export default function SourcesPage() {
       <Hero
         tag="Transparency"
         headline="Data Sources"
-        subheadline="Every data point in LocalLedger comes from an official public source. No estimates. No AI-generated values."
+        subheadline="Every data point in LocalLedger comes from an official public source. No fabricated values. No AI-generated data. No unsourced or model-imputed numbers."
       />
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
@@ -136,7 +136,7 @@ export default function SourcesPage() {
                 <svg className="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                No AI-generated, estimated, fabricated, or invented data values - ever.
+                No fabricated values. No AI-generated data. No unsourced or model-imputed numbers.
               </li>
               <li className="flex items-start gap-3">
                 <svg className="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
