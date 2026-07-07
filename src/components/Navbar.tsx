@@ -47,6 +47,7 @@ export function Navbar() {
   }, [exploreOpen]);
 
   return (
+    <>
     <nav className="sticky top-0 z-50 border-b border-rule bg-background/92 shadow-[0_1px_0_rgba(31,36,33,0.05)] backdrop-blur" role="navigation" aria-label="Main navigation">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between gap-4">
@@ -138,32 +139,36 @@ export function Navbar() {
         </div>
       </div>
 
-      {open && (
-        <div className="fixed inset-0 z-50 bg-ink/35 md:hidden" onClick={() => setOpen(false)}>
-          <div className="ml-auto h-full w-80 max-w-[86vw] bg-surface p-5 shadow-xl" onClick={event => event.stopPropagation()}>
-            <div className="mb-6 flex items-center justify-between">
-              <Image src="/logo-lockup.svg" alt="LocalLedger" width={160} height={38} className="h-8 w-auto" />
-              <button type="button" className="rounded-lg p-2 hover:bg-accent-soft" onClick={() => setOpen(false)} aria-label="Close menu">
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18 18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-            <div className="space-y-1">
-              {[...NAV_LINKS, ...EXPLORE_LINKS.filter(link => link.label !== 'States')].map(link => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="block rounded-lg px-3 py-2 text-sm font-semibold text-text-secondary hover:bg-accent-soft hover:text-accent"
-                  onClick={() => setOpen(false)}
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </div>
+    </nav>
+
+    {/* Rendered outside the nav: its backdrop-blur creates a containing block
+        that would trap this fixed overlay inside the 64px bar. */}
+    {open && (
+      <div className="fixed inset-0 z-[60] bg-ink/35 md:hidden" onClick={() => setOpen(false)}>
+        <div className="ml-auto h-full w-80 max-w-[86vw] overflow-y-auto border-l border-rule bg-surface p-5 shadow-[0_24px_70px_rgba(31,36,33,0.25)]" onClick={event => event.stopPropagation()}>
+          <div className="mb-6 flex items-center justify-between">
+            <Image src="/logo-lockup.svg" alt="LocalLedger" width={160} height={38} className="h-8 w-auto" />
+            <button type="button" className="rounded-lg p-2 hover:bg-accent-soft" onClick={() => setOpen(false)} aria-label="Close menu">
+              <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18 18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+          <div className="space-y-1">
+            {[...NAV_LINKS, ...EXPLORE_LINKS.filter(link => link.label !== 'States')].map(link => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="block rounded-lg px-3 py-2 text-sm font-semibold text-text-secondary hover:bg-accent-soft hover:text-accent"
+                onClick={() => setOpen(false)}
+              >
+                {link.label}
+              </Link>
+            ))}
           </div>
         </div>
-      )}
-    </nav>
+      </div>
+    )}
+    </>
   );
 }
