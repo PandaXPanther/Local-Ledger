@@ -2,13 +2,19 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Hero } from '@/components/Hero';
 import { SITE_URL } from '@/lib/constants';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'About Saras Totey',
+export const metadata: Metadata = pageMeta({
+  title: 'About Saras Totey, Student Founder of LocalLedger',
   description:
-    'About Saras Totey, founder of LocalLedger and creator of free public economics tools including econ.mom and EconLever.',
-  alternates: { canonical: '/about/' },
-};
+    'LocalLedger is a free economic data platform and economy simulator built by Saras Totey, a high school student in Boulder, Colorado, economics researcher, and creator of econ.mom and EconLever.',
+  path: '/about/',
+  keywords: [
+    'Saras Totey', 'student built economics tool', 'high school economics research',
+    'LocalLedger founder', 'econ.mom', 'EconLever',
+  ],
+  ogTitle: 'Saras Totey, the student behind LocalLedger',
+});
 
 export default function AboutPage() {
   const personJsonLd = {
@@ -19,6 +25,20 @@ export default function AboutPage() {
     givenName: 'Saras',
     familyName: 'Totey',
     jobTitle: 'Founder, LocalLedger',
+    description:
+      'High school student in Boulder, Colorado who builds free economics education tools and works as a Research Analyst Assistant at Northeastern University.',
+    affiliation: [
+      { '@type': 'EducationalOrganization', name: 'Fairview High School' },
+      { '@type': 'CollegeOrUniversity', name: 'Northeastern University' },
+      { '@type': 'Organization', name: 'The Dividend Collective', url: 'https://thedividendcollective.com' },
+    ],
+    knowsAbout: [
+      'economics',
+      'macroeconomic policy',
+      'public economic data',
+      'income inequality research',
+      'economics education',
+    ],
     url: 'https://econ.mom',
     mainEntityOfPage: `${SITE_URL}/about/`,
     sameAs: [

@@ -2,11 +2,13 @@ import type { Metadata } from 'next';
 import { Hero } from '@/components/Hero';
 import { CityDashboard } from '@/components/CityDashboard';
 import { loadCitySnapshot } from '@/lib/loadCityData';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Denver Economic Dashboard',
   description: 'Official economic data for Denver, CO - unemployment, income, housing, and local economy score from FRED, BLS, and Census.',
-};
+  path: '/colorado/denver/',
+});
 
 export default function DenverPage() {
   const snapshot = loadCitySnapshot('denver');

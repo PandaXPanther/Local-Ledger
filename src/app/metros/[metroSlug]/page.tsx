@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/Hero';
 import { getMetro, getMetros, formatMetric } from '@/lib/nationalData';
-import { breadcrumbJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, pageMeta } from '@/lib/seo';
 
 interface Props { params: { metroSlug: string } }
 
@@ -13,11 +13,11 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Props): Metadata {
   const metro = getMetro(params.metroSlug);
   if (!metro) return {};
-  return {
+  return pageMeta({
     title: `${metro.name} Metro Dashboard`,
     description: `${metro.name}, ${metro.state} metro economic indicators for population, median income, and home value from Census ACS.`,
-    alternates: { canonical: `/metros/${metro.slug}/` },
-  };
+    path: `/metros/${metro.slug}/`,
+  });
 }
 
 export default function MetroPage({ params }: Props) {

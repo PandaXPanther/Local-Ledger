@@ -6,11 +6,13 @@ import { MethodologyCallout } from '@/components/MethodologyCallout';
 import { SourceBadge } from '@/components/SourceBadge';
 import { LastUpdated } from '@/components/LastUpdated';
 import CollegeTable from './CollegeTable';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Colorado College ROI Dashboard',
   description: 'Net price, graduation rates, earnings, and debt metrics for Colorado colleges from the U.S. College Scorecard.',
-};
+  path: '/colorado/college-roi/',
+});
 
 interface CollegeData {
   _meta: {

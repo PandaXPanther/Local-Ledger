@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { Hero } from '@/components/Hero';
 import { MetricGrid } from '@/components/MetricGrid';
 import { getState, getStateBundle, getStates, formatMetric, topBy } from '@/lib/nationalData';
-import { breadcrumbJsonLd, localLedgerDatasetJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, localLedgerDatasetJsonLd, pageMeta } from '@/lib/seo';
 
 interface Props {
   params: { stateSlug: string };
@@ -17,16 +17,13 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Props): Metadata {
   const state = getState(params.stateSlug);
   if (!state) return {};
-  return {
+  return pageMeta({
     title: `${state.name} Economic Dashboard`,
     description: `${state.name} economic data for unemployment, income, population, GDP, counties, college ROI, and federal spending from official sources.`,
-    alternates: { canonical: `/states/${state.slug}/` },
-    openGraph: {
-      title: `${state.name} Economic Dashboard | LocalLedger`,
-      description: `${state.name} economic data for jobs, income, GDP, counties, colleges, and federal spending.`,
-      url: `/states/${state.slug}/`,
-    },
-  };
+    path: `/states/${state.slug}/`,
+    keywords: [`${state.name} economy`, `${state.name} economic data`, `${state.name} unemployment rate`, `${state.name} median income`],
+    ogDescription: `${state.name} economic data for jobs, income, GDP, counties, colleges, and federal spending.`,
+  });
 }
 
 export default function StatePage({ params }: Props) {

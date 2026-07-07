@@ -16,6 +16,10 @@ export const metadata: Metadata = {
     'economy simulator', 'economics education',
   ],
   alternates: { canonical: '/' },
+  authors: [{ name: 'Saras Totey', url: 'https://econ.mom' }],
+  creator: 'Saras Totey',
+  publisher: 'LocalLedger',
+  category: 'education',
   openGraph: {
     type: 'website',
     siteName: 'LocalLedger',
@@ -98,6 +102,20 @@ export default function RootLayout({
         givenName: 'Saras',
         familyName: 'Totey',
         jobTitle: 'Founder, LocalLedger',
+        description:
+          'High school student in Boulder, Colorado who builds free economics education tools and works as a Research Analyst Assistant at Northeastern University.',
+        affiliation: [
+          { '@type': 'EducationalOrganization', name: 'Fairview High School' },
+          { '@type': 'CollegeOrUniversity', name: 'Northeastern University' },
+          { '@type': 'Organization', name: 'The Dividend Collective', url: 'https://thedividendcollective.com' },
+        ],
+        knowsAbout: [
+          'economics',
+          'macroeconomic policy',
+          'public economic data',
+          'income inequality research',
+          'economics education',
+        ],
         url: 'https://econ.mom',
         mainEntityOfPage: `${SITE_URL}/about/`,
         sameAs: [

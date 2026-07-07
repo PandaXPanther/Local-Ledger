@@ -5,12 +5,16 @@ import { SITE_DESCRIPTION } from '@/lib/constants';
 import { formatMetric, getCounties, getMetros, getStates, topBy } from '@/lib/nationalData';
 import { PRESETS } from '@/lib/sim/presets';
 import { PARAM_DEFS } from '@/lib/sim/params';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Local Economy Data Dashboard',
-  description: 'Free public economic data for U.S. states, counties, metros, rankings, income, jobs, housing, college ROI, and federal spending. Plus an economy simulator you can run yourself.',
-  alternates: { canonical: '/' },
-};
+  description:
+    'Free dashboards of official economic data for every U.S. state, county, and metro: jobs, income, housing, college ROI, and federal spending. Plus an interactive economy simulator for learning how policy works.',
+  path: '/',
+  ogDescription:
+    'Official economic data for every U.S. state, county, and metro, with sources on every figure. Plus an economy simulator you can run yourself.',
+});
 
 const FEATURE_CARDS = [
   {

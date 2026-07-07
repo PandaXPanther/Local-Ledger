@@ -1,12 +1,14 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Hero } from '@/components/Hero';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Economic Rankings',
   description: 'Rank states and counties by local economy score, income, population, college affordability, and federal spending.',
-  alternates: { canonical: '/rankings/' },
-};
+  path: '/rankings/',
+  keywords: ['state economy rankings', 'county income rankings', 'best local economies', 'college affordability rankings'],
+});
 
 const RANKINGS = [
   ['Best Local Economies', '/rankings/best-local-economies/', 'State composite scores from income, labor, affordability, population, and fiscal indicators.'],

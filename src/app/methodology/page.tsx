@@ -2,12 +2,13 @@ import type { Metadata } from 'next';
 import { Hero } from '@/components/Hero';
 import { MethodologyCallout } from '@/components/MethodologyCallout';
 import { LOCAL_ECONOMY_SCORE_WEIGHTS, TREND_THRESHOLDS, RECESSION_THRESHOLDS } from '@/lib/constants';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Methodology',
   description: 'How LocalLedger computes Local Economy Score, slowdown risk, college ROI, federal spending per capita, and data availability.',
-  alternates: { canonical: '/methodology/' },
-};
+  path: '/methodology/',
+});
 
 export default function MethodologyPage() {
   return (

@@ -8,11 +8,13 @@ import { LastUpdated } from '@/components/LastUpdated';
 import { RiskBadge } from '@/components/RiskBadge';
 import { ScoreGauge } from '@/components/ScoreGauge';
 import type { RiskLevel } from '@/types/data';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Colorado Recession Radar - Slowdown Risk Indicator',
   description: 'Educational slowdown risk indicator for Colorado based on public economic data. Not financial advice.',
-};
+  path: '/colorado/recession-radar/',
+});
 
 interface RecessionData {
   _meta: {

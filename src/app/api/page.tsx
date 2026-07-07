@@ -1,13 +1,14 @@
 import type { Metadata } from 'next';
 import { Hero } from '@/components/Hero';
 import { SITE_URL } from '@/lib/constants';
-import { localLedgerDatasetJsonLd } from '@/lib/seo';
+import { localLedgerDatasetJsonLd, pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Public Economic Data API',
   description: 'Download free static JSON files for LocalLedger state, county, metro, college ROI, federal spending, and source metadata.',
-  alternates: { canonical: '/api/' },
-};
+  path: '/api/',
+  keywords: ['free economic data API', 'public economic data JSON', 'county economic data download', 'state economic data download'],
+});
 
 const DATA_FILES = [
   {

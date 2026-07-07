@@ -2,12 +2,14 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Hero } from '@/components/Hero';
 import { getCounties, formatMetric, topBy } from '@/lib/nationalData';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'County Economic Dashboards',
   description: 'Find county economic indicators for income, population, housing, and Local Economy Score from official Census ACS data.',
-  alternates: { canonical: '/counties/' },
-};
+  path: '/counties/',
+  keywords: ['county economic data', 'county income data', 'county population data', 'county housing data'],
+});
 
 export default function CountiesPage() {
   const counties = topBy(getCounties(), county => county.population, 300);

@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 import { Hero } from '@/components/Hero';
 import { RankingTable } from '@/components/RankingTable';
 import { getStates, formatMetric, topBy } from '@/lib/nationalData';
-import { breadcrumbJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Best Local Economies',
   description: 'Rank U.S. states by Local Economy Score using official income, labor, affordability, population, and federal spending data.',
-  alternates: { canonical: '/rankings/best-local-economies/' },
-};
+  path: '/rankings/best-local-economies/',
+});
 
 export default function Page() {
   const breadcrumbsJsonLd = breadcrumbJsonLd([

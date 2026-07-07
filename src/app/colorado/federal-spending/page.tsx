@@ -6,11 +6,13 @@ import { MethodologyCallout } from '@/components/MethodologyCallout';
 import { SourceBadge } from '@/components/SourceBadge';
 import { LastUpdated } from '@/components/LastUpdated';
 import { formatCurrency, formatShortNumber } from '@/lib/format';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Federal Spending in Colorado',
   description: 'Federal grants, contracts, and loans in Colorado by agency, county, and recipient - USAspending.gov data.',
-};
+  path: '/colorado/federal-spending/',
+});
 
 interface FederalData {
   _meta: {

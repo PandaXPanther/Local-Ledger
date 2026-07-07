@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/Hero';
 import { getMetros, getStateBundle, getStates, formatMetric } from '@/lib/nationalData';
-import { breadcrumbJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, pageMeta } from '@/lib/seo';
 
 interface Props {
   params: { stateSlug: string };
@@ -16,11 +16,11 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Props): Metadata {
   const bundle = getStateBundle(params.stateSlug);
   if (!bundle.state) return {};
-  return {
+  return pageMeta({
     title: `${bundle.state.name} Cities`,
     description: `Browse ${bundle.state.name} city and metro economic indicators for population, income, and housing from Census ACS.`,
-    alternates: { canonical: `/states/${bundle.state.slug}/cities/` },
-  };
+    path: `/states/${bundle.state.slug}/cities/`,
+  });
 }
 
 export default function StateCitiesPage({ params }: Props) {

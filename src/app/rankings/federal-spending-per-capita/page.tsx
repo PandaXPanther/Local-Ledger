@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 import { Hero } from '@/components/Hero';
 import { RankingTable } from '@/components/RankingTable';
 import { getFederalSpending, formatMetric, topBy } from '@/lib/nationalData';
-import { breadcrumbJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Federal Spending Per Capita',
   description: 'Compare federal spending per capita by state using USAspending.gov award data normalized by population.',
-  alternates: { canonical: '/rankings/federal-spending-per-capita/' },
-};
+  path: '/rankings/federal-spending-per-capita/',
+});
 
 export default function Page() {
   const breadcrumbsJsonLd = breadcrumbJsonLd([

@@ -6,11 +6,13 @@ import { MethodologyCallout } from '@/components/MethodologyCallout';
 import { SourceBadge } from '@/components/SourceBadge';
 import { LastUpdated } from '@/components/LastUpdated';
 import CountiesClient from './CountiesClient';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Colorado Counties - Economic Data',
   description: 'Searchable, sortable economic data for all 64 Colorado counties - population, income, unemployment, housing, and federal spending.',
-};
+  path: '/colorado/counties/',
+});
 
 interface CountiesData {
   _meta: {

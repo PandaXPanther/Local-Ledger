@@ -3,26 +3,25 @@ import Link from 'next/link';
 import { SimulatorClient } from '@/components/simulator/SimulatorClient';
 import { PARAM_GROUPS, PARAM_DEFS, defsForGroup } from '@/lib/sim/params';
 import { PRESETS } from '@/lib/sim/presets';
-import { breadcrumbJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, pageMeta } from '@/lib/seo';
 import { SITE_URL } from '@/lib/constants';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Economy Simulator: Run a Nation, Crash It, Try Again',
   description:
     'A free interactive economics simulator with 41 policy dials: interest rates, taxes, tariffs, money printing, the gold standard, bank bailouts, and more. Load Weimar hyperinflation, 1929, stagflation, or 2008 and see what each policy actually does.',
+  path: '/simulator/',
   keywords: [
     'economy simulator', 'economic policy simulator', 'macroeconomics simulator', 'inflation simulator',
     'central bank simulator', 'gold standard simulation', 'hyperinflation simulation', 'stock market crash simulation',
     'interactive economics', 'economics education tool', 'AP economics', 'monetary policy game',
+    'free economics simulation for students',
   ],
-  alternates: { canonical: '/simulator/' },
-  openGraph: {
-    title: 'An economy you are allowed to break',
-    description:
-      '41 policy dials. 12 historical scenarios. Ten million simulated people. A free economics playground by LocalLedger.',
-    url: `${SITE_URL}/simulator/`,
-  },
-};
+  ogTitle: 'An economy you are allowed to break',
+  ogDescription:
+    '41 policy dials. 12 historical scenarios. Ten million simulated people. A free economics playground by LocalLedger.',
+  image: '/og-simulator.png',
+});
 
 const MECHANISMS = [
   {

@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { Hero } from '@/components/Hero';
 import { MetricGrid } from '@/components/MetricGrid';
 import { getStateBundle, getStates, formatMetric } from '@/lib/nationalData';
-import { breadcrumbJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, pageMeta } from '@/lib/seo';
 
 interface Props { params: { stateSlug: string } }
 
@@ -14,11 +14,11 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Props): Metadata {
   const bundle = getStateBundle(params.stateSlug);
   if (!bundle.state) return {};
-  return {
+  return pageMeta({
     title: `${bundle.state.name} Federal Spending`,
     description: `Track ${bundle.state.name} federal spending per capita and award totals from USAspending.gov public data.`,
-    alternates: { canonical: `/states/${bundle.state.slug}/federal-spending/` },
-  };
+    path: `/states/${bundle.state.slug}/federal-spending/`,
+  });
 }
 
 export default function StateFederalSpendingPage({ params }: Props) {

@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 import { Hero } from '@/components/Hero';
 import { RankingTable } from '@/components/RankingTable';
 import { getCounties, formatMetric, topBy } from '@/lib/nationalData';
-import { breadcrumbJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Largest Counties by Population',
-  description: 'Rank large U.S. counties by official Census population.',
-  alternates: { canonical: '/rankings/fastest-growing-counties/' },
-};
+  description: 'Rank large U.S. counties by official Census population estimates, with income and housing context for each county.',
+  path: '/rankings/fastest-growing-counties/',
+});
 
 export default function Page() {
   const breadcrumbsJsonLd = breadcrumbJsonLd([

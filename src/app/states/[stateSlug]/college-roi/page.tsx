@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/Hero';
 import { getStateBundle, getStates, formatMetric } from '@/lib/nationalData';
-import { breadcrumbJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, pageMeta } from '@/lib/seo';
 
 interface Props { params: { stateSlug: string } }
 
@@ -13,11 +13,12 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Props): Metadata {
   const bundle = getStateBundle(params.stateSlug);
   if (!bundle.state) return {};
-  return {
+  return pageMeta({
     title: `${bundle.state.name} College ROI`,
     description: `Compare ${bundle.state.name} college ROI indicators including net price, completion, earnings, debt, and value score.`,
-    alternates: { canonical: `/states/${bundle.state.slug}/college-roi/` },
-  };
+    path: `/states/${bundle.state.slug}/college-roi/`,
+    keywords: [`${bundle.state.name} college ROI`, `${bundle.state.name} college net price`, `${bundle.state.name} college earnings`],
+  });
 }
 
 export default function StateCollegeRoiPage({ params }: Props) {

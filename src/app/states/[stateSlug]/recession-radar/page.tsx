@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { Hero } from '@/components/Hero';
 import { RiskBadge } from '@/components/RiskBadge';
 import { getStateBundle, getStates, formatMetric } from '@/lib/nationalData';
-import { breadcrumbJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, pageMeta } from '@/lib/seo';
 
 interface Props { params: { stateSlug: string } }
 
@@ -14,11 +14,11 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Props): Metadata {
   const bundle = getStateBundle(params.stateSlug);
   if (!bundle.state) return {};
-  return {
+  return pageMeta({
     title: `${bundle.state.name} Recession Radar`,
     description: `${bundle.state.name} slowdown risk indicator using official labor market data. Educational signal, not financial advice.`,
-    alternates: { canonical: `/states/${bundle.state.slug}/recession-radar/` },
-  };
+    path: `/states/${bundle.state.slug}/recession-radar/`,
+  });
 }
 
 export default function StateRecessionRadarPage({ params }: Props) {

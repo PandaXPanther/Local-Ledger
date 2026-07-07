@@ -2,12 +2,14 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Hero } from '@/components/Hero';
 import { getMetros, formatMetric } from '@/lib/nationalData';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Metro Economic Dashboards',
   description: 'Browse major U.S. metro economic dashboards with Census ACS population, income, and housing indicators.',
-  alternates: { canonical: '/metros/' },
-};
+  path: '/metros/',
+  keywords: ['metro economic data', 'metro area income', 'metro area population', 'MSA economic indicators'],
+});
 
 export default function MetrosPage() {
   return (

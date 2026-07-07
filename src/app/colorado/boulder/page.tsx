@@ -2,11 +2,13 @@ import type { Metadata } from 'next';
 import { Hero } from '@/components/Hero';
 import { CityDashboard } from '@/components/CityDashboard';
 import { loadCitySnapshot } from '@/lib/loadCityData';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Boulder Economic Dashboard',
   description: 'Official economic data for Boulder, CO - unemployment, income, housing, and local economy score.',
-};
+  path: '/colorado/boulder/',
+});
 
 export default function BoulderPage() {
   const snapshot = loadCitySnapshot('boulder');

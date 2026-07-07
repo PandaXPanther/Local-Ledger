@@ -2,13 +2,14 @@ import type { Metadata } from 'next';
 import { Hero } from '@/components/Hero';
 import { RankingTable } from '@/components/RankingTable';
 import { getColleges, formatMetric } from '@/lib/nationalData';
-import { breadcrumbJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Most Affordable College States',
   description: 'Compare college affordability by state using U.S. College Scorecard net price and institution data.',
-  alternates: { canonical: '/rankings/most-affordable-college-states/' },
-};
+  path: '/rankings/most-affordable-college-states/',
+  keywords: ['most affordable college states', 'college net price by state', 'college affordability ranking'],
+});
 
 export default function Page() {
   const breadcrumbsJsonLd = breadcrumbJsonLd([

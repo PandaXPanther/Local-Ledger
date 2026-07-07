@@ -3,11 +3,13 @@ import { Hero } from '@/components/Hero';
 import { CityDashboard } from '@/components/CityDashboard';
 import { loadCitySnapshot } from '@/lib/loadCityData';
 import { MethodologyCallout } from '@/components/MethodologyCallout';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Aurora Economic Dashboard',
   description: 'Official economic data for Aurora, CO - unemployment, income, housing, and local economy score.',
-};
+  path: '/colorado/aurora/',
+});
 
 export default function AuroraPage() {
   const snapshot = loadCitySnapshot('aurora');

@@ -5,12 +5,13 @@ import { Hero } from '@/components/Hero';
 import { SourceBadge } from '@/components/SourceBadge';
 import { formatDate } from '@/lib/format';
 import { DATA_SOURCES } from '@/lib/constants';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Data Sources',
   description: 'Official public data sources behind LocalLedger, including Census, FRED, BLS, BEA, College Scorecard, and USAspending.',
-  alternates: { canonical: '/sources/' },
-};
+  path: '/sources/',
+});
 
 function loadCatalog() {
   const p = join(process.cwd(), 'public', 'data', 'processed', 'metadata-catalog.json');

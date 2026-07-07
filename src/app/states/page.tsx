@@ -2,17 +2,15 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Hero } from '@/components/Hero';
 import { getStates, formatMetric, topBy } from '@/lib/nationalData';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'State Economic Dashboards',
   description: 'Compare U.S. state economic dashboards with official data on jobs, income, housing, GDP, college ROI, and federal spending.',
-  alternates: { canonical: '/states/' },
-  openGraph: {
-    title: 'State Economic Dashboards | LocalLedger',
-    description: 'Compare official public economic data across every U.S. state.',
-    url: '/states/',
-  },
-};
+  path: '/states/',
+  keywords: ['state economic data', 'state economy dashboard', 'state unemployment data', 'state GDP data'],
+  ogDescription: 'Compare official public economic data across every U.S. state.',
+});
 
 export default function StatesPage() {
   const states = getStates();

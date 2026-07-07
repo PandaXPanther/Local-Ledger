@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/Hero';
 import { getStateBundle, getStates, formatMetric } from '@/lib/nationalData';
-import { breadcrumbJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, pageMeta } from '@/lib/seo';
 
 interface Props {
   params: { stateSlug: string };
@@ -16,11 +16,11 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Props): Metadata {
   const bundle = getStateBundle(params.stateSlug);
   if (!bundle.state) return {};
-  return {
+  return pageMeta({
     title: `${bundle.state.name} Counties`,
     description: `Compare ${bundle.state.name} county economic indicators for population, income, home value, and Local Economy Score.`,
-    alternates: { canonical: `/states/${bundle.state.slug}/counties/` },
-  };
+    path: `/states/${bundle.state.slug}/counties/`,
+  });
 }
 
 export default function StateCountiesPage({ params }: Props) {

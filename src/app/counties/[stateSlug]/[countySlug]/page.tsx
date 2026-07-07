@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/Hero';
 import { getCounties, getCounty, formatMetric } from '@/lib/nationalData';
-import { breadcrumbJsonLd, localLedgerDatasetJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, localLedgerDatasetJsonLd, pageMeta } from '@/lib/seo';
 
 interface Props { params: { stateSlug: string; countySlug: string } }
 
@@ -16,11 +16,11 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Props): Metadata {
   const county = getCounty(params.stateSlug, params.countySlug);
   if (!county) return {};
-  return {
+  return pageMeta({
     title: `${county.county} Economic Dashboard`,
     description: `${county.county}, ${county.state} economic indicators for population, median income, home value, and Local Economy Score.`,
-    alternates: { canonical: `/counties/${county.stateSlug}/${county.slug}/` },
-  };
+    path: `/counties/${county.stateSlug}/${county.slug}/`,
+  });
 }
 
 export default function CountyPage({ params }: Props) {

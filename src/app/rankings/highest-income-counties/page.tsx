@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 import { Hero } from '@/components/Hero';
 import { RankingTable } from '@/components/RankingTable';
 import { getCounties, formatMetric, topBy } from '@/lib/nationalData';
-import { breadcrumbJsonLd } from '@/lib/seo';
+import { breadcrumbJsonLd, pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Highest Income Counties',
   description: 'Find the highest median income counties in the U.S. using official Census ACS household income data.',
-  alternates: { canonical: '/rankings/highest-income-counties/' },
-};
+  path: '/rankings/highest-income-counties/',
+});
 
 export default function Page() {
   const breadcrumbsJsonLd = breadcrumbJsonLd([

@@ -11,11 +11,14 @@ import { COLORADO_CITIES } from '@/lib/constants';
 import { formatCurrency, formatDataValue, formatNumber } from '@/lib/format';
 import Link from 'next/link';
 import type { DataPoint } from '@/types/data';
+import { pageMeta } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Colorado Economic Overview',
   description: 'Official economic data for Colorado - unemployment, income, GDP, and population from FRED, BLS, and Census.',
-};
+  path: '/colorado/',
+  keywords: ['Colorado economy', 'Colorado economic data', 'Colorado unemployment rate', 'Colorado GDP', 'Colorado income data'],
+});
 
 interface OverviewData {
   _meta: {
