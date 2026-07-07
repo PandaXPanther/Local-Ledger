@@ -8,10 +8,10 @@ interface ScoreGaugeProps {
 }
 
 function getScoreColor(score: number): string {
-  if (score >= 70) return '#E8540A';
-  if (score >= 50) return '#8C6D1F';
-  if (score >= 30) return '#33586E';
-  return '#B3372E';
+  if (score >= 70) return '#23684A';
+  if (score >= 50) return '#315B7A';
+  if (score >= 30) return '#B45F2A';
+  return '#A23B3B';
 }
 
 function getScoreLabel(score: number): string {
@@ -51,7 +51,7 @@ export function ScoreGauge({ score, label = 'Local Economy Score', size = 'md', 
           <path
             d={`M ${stroke} ${cy} A ${radius} ${radius} 0 0 1 ${svgSize - stroke} ${cy}`}
             fill="none"
-            stroke="#DFD4BB"
+            stroke="#DED7C8"
             strokeWidth={stroke}
             strokeLinecap="round"
           />
@@ -72,7 +72,7 @@ export function ScoreGauge({ score, label = 'Local Economy Score', size = 'md', 
             y={cy - 4}
             textAnchor="middle"
             dominantBaseline="middle"
-            style={{ fontSize: size === 'lg' ? 28 : size === 'sm' ? 18 : 22, fontWeight: 800, fill: '#181410', fontFamily: 'JetBrains Mono, monospace' }}
+            style={{ fontSize: size === 'lg' ? 28 : size === 'sm' ? 18 : 22, fontWeight: 800, fill: '#1F2421', fontFamily: 'JetBrains Mono, monospace' }}
           >
             {clampedScore}
           </text>
@@ -80,7 +80,7 @@ export function ScoreGauge({ score, label = 'Local Economy Score', size = 'md', 
             x={cx}
             y={cy + (size === 'lg' ? 18 : 14)}
             textAnchor="middle"
-            style={{ fontSize: 10, fill: '#857A61', fontFamily: 'JetBrains Mono, monospace' }}
+            style={{ fontSize: 10, fill: '#8D887A', fontFamily: 'JetBrains Mono, monospace' }}
           >
             / 100
           </text>

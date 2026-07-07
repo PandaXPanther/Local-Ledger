@@ -1,6 +1,6 @@
 # LocalLedger
 
-Real economic data for every U.S. county, and an interactive economy simulator you are allowed to destroy.
+Official public economic data, turned into readable local dashboards. Plus an economy simulator you can crash.
 
 [Live site](https://local-ledger.net)
 
@@ -17,13 +17,13 @@ Real economic data for every U.S. county, and an interactive economy simulator y
 
 ## What It Is
 
-LocalLedger is a free economics education platform in two halves.
+LocalLedger is a free site for anyone who wants to understand their local economy: students, journalists, local builders, and civic researchers. It has two parts.
 
-**The Ledger**: official labor, income, housing, education, GDP, and federal spending data turned into static dashboards for every U.S. state, county, and metro, with source metadata attached to every displayed metric. Nothing is estimated, imputed, or invented.
+**The data**: official labor, income, housing, education, GDP, and federal spending numbers turned into static dashboards for every U.S. state, county, and metro. Every displayed metric carries its source. Nothing is estimated, imputed, or invented.
 
-**The Machine**: an interactive macroeconomic simulator at [/simulator](https://local-ledger.net/simulator/). A deterministic quarterly model of a synthetic ten-million-citizen nation with 41 tunable policy dials (taxes, interest rates, tariffs, money printing, the gold standard, bank bailouts, discrimination, housing rules, health coverage) and 12 preset scenarios reproducing episodes like Weimar hyperinflation, the 1929 crash, 1970s stagflation, the 2008 housing bubble, and a sovereign debt crisis. The engine implements simplified versions of the Taylor rule, Okun's law, the expectations-augmented Phillips curve, balance-sheet banking, bubble dynamics, and purchasing power parity, and its economics are covered by an automated test suite.
+**The simulator**: an interactive model economy at [/simulator](https://local-ledger.net/simulator/). A small nation with ten million simulated people and 41 policy dials: taxes, interest rates, tariffs, money printing, the gold standard, bank bailouts, discrimination, housing rules, health coverage. It ships with 12 preset scenarios based on episodes like Weimar hyperinflation, the 1929 crash, 1970s stagflation, and the 2008 housing bubble. The engine runs simplified versions of the Taylor rule, Okun's law, the Phillips curve, balance-sheet banking, bubble dynamics, and purchasing power parity. A test suite checks that the economics hold up.
 
-The simulator is the only part of the site that shows numbers which are not real, and it is labeled that way on the page.
+The simulator is the only part of the site that shows numbers which are not real, and it says so on the page.
 
 ## Features
 

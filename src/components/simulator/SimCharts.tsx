@@ -26,17 +26,17 @@ interface ChartPanelProps {
   domain?: [number | 'auto', number | 'auto'];
 }
 
-const AXIS_COLOR = '#6B6350';
+const AXIS_COLOR = '#8D887A';
 const GRID_MONO = 'JetBrains Mono, monospace';
 
 function ChartPanel({ title, unit, data, lines, referenceY, domain }: ChartPanelProps) {
   return (
-    <div className="rounded-[10px] border border-machine-line bg-machine-panel p-3">
+    <div className="rounded-lg border border-border bg-surface p-3 shadow-[0_1px_0_rgba(31,36,33,0.08)]">
       <div className="mb-1 flex items-baseline justify-between gap-2">
-        <span className="font-mono text-[0.62rem] font-bold uppercase tracking-[0.14em] text-cream/70">
+        <span className="font-mono text-[0.62rem] font-bold uppercase tracking-[0.14em] text-text-secondary">
           {title}
         </span>
-        <span className="font-mono text-[0.6rem] text-cream/40">{unit}</span>
+        <span className="font-mono text-[0.6rem] text-text-muted">{unit}</span>
       </div>
       <div className="h-36">
         <ResponsiveContainer width="100%" height="100%">
@@ -45,7 +45,7 @@ function ChartPanel({ title, unit, data, lines, referenceY, domain }: ChartPanel
               dataKey="label"
               tick={{ fill: AXIS_COLOR, fontSize: 9, fontFamily: GRID_MONO }}
               tickLine={false}
-              axisLine={{ stroke: '#332C1E' }}
+              axisLine={{ stroke: '#DED7C8' }}
               minTickGap={40}
             />
             <YAxis
@@ -57,18 +57,18 @@ function ChartPanel({ title, unit, data, lines, referenceY, domain }: ChartPanel
             />
             <Tooltip
               contentStyle={{
-                background: '#1D1913',
-                border: '1px solid #332C1E',
+                background: '#FFFDF7',
+                border: '1px solid #DED7C8',
                 borderRadius: 8,
                 fontFamily: GRID_MONO,
                 fontSize: 11,
-                color: '#F3EBD8',
+                color: '#1F2421',
               }}
-              labelStyle={{ color: '#F3EBD8', fontFamily: GRID_MONO, fontSize: 10 }}
+              labelStyle={{ color: '#1F2421', fontFamily: GRID_MONO, fontSize: 10, fontWeight: 700 }}
               isAnimationActive={false}
             />
             {referenceY !== undefined && (
-              <ReferenceLine y={referenceY} stroke="#6B6350" strokeDasharray="4 4" />
+              <ReferenceLine y={referenceY} stroke="#C8BEAA" strokeDasharray="4 4" />
             )}
             {lines.map(line => (
               <Line
@@ -88,7 +88,7 @@ function ChartPanel({ title, unit, data, lines, referenceY, domain }: ChartPanel
       {lines.length > 1 && (
         <div className="mt-1 flex flex-wrap gap-3">
           {lines.map(line => (
-            <span key={String(line.key)} className="flex items-center gap-1.5 font-mono text-[0.6rem] text-cream/60">
+            <span key={String(line.key)} className="flex items-center gap-1.5 font-mono text-[0.6rem] text-text-muted">
               <span className="inline-block h-0.5 w-3" style={{ background: line.color }} />
               {line.name}
             </span>
@@ -99,12 +99,12 @@ function ChartPanel({ title, unit, data, lines, referenceY, domain }: ChartPanel
   );
 }
 
-const ORANGE = '#FF6A1F';
-const CREAM = '#F3EBD8';
-const GREEN = '#3FA372';
-const RED = '#E06552';
-const BLUE = '#7FA5C0';
-const BRASS = '#C9A94E';
+const GREEN = '#23684A';
+const TEAL = '#315B7A';
+const EMBER = '#B45F2A';
+const RED = '#A23B3B';
+const BROWN = '#6E5B3F';
+const INK = '#1F2421';
 
 export function SimCharts({ data }: { data: SeriesPoint[] }) {
   return (
@@ -116,7 +116,7 @@ export function SimCharts({ data }: { data: SeriesPoint[] }) {
         referenceY={0}
         lines={[
           { key: 'gdpGrowth', name: 'Real GDP growth', color: GREEN },
-          { key: 'inflation', name: 'Inflation', color: ORANGE },
+          { key: 'inflation', name: 'Inflation', color: EMBER },
         ]}
       />
       <ChartPanel
@@ -124,7 +124,7 @@ export function SimCharts({ data }: { data: SeriesPoint[] }) {
         unit="%"
         data={data}
         lines={[
-          { key: 'unemployment', name: 'Overall', color: CREAM },
+          { key: 'unemployment', name: 'Overall', color: INK },
           { key: 'minorityUnemployment', name: 'Excluded group', color: RED },
         ]}
       />
@@ -133,8 +133,8 @@ export function SimCharts({ data }: { data: SeriesPoint[] }) {
         unit="%"
         data={data}
         lines={[
-          { key: 'policyRate', name: 'Policy rate', color: ORANGE },
-          { key: 'bondYield', name: '10y bond yield', color: BLUE },
+          { key: 'policyRate', name: 'Policy rate', color: GREEN },
+          { key: 'bondYield', name: '10y bond yield', color: TEAL },
         ]}
       />
       <ChartPanel
@@ -148,7 +148,7 @@ export function SimCharts({ data }: { data: SeriesPoint[] }) {
         unit="index / per 10k"
         data={data}
         lines={[
-          { key: 'housePriceIndex', name: 'House prices', color: BRASS },
+          { key: 'housePriceIndex', name: 'House prices', color: BROWN },
           { key: 'homelessness', name: 'Homeless per 10k', color: RED },
         ]}
       />
@@ -157,7 +157,7 @@ export function SimCharts({ data }: { data: SeriesPoint[] }) {
         unit="% of GDP"
         data={data}
         referenceY={100}
-        lines={[{ key: 'debtToGdp', name: 'Debt to GDP', color: BLUE }]}
+        lines={[{ key: 'debtToGdp', name: 'Debt to GDP', color: TEAL }]}
       />
       <ChartPanel
         title="Happiness and mobility"
@@ -165,8 +165,8 @@ export function SimCharts({ data }: { data: SeriesPoint[] }) {
         data={data}
         domain={[0, 100]}
         lines={[
-          { key: 'happiness', name: 'Happiness index', color: ORANGE },
-          { key: 'socialMobility', name: 'Social mobility', color: CREAM },
+          { key: 'happiness', name: 'Happiness index', color: GREEN },
+          { key: 'socialMobility', name: 'Social mobility', color: BROWN },
         ]}
       />
       <ChartPanel
@@ -175,7 +175,7 @@ export function SimCharts({ data }: { data: SeriesPoint[] }) {
         data={data}
         referenceY={0}
         lines={[
-          { key: 'fxRate', name: 'Exchange rate', color: BLUE },
+          { key: 'fxRate', name: 'Exchange rate', color: TEAL },
           { key: 'tradeBalance', name: 'Trade balance', color: GREEN },
         ]}
       />
@@ -184,8 +184,8 @@ export function SimCharts({ data }: { data: SeriesPoint[] }) {
         unit="index / $B"
         data={data}
         lines={[
-          { key: 'priceLevel', name: 'Price level', color: ORANGE },
-          { key: 'moneySupply', name: 'Money supply', color: BRASS },
+          { key: 'priceLevel', name: 'Price level', color: EMBER },
+          { key: 'moneySupply', name: 'Money supply', color: BROWN },
         ]}
       />
     </div>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 44" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198 40" role="img" aria-labelledby="title">
   <title>LocalLedger wordmark</title>
-  <text x="0" y="32" font-family="Fraunces, Georgia, serif" font-weight="900" font-size="30" fill="#181410">LocalLedger</text>
+  <text x="0" y="30" fill="#0f172a" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="750" letter-spacing="0">LocalLedger</text>
 </svg>

@@ -24,7 +24,7 @@ export function BarChartCard({
   data,
   dataKey,
   labelKey,
-  color = '#E8540A',
+  color = '#23684A',
   source,
   lastUpdated,
   height = 260,
@@ -49,17 +49,17 @@ export function BarChartCard({
       <ResponsiveContainer width="100%" height={height}>
         {layout === 'horizontal' ? (
           <BarChart data={data} margin={{ top: 5, right: 10, left: 0, bottom: 5 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#DFD4BB" vertical={false} />
+            <CartesianGrid strokeDasharray="3 3" stroke="#DED7C8" vertical={false} />
             <XAxis
               dataKey={labelKey}
-              tick={{ fontSize: 11, fill: '#857A61', fontFamily: 'JetBrains Mono, monospace' }}
+              tick={{ fontSize: 11, fill: '#8D887A', fontFamily: 'JetBrains Mono, monospace' }}
               tickLine={false}
-              axisLine={{ stroke: '#DFD4BB' }}
+              axisLine={{ stroke: '#DED7C8' }}
             />
-            <YAxis tick={{ fontSize: 11, fill: '#857A61', fontFamily: 'JetBrains Mono, monospace' }} tickLine={false} axisLine={false} />
+            <YAxis tick={{ fontSize: 11, fill: '#8D887A', fontFamily: 'JetBrains Mono, monospace' }} tickLine={false} axisLine={false} />
             <Tooltip
-              contentStyle={{ border: '1px solid #DFD4BB', borderRadius: 8, fontSize: 12, background: '#FCF8EE' }}
-              labelStyle={{ fontWeight: 700, color: '#181410' }}
+              contentStyle={{ border: '1px solid #DED7C8', borderRadius: 8, fontSize: 12, background: '#FFFDF7' }}
+              labelStyle={{ fontWeight: 700, color: '#1F2421' }}
             />
             <Bar dataKey={dataKey} radius={[4, 4, 0, 0]}>
               {data.map((_, i) => (
@@ -73,8 +73,8 @@ export function BarChartCard({
             layout="vertical"
             margin={{ top: 5, right: 30, left: 80, bottom: 5 }}
           >
-            <CartesianGrid strokeDasharray="3 3" stroke="#DFD4BB" horizontal={false} />
-            <XAxis type="number" tick={{ fontSize: 11, fill: '#857A61', fontFamily: 'JetBrains Mono, monospace' }} tickLine={false} axisLine={false} />
+            <CartesianGrid strokeDasharray="3 3" stroke="#DED7C8" horizontal={false} />
+            <XAxis type="number" tick={{ fontSize: 11, fill: '#8D887A', fontFamily: 'JetBrains Mono, monospace' }} tickLine={false} axisLine={false} />
             <YAxis
               type="category"
               dataKey={labelKey}
@@ -84,8 +84,8 @@ export function BarChartCard({
               width={80}
             />
             <Tooltip
-              contentStyle={{ border: '1px solid #DFD4BB', borderRadius: 8, fontSize: 12, background: '#FCF8EE' }}
-              labelStyle={{ fontWeight: 700, color: '#181410' }}
+              contentStyle={{ border: '1px solid #DED7C8', borderRadius: 8, fontSize: 12, background: '#FFFDF7' }}
+              labelStyle={{ fontWeight: 700, color: '#1F2421' }}
             />
             <Bar dataKey={dataKey} radius={[0, 4, 4, 0]} fill={color} />
           </BarChart>

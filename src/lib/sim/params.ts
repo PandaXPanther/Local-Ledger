@@ -1,7 +1,7 @@
 import type { ParamDef, ParamGroup, SimParams } from './types';
 
 /**
- * Every dial in the Machine. Each definition carries an educational note that
+ * Every dial in the simulator. Each definition carries an educational note that
  * the UI surfaces next to the control, so moving a dial teaches the mechanism.
  */
 

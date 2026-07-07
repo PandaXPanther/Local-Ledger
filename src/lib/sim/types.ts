@@ -1,5 +1,5 @@
 /**
- * Type definitions for the LocalLedger economy simulator ("the Machine").
+ * Type definitions for the LocalLedger economy simulator.
  *
  * The model is a deterministic, seeded, quarterly macroeconomic simulation of a
  * synthetic ten-million-citizen nation. It is an educational toy, not a forecast:

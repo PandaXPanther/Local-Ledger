@@ -55,12 +55,12 @@ interface DialProps {
 function Dial({ def, value, defaultValue, onChange }: DialProps) {
   const changed = Math.abs(value - defaultValue) > 1e-9;
   return (
-    <div className="border-b border-machine-line px-4 py-3 last:border-b-0">
+    <div className="border-b border-border px-4 py-3 last:border-b-0">
       <div className="flex items-baseline justify-between gap-2">
-        <label htmlFor={`dial-${def.key}`} className="text-[0.8rem] font-medium text-cream/90">
+        <label htmlFor={`dial-${def.key}`} className="text-[0.8rem] font-medium text-text-primary">
           {def.label}
         </label>
-        <span className={`font-mono text-xs font-bold tnum ${changed ? 'text-accent-bright' : 'text-cream/60'}`}>
+        <span className={`font-mono text-xs font-bold tabular-nums ${changed ? 'text-accent' : 'text-text-muted'}`}>
           {formatDialValue(def, value)}
         </span>
       </div>
@@ -75,7 +75,7 @@ function Dial({ def, value, defaultValue, onChange }: DialProps) {
         className="sim-range mt-2 w-full"
         aria-label={def.label}
       />
-      <p className="mt-1.5 text-[0.7rem] leading-snug text-cream/45">{def.note}</p>
+      <p className="mt-1.5 text-[0.7rem] leading-snug text-text-muted">{def.note}</p>
     </div>
   );
 }
@@ -88,36 +88,36 @@ interface SwitchProps {
 
 function Switch({ def, value, onChange }: SwitchProps) {
   return (
-    <div className="border-b border-machine-line px-4 py-3 last:border-b-0">
+    <div className="border-b border-border px-4 py-3 last:border-b-0">
       <div className="flex items-center justify-between gap-2">
-        <span className="text-[0.8rem] font-medium text-cream/90">{def.label}</span>
+        <span className="text-[0.8rem] font-medium text-text-primary">{def.label}</span>
         <button
           type="button"
           role="switch"
           aria-checked={value}
           aria-label={def.label}
           onClick={() => onChange(def.key, !value)}
-          className={`rounded-md border px-2.5 py-1 font-mono text-[0.65rem] font-bold uppercase tracking-[0.1em] transition-colors ${
+          className={`rounded-full border px-2.5 py-1 font-mono text-[0.65rem] font-bold uppercase tracking-[0.1em] transition-colors ${
             value
-              ? 'border-accent-bright/60 bg-accent-bright/15 text-accent-bright'
-              : 'border-machine-line bg-machine text-cream/60'
+              ? 'border-accent/50 bg-accent-soft text-accent'
+              : 'border-border bg-canvas text-text-muted'
           }`}
         >
           {value ? def.onLabel : def.offLabel}
         </button>
       </div>
-      <p className="mt-1.5 text-[0.7rem] leading-snug text-cream/45">{def.note}</p>
+      <p className="mt-1.5 text-[0.7rem] leading-snug text-text-muted">{def.note}</p>
     </div>
   );
 }
 
 function Readout({ label, value, sub, tone }: { label: string; value: string; sub?: string; tone?: 'good' | 'bad' | 'neutral' }) {
-  const toneClass = tone === 'good' ? 'text-up' : tone === 'bad' ? 'text-down' : 'text-cream';
+  const toneClass = tone === 'good' ? 'text-success' : tone === 'bad' ? 'text-danger' : 'text-ink';
   return (
-    <div className="rounded-[10px] border border-machine-line bg-machine-panel px-3 py-2.5">
-      <div className="font-mono text-[0.58rem] font-bold uppercase tracking-[0.14em] text-cream/50">{label}</div>
-      <div className={`mt-0.5 font-mono text-lg font-bold tnum ${toneClass}`}>{value}</div>
-      {sub && <div className="font-mono text-[0.6rem] text-cream/40">{sub}</div>}
+    <div className="rounded-lg border border-border bg-surface px-3 py-2.5 shadow-[0_1px_0_rgba(31,36,33,0.08)]">
+      <div className="font-mono text-[0.58rem] font-bold uppercase tracking-[0.14em] text-text-muted">{label}</div>
+      <div className={`mt-0.5 font-mono text-lg font-bold tabular-nums ${toneClass}`}>{value}</div>
+      {sub && <div className="font-mono text-[0.6rem] text-text-muted">{sub}</div>}
     </div>
   );
 }
@@ -125,13 +125,13 @@ function Readout({ label, value, sub, tone }: { label: string; value: string; su
 function severityClass(severity: SimEvent['severity']): string {
   switch (severity) {
     case 'crisis':
-      return 'border-down text-down';
+      return 'border-danger text-danger';
     case 'warn':
-      return 'border-[#C9A94E] text-[#C9A94E]';
+      return 'border-warning text-warning';
     case 'good':
-      return 'border-up text-up';
+      return 'border-success text-success';
     default:
-      return 'border-cream/40 text-cream/70';
+      return 'border-rule text-text-secondary';
   }
 }
 
@@ -232,24 +232,22 @@ export function SimulatorClient() {
   );
 
   const flags: { label: string; tone: string }[] = [];
-  if (simState.inRecession) flags.push({ label: 'RECESSION', tone: 'border-[#C9A94E] text-[#C9A94E]' });
-  if (simState.hyperinflation) flags.push({ label: 'HYPERINFLATION', tone: 'border-down text-down' });
-  if (simState.defaulted) flags.push({ label: 'DEFAULTED', tone: 'border-down text-down' });
-  if (simState.moralHazard > 0.4) flags.push({ label: 'MORAL HAZARD', tone: 'border-[#C9A94E] text-[#C9A94E]' });
-  if (simState.quarter >= MAX_QUARTERS) flags.push({ label: 'RUN COMPLETE', tone: 'border-cream/50 text-cream/70' });
-  if (flags.length === 0) flags.push({ label: 'ALL SAFETIES OFF', tone: 'border-accent-bright/60 text-accent-bright' });
+  if (simState.inRecession) flags.push({ label: 'RECESSION', tone: 'border-warning/50 text-warning' });
+  if (simState.hyperinflation) flags.push({ label: 'HYPERINFLATION', tone: 'border-danger/50 text-danger' });
+  if (simState.defaulted) flags.push({ label: 'DEFAULTED', tone: 'border-danger/50 text-danger' });
+  if (simState.moralHazard > 0.4) flags.push({ label: 'MORAL HAZARD', tone: 'border-warning/50 text-warning' });
+  if (simState.quarter >= MAX_QUARTERS) flags.push({ label: 'RUN COMPLETE', tone: 'border-rule text-text-secondary' });
+  if (flags.length === 0) flags.push({ label: 'STEADY', tone: 'border-success/50 text-success' });
 
   return (
-    <div className="bg-machine text-cream">
-      {/* Scenario rail */}
-      <div className="border-b border-machine-line">
-        <div className="mx-auto max-w-[1500px] px-4 py-4 sm:px-6">
+    <div className="bg-background text-text-primary">
+      {/* Scenario shelf */}
+      <div className="border-b border-rule bg-canvas/60">
+        <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
           <div className="mb-2 flex items-baseline justify-between">
-            <span className="font-mono text-[0.62rem] font-bold uppercase tracking-[0.16em] text-cream/50">
-              Load a scenario
-            </span>
-            <span className="hidden font-mono text-[0.62rem] text-cream/35 sm:block">
-              Dials stay live while the machine runs
+            <span className="section-label">Load a scenario</span>
+            <span className="hidden font-mono text-[0.62rem] text-text-muted sm:block">
+              Dials stay live while it runs
             </span>
           </div>
           <div className="flex gap-2 overflow-x-auto pb-2" role="list" aria-label="Preset scenarios">
@@ -259,19 +257,19 @@ export function SimulatorClient() {
                 type="button"
                 role="listitem"
                 onClick={() => applyPreset(preset)}
-                className={`min-w-[190px] shrink-0 rounded-[10px] border px-3 py-2.5 text-left transition-colors ${
+                className={`min-w-[190px] shrink-0 rounded-lg border px-3 py-2.5 text-left transition-colors ${
                   activePreset === preset.id
-                    ? 'border-accent-bright bg-accent-bright/10'
-                    : 'border-machine-line bg-machine-panel hover:border-cream/40'
+                    ? 'border-accent bg-accent-soft'
+                    : 'border-border bg-surface hover:border-rule'
                 }`}
               >
-                <div className="font-mono text-[0.56rem] font-bold uppercase tracking-[0.14em] text-cream/45">
+                <div className="font-mono text-[0.56rem] font-bold uppercase tracking-[0.14em] text-text-muted">
                   Scenario {String(index + 1).padStart(2, '0')} / {preset.era}
                 </div>
-                <div className={`mt-0.5 font-display text-sm font-bold ${activePreset === preset.id ? 'text-accent-bright' : 'text-cream'}`}>
+                <div className={`mt-0.5 font-display text-sm font-bold ${activePreset === preset.id ? 'text-accent' : 'text-ink'}`}>
                   {preset.name}
                 </div>
-                <div className="mt-0.5 text-[0.68rem] leading-snug text-cream/55">{preset.tagline}</div>
+                <div className="mt-0.5 text-[0.68rem] leading-snug text-text-secondary">{preset.tagline}</div>
               </button>
             ))}
           </div>
@@ -279,26 +277,26 @@ export function SimulatorClient() {
       </div>
 
       {/* Transport bar */}
-      <div className="sticky top-16 z-30 border-b border-machine-line bg-machine/95 backdrop-blur">
-        <div className="mx-auto flex max-w-[1500px] flex-wrap items-center gap-3 px-4 py-3 sm:px-6">
+      <div className="sticky top-16 z-30 border-b border-rule bg-background/95 backdrop-blur">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-3 px-4 py-3 sm:px-6 lg:px-8">
           <button
             type="button"
             onClick={() => setRunning(value => !value)}
-            className="btn-machine min-w-24 px-4 py-2 font-mono text-xs font-bold uppercase tracking-[0.12em]"
+            className="btn-primary min-w-24 px-4 py-2 font-mono text-xs font-bold uppercase tracking-[0.12em]"
           >
             {running ? 'Pause' : 'Run'}
           </button>
           <button
             type="button"
             onClick={stepOnce}
-            className="rounded-md border border-machine-line px-4 py-2 font-mono text-xs font-bold uppercase tracking-[0.12em] text-cream/80 transition-colors hover:border-cream/50 hover:text-cream"
+            className="rounded-full border border-border bg-surface px-4 py-2 font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary transition-colors hover:border-rule hover:text-ink"
           >
             Step
           </button>
           <button
             type="button"
             onClick={() => setSpeedIndex(index => (index + 1) % SPEEDS.length)}
-            className="rounded-md border border-machine-line px-4 py-2 font-mono text-xs font-bold uppercase tracking-[0.12em] text-cream/80 transition-colors hover:border-cream/50 hover:text-cream"
+            className="rounded-full border border-border bg-surface px-4 py-2 font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary transition-colors hover:border-rule hover:text-ink"
             aria-label={`Simulation speed ${SPEEDS[speedIndex]} quarters per second`}
           >
             {SPEEDS[speedIndex]}x
@@ -306,18 +304,18 @@ export function SimulatorClient() {
           <button
             type="button"
             onClick={reset}
-            className="rounded-md border border-machine-line px-4 py-2 font-mono text-xs font-bold uppercase tracking-[0.12em] text-cream/80 transition-colors hover:border-down/70 hover:text-down"
+            className="rounded-full border border-border bg-surface px-4 py-2 font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary transition-colors hover:border-danger/50 hover:text-danger"
           >
             Reset
           </button>
-          <span className="ml-auto font-mono text-sm font-bold tnum text-cream">
-            YEAR {year} <span className="text-cream/50">/ {quarterLabel(simState.quarter || 1)}</span>
+          <span className="ml-auto font-mono text-sm font-bold tabular-nums text-ink">
+            YEAR {year} <span className="text-text-muted">/ {quarterLabel(simState.quarter || 1)}</span>
           </span>
           <span className="flex flex-wrap gap-1.5">
             {flags.map(flag => (
               <span
                 key={flag.label}
-                className={`rounded-md border px-2 py-0.5 font-mono text-[0.6rem] font-bold uppercase tracking-[0.12em] ${flag.tone}`}
+                className={`rounded-full border px-2 py-0.5 font-mono text-[0.6rem] font-bold uppercase tracking-[0.12em] ${flag.tone}`}
               >
                 {flag.label}
               </span>
@@ -326,26 +324,26 @@ export function SimulatorClient() {
         </div>
       </div>
 
-      {/* Machine floor */}
-      <div className="mx-auto grid max-w-[1500px] gap-4 px-4 py-5 sm:px-6 lg:grid-cols-[330px_1fr]">
-        {/* Control rail */}
+      {/* Simulator floor */}
+      <div className="mx-auto grid max-w-7xl gap-4 px-4 py-5 sm:px-6 lg:grid-cols-[330px_1fr] lg:px-8">
+        {/* Policy controls */}
         <aside aria-label="Policy controls">
-          <div className="rounded-[10px] border border-machine-line bg-machine-panel">
-            <div className="border-b border-machine-line px-4 py-3">
-              <span className="font-mono text-[0.62rem] font-bold uppercase tracking-[0.16em] text-accent-bright">
-                Control rail / 41 dials, no interlocks
+          <div className="rounded-lg border border-border bg-surface shadow-[0_1px_0_rgba(31,36,33,0.08)]">
+            <div className="border-b border-border px-4 py-3">
+              <span className="font-mono text-[0.62rem] font-bold uppercase tracking-[0.16em] text-accent">
+                Policy controls / 41 dials
               </span>
             </div>
             {PARAM_GROUPS.map((group, groupIndex) => (
-              <details key={group.key} open={groupIndex === 0} className="group border-b border-machine-line last:border-b-0">
-                <summary className="flex cursor-pointer list-none items-center justify-between px-4 py-3 hover:bg-machine">
+              <details key={group.key} open={groupIndex === 0} className="group border-b border-border last:border-b-0">
+                <summary className="flex cursor-pointer list-none items-center justify-between px-4 py-3 hover:bg-canvas">
                   <span>
-                    <span className="block text-sm font-semibold text-cream">{group.label}</span>
-                    <span className="block text-[0.68rem] text-cream/45">{group.blurb}</span>
+                    <span className="block text-sm font-semibold text-ink">{group.label}</span>
+                    <span className="block text-[0.68rem] text-text-muted">{group.blurb}</span>
                   </span>
-                  <span className="font-mono text-xs text-cream/50 transition-transform group-open:rotate-90">&gt;</span>
+                  <span className="font-mono text-xs text-text-muted transition-transform group-open:rotate-90">&gt;</span>
                 </summary>
-                <div className="bg-machine/60">
+                <div className="bg-background/60">
                   {defsForGroup(group.key).map((def: ParamDef) =>
                     def.kind === 'slider' ? (
                       <Dial
@@ -399,33 +397,29 @@ export function SimulatorClient() {
           </div>
 
           {series.length === 0 ? (
-            <div className="hud-frame flex min-h-[300px] flex-col items-center justify-center rounded-[10px] border border-machine-line bg-machine-panel px-6 py-16 text-center text-cream/70">
-              <p className="font-mono text-[0.62rem] font-bold uppercase tracking-[0.2em] text-accent-bright">
-                Machine idle
+            <div className="card flex min-h-[300px] flex-col items-center justify-center px-6 py-16 text-center">
+              <p className="section-label text-accent">Ready when you are</p>
+              <p className="mt-3 max-w-md font-display text-2xl font-bold text-ink">
+                Ten million simulated people are waiting for your first mistake.
               </p>
-              <p className="mt-3 max-w-md font-display text-2xl font-bold text-cream">
-                Ten million citizens are waiting for your first mistake.
-              </p>
-              <p className="mt-2 max-w-md text-sm text-cream/55">
-                Press Run to start the clock, or load a scenario above. Every dial stays live while
-                the machine is running, so you can fight the fire you started.
+              <p className="mt-2 max-w-md text-sm text-text-secondary">
+                Press Run to start the clock, or load a scenario above. The dials stay live while it
+                runs, so you can fight the fire you started.
               </p>
             </div>
           ) : (
             <SimCharts data={series} />
           )}
 
-          <div className="rounded-[10px] border border-machine-line bg-machine-panel">
-            <div className="flex items-center justify-between border-b border-machine-line px-4 py-2.5">
-              <span className="font-mono text-[0.62rem] font-bold uppercase tracking-[0.16em] text-cream/60">
-                Event log
-              </span>
-              <span className="font-mono text-[0.6rem] text-cream/35">{events.length} recorded</span>
+          <div className="rounded-lg border border-border bg-surface shadow-[0_1px_0_rgba(31,36,33,0.08)]">
+            <div className="flex items-center justify-between border-b border-border px-4 py-2.5">
+              <span className="section-label">Event log</span>
+              <span className="font-mono text-[0.6rem] text-text-muted">{events.length} recorded</span>
             </div>
             <ul className="max-h-64 overflow-y-auto px-4 py-2" aria-live="polite">
               {events.length === 0 && (
-                <li className="py-2 font-mono text-xs text-cream/40">
-                  No events yet. Stability is an achievement; it will not survive contact with the dials.
+                <li className="py-2 font-mono text-xs text-text-muted">
+                  No events yet. Stability never survives contact with the dials.
                 </li>
               )}
               {events.map((event, index) => (
@@ -433,10 +427,10 @@ export function SimulatorClient() {
                   key={`${event.quarter}-${index}`}
                   className={`my-1.5 border-l-2 py-0.5 pl-3 text-[0.78rem] leading-snug ${severityClass(event.severity)}`}
                 >
-                  <span className="mr-2 font-mono text-[0.62rem] font-bold text-cream/45">
+                  <span className="mr-2 font-mono text-[0.62rem] font-bold text-text-muted">
                     {quarterLabel(event.quarter)}
                   </span>
-                  <span className="text-cream/85">{event.text}</span>
+                  <span className="text-text-primary">{event.text}</span>
                 </li>
               ))}
             </ul>
@@ -445,12 +439,12 @@ export function SimulatorClient() {
       </div>
 
       {/* Live ticker */}
-      <div className="overflow-hidden border-t border-machine-line bg-machine" aria-hidden="true">
+      <div className="overflow-hidden border-t border-rule bg-ink" aria-hidden="true">
         <div className="ticker-track flex w-max gap-8 whitespace-nowrap px-4 py-2">
           {[0, 1].map(copy => (
             <span key={copy} className="flex gap-8">
               {tickerItems.map(item => (
-                <span key={`${copy}-${item}`} className="font-mono text-[0.62rem] font-bold uppercase tracking-[0.12em] text-cream/50">
+                <span key={`${copy}-${item}`} className="font-mono text-[0.62rem] font-bold uppercase tracking-[0.12em] text-background/60">
                   {item}
                 </span>
               ))}

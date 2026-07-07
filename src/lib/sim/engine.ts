@@ -8,7 +8,7 @@ import type {
 } from './types';
 
 /**
- * The Machine: a deterministic quarterly macro model of a synthetic
+ * The economy simulator: a deterministic quarterly macro model of a synthetic
  * ten-million-citizen nation.
  *
  * Design rules:
@@ -639,7 +639,7 @@ export function stepQuarter(prev: SimState, params: SimParams): StepResult {
   s.happiness = clamp(0.75 * prev.happiness + 0.25 * happinessRaw, 0, 100);
 
   if (s.unemployment < 4 && s.inflation > 0 && s.inflation < 4 && s.happiness > 74 && s.quarter % 12 === 6) {
-    events.push({ quarter: s.quarter, severity: 'good', text: 'Full employment with stable prices. Enjoy it; in this machine, as in history, it rarely lasts.' });
+    events.push({ quarter: s.quarter, severity: 'good', text: 'Full employment with stable prices. Enjoy it; in this simulator, as in history, it rarely lasts.' });
   }
 
   return { state: s, events };

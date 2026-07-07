@@ -1,6 +1,6 @@
 export const SITE_NAME = 'LocalLedger';
 export const SITE_DESCRIPTION =
-  'LocalLedger pairs official labor, income, housing, education, and public finance data for every U.S. state and county with an interactive economy simulator built for economics education.';
+  'Official numbers on jobs, income, housing, and schools for every U.S. state and county. Every figure cites its source. And when you want to see how the gears turn, there is a simulator.';
 export const SITE_URL = 'https://local-ledger.net';
 
 export const NAV_LINKS = [

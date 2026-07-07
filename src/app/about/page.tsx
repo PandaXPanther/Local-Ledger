@@ -106,11 +106,11 @@ export default function AboutPage() {
           <p className="text-text-secondary leading-relaxed mb-4">
             A 2x National Economics Challenge Qualifier and an International Economics Olympiad Winter
             Challenge Bronze Medalist, Saras is also a competitive extemporaneous speaker and a social-impact
-            founder. He builds tools that translate dense economic research into accessible, decision-ready
-            interfaces for students, debaters, and civic audiences.
+            founder. He builds tools that turn dense economic research into something students, debaters,
+            and regular people can actually use.
           </p>
           <p className="text-text-secondary leading-relaxed">
-            The journey began with{' '}
+            It started with{' '}
             <a href="https://econlever.org" target="_blank" rel="noopener" className="text-accent editorial-link">
               EconLever
             </a>
@@ -140,32 +140,31 @@ export default function AboutPage() {
         <section>
           <h2 className="text-2xl font-bold text-text-primary mb-4">LocalLedger</h2>
           <p className="text-text-secondary leading-relaxed">
-            LocalLedger continues the same idea for community economic intelligence: every tool is readable,
+            LocalLedger carries the same idea to local economic data: every tool is readable,
             every formula is shown, and every dataset is cited. If official data is not available, the site
             says &ldquo;Data unavailable&rdquo; instead of filling the gap with an estimate.
           </p>
         </section>
 
         <section>
-          <h2 className="text-2xl font-bold text-text-primary mb-4">The Machine</h2>
+          <h2 className="text-2xl font-bold text-text-primary mb-4">The simulator</h2>
           <p className="text-text-secondary leading-relaxed mb-4">
-            The site&apos;s flagship is an{' '}
+            The site also has an{' '}
             <Link href="/simulator/" className="text-accent editorial-link">
               interactive economy simulator
             </Link>
-            : a deterministic quarterly macroeconomic model of a synthetic ten-million-citizen nation,
-            written from scratch in TypeScript. It implements simplified versions of the Taylor rule,
-            Okun&apos;s law, the expectations-augmented Phillips curve, balance-sheet banking with
-            bailouts and moral hazard, asset bubble dynamics, trade and exchange rates under fiat and
-            gold-standard regimes, and a social ledger covering inequality, discrimination, housing,
-            homelessness, health coverage, and a happiness index.
+            . It is a small model nation with ten million simulated people, written from scratch in
+            TypeScript. It runs the classic rules from econ class: the Taylor rule, Okun&apos;s law,
+            the Phillips curve, banks with real balance sheets, bubbles, trade, the gold standard.
+            It also keeps a social ledger: inequality, discrimination, housing, homelessness, health
+            coverage, and a happiness index.
           </p>
           <p className="text-text-secondary leading-relaxed">
-            Every mechanism is documented on the simulator page, every parameter carries a plain-language
-            explanation, and the whole model is covered by an automated test suite that checks the
-            economics: that hyperinflation follows monetized deficits, that 1929 settings produce a
-            crash, that discrimination opens an unemployment gap and lowers total output. It exists
-            because policy trade-offs are easier to understand when you can feel them fail.
+            Every mechanism is explained on the page, every dial has a plain-language note, and a
+            test suite checks that the economics hold up: hyperinflation follows printed deficits,
+            1929 settings produce a crash, discrimination opens a jobs gap and makes everyone
+            poorer. It exists because policy trade-offs are easier to understand when you can feel
+            them fail.
           </p>
         </section>
 

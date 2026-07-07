@@ -4,11 +4,11 @@
 
 ## 30-second TLDR
 
-LocalLedger is a free economics education platform: official labor, income, housing, education, and federal spending data turned into cited local dashboards (the Ledger), plus an interactive macroeconomic policy simulator with 41 dials and 12 historical scenarios (the Machine) as the flagship feature.
+LocalLedger turns official labor, income, housing, education, and federal spending data into readable, cited local dashboards, and pairs them with an interactive economy simulator (41 dials, 12 historical scenarios) for economics education.
 
 ## Current Status
 
-- Phase: Simulator flagship launch + brand rework
+- Phase: Simulator live, original brand restored
 - Last update: 2026-07-07
 - Owner: Saras Totey
 - Repo: https://github.com/PandaXPanther/localledger
@@ -118,3 +118,9 @@ Required GitHub secrets are configured for:
 - Full brand rework: new conceptual hook ("real data upstairs, a crash-test economy downstairs"), Fraunces + Author + JetBrains Mono type stack (Inter removed), machine-orange #E8540A accent on ledger cream, new bracket-and-spark logo with regenerated favicon/OG assets (`tools/generate_brand_assets.py`), and logo geometry deconstructed into site chrome (hud-frame corners, ledger ruling, spark hero animation).
 - Repositioned metadata, homepage, About, and README around economics education. Added simulator JSON-LD (SoftwareApplication + LearningResource) and sitemap entry at priority 0.95.
 - Simulated numbers are confined to `/simulator` and labeled; the data-integrity rules for real metrics are unchanged.
+
+### 2026-07-07 (later)
+
+- Reverted the brand rework. Restored the original design: paper cream background, forest green #23684A accent, Source Serif 4 + Inter + JetBrains Mono type stack, pill buttons, original green logo and favicon set. Deleted the bracket-and-spark assets, `BrandLogo.tsx`, and `branding/BRAND.md`.
+- Kept the simulator intact and rethemed its UI from the dark machine-room look to the original light palette. Dropped "the Machine" naming in favor of plain "economy simulator". Homepage now shows the simulator as a light section on the original layout.
+- Rewrote site copy in plainer language: shorter sentences, no marketing voice. Mechanism explanations on the simulator page simplified.

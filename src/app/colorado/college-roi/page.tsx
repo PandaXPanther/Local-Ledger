@@ -143,7 +143,7 @@ export default function CollegeRoiPage() {
         <MethodologyCallout
           type="disclaimer"
           title="Value Score methodology"
-          note="Value Score (0-100) is a simplified composite: Earnings (40%) + Graduation Rate (30%) + Net Price inverse (20%) + Debt inverse (10%). All sub-scores normalized from College Scorecard data. This is an educational indicator only - not a comprehensive ranking. Suppressed data points reduce effective weight."
+          note="Value Score (0-100) is a simplified composite: Earnings (40%) + Graduation Rate (30%) + Net Price inverse (20%) + Debt inverse (10%). All sub-scores normalized from College Scorecard data. This is an educational indicator only - not a complete ranking. Suppressed data points reduce effective weight."
         />
       </div>
     </>
