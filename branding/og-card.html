@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>LocalLedger OG</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1200px; height:630px; overflow:hidden; }
+  body {
+    font-family:'Inter',system-ui,sans-serif;
+    background:#F4F1EA;
+    color:#1F2421;
+    position:relative;
+  }
+  /* subtle grid texture */
+  .bg-grid {
+    position:absolute; inset:0;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(31,36,33,0.05) 1px, transparent 0);
+    background-size: 26px 26px;
+    opacity:0.6;
+  }
+  .glow {
+    position:absolute; top:-180px; right:-160px; width:620px; height:620px;
+    background:radial-gradient(circle, rgba(35,104,74,0.18), rgba(35,104,74,0) 65%);
+    border-radius:50%;
+  }
+  .glow2 {
+    position:absolute; bottom:-220px; left:-140px; width:560px; height:560px;
+    background:radial-gradient(circle, rgba(49,91,122,0.16), rgba(49,91,122,0) 65%);
+    border-radius:50%;
+  }
+  .card {
+    position:relative; z-index:2;
+    width:1200px; height:630px;
+    padding:64px 72px;
+    display:flex; flex-direction:column; justify-content:space-between;
+  }
+  .top { display:flex; align-items:center; justify-content:space-between; }
+  .brand { display:flex; align-items:center; gap:18px; }
+  .mark {
+    width:64px; height:64px; border-radius:16px; background:#0F172A;
+    display:flex; align-items:flex-end; justify-content:center; gap:6px;
+    padding:14px 12px; position:relative;
+  }
+  .bar { width:8px; border-radius:4px; background:#14B8A6; }
+  .b1 { height:18px; }
+  .b2 { height:34px; background:#14B8A6; }
+  .b3 { height:26px; }
+  .mark .cap { position:absolute; top:14px; left:12px; right:12px; height:4px; border-radius:3px; background:#60A5FA; opacity:0.9; }
+  .mark .base { position:absolute; bottom:10px; left:12px; right:12px; height:3px; border-radius:2px; background:#F8FAFC; }
+  .word { font-weight:800; font-size:38px; letter-spacing:-0.5px; color:#0F172A; }
+  .pill {
+    display:flex; align-items:center; gap:8px;
+    font-size:16px; font-weight:600; color:#164531;
+    background:#E4EEE6; border:1px solid #C8DCCB;
+    padding:9px 16px; border-radius:999px;
+  }
+  .dot { width:8px; height:8px; border-radius:50%; background:#23684A; }
+
+  .mid { margin-top:6px; }
+  .headline {
+    font-family:'Source Serif 4', Georgia, serif;
+    font-weight:700; font-size:62px; line-height:1.16;
+    color:#0F172A; letter-spacing:-1.2px; max-width:980px;
+  }
+  .headline .em { color:#23684A; }
+  .headline .ember { color:#B45F2A; }
+  .sub {
+    margin-top:22px; font-size:24px; line-height:1.45;
+    color:#5D625A; font-weight:400; max-width:880px;
+  }
+  .sub b { color:#1F2421; font-weight:600; }
+
+  .stats { display:flex; gap:14px; margin-top:30px; }
+  .stat {
+    background:#FFFDF7; border:1px solid #DED7C8; border-radius:14px;
+    padding:14px 20px; display:flex; flex-direction:column;
+  }
+  .stat .n { font-size:26px; font-weight:800; color:#164531; line-height:1; }
+  .stat .l { font-size:13px; font-weight:600; color:#5D625A; margin-top:5px; letter-spacing:0.2px; text-transform:uppercase; }
+
+  .bottom { display:flex; align-items:flex-end; justify-content:space-between; }
+  .sources { display:flex; flex-direction:column; gap:10px; }
+  .src-label { font-size:13px; font-weight:700; color:#5D625A; text-transform:uppercase; letter-spacing:1px; }
+  .srcs { display:flex; gap:8px; flex-wrap:wrap; }
+  .src { font-size:15px; font-weight:600; color:#315B7A; background:rgba(49,91,122,0.08); border:1px solid rgba(49,91,122,0.2); padding:6px 12px; border-radius:8px; }
+  .url {
+    font-size:20px; font-weight:700; color:#0F172A;
+    display:flex; align-items:center; gap:8px;
+  }
+  .url .sq { width:9px; height:9px; background:#23684A; border-radius:2px; }
+</style>
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="glow"></div>
+  <div class="glow2"></div>
+  <div class="card">
+    <div class="top">
+      <div class="brand">
+        <div class="mark">
+          <div class="cap"></div>
+          <div class="bar b1"></div>
+          <div class="bar b2"></div>
+          <div class="bar b3"></div>
+          <div class="base"></div>
+        </div>
+        <div class="word">LocalLedger</div>
+      </div>
+      <div class="pill"><span class="dot"></span> Public economic intelligence</div>
+    </div>
+
+    <div class="mid">
+      <div class="headline">Your local economy,<br>in <span class="em">plain numbers.</span></div>
+      <div class="sub">Official data on jobs, income, housing, and schools for every U.S. state, county &amp; metro — <b>every figure cites its source.</b> Plus an economy simulator you can crash.</div>
+
+      <div class="stats">
+        <div class="stat"><div class="n">50</div><div class="l">States</div></div>
+        <div class="stat"><div class="n">3,143</div><div class="l">Counties</div></div>
+        <div class="stat"><div class="n">120</div><div class="l">Metros</div></div>
+        <div class="stat"><div class="n">41</div><div class="l">Simulator dials</div></div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="sources">
+        <div class="src-label">Sourced from</div>
+        <div class="srcs">
+          <span class="src">BLS</span>
+          <span class="src">FRED</span>
+          <span class="src">Census</span>
+          <span class="src">College Scorecard</span>
+          <span class="src">USAspending.gov</span>
+        </div>
+      </div>
+      <div class="url"><span class="sq"></span> local-ledger.net</div>
+    </div>
+  </div>
+</body>
+</html>
