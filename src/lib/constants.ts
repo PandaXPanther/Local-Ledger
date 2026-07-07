@@ -1,13 +1,13 @@
 export const SITE_NAME = 'LocalLedger';
 export const SITE_DESCRIPTION =
-  'LocalLedger transforms official labor, income, housing, education, business, and public finance data into readable dashboards, scorecards, and economic briefs.';
+  'LocalLedger pairs official labor, income, housing, education, and public finance data for every U.S. state and county with an interactive economy simulator built for economics education.';
 export const SITE_URL = 'https://local-ledger.net';
 
 export const NAV_LINKS = [
+  { label: 'Simulator', href: '/simulator/' },
   { label: 'Explore', href: '/states/' },
   { label: 'Rankings', href: '/rankings/' },
   { label: 'Methodology', href: '/methodology/' },
-  { label: 'Sources', href: '/sources/' },
   { label: 'About', href: '/about/' },
 ];
 
@@ -17,6 +17,7 @@ export const EXPLORE_LINKS = [
   { label: 'Metros', href: '/metros/' },
   { label: 'College ROI', href: '/rankings/most-affordable-college-states/' },
   { label: 'Federal Spending', href: '/rankings/federal-spending-per-capita/' },
+  { label: 'Data Sources', href: '/sources/' },
   { label: 'API', href: '/api/' },
   { label: 'Featured: Colorado', href: '/colorado/' },
 ];

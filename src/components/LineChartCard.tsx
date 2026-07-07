@@ -24,7 +24,7 @@ interface LineChartCardProps {
   methodologyNote?: string;
 }
 
-const COLORS = ['#23684A', '#315B7A', '#B45F2A', '#A23B3B', '#6E5B3F'];
+const COLORS = ['#E8540A', '#33586E', '#8C6D1F', '#B3372E', '#1E6B4A'];
 
 export function LineChartCard({
   title,
@@ -54,22 +54,22 @@ export function LineChartCard({
       <h3 className="mb-4 font-display text-xl font-bold text-ink">{title}</h3>
       <ResponsiveContainer width="100%" height={height}>
         <LineChart data={data} margin={{ top: 5, right: 10, left: 0, bottom: 5 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#DED7C8" />
+          <CartesianGrid strokeDasharray="3 3" stroke="#DFD4BB" />
           <XAxis
             dataKey={xAxisKey}
-            tick={{ fontSize: 12, fill: '#8D887A', fontFamily: 'JetBrains Mono, monospace' }}
+            tick={{ fontSize: 12, fill: '#857A61', fontFamily: 'JetBrains Mono, monospace' }}
             tickLine={false}
-            axisLine={{ stroke: '#DED7C8' }}
+            axisLine={{ stroke: '#DFD4BB' }}
           />
           <YAxis
-            tick={{ fontSize: 12, fill: '#8D887A', fontFamily: 'JetBrains Mono, monospace' }}
+            tick={{ fontSize: 12, fill: '#857A61', fontFamily: 'JetBrains Mono, monospace' }}
             tickLine={false}
             axisLine={false}
-            label={yAxisLabel ? { value: yAxisLabel, angle: -90, position: 'insideLeft', style: { fontSize: 11, fill: '#8D887A' } } : undefined}
+            label={yAxisLabel ? { value: yAxisLabel, angle: -90, position: 'insideLeft', style: { fontSize: 11, fill: '#857A61' } } : undefined}
           />
           <Tooltip
-            contentStyle={{ border: '1px solid #DED7C8', borderRadius: 8, fontSize: 12, background: '#FFFDF7' }}
-            labelStyle={{ fontWeight: 700, color: '#1F2421' }}
+            contentStyle={{ border: '1px solid #DFD4BB', borderRadius: 8, fontSize: 12, background: '#FCF8EE' }}
+            labelStyle={{ fontWeight: 700, color: '#181410' }}
           />
           {series.length > 1 && <Legend iconType="line" wrapperStyle={{ fontSize: 12 }} />}
           {series.map((s, i) => (

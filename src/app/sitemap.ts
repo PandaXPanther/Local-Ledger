@@ -4,6 +4,7 @@ import { getCounties, getMetros, getStates } from '@/lib/nationalData';
 
 const routes = [
   '/',
+  '/simulator/',
   '/colorado/',
   '/colorado/denver/',
   '/colorado/boulder/',
@@ -47,6 +48,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${SITE_URL}${route}`,
     lastModified: new Date(),
     changeFrequency: route === '/' ? 'weekly' : 'monthly',
-    priority: route === '/' ? 1 : route.startsWith('/colorado') ? 0.85 : 0.65,
+    priority:
+      route === '/' ? 1
+      : route === '/simulator/' ? 0.95
+      : route.startsWith('/colorado') ? 0.85
+      : 0.65,
   }));
 }

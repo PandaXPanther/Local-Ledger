@@ -147,6 +147,29 @@ export default function AboutPage() {
         </section>
 
         <section>
+          <h2 className="text-2xl font-bold text-text-primary mb-4">The Machine</h2>
+          <p className="text-text-secondary leading-relaxed mb-4">
+            The site&apos;s flagship is an{' '}
+            <Link href="/simulator/" className="text-accent editorial-link">
+              interactive economy simulator
+            </Link>
+            : a deterministic quarterly macroeconomic model of a synthetic ten-million-citizen nation,
+            written from scratch in TypeScript. It implements simplified versions of the Taylor rule,
+            Okun&apos;s law, the expectations-augmented Phillips curve, balance-sheet banking with
+            bailouts and moral hazard, asset bubble dynamics, trade and exchange rates under fiat and
+            gold-standard regimes, and a social ledger covering inequality, discrimination, housing,
+            homelessness, health coverage, and a happiness index.
+          </p>
+          <p className="text-text-secondary leading-relaxed">
+            Every mechanism is documented on the simulator page, every parameter carries a plain-language
+            explanation, and the whole model is covered by an automated test suite that checks the
+            economics: that hyperinflation follows monetized deficits, that 1929 settings produce a
+            crash, that discrimination opens an unemployment gap and lowers total output. It exists
+            because policy trade-offs are easier to understand when you can feel them fail.
+          </p>
+        </section>
+
+        <section>
           <div className="card p-5">
             <p className="text-text-secondary leading-relaxed italic">
               &ldquo;Si vis pacem, para statistica.&rdquo; Peace through numbers, not through pretending we have them.

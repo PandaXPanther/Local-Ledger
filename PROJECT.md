@@ -4,12 +4,12 @@
 
 ## 30-second TLDR
 
-LocalLedger is a public economic intelligence site that turns official labor, income, housing, education, and federal spending data into readable local dashboards.
+LocalLedger is a free economics education platform: official labor, income, housing, education, and federal spending data turned into cited local dashboards (the Ledger), plus an interactive macroeconomic policy simulator with 41 dials and 12 historical scenarios (the Machine) as the flagship feature.
 
 ## Current Status
 
-- Phase: National expansion build
-- Last update: 2026-06-01
+- Phase: Simulator flagship launch + brand rework
+- Last update: 2026-07-07
 - Owner: Saras Totey
 - Repo: https://github.com/PandaXPanther/localledger
 - Production: https://localledger.pages.dev
@@ -18,6 +18,7 @@ LocalLedger is a public economic intelligence site that turns official labor, in
 ## Implemented Routes
 
 - `/`
+- `/simulator`
 - `/colorado`
 - `/colorado/denver`
 - `/colorado/boulder`
@@ -110,3 +111,10 @@ Required GitHub secrets are configured for:
 ### 2026-06-01 18:37 UTC
 
 - Split normal builds from API data refreshes. `pnpm build` validates existing processed data without refetching, and `pnpm refresh-data` performs the explicit API refresh plus validation.
+
+### 2026-07-07
+
+- Shipped the economy simulator ("the Machine") as the flagship feature at `/simulator`: a deterministic quarterly macro model in `src/lib/sim/` (engine, 41 param definitions with educational notes, 12 presets, jest suite that asserts the economics), a client control-room UI with live dials, recharts dashboards, event log, and ticker, plus server-rendered mechanism and dial documentation for SEO.
+- Full brand rework: new conceptual hook ("real data upstairs, a crash-test economy downstairs"), Fraunces + Author + JetBrains Mono type stack (Inter removed), machine-orange #E8540A accent on ledger cream, new bracket-and-spark logo with regenerated favicon/OG assets (`tools/generate_brand_assets.py`), and logo geometry deconstructed into site chrome (hud-frame corners, ledger ruling, spark hero animation).
+- Repositioned metadata, homepage, About, and README around economics education. Added simulator JSON-LD (SoftwareApplication + LearningResource) and sitemap entry at priority 0.95.
+- Simulated numbers are confined to `/simulator` and labeled; the data-integrity rules for real metrics are unchanged.

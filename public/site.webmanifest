@@ -1,11 +1,11 @@
 {
   "name": "LocalLedger",
   "short_name": "LocalLedger",
-  "description": "Public economic intelligence from official data.",
+  "description": "Real economic data for every U.S. state and county, plus an interactive economy simulator.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f8fafc",
-  "theme_color": "#0f172a",
+  "background_color": "#F7F1E3",
+  "theme_color": "#181410",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

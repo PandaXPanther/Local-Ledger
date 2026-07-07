@@ -5,12 +5,13 @@ import { SITE_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Local Economy Data Dashboard | LocalLedger',
+    default: 'Economy Simulator and Local Economic Data | LocalLedger',
     template: '%s | LocalLedger',
   },
   description:
-    'Free public economic data dashboards for states, counties, metros, rankings, federal spending, income, jobs, housing, and college ROI.',
+    'Free economics education platform: an interactive economy simulator with 41 policy dials and 12 historical scenarios, plus cited official economic data for every U.S. state, county, and metro.',
   keywords: [
+    'economy simulator', 'economic policy simulator', 'economics education', 'interactive macroeconomics',
     'local economy data', 'county economic indicators', 'state economic dashboard', 'public economic data',
     'federal spending per county', 'college ROI by state', 'Census economic data',
   ],
@@ -18,24 +19,24 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     siteName: 'LocalLedger',
-    title: 'Local Economy Data Dashboard | LocalLedger',
+    title: 'Economy Simulator and Local Economic Data | LocalLedger',
     description:
-      'Free public economic data for states, counties, metros, rankings, income, jobs, housing, college ROI, and federal spending.',
+      'Real economic data for every U.S. county, and an interactive economy you are allowed to destroy. Free, cited, built for economics education.',
     url: SITE_URL,
     images: [
       {
         url: '/og-default.png',
         width: 1200,
         height: 630,
-        alt: 'LocalLedger public economic intelligence',
+        alt: 'LocalLedger: real economic data and an economy simulator',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Local Economy Data Dashboard | LocalLedger',
+    title: 'Economy Simulator and Local Economic Data | LocalLedger',
     description:
-      'Free public economic data for states, counties, metros, rankings, income, jobs, housing, college ROI, and federal spending.',
+      'Real economic data for every U.S. county, and an interactive economy you are allowed to destroy. Free, cited, built for economics education.',
     images: ['/og-default.png'],
   },
   icons: {
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
     ],
     apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
-    other: [{ rel: 'mask-icon', url: '/logo-mark.svg', color: '#23684A' }],
+    other: [{ rel: 'mask-icon', url: '/logo-mark.svg', color: '#E8540A' }],
   },
   manifest: '/site.webmanifest',
   robots: {
@@ -72,7 +73,7 @@ export default function RootLayout({
         relatedLink: ['https://econ.mom'],
         subOrganization: { '@id': 'https://econ.mom/#organization' },
         description:
-          'Public economic intelligence dashboards built from official public economic data.',
+          'Free economics education platform: official public economic data for every U.S. state and county, plus an interactive macroeconomic policy simulator.',
       },
       {
         '@type': 'WebSite',
