@@ -86,6 +86,9 @@
   .src-label { font-size:13px; font-weight:700; color:#5D625A; text-transform:uppercase; letter-spacing:1px; }
   .srcs { display:flex; gap:8px; flex-wrap:wrap; }
   .src { font-size:15px; font-weight:600; color:#315B7A; background:rgba(49,91,122,0.08); border:1px solid rgba(49,91,122,0.2); padding:6px 12px; border-radius:8px; }
+  .credit { text-align:right; display:flex; flex-direction:column; align-items:flex-end; gap:6px; }
+  .by { font-size:14px; font-weight:600; color:#5D625A; letter-spacing:0.3px; }
+  .by b { color:#B45F2A; font-weight:700; }
   .url {
     font-size:20px; font-weight:700; color:#0F172A;
     display:flex; align-items:center; gap:8px;
@@ -135,7 +138,10 @@
           <span class="src">USAspending.gov</span>
         </div>
       </div>
-      <div class="url"><span class="sq"></span> local-ledger.net</div>
+      <div class="credit">
+        <div class="by">Built by <b>Saras Totey</b></div>
+        <div class="url"><span class="sq"></span> local-ledger.net</div>
+      </div>
     </div>
   </div>
 </body>
