@@ -119,6 +119,13 @@ export default function AboutPage() {
             </a>
             .
           </p>
+          <p className="mt-4 text-text-secondary leading-relaxed">
+            Learn more about Saras and his other projects at{' '}
+            <a href="https://sarastotey.com" target="_blank" rel="noopener" className="text-accent editorial-link">
+              his personal site
+            </a>
+            .
+          </p>
         </section>
 
         <section>
