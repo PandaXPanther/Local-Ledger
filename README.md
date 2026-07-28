@@ -159,6 +159,8 @@ Founded and built by [Saras Totey](https://www.linkedin.com/in/saras-totey-64a77
 
 Founder site: [econ.mom](https://econ.mom)
 
+Personal site: [Saras Totey](https://sarastotey.com)
+
 ## GitHub About Box
 
 Suggested description:
